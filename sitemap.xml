@@ -2,12 +2,9 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:image="http://www.google.com/schemas/sitemap-image/1.1" xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
     <loc>https://vannalux.github.io/index.html</loc>
-    <lastmod>2017-08-15</lastmod>
+    <lastmod>2017-08-16</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
-    <image:image>
-      <image:loc>https://vannalux.github.io/images/cropped-logo-180x180.png</image:loc>
-    </image:image>
     <image:image>
       <image:loc>https://vannalux.github.io/images/emalirovka-vann-1-300x269.jpg</image:loc>
       <image:caption>Эмалировка ванн</image:caption>
