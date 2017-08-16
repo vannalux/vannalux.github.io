@@ -1,10 +1,10 @@
-<manifest alg="2" build="2017.0.4.363" opt="false" iceEnabled="true" iceMarkupVersion="2" iceEnabledOptions="link,responsive,cachebuster,textStyling" exportTarget="other" domain="https://vannalux.github.io" resolutions="1x" timestamp="1502898796431">
+<manifest alg="2" build="2017.0.4.363" opt="false" iceEnabled="true" iceMarkupVersion="2" iceEnabledOptions="link,responsive,cachebuster,textStyling" exportTarget="other" domain="https://vannalux.github.io" resolutions="1x" timestamp="1502899151404">
   <folder name="css">
     <file name="site_global.css" crc="3772896246"/>
     <file name="master_______-a.css" crc="523588673" ref="index"/>
     <file name="nomq_preview_master_______-a.css" crc="3824530138" ref="index"/>
-    <file name="index.css" crc="4212819727" ref="index"/>
-    <file name="nomq_index.css" crc="128155744" ref="index"/>
+    <file name="index.css" crc="42267324" ref="index"/>
+    <file name="nomq_index.css" crc="644185" ref="index"/>
   </folder>
   <folder name="scripts">
     <file name="jquery-1.8.3.min.js" crc="209076791" ref="index"/>
@@ -108,8 +108,10 @@
     <file name="akc-bg-kopiya-u1885-fr2.jpg" crc="514206528" ref="index"/>
     <file name="akc-bg-kopiya-u1885-fr3.jpg" crc="4268077806" ref="index"/>
     <file name="blank.gif" crc="4208392903" ref="index"/>
-    <file name="135-1-u1916-fr.png" crc="3858095704" ref="index"/>
-    <file name="135-1-u1916-fr2.png" crc="3781908872" ref="index"/>
+    <file name="135-1.jpg" crc="213931629" ref="index">
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="135-1-u1916-fr.jpg" crc="148863697" ref="index"/>
   </folder>
-  <file name="index.html" crc="205188289" seo="true" mt="1502898773788" redirect="true"/>
+  <file name="index.html" crc="49342323" seo="true" mt="1502899116153" redirect="true"/>
 </manifest>
