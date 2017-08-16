@@ -1,4 +1,4 @@
-<manifest alg="2" build="2017.0.4.363" opt="false" iceEnabled="true" iceMarkupVersion="2" iceEnabledOptions="link,responsive,cachebuster,textStyling" exportTarget="other" domain="https://vannalux.github.io" resolutions="1x" timestamp="1502899151404">
+<manifest alg="2" build="2017.0.4.363" opt="false" iceEnabled="true" iceMarkupVersion="2" iceEnabledOptions="link,responsive,cachebuster,textStyling" exportTarget="other" domain="https://vannalux.github.io" resolutions="1x" timestamp="1502899725874">
   <folder name="css">
     <file name="site_global.css" crc="3772896246"/>
     <file name="master_______-a.css" crc="523588673" ref="index"/>
@@ -113,5 +113,5 @@
     </file>
     <file name="135-1-u1916-fr.jpg" crc="148863697" ref="index"/>
   </folder>
-  <file name="index.html" crc="49342323" seo="true" mt="1502899116153" redirect="true"/>
+  <file name="index.html" crc="529626174" seo="true" mt="1502899571534" redirect="true"/>
 </manifest>
