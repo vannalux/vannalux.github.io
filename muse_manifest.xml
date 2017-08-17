@@ -1,12 +1,12 @@
-<manifest alg="2" build="2017.0.4.363" opt="false" iceEnabled="true" iceMarkupVersion="2" iceEnabledOptions="link,responsive,cachebuster,textStyling" exportTarget="other" domain="https://vannalux.github.io" resolutions="1x" timestamp="1502993499368">
+<manifest alg="2" build="2017.0.4.363" opt="false" iceEnabled="true" iceMarkupVersion="2" iceEnabledOptions="link,responsive,cachebuster,textStyling" exportTarget="other" domain="https://vannalux.github.io" resolutions="1x" timestamp="1502994214848">
   <folder name="css">
     <file name="site_global.css" crc="3881777429"/>
     <file name="master_______-a.css" crc="523588673" ref="index:emalirovka-vannyi"/>
     <file name="nomq_preview_master_______-a.css" crc="3824530138" ref="index:emalirovka-vannyi"/>
-    <file name="index.css" crc="87520545" ref="index"/>
-    <file name="nomq_index.css" crc="166980953" ref="index"/>
-    <file name="emalirovka-vannyi.css" crc="3852628154" ref="emalirovka-vannyi"/>
-    <file name="nomq_emalirovka-vannyi.css" crc="4070796708" ref="emalirovka-vannyi"/>
+    <file name="index.css" crc="4252425514" ref="index"/>
+    <file name="nomq_index.css" crc="330269701" ref="index"/>
+    <file name="emalirovka-vannyi.css" crc="464729722" ref="emalirovka-vannyi"/>
+    <file name="nomq_emalirovka-vannyi.css" crc="4178637211" ref="emalirovka-vannyi"/>
   </folder>
   <folder name="scripts">
     <file name="jquery-1.8.3.min.js" crc="209076791" ref="index:emalirovka-vannyi"/>
@@ -98,6 +98,6 @@
       <caption webpage="emalirovka-vannyi" alt=""/>
     </file>
   </folder>
-  <file name="index.html" crc="4127283155" seo="true" mt="1502993377578" redirect="true"/>
-  <file name="emalirovka-vannyi.html" crc="213306067" seo="true" mt="1502993415546" redirect="true"/>
+  <file name="index.html" crc="20510649" seo="true" mt="1502994143355" redirect="true"/>
+  <file name="emalirovka-vannyi.html" crc="4080281171" seo="true" mt="1502994176054" redirect="true"/>
 </manifest>
