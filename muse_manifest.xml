@@ -1,10 +1,10 @@
-<manifest alg="2" build="2017.0.4.363" opt="false" iceEnabled="true" iceMarkupVersion="2" iceEnabledOptions="link,responsive,cachebuster,textStyling" exportTarget="other" domain="https://vannalux.github.io" resolutions="1x" timestamp="1503005224255">
+<manifest alg="2" build="2017.0.4.363" opt="false" iceEnabled="true" iceMarkupVersion="2" iceEnabledOptions="link,responsive,cachebuster,textStyling" exportTarget="other" domain="https://vannalux.github.io" resolutions="1x" timestamp="1503005581959">
   <folder name="css">
     <file name="site_global.css" crc="3881777429"/>
     <file name="master_______-a.css" crc="221911194" ref="index:emalirovka-vannyi:nalivnaya-vanna"/>
     <file name="nomq_preview_master_______-a.css" crc="3824530138" ref="index:emalirovka-vannyi:nalivnaya-vanna"/>
-    <file name="index.css" crc="520773865" ref="index"/>
-    <file name="nomq_index.css" crc="3926398541" ref="index"/>
+    <file name="index.css" crc="3965349681" ref="index"/>
+    <file name="nomq_index.css" crc="3940383644" ref="index"/>
     <file name="emalirovka-vannyi.css" crc="3798268485" ref="emalirovka-vannyi"/>
     <file name="nomq_emalirovka-vannyi.css" crc="4243179231" ref="emalirovka-vannyi"/>
     <file name="nalivnaya-vanna.css" crc="3775181041" ref="nalivnaya-vanna"/>
@@ -129,7 +129,7 @@
       <caption webpage="nalivnaya-vanna" alt=""/>
     </file>
   </folder>
-  <file name="index.html" crc="3761396863" seo="true" mt="1503005199719" redirect="true"/>
+  <file name="index.html" crc="164820777" seo="true" mt="1503005556332" redirect="true"/>
   <file name="emalirovka-vannyi.html" crc="4151144029" seo="true" mt="1503005199719" redirect="true"/>
   <file name="nalivnaya-vanna.html" crc="4175401216" seo="true" mt="1503005199719" redirect="true"/>
 </manifest>
