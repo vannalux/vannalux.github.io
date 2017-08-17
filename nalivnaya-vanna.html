@@ -20,12 +20,12 @@ if(typeof Muse == "undefined") window.Muse = {}; window.Muse.assets = {"required
   <title>Наливная ванна - реставрация ванн жидким акрилом</title>
   <!-- CSS -->
   <link rel="stylesheet" type="text/css" href="css/site_global.css?crc=3881777429"/>
-  <link rel="stylesheet" type="text/css" href="css/master_______-a.css?crc=394356573"/>
-  <link rel="stylesheet" type="text/css" href="css/nalivnaya-vanna.css?crc=46876026" id="pagesheet"/>
+  <link rel="stylesheet" type="text/css" href="css/master_______-a.css?crc=221911194"/>
+  <link rel="stylesheet" type="text/css" href="css/nalivnaya-vanna.css?crc=3775181041" id="pagesheet"/>
   <!-- IE-only CSS -->
   <!--[if lt IE 9]>
   <link rel="stylesheet" type="text/css" href="css/nomq_preview_master_______-a.css?crc=3824530138"/>
-  <link rel="stylesheet" type="text/css" href="css/nomq_nalivnaya-vanna.css?crc=187388515" id="nomq_pagesheet"/>
+  <link rel="stylesheet" type="text/css" href="css/nomq_nalivnaya-vanna.css?crc=56201059" id="nomq_pagesheet"/>
   <![endif]-->
   <!-- JS includes -->
   <!--[if lt IE 9]>
@@ -338,19 +338,19 @@ Muse.Utils.resizeHeight('.browser_width');/* resize height */
 Muse.Utils.requestAnimationFrame(function() { $('body').addClass('initialized'); });/* mark body as initialized */
 Muse.Utils.fullPage('#page');/* 100% height page */
 Muse.Utils.initWidget('.MenuBar', ['#bp_infinity', '#bp_1330', '#bp_980', '#bp_768', '#bp_480'], function(elem) { return $(elem).museMenu(); });/* unifiedNavBar */
+$('#bp_480').one('muse_this_bp_activate', function(){
+$('#u7907').registerBackgroundPositionScrollEffect([{"speed":[0,0],"in":[-Infinity,70]},{"speed":[0,0],"in":[70,Infinity]}], $(this)); /* scroll effect */
+});/* scroll effects for one breakpoint */
 $('#bp_1330').one('muse_this_bp_activate', function(){
-$('#u7907').registerBackgroundPositionScrollEffect([{"speed":[0,0],"in":[-Infinity,70]},{"speed":[0,0],"in":[70,Infinity]}], $(this)); /* scroll effect */
-});/* scroll effects for one breakpoint */
-$('#bp_980').one('muse_this_bp_activate', function(){
-$('#u7907').registerBackgroundPositionScrollEffect([{"speed":[0,0],"in":[-Infinity,70]},{"speed":[0,0],"in":[70,Infinity]}], $(this)); /* scroll effect */
-});/* scroll effects for one breakpoint */
-$('#bp_768').one('muse_this_bp_activate', function(){
 $('#u7907').registerBackgroundPositionScrollEffect([{"speed":[0,0],"in":[-Infinity,70]},{"speed":[0,0],"in":[70,Infinity]}], $(this)); /* scroll effect */
 });/* scroll effects for one breakpoint */
 $('#bp_infinity').one('muse_this_bp_activate', function(){
 $('#u7907').registerBackgroundPositionScrollEffect([{"speed":[0,0],"in":[-Infinity,69.95]},{"speed":[0,0],"in":[69.95,Infinity]}], $(this)); /* scroll effect */
 });/* scroll effects for one breakpoint */
-$('#bp_480').one('muse_this_bp_activate', function(){
+$('#bp_980').one('muse_this_bp_activate', function(){
+$('#u7907').registerBackgroundPositionScrollEffect([{"speed":[0,0],"in":[-Infinity,70]},{"speed":[0,0],"in":[70,Infinity]}], $(this)); /* scroll effect */
+});/* scroll effects for one breakpoint */
+$('#bp_768').one('muse_this_bp_activate', function(){
 $('#u7907').registerBackgroundPositionScrollEffect([{"speed":[0,0],"in":[-Infinity,70]},{"speed":[0,0],"in":[70,Infinity]}], $(this)); /* scroll effect */
 });/* scroll effects for one breakpoint */
 $( '.breakpoint' ).registerBreakpoint();/* Register breakpoints */
