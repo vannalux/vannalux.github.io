@@ -1,21 +1,25 @@
-<manifest alg="2" build="2017.0.4.363" opt="false" iceEnabled="true" iceMarkupVersion="2" iceEnabledOptions="link,responsive,cachebuster,textStyling" exportTarget="other" domain="https://vannalux.github.io" resolutions="1x" timestamp="1502928101616">
+<manifest alg="2" build="2017.0.4.363" opt="false" iceEnabled="true" iceMarkupVersion="2" iceEnabledOptions="link,responsive,cachebuster,textStyling" exportTarget="other" domain="https://vannalux.github.io" resolutions="1x" timestamp="1502987070811">
   <folder name="css">
     <file name="site_global.css" crc="3881777429"/>
-    <file name="master_______-a.css" crc="523588673" ref="index"/>
-    <file name="nomq_preview_master_______-a.css" crc="3824530138" ref="index"/>
-    <file name="index.css" crc="376621491" ref="index"/>
-    <file name="nomq_index.css" crc="427970725" ref="index"/>
+    <file name="master_______-a.css" crc="523588673" ref="index:emalirovka-vannyi"/>
+    <file name="nomq_preview_master_______-a.css" crc="3824530138" ref="index:emalirovka-vannyi"/>
+    <file name="index.css" crc="3981749843" ref="index"/>
+    <file name="nomq_index.css" crc="3826828910" ref="index"/>
+    <file name="emalirovka-vannyi.css" crc="3811667414" ref="emalirovka-vannyi"/>
+    <file name="nomq_emalirovka-vannyi.css" crc="4082444373" ref="emalirovka-vannyi"/>
   </folder>
   <folder name="scripts">
-    <file name="jquery-1.8.3.min.js" crc="209076791" ref="index"/>
-    <file name="museutils.js" crc="4216313831" ref="index"/>
-    <file name="whatinput.js" crc="86476730" ref="index"/>
-    <file name="museconfig.js" crc="474374037" ref="index"/>
-    <file name="jquery.watch.js" crc="460461809" ref="index"/>
-    <file name="jquery.musepolyfill.bgsize.js" crc="4110862005" ref="index"/>
-    <file name="jquery.scrolleffects.js" crc="128250821" ref="index"/>
-    <file name="jquery.museresponsive.js" crc="4055310269" ref="index"/>
-    <file name="require.js" crc="3951022091" ref="index"/>
+    <file name="jquery-1.8.3.min.js" crc="209076791" ref="index:emalirovka-vannyi"/>
+    <file name="museutils.js" crc="4216313831" ref="index:emalirovka-vannyi"/>
+    <file name="whatinput.js" crc="86476730" ref="index:emalirovka-vannyi"/>
+    <file name="museconfig.js" crc="474374037" ref="index:emalirovka-vannyi"/>
+    <file name="jquery.watch.js" crc="460461809" ref="index:emalirovka-vannyi"/>
+    <file name="jquery.musepolyfill.bgsize.js" crc="4110862005" ref="index:emalirovka-vannyi"/>
+    <file name="jquery.scrolleffects.js" crc="128250821" ref="index:emalirovka-vannyi"/>
+    <file name="jquery.museresponsive.js" crc="4055310269" ref="index:emalirovka-vannyi"/>
+    <file name="require.js" crc="3951022091" ref="index:emalirovka-vannyi"/>
+    <file name="jquery.musemenu.js" crc="493622299" ref="index:emalirovka-vannyi"/>
+    <file name="html5shiv.js" crc="4241844378" ref="index:emalirovka-vannyi"/>
   </folder>
   <folder name="images">
     <file name="шаблон-a-favicon.ico" crc="3980330178" ref="index"/>
@@ -26,11 +30,11 @@
       <caption webpage="index" alt=""/>
       <caption webpage="index" alt=""/>
     </file>
-    <file name="blank.gif" crc="4208392903" ref="index"/>
-    <file name="135-2.jpg" crc="314611938" ref="index">
+    <file name="blank.gif" crc="4208392903" ref="index:emalirovka-vannyi"/>
+    <file name="135-2.jpg" crc="314611938" ref="index:emalirovka-vannyi">
       <caption webpage="index" alt=""/>
     </file>
-    <file name="135-2-u1916-fr.jpg" crc="4269741532" ref="index"/>
+    <file name="135-2-u1916-fr.jpg" crc="4269741532" ref="index:emalirovka-vannyi"/>
     <file name="akc-bg-kopiya.jpg" crc="497121731" ref="index">
       <caption webpage="index" alt=""/>
       <caption webpage="index" alt=""/>
@@ -50,9 +54,6 @@
       <caption webpage="index" alt=""/>
     </file>
     <file name="138335x232.jpg" crc="3765881765" seo="true" ref="index">
-      <caption webpage="index" alt=""/>
-    </file>
-    <file name="138305x212.jpg" crc="118353306" seo="true" ref="index">
       <caption webpage="index" alt=""/>
     </file>
     <file name="4578854.jpg" crc="208471496" seo="true" ref="index">
@@ -78,6 +79,24 @@
     <file name="4578854200x150.jpg" crc="3826984141" seo="true" ref="index">
       <caption webpage="index" alt=""/>
     </file>
+    <file name="138310x215.jpg" crc="4129164285" seo="true" ref="index">
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="120111-1.gif" crc="258560627" seo="true" ref="emalirovka-vannyi">
+      <caption webpage="emalirovka-vannyi" alt=""/>
+      <caption webpage="emalirovka-vannyi" alt=""/>
+      <caption webpage="emalirovka-vannyi" alt=""/>
+      <caption webpage="emalirovka-vannyi" alt=""/>
+      <caption webpage="emalirovka-vannyi" alt=""/>
+    </file>
+    <file name="120111-2.gif" crc="88081567" seo="true" ref="emalirovka-vannyi">
+      <caption webpage="emalirovka-vannyi" alt=""/>
+      <caption webpage="emalirovka-vannyi" alt=""/>
+      <caption webpage="emalirovka-vannyi" alt=""/>
+      <caption webpage="emalirovka-vannyi" alt=""/>
+      <caption webpage="emalirovka-vannyi" alt=""/>
+    </file>
   </folder>
-  <file name="index.html" crc="69531644" seo="true" mt="1502923750258" redirect="true"/>
+  <file name="index.html" crc="4020543983" seo="true" mt="1502987006470" redirect="true"/>
+  <file name="emalirovka-vannyi.html" crc="426148597" seo="true" mt="1502987031987" redirect="true"/>
 </manifest>

@@ -18,9 +18,6 @@
       <image:loc>https://vannalux.github.io/images/138335x232.jpg</image:loc>
     </image:image>
     <image:image>
-      <image:loc>https://vannalux.github.io/images/138305x212.jpg</image:loc>
-    </image:image>
-    <image:image>
       <image:loc>https://vannalux.github.io/images/4578854.jpg</image:loc>
     </image:image>
     <image:image>
@@ -31,6 +28,21 @@
     </image:image>
     <image:image>
       <image:loc>https://vannalux.github.io/images/4578854200x150.jpg</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://vannalux.github.io/images/138310x215.jpg</image:loc>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://vannalux.github.io/emalirovka-vannyi.html</loc>
+    <lastmod>2017-08-17</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+    <image:image>
+      <image:loc>https://vannalux.github.io/images/120111-1.gif</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://vannalux.github.io/images/120111-2.gif</image:loc>
     </image:image>
   </url>
 </urlset>
