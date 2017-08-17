@@ -1,1 +1,2 @@
-RewriteRule ^(.+)/index\.html$ https://vannalux.github.io/$1 [R=301,L]
+RewriteCond %{THE_REQUEST} "^\S+ /(.+)/index\.html HTTPS/"
+RewriteRule ^ https://vannalux.github.io/%1 [R=301,L]
