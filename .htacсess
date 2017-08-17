@@ -1,11 +1,11 @@
-RewriteEngine onRewriteBase /
+Options +FollowSymLinks
+
+RewriteEngine on
+
+RewriteCond %{HTTPS_HOST} ^vannalux.github.io
+
+RewriteRule (.*) https://vannalux.github.io/$1 [R=301,L]
+
 RewriteCond %{THE_REQUEST} ^[A-Z]{3,9}\ /index\.html\ HTTPS/
+
 RewriteRule ^index\.html$ https://vannalux.github.io/ [R=301,L]
-
-RewriteCond %{THE_REQUEST} ^[A-Z]{3,9}\ /([^.]+)\.html\ HTTPS
-RewriteRule ^([^.]+)\.html$ https://vannalux.github.io/$1 [R=301,L]
-
-RewriteCond %{REQUEST_URI} !(\.[^./]+)$
-RewriteCond %{REQUEST_fileNAME} !-d
-RewriteCond %{REQUEST_fileNAME} !-f
-RewriteRule (.*) /$1.html [L]
