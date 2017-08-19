@@ -396,16 +396,16 @@ Muse.Utils.requestAnimationFrame(function() { $('body').addClass('initialized');
 })();/* Widget:Scroll to Top */
 Muse.Utils.fullPage('#page');/* 100% height page */
 Muse.Utils.initWidget('.MenuBar', ['#bp_infinity', '#bp_1330', '#bp_980', '#bp_768', '#bp_480'], function(elem) { return $(elem).museMenu(); });/* unifiedNavBar */
-$('#bp_1330').one('muse_this_bp_activate', function(){
-$('#u6361').registerBackgroundPositionScrollEffect([{"in":[-Infinity,70],"speed":[0,0]},{"in":[70,Infinity],"speed":[0,0]}], $(this)); /* scroll effect */
-});/* scroll effects for one breakpoint */
-$('#bp_480').one('muse_this_bp_activate', function(){
+$('#bp_768').one('muse_this_bp_activate', function(){
 $('#u6361').registerBackgroundPositionScrollEffect([{"in":[-Infinity,70],"speed":[0,0]},{"in":[70,Infinity],"speed":[0,0]}], $(this)); /* scroll effect */
 });/* scroll effects for one breakpoint */
 $('#bp_980').one('muse_this_bp_activate', function(){
 $('#u6361').registerBackgroundPositionScrollEffect([{"in":[-Infinity,70],"speed":[0,0]},{"in":[70,Infinity],"speed":[0,0]}], $(this)); /* scroll effect */
 });/* scroll effects for one breakpoint */
-$('#bp_768').one('muse_this_bp_activate', function(){
+$('#bp_1330').one('muse_this_bp_activate', function(){
+$('#u6361').registerBackgroundPositionScrollEffect([{"in":[-Infinity,70],"speed":[0,0]},{"in":[70,Infinity],"speed":[0,0]}], $(this)); /* scroll effect */
+});/* scroll effects for one breakpoint */
+$('#bp_480').one('muse_this_bp_activate', function(){
 $('#u6361').registerBackgroundPositionScrollEffect([{"in":[-Infinity,70],"speed":[0,0]},{"in":[70,Infinity],"speed":[0,0]}], $(this)); /* scroll effect */
 });/* scroll effects for one breakpoint */
 $('#bp_infinity').one('muse_this_bp_activate', function(){

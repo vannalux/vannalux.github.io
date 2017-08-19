@@ -1,4 +1,4 @@
-<manifest alg="2" build="2017.0.4.363" opt="false" iceEnabled="true" iceMarkupVersion="2" iceEnabledOptions="link,responsive,cachebuster,textStyling" exportTarget="other" domain="https://vannalux.github.io" resolutions="1x" timestamp="1503144737503">
+<manifest alg="2" build="2017.0.4.363" opt="false" iceEnabled="true" iceMarkupVersion="2" iceEnabledOptions="link,responsive,cachebuster,textStyling" exportTarget="other" domain="https://vannalux.github.io" resolutions="1x" timestamp="1503153794999">
   <folder name="css">
     <file name="site_global.css" crc="3852349073"/>
     <file name="master_______-a.css" crc="155353747" ref="index:emalirovka-vannyi:nalivnaya-vanna"/>
@@ -7,7 +7,7 @@
     <file name="nomq_index.css" crc="3911514904" ref="index"/>
     <file name="emalirovka-vannyi.css" crc="3923151052" ref="emalirovka-vannyi"/>
     <file name="nomq_emalirovka-vannyi.css" crc="3885787143" ref="emalirovka-vannyi"/>
-    <file name="nalivnaya-vanna.css" crc="515489757" ref="nalivnaya-vanna"/>
+    <file name="nalivnaya-vanna.css" crc="60140651" ref="nalivnaya-vanna"/>
     <file name="nomq_nalivnaya-vanna.css" crc="4161947654" ref="nalivnaya-vanna"/>
   </folder>
   <folder name="scripts">
@@ -148,7 +148,7 @@
     </file>
     <file name="135-2-u7907-fr.jpg" crc="158643692" ref="nalivnaya-vanna"/>
   </folder>
-  <file name="index.html" crc="390054753" seo="true" mt="1503144676887" redirect="true"/>
-  <file name="emalirovka-vannyi.html" crc="173663493" seo="true" mt="1503144676887" redirect="true"/>
-  <file name="nalivnaya-vanna.html" crc="3883362439" seo="true" mt="1503144676887" redirect="true"/>
+  <file name="index.html" crc="267008977" seo="true" mt="1503153763207" redirect="true"/>
+  <file name="emalirovka-vannyi.html" crc="240086596" seo="true" mt="1503153763207" redirect="true"/>
+  <file name="nalivnaya-vanna.html" crc="4007188025" seo="true" mt="1503153763207" redirect="true"/>
 </manifest>
