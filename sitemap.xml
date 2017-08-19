@@ -6,9 +6,6 @@
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
     <image:image>
-      <image:loc>https://vannalux.github.io/images/7-prichin-1-e1485515538423.png</image:loc>
-    </image:image>
-    <image:image>
       <image:loc>https://vannalux.github.io/images/222.gif</image:loc>
     </image:image>
     <image:image>
@@ -34,6 +31,15 @@
     </image:image>
     <image:image>
       <image:loc>https://vannalux.github.io/images/up.png</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://vannalux.github.io/images/156.jpg</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://vannalux.github.io/images/156387x260.jpg</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://vannalux.github.io/images/156310x209.jpg</image:loc>
     </image:image>
   </url>
   <url>
