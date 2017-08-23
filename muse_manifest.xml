@@ -1,4 +1,4 @@
-<manifest alg="2" build="2017.0.4.363" opt="false" iceEnabled="true" iceMarkupVersion="2" iceEnabledOptions="link,responsive,cachebuster,textStyling" exportTarget="other" domain="https://vannalux.github.io" resolutions="1x" timestamp="1503486648340">
+<manifest alg="2" build="2017.0.4.363" opt="false" iceEnabled="true" iceMarkupVersion="2" iceEnabledOptions="link,responsive,cachebuster,textStyling" exportTarget="other" domain="https://vannalux.github.io" resolutions="1x" timestamp="1503488046735">
   <folder name="css">
     <file name="site_global.css" crc="100015723"/>
     <file name="master_______-a.css" crc="250630634" ref="index:emalirovka-vannyi:nalivnaya-vanna"/>
@@ -7,8 +7,8 @@
     <file name="nomq_index.css" crc="103134" ref="index"/>
     <file name="emalirovka-vannyi.css" crc="371238780" ref="emalirovka-vannyi"/>
     <file name="nomq_emalirovka-vannyi.css" crc="338752127" ref="emalirovka-vannyi"/>
-    <file name="nalivnaya-vanna.css" crc="4189955822" ref="nalivnaya-vanna"/>
-    <file name="nomq_nalivnaya-vanna.css" crc="3965195806" ref="nalivnaya-vanna"/>
+    <file name="nalivnaya-vanna.css" crc="3780997565" ref="nalivnaya-vanna"/>
+    <file name="nomq_nalivnaya-vanna.css" crc="4243267246" ref="nalivnaya-vanna"/>
   </folder>
   <folder name="scripts">
     <file name="jquery-1.8.3.min.js" crc="209076791" ref="index:emalirovka-vannyi:nalivnaya-vanna"/>
@@ -28,7 +28,7 @@
     <file name="require.js" crc="3951022091" ref="index:emalirovka-vannyi:nalivnaya-vanna"/>
   </folder>
   <folder name="images">
-    <file name="шаблон-a-favicon.ico" crc="3980330178" ref="index"/>
+    <file name="шаблон-a-favicon.ico" crc="3980330178" ref="index:nalivnaya-vanna"/>
     <file name="up.png" crc="456847235" seo="true" ref="index:emalirovka-vannyi:nalivnaya-vanna">
       <caption webpage="index" alt=""/>
       <caption webpage="index" alt=""/>
@@ -48,6 +48,7 @@
     </file>
     <file name="135-2.jpg" crc="314611938" ref="index:emalirovka-vannyi:nalivnaya-vanna">
       <caption webpage="index" alt=""/>
+      <caption webpage="nalivnaya-vanna" alt=""/>
     </file>
     <file name="156.jpg" crc="4012615779" seo="true" ref="index">
       <caption webpage="index" alt=""/>
@@ -156,5 +157,5 @@
   </folder>
   <file name="index.html" crc="4148367913" seo="true" mt="1503485213268" redirect="true"/>
   <file name="emalirovka-vannyi.html" crc="4054682940" seo="true" mt="1503485213268" redirect="true"/>
-  <file name="nalivnaya-vanna.html" crc="4040779506" seo="true" mt="1503485213268" redirect="true"/>
+  <file name="nalivnaya-vanna.html" crc="4157300881" seo="true" mt="1503487870724" redirect="true"/>
 </manifest>
