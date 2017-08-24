@@ -5,7 +5,6 @@
 		<title>Поиск</title>
 		<meta charset="utf-8" />
 		<!--[if IE]><meta http-equiv="ImageToolbar" content="False" /><![endif]-->
-		<meta name="generator" content="Incomedia WebSite X5 Professional 13.1.5.16 - www.websitex5.com" />
 		<meta property="og:locale" content="ru" />
 		<meta property="og:type" content="website" />
 		<meta property="og:url" content="https://vannalux.github.io/imsearch.php" />
@@ -18,7 +17,7 @@
 		<link rel="stylesheet" type="text/css" href="style/style.css?13-1-5-16" media="screen,print" />
 		<link rel="stylesheet" type="text/css" href="style/template.css?13-1-5-16" media="screen" />
 		<link rel="stylesheet" type="text/css" href="style/menu.css?13-1-5-16" media="screen" />
-		<link rel="stylesheet" type="text/css" href="pcss/imsearch.css?13-1-5-16-636391902075648256" media="screen,print" />
+		<link rel="stylesheet" type="text/css" href="pcss/imsearch.css?13-1-5-16-636391986607023762" media="screen,print" />
 		<script type="text/javascript" src="res/jquery.js?13-1-5-16"></script>
 		<script type="text/javascript" src="res/x5engine.js?13-1-5-16" data-files-version="13-1-5-16"></script>
 		<script type="text/javascript">
