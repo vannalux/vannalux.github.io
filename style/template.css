@@ -22,7 +22,7 @@ body { margin: 0; padding: 0; text-align: left; }
 		#imHeader { position: relative; margin-bottom: 0; margin-left: auto; margin-right: auto; height: 400px; background-image: none; background-color: transparent; }
 		#imHeaderObjects { position: relative; height: 400px; }
 		#imMnMnContainer { position: absolute; top: 15px; left: 0; right: 0; margin-left: auto; margin-right: auto; }
-		#imMnMn { position: relative; margin-left: 15px; margin-right: auto; height: 50px; padding: 20px 0px 0px 0px; background-image: none; background-color: #80FF00; }
+		#imMnMn { position: relative; margin-left: 0px; margin-right: auto; height: 50px; padding: 20px 0px 0px 0px; background-image: none; background-color: #80FF00; }
 		#imMnMn > ul { text-align: center; }
 		#imMnMn li { display: inline; }
 		#imMnMnGraphics { display: none; }
@@ -33,7 +33,7 @@ body { margin: 0; padding: 0; text-align: left; }
 		#imFooterObjects { position: relative; height: 80px; }
 		#imFooPad { height: 520px; }
 		#imHeader, #imMnMnContainer, #imFooter { width: 1200px; }
-		#imMnMn { width: 1170px; }
+		#imMnMn { width: 1200px; }
 		#imContentGraphics { width: 1200px; }
 	
 }
