@@ -1,4 +1,3 @@
-h2#imPgTitle { position: relative; float: left; }
 #imHeader_imCell_1 { display: block; position: relative; overflow: visible; }
 #imHeader_imCellStyle_1 { position: relative; box-sizing: border-box; text-align: center; z-index: 2;}
 #imHeader_imCellStyleGraphics_1 { position: absolute; top: 0px; bottom: 0px; background-color: transparent; }
@@ -13,13 +12,11 @@ h2#imPgTitle { position: relative; float: left; }
 #imHeader_imObjectImage_02 { width: 100%; vertical-align: top; }
 @media (min-width: 980px) {
 	.imContentDataContainer { width: 940px; margin-left: auto; margin-right: auto; padding: 0 20px 0 20px; }
-	#imPgTitle { width: 926px; margin-left: 6px; margin-right: 6px; }
 	
 }
 
 @media (max-width: 979px) {
 	.imContentDataContainer { width: 100%; }
-	#imPgTitle { width: 100%; margin-left: 0px; margin-right: 0px; }
 	
 }
 

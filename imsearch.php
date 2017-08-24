@@ -2,7 +2,7 @@
 <!DOCTYPE html><!-- HTML5 -->
 <html prefix="og: http://ogp.me/ns#" lang="ru-RU" dir="ltr">
 	<head>
-		<title>Поиск - Новый проект</title>
+		<title>Поиск</title>
 		<meta charset="utf-8" />
 		<!--[if IE]><meta http-equiv="ImageToolbar" content="False" /><![endif]-->
 		<meta name="generator" content="Incomedia WebSite X5 Professional 13.1.5.16 - www.websitex5.com" />
@@ -10,7 +10,7 @@
 		<meta property="og:type" content="website" />
 		<meta property="og:url" content="https://vannalux.github.io/imsearch.php" />
 		<meta property="og:title" content="Поиск" />
-		<meta property="og:site_name" content="Новый проект" />
+		<meta property="og:site_name" content="" />
 		<meta name="viewport" content="width=device-width, initial-scale=1" />
 		
 		<link rel="stylesheet" type="text/css" href="style/reset.css?13-1-5-16" media="screen,print" />
@@ -18,7 +18,7 @@
 		<link rel="stylesheet" type="text/css" href="style/style.css?13-1-5-16" media="screen,print" />
 		<link rel="stylesheet" type="text/css" href="style/template.css?13-1-5-16" media="screen" />
 		<link rel="stylesheet" type="text/css" href="style/menu.css?13-1-5-16" media="screen" />
-		<link rel="stylesheet" type="text/css" href="pcss/imsearch.css?13-1-5-16-636391816927194289" media="screen,print" />
+		<link rel="stylesheet" type="text/css" href="pcss/imsearch.css?13-1-5-16-636391895463083879" media="screen,print" />
 		<script type="text/javascript" src="res/jquery.js?13-1-5-16"></script>
 		<script type="text/javascript" src="res/x5engine.js?13-1-5-16" data-files-version="13-1-5-16"></script>
 		<script type="text/javascript">
@@ -33,8 +33,8 @@
 		<div id="imFooterBg"></div>
 		<div id="imPage">
 			<div id="imHeader">
-				<h1 class="imHidden">Поиск - Новый проект</h1>
-				<div id="imHeaderObjects"><div id="imHeader_imObjectTitle_01_wrapper" class="template-object-wrapper"><div id="imHeader_imCell_1" class="" > <div id="imHeader_imCellStyleGraphics_1"></div><div id="imHeader_imCellStyle_1" ><div id="imHeader_imObjectTitle_01"><span id ="imHeader_imObjectTitle_01_text">Мой сайт </span > </div></div></div></div><div id="imHeader_imObjectImage_02_wrapper" class="template-object-wrapper"><div id="imHeader_imCell_2" class="" > <div id="imHeader_imCellStyleGraphics_2"></div><div id="imHeader_imCellStyle_2" ><img id="imHeader_imObjectImage_02" src="images/7-prichin-1-e1485515538423.png" title="" alt="" /></div></div></div></div>
+				<h1 class="imHidden">Поиск</h1>
+				<div id="imHeaderObjects"><div id="imHeader_imObjectTitle_01_wrapper" class="template-object-wrapper"><div id="imHeader_imCell_1" class="" > <div id="imHeader_imCellStyleGraphics_1"></div><div id="imHeader_imCellStyle_1" ><h1 id="imHeader_imObjectTitle_01"><span id ="imHeader_imObjectTitle_01_text">Мой сайт </span > </h1></div></div></div><div id="imHeader_imObjectImage_02_wrapper" class="template-object-wrapper"><div id="imHeader_imCell_2" class="" > <div id="imHeader_imCellStyleGraphics_2"></div><div id="imHeader_imCellStyle_2" ><img id="imHeader_imObjectImage_02" src="images/7-prichin-1-e1485515538423.png" title="" alt="" /></div></div></div></div>
 			</div>
 			<a class="imHidden" href="#imGoToCont" title="Заголовок главного меню">Перейти к контенту</a>
 			<a id="imGoToMenu"></a><p class="imHidden">Главное меню:</p>

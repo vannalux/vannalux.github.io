@@ -23,6 +23,7 @@ body.wysiwyg p { margin: 0; line-height: 21px; }
 #imPgTitle, #imPgTitle a, .imPgTitle, .imPgTitle a { padding-top: 2px; padding-bottom: 2px; margin: 5px 0; font: normal normal bold 14pt 'Tahoma'; color: #253A58; background-color: transparent; text-align: left; text-decoration: none; }
 #imPgTitle, .imPgTitle { border-width: 1px; border-style: solid; border-color: transparent transparent transparent transparent; }
 #imPgTitle.imTitleMargin, .imPgTitle.imTitleMargin { margin-left: 6px; margin-right: 6px; }
+#imPgTitle, .imPgTitle { display: none; }
 
 
 /* Breadcrumb */

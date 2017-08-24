@@ -19,7 +19,7 @@ body { margin: 0; padding: 0; text-align: left; }
 		html { background-image: none; background-color: transparent; }
 		#imPage { padding-top: 0; margin-top: 0px; margin-bottom: 0px; min-width: 980px; }
 		#imHeaderBg { height: 400px; background-image: url('135-2.jpg'); background-position: center top; background-repeat: no-repeat; background-attachment: scroll; background-color: transparent; }
-		#imHeader { position: relative; margin-bottom: 0; margin-left: auto; margin-right: auto; height: 400px; background-image: none; background-color: transparent; }
+		#imHeader { position: relative; margin-bottom: 0; margin-left: auto; margin-right: auto; height: 400px; background-image: none; background-color: #FFC0C0; }
 		#imHeaderObjects { position: relative; height: 400px; }
 		#imMnMnContainer { position: absolute; top: 15px; left: 0; right: 0; margin-left: auto; margin-right: auto; }
 		#imMnMn { position: relative; margin-left: 20px; margin-right: auto; height: 50px; padding: 20px 10px 0px 10px; background-image: none; background-color: #80FFFF; }
