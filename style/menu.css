@@ -1,9 +1,9 @@
 /* Desktop */
-@media (min-width: 1200px){
+@media (min-width: 980px){
 /* ######################### MENU STYLE #########################*/
 .hamburger-menu-close-button { display: none; }
 #imSite { position: relative; }
-#imMnMn.main-menu { text-align: center; }
+#imMnMn.main-menu { text-align: left; }
 #imMnMn.main-menu > ul { z-index: 10001; display: inline-block; }
 #imMnMn.main-menu li > ul, #imMnMn.main-menu li > div { z-index: 10002; }
 
@@ -12,6 +12,7 @@
 #imMnMn.main-menu ul {padding:0;margin:0;list-style-type:none; }
 #imMnMn.main-menu > ul { margin-left: 0px; }
 #imMnMn.main-menu > ul > li { position: relative; margin-left: 2px;  }
+#imMnMn.main-menu > ul > li:first-child { margin-left: 0; }
 
 /* Links */
 
@@ -72,7 +73,7 @@
 .hamburger-menu-background { display: none; }
 }
 /* Mobile Fluid */
-@media (max-width: 1199px){
+@media (max-width: 979px){
 #imMnMn.main-menu .hamburger-button { position: absolute; top: 5px;right: 5px;}
 #imMnMn.main-menu .hamburger-button { cursor: pointer; width: 30px; height: 30px;background-image: url('../menu/mobile.png'); background-repeat: no-repeat; background-position: center center;}
 #imMnMn.main-menu .hamburger-button > div { display: table; width: 30px; height: 30px; }
@@ -114,7 +115,7 @@
 #imMnMn.static-menu { z-index: 10001; padding: 0; height: 70px; }
 .static-menu div.imMnMnCustomHTML { display: none; }
 /* Desktop */
-@media (min-width: 1200px){
+@media (min-width: 980px){
 #imMnMn.static-menu { width: 100%; }
 /* ######################### MENU STYLE #########################*/
 .hamburger-menu-close-button { display: none; }
@@ -188,7 +189,7 @@
 #imMnMn.static-menu > ul {margin-top: 20px;margin-bottom: 20px;} 
 }
 /* Mobile Fluid */
-@media (max-width: 1199px){
+@media (max-width: 979px){
 #imMnMn.static-menu { width: 100%; }
 #imMnMn.static-menu .hamburger-button { position: absolute; top: 20px;left: 50%; right: 50%;transform: translateX(-50%);}
 #imMnMn.static-menu .hamburger-button { cursor: pointer; width: 30px; height: 30px;background-image: url('../menu/mobile.png'); background-repeat: no-repeat; background-position: center center;}
@@ -228,13 +229,13 @@
 #imMnMn.static-menu .menu-mobile-hidden, #imMnMn.static-menu > ul.menu-mobile-hidden { right: -170px; opacity: 0; }
 }
 /* Desktop */
-@media (min-width: 1200px){
+@media (min-width: 980px){
 .menu-mobile-logo { display: none; }
 .static-menu .menu-mobile-logo {display: inline-block; vertical-align: top; margin:35px 10px 35px 10px; width: 0px;z-index: 2;}
 #imMnMn.static-menu .menu-mobile-logo-container a { display: inline; }
 }
 /* Mobile Fluid */
-@media (max-width: 1199px){
+@media (max-width: 979px){
 .menu-mobile-logo { display: none; }
 .static-menu .menu-mobile-logo {display: inline-block; vertical-align: top; position: absolute; top: 35px; left: 50%; right: 50%;max-width: 50%;transform: translateX(50%);width: 0px;z-index: 2;}
 }

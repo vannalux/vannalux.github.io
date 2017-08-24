@@ -106,8 +106,8 @@
 	}, false, 'first');
 
 	// BreakPoints
-	s.breakPoints.push({ "hash": "f2e973e1275d18e3048ba45454ee16a2", "name": "Desktop", "start": "max", "end": 1200, "fluid": false});
-	s.breakPoints.push({ "hash": "5ecdcca63de80fd3d4fbb36295d22b7d", "name": "Mobile Fluid", "start": 1199, "end": 0, "fluid": true});
+	s.breakPoints.push({ "hash": "d4e97b83d4b00ad9b1d30028d497f1c1", "name": "Desktop", "start": "max", "end": 980, "fluid": false});
+	s.breakPoints.push({ "hash": "5ecdcca63de80fd3d4fbb36295d22b7d", "name": "Mobile Fluid", "start": 979, "end": 0, "fluid": true});
 
 	b.push(function () { x.cookielaw.activateScripts() });
 

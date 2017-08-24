@@ -1,13 +1,54 @@
 h2#imPgTitle { position: relative; float: left; }
-@media (min-width: 1200px) {
-	.imContentDataContainer { width: 1190px; margin-left: auto; margin-right: auto; padding: 0 5px 0 5px; }
-	#imPgTitle { width: 1176px; margin-left: 6px; margin-right: 6px; }
+#imHeader_imCell_1 { display: block; position: relative; overflow: visible; }
+#imHeader_imCellStyle_1 { position: relative; box-sizing: border-box; text-align: center; z-index: 2;}
+#imHeader_imCellStyleGraphics_1 { position: absolute; top: 0px; bottom: 0px; background-color: transparent; }
+#imHeader_imObjectTitle_01 {overflow: hidden; text-align: center; }
+#imHeader_imObjectTitle_01_text {font: normal normal normal 36pt 'Tahoma';  padding: 0px 0px 0px 0px;background-color: transparent; position: relative; display: inline-block; }
+#imHeader_imObjectTitle_01_text,
+#imHeader_imObjectTitle_01_text a { color: #809FFF; white-space: pre; }
+#imHeader_imObjectTitle_01_text a{ text-decoration: none; }
+#imHeader_imCell_2 { display: block; position: relative; overflow: hidden; }
+#imHeader_imCellStyle_2 { position: relative; box-sizing: border-box; text-align: center; z-index: 2;}
+#imHeader_imCellStyleGraphics_2 { position: absolute; top: 0px; bottom: 0px; background-color: transparent; }
+#imHeader_imObjectImage_02 { width: 100%; vertical-align: top; }
+@media (min-width: 980px) {
+	.imContentDataContainer { width: 940px; margin-left: auto; margin-right: auto; padding: 0 20px 0 20px; }
+	#imPgTitle { width: 926px; margin-left: 6px; margin-right: 6px; }
 	
 }
 
-@media (max-width: 1199px) {
+@media (max-width: 979px) {
 	.imContentDataContainer { width: 100%; }
 	#imPgTitle { width: 100%; margin-left: 0px; margin-right: 0px; }
+	
+}
+
+@media (min-width: 980px) {
+	#imHeader_imObjectTitle_01_wrapper { position: absolute; top: 100px; left: 68px; width: 270px; height: 60px; z-index: 1; overflow-y: hidden; }
+	#imHeader_imCell_1 { width: 270px; min-height: 58px;  padding-top: 0px; padding-bottom: 0px; padding-left: 0px; padding-right: 0px; }
+	#imHeader_imCellStyle_1 { width: 270px; min-height: 58px; padding: 0px 0px 0px 0px; border-top: 0; border-bottom: 0; border-left: 0; border-right: 0; }
+	#imHeader_imCellStyleGraphics_1 { left: 0px; right: 0px; }
+	#imHeader_imObjectTitle_01_text { top: 0px;  }
+	#imHeader_imObjectTitle_01 {min-height: 58px; }
+	#imHeader_imObjectImage_02_wrapper { position: absolute; top: 100px; left: 359px; width: 150px; height: 114px; z-index: 2; overflow-y: hidden; }
+	#imHeader_imObjectImage_02_wrapper img {-webkit-clip-path: inset(0 0 53.659% 0);clip-path: inset(0 0 53.659% 0);}#imHeader_imCell_2 { width: 150px; min-height: 246px;  padding-top: 0px; padding-bottom: 0px; padding-left: 0px; padding-right: 0px; }
+	#imHeader_imCellStyle_2 { width: 150px; min-height: 246px; padding: 0px 0px 0px 0px; border-top: 0; border-bottom: 0; border-left: 0; border-right: 0; }
+	#imHeader_imCellStyleGraphics_2 { left: 0px; right: 0px; }
+	
+}
+
+@media (max-width: 979px) {
+	#imHeader_imObjectTitle_01_wrapper { position: absolute; top: 47px; left: 8px; width: 186px; height: 47px; z-index: 1; overflow-y: hidden; }
+	#imHeader_imCell_1 { width: 100%; min-height: 53px;  padding-top: 0px; padding-bottom: 0px; padding-left: 0px; padding-right: 0px; box-sizing: border-box; }
+	#imHeader_imCellStyle_1 { width: 100%; min-height: 0px; padding: 0px 0px 0px 0px; }
+	#imHeader_imCellStyleGraphics_1 { top: 0px; bottom: 0px; left: 0px; right: 0px; }
+	#imHeader_imObjectTitle_01_text { font-size: 33.15pt; }
+	#imHeader_imObjectTitle_01_text { top: 0px;  }
+	#imHeader_imObjectTitle_01 {min-height: 53px; }
+	#imHeader_imObjectImage_02_wrapper { position: absolute; top: 41px; left: 226px; width: 69px; height: 48px; z-index: 2; overflow-y: hidden; }
+	#imHeader_imObjectImage_02_wrapper img {-webkit-clip-path: inset(0 0 57.522% 0);clip-path: inset(0 0 57.522% 0);}#imHeader_imCell_2 { width: 100%; min-height: 113px;  padding-top: 0px; padding-bottom: 0px; padding-left: 0px; padding-right: 0px; box-sizing: border-box; }
+	#imHeader_imCellStyle_2 { width: 100%; min-height: 0px; padding: 0px 0px 0px 0px; }
+	#imHeader_imCellStyleGraphics_2 { top: 0px; bottom: 0px; left: 0px; right: 0px; }
 	
 }
 
