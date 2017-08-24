@@ -11,14 +11,14 @@
 		<meta property="og:url" content="https://vannalux.github.io/imsearch.php" />
 		<meta property="og:title" content="Поиск" />
 		<meta property="og:site_name" content="Новый проект" />
-		<meta name="viewport" content="width=1200" />
+		<meta name="viewport" content="width=device-width, initial-scale=1" />
 		
 		<link rel="stylesheet" type="text/css" href="style/reset.css?13-1-5-16" media="screen,print" />
 		<link rel="stylesheet" type="text/css" href="style/print.css?13-1-5-16" media="print" />
 		<link rel="stylesheet" type="text/css" href="style/style.css?13-1-5-16" media="screen,print" />
 		<link rel="stylesheet" type="text/css" href="style/template.css?13-1-5-16" media="screen" />
 		<link rel="stylesheet" type="text/css" href="style/menu.css?13-1-5-16" media="screen" />
-		<link rel="stylesheet" type="text/css" href="pcss/imsearch.css?13-1-5-16-636391752160508803" media="screen,print" />
+		<link rel="stylesheet" type="text/css" href="pcss/imsearch.css?13-1-5-16-636391754520004332" media="screen,print" />
 		<script type="text/javascript" src="res/jquery.js?13-1-5-16"></script>
 		<script type="text/javascript" src="res/x5engine.js?13-1-5-16" data-files-version="13-1-5-16"></script>
 		<script type="text/javascript">

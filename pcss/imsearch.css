@@ -58,5 +58,13 @@
 .imSearchVideoResult {clear: none; float: left; width: 50% }
 .imSearchVideoResult img { border-width: 0; width: 94%; padding-left: 3%; padding-right: 3%; float: left; }
 .imSearchVideoDuration { margin-top: 5px; clear: both; display: block; text-decoration: none; color: gray; font-weight: normal; }
-#imSearchPage { box-sizing: border-box; width: 1200px; margin-left: auto; margin-right: auto; padding: 0 5px 0 5px; }
+@media (min-width: 1200px) {
+	#imSearchPage { box-sizing: border-box; width: 1200px; margin-left: auto; margin-right: auto; padding: 0 5px 0 5px; }
+	
+}
+
+@media (max-width: 1199px) {
+	#imSearchPage { width: 100%; }
+	
+}
 

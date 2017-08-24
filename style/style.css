@@ -103,7 +103,13 @@ textarea { resize: none; }
 .topic-star-fixer-small { height: 16px; }
 .topic-pagination { text-align: center; margin: 7px 0; }
 .variable-star-rating { cursor: pointer; }
-#media-query-to-js { position: absolute; display: none; }@media all and (min-width:1px) { .media-test { position: absolute; } }
+#media-query-to-js { position: absolute; display: none; }@media (min-width: 1200px) {
+	#media-query-to-js { width: 1200px; }
+}
+@media (max-width: 1199px) {
+	#media-query-to-js { width: 0px; }
+}
+@media all and (min-width:1px) { .media-test { position: absolute; } }
 .browser-comp-message { position: fixed; bottom: 0; left: 0; right: 0; z-index: 10600; }
 .browser-comp-message.severity-error {top: 0; background: url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR4nGNiOAMAANUAz5n+TlUAAAAASUVORK5CYII='); }
 .browser-comp-message div { padding: 20px; border: 2px solid #888; background-color: #000;}
