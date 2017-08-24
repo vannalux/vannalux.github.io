@@ -1,10 +1,2 @@
-@media (min-width: 1200px) {
-	.imContentDataContainer { width: 1190px; margin-left: auto; margin-right: auto; padding: 0 5px 0 5px; }
-	
-}
-
-@media (max-width: 1199px) {
-	.imContentDataContainer { width: 100%; }
-	
-}
+.imContentDataContainer { width: 1190px; margin-left: auto; margin-right: auto; padding: 0 5px 0 5px; }
 

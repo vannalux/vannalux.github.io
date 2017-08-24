@@ -106,8 +106,7 @@
 	}, false, 'first');
 
 	// BreakPoints
-	s.breakPoints.push({ "hash": "f2e973e1275d18e3048ba45454ee16a2", "name": "Desktop", "start": "max", "end": 1200, "fluid": false});
-	s.breakPoints.push({ "hash": "5ecdcca63de80fd3d4fbb36295d22b7d", "name": "Mobile Fluid", "start": 1199, "end": 0, "fluid": true});
+	s.breakPoints.push({ "hash": "f2e973e1275d18e3048ba45454ee16a2", "name": "Desktop", "start": "max", "end": 0, "fluid": false });
 
 	b.push(function () { x.cookielaw.activateScripts() });
 
