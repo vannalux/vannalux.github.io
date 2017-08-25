@@ -12,7 +12,7 @@
 
 
 /* Page default */
-#imContent, #imHeader, #imFooter { font: normal normal normal 11pt 'Tahoma'; color: #000000; background-color: transparent; text-align: left; text-decoration: none; }
+#imContent, #imHeader, #imFooter { font: normal normal normal 11pt 'Tahoma'; color: #404040; background-color: transparent; text-align: left; text-decoration: none; }
 .text-tab-content { text-align: left; }
 body.wysiwyg { padding: 3px; font: normal normal normal 11pt 'Tahoma';  color: black; line-height: 1; }
 body.wysiwyg p { margin: 0; line-height: 21px; }
@@ -88,7 +88,7 @@ textarea { resize: none; }
 .prt_field { display: none; }
 .topic-summary { margin: 10px auto 20px auto; text-align: center; }
 .topic-form { text-align: left; margin-bottom: 30px; }
-.topic-comment { margin: 0 0 10px 0; padding: 5px 0; border-bottom: 1px dotted #000000; }
+.topic-comment { margin: 0 0 10px 0; padding: 5px 0; border-bottom: 1px dotted #404040; }
 .topic-comments-count { font-weight: bold; margin: 10px 0 7px;}
 .topic-comments-user { margin-bottom: 5px; margin-right: 5px; font-weight: bold;}
 .topic-comments-abuse { margin: 5px 0 0 0; border: none; padding: 3px 0 0 0; text-align: right; }
@@ -104,10 +104,13 @@ textarea { resize: none; }
 .topic-star-fixer-small { height: 16px; }
 .topic-pagination { text-align: center; margin: 7px 0; }
 .variable-star-rating { cursor: pointer; }
-#media-query-to-js { position: absolute; display: none; }@media (min-width: 980px) {
-	#media-query-to-js { width: 980px; }
+#media-query-to-js { position: absolute; display: none; }@media (min-width: 1200px) {
+	#media-query-to-js { width: 1200px; }
 }
-@media (max-width: 979px) {
+@media (max-width: 1199px) and (min-width: 720px) {
+	#media-query-to-js { width: 720px; }
+}
+@media (max-width: 719px) {
 	#media-query-to-js { width: 0px; }
 }
 @media all and (min-width:1px) { .media-test { position: absolute; } }
