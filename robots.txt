@@ -3,4 +3,4 @@ Disallow: /admin
 Disallow: /captcha
 Disallow: /menu
 Disallow: /imemail
-Sitemap: http://vannalux.github.io/sitemap.xml
+Sitemap: https://vannalux.github.io/sitemap.xml

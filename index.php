@@ -6,7 +6,7 @@
 		<!--[if IE]><meta http-equiv="ImageToolbar" content="False" /><![endif]-->
 		<meta property="og:locale" content="ru" />
 		<meta property="og:type" content="website" />
-		<meta property="og:url" content="http://vannalux.github.io/index.php" />
+		<meta property="og:url" content="https://vannalux.github.io/index.php" />
 		<meta property="og:title" content="Главная" />
 		<meta property="og:site_name" content="" />
 		<meta name="viewport" content="width=device-width, initial-scale=1" />
@@ -16,7 +16,7 @@
 		<link rel="stylesheet" type="text/css" href="style/style.css?13-1-5-16" media="screen,print" />
 		<link rel="stylesheet" type="text/css" href="style/template.css?13-1-5-16" media="screen" />
 		<link rel="stylesheet" type="text/css" href="style/menu.css?13-1-5-16" media="screen" />
-		<link rel="stylesheet" type="text/css" href="pcss/index.css?13-1-5-16-636392613834670827" media="screen,print" />
+		<link rel="stylesheet" type="text/css" href="pcss/index.css?13-1-5-16-636392615867706553" media="screen,print" />
 		<script type="text/javascript" src="res/jquery.js?13-1-5-16"></script>
 		<script type="text/javascript" src="res/x5engine.js?13-1-5-16" data-files-version="13-1-5-16"></script>
 		<script type="text/javascript">

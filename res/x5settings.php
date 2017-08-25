@@ -7,8 +7,8 @@
 */
 
 $imSettings['general'] = array(
-	'url' => 'http://vannalux.github.io/',
-	'homepage_url' => 'http://vannalux.github.io/index.php',
+	'url' => 'https://vannalux.github.io/',
+	'homepage_url' => 'https://vannalux.github.io/index.php',
 	'icon' => '',
 	'version' => '13.1.5.16',
 	'sitename' => '',
