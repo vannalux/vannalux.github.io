@@ -1,8 +1,8 @@
 <?php
 
 $imSettings['blog'] = array(
-	'description' => 'Когда Вам нужно выбрать и купить ламинат в Одессе, то стоит обратить пристальное внимание на его характеристики. То же самое можно сказать и про паркет. Одесса - один из тех городов, где есть большой выбор продукции самого разного качества. И чтобы купить паркет в Одессе, который будет Вам идеально подходить, стоит учесть некоторые ключевые моменты.',
-	'root' => 'http://moy.cc.ua/blog/',
+	'description' => '',
+	'root' => 'http://vannalux.github.io/blog/',
 	'file_prefix' => 'x5_',
 	'comments_source' => 'wsx5',
 	'email' => '',
@@ -35,7 +35,7 @@ $imSettings['blog']['posts']['78g2ptmf'] = array(
 	'sources' => array(),
 	'tag' => array(),
 	'opengraph' => array(
-		'url' => 'http://moy.cc.ua/blog/?id=78g2ptmf',
+		'url' => 'http://vannalux.github.io/blog/?id=78g2ptmf',
 		'type' => 'article',
 		'title' => 'ЛАМИНАТ',
 		'description' => '',

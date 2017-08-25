@@ -1,5 +1,5 @@
 x5engine.settings.imBlog = {
-	root: 'http://moy.cc.ua/blog/',
+	root: 'http://vannalux.github.io/blog/',
 	home_posts_number: 10,
 	file_prefix: 'x5_',
 	comments: false,

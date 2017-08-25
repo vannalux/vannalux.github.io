@@ -3,7 +3,7 @@
 <!DOCTYPE html><!-- HTML5 -->
 <html prefix="og: http://ogp.me/ns#" lang="ru-RU" dir="ltr">
 	<head>
-		<title><?php echo $blog->pageTitle('ЛАМИНАТ И ПАРКЕТНАЯ ДОСКА', ' - '); ?></title>
+		<title><?php echo $blog->pageTitle('Блог', ' - '); ?></title>
 		<meta charset="utf-8" />
 		<!--[if IE]><meta http-equiv="ImageToolbar" content="False" /><![endif]-->
 		<meta name="description" content="<?php echo $blog->pageDescription(); ?>" />
@@ -16,7 +16,7 @@
 		<link rel="stylesheet" type="text/css" href="../style/style.css?13-1-5-16" media="screen,print" />
 		<link rel="stylesheet" type="text/css" href="../style/template.css?13-1-5-16" media="screen" />
 		<link rel="stylesheet" type="text/css" href="../style/menu.css?13-1-5-16" media="screen" />
-		<link rel="stylesheet" type="text/css" href="../blog/style.css?13-1-5-16-636392600663920893" media="screen,print" />
+		<link rel="stylesheet" type="text/css" href="../blog/style.css?13-1-5-16-636392612921662814" media="screen,print" />
 		<script type="text/javascript" src="../res/jquery.js?13-1-5-16"></script>
 		<script type="text/javascript" src="../res/x5engine.js?13-1-5-16" data-files-version="13-1-5-16"></script>
 		<script type="text/javascript">
