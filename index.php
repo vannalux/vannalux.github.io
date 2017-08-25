@@ -1,4 +1,3 @@
-<?php require_once("res/x5engine.php"); ?>
 <!DOCTYPE html><!-- HTML5 -->
 <html prefix="og: http://ogp.me/ns#" lang="ru-RU" dir="ltr">
 	<head>
@@ -17,8 +16,7 @@
 		<link rel="stylesheet" type="text/css" href="style/style.css?13-1-5-16" media="screen,print" />
 		<link rel="stylesheet" type="text/css" href="style/template.css?13-1-5-16" media="screen" />
 		<link rel="stylesheet" type="text/css" href="style/menu.css?13-1-5-16" media="screen" />
-		<link rel="stylesheet" type="text/css" href="pluginAppObj_09/style.css" media="screen, print" />
-		<link rel="stylesheet" type="text/css" href="pcss/index.css?13-1-5-16-636392605982560233" media="screen,print" />
+		<link rel="stylesheet" type="text/css" href="pcss/index.css?13-1-5-16-636392608551923992" media="screen,print" />
 		<script type="text/javascript" src="res/jquery.js?13-1-5-16"></script>
 		<script type="text/javascript" src="res/x5engine.js?13-1-5-16" data-files-version="13-1-5-16"></script>
 		<script type="text/javascript">
@@ -155,56 +153,37 @@
 				<div id="imPageRow_4" class="imPageRow">
 				
 				<div id="imPageRowContent_4" class="imContentDataContainer">
-				<div id="imGroup_7" class="imHGroup">
-				<div id="imCell_9" class="" > <div id="imCellStyleGraphics_9"></div><div id="imCellStyle_9"  data-responsive-sequence-number="6"><div id="pluginAppObj_09">
-				         <div class="post_container">
-				<?php
-					$blog = new imBlog();
-					$i = 0;
-					$posts = array_values($blog->getPosts());
-					while ($i < 3 && $i < count($posts)) {
-						echo '<div class="post">';
-						echo '<a href="blog/index.php?id=' . $posts[$i]['id'] . '" class="post_title">' . $posts[$i]['title'] . '</a>';
-						echo '<div class="post_body">' . $posts[$i]['summary'] . '</div>';
-						echo '<div class="post_data">Опубликовано ' . $posts[$i]['author'] . ' - ' . $posts[$i]['timestamp'] . '</div>';
-						echo '</div>';
-						$i++;
-					}
-				?>
+				<div id="imGroup_7" class="imEGroup"></div>
 				</div>
-				
-				   </div></div></div><div id="imGroup_8" class="imEGroup"></div>
-				
-				</div></div>
 				</div>
 				<div id="imPageRow_5" class="imPageRow">
 				
 				<div id="imPageRowContent_5" class="imContentDataContainer">
-				<div id="imGroup_9" class="imEGroup"></div>
+				<div id="imGroup_8" class="imEGroup"></div>
 				</div>
 				</div>
 				<div id="imPageRow_6" class="imPageRow">
 				
 				<div id="imPageRowContent_6" class="imContentDataContainer">
-				<div id="imGroup_10" class="imEGroup"></div>
+				<div id="imGroup_9" class="imEGroup"></div>
 				</div>
 				</div>
 				<div id="imPageRow_7" class="imPageRow">
 				
 				<div id="imPageRowContent_7" class="imContentDataContainer">
-				<div id="imGroup_11" class="imEGroup"></div>
+				<div id="imGroup_10" class="imEGroup"></div>
 				</div>
 				</div>
 				<div id="imPageRow_8" class="imPageRow">
 				
 				<div id="imPageRowContent_8" class="imContentDataContainer">
-				<div id="imGroup_12" class="imEGroup"></div>
+				<div id="imGroup_11" class="imEGroup"></div>
 				</div>
 				</div>
 				<div id="imPageRow_9" class="imPageRow">
 				
 				<div id="imPageRowContent_9" class="imContentDataContainer">
-				<div id="imGroup_13" class="imEGroup"></div>
+				<div id="imGroup_12" class="imEGroup"></div>
 				</div>
 				</div>
 				
