@@ -17,7 +17,7 @@
 		<link rel="stylesheet" type="text/css" href="style/style.css?13-1-5-16" media="screen,print" />
 		<link rel="stylesheet" type="text/css" href="style/template.css?13-1-5-16" media="screen" />
 		<link rel="stylesheet" type="text/css" href="style/menu.css?13-1-5-16" media="screen" />
-		<link rel="stylesheet" type="text/css" href="pcss/imsearch.css?13-1-5-16-636392615867416135" media="screen,print" />
+		<link rel="stylesheet" type="text/css" href="pcss/imsearch.css?13-1-5-16-636392636176164442" media="screen,print" />
 		<script type="text/javascript" src="res/jquery.js?13-1-5-16"></script>
 		<script type="text/javascript" src="res/x5engine.js?13-1-5-16" data-files-version="13-1-5-16"></script>
 		<script type="text/javascript">
@@ -34,7 +34,7 @@
 		<div id="imPage">
 			<div id="imHeader">
 				
-				<div id="imHeaderObjects"><div id="imHeader_imObjectTitle_01_wrapper" class="template-object-wrapper"><div id="imHeader_imCell_1" class="" > <div id="imHeader_imCellStyleGraphics_1"></div><div id="imHeader_imCellStyle_1" ><div id="imHeader_imObjectTitle_01"><span id ="imHeader_imObjectTitle_01_text"><a href="index.php" onclick="return x5engine.utils.location('index.php', null, false)">Мой сайт</a> </span > </div></div></div></div><div id="imHeader_imObjectImage_02_wrapper" class="template-object-wrapper"><div id="imHeader_imCell_2" class="" > <div id="imHeader_imCellStyleGraphics_2"></div><div id="imHeader_imCellStyle_2" ><a href="index.php" onclick="return x5engine.utils.location('index.php', null, false)"><img id="imHeader_imObjectImage_02" src="images/6328222-1_o4fexfug.jpg" title="" alt="" /></a></div></div></div></div>
+				<div id="imHeaderObjects"><div id="imHeader_imObjectTitle_01_wrapper" class="template-object-wrapper"><div id="imHeader_imCell_1" class="" > <div id="imHeader_imCellStyleGraphics_1"></div><div id="imHeader_imCellStyle_1" ><div id="imHeader_imObjectTitle_01"><span id ="imHeader_imObjectTitle_01_text"><a href="index.html" onclick="return x5engine.utils.location('index.html', null, false)">Мой сайт</a> </span > </div></div></div></div><div id="imHeader_imObjectImage_02_wrapper" class="template-object-wrapper"><div id="imHeader_imCell_2" class="" > <div id="imHeader_imCellStyleGraphics_2"></div><div id="imHeader_imCellStyle_2" ><a href="index.html" onclick="return x5engine.utils.location('index.html', null, false)"><img id="imHeader_imObjectImage_02" src="images/6328222-1_o4fexfug.jpg" title="" alt="" /></a></div></div></div></div>
 			</div>
 			<a class="imHidden" href="#imGoToCont" title="Заголовок главного меню">Перейти к контенту</a>
 			<a id="imGoToMenu"></a><p class="imHidden">Главное меню:</p>
@@ -42,10 +42,10 @@
 				<div id="imMnMnGraphics"></div>
 				<div id="imMnMn" class="auto main-menu">
 					<div class="hamburger-site-background menu-mobile-hidden"></div><div class="hamburger-button"><div><div><div class="hamburger-bar"></div><div class="hamburger-bar"></div><div class="hamburger-bar"></div></div></div></div><div class="hamburger-menu-background-container"><div class="hamburger-menu-background menu-mobile-hidden"><div class="hamburger-menu-close-button"><span>&times;</span></div></div></div>
-				<span class="menu-mobile-logo-container"><a href="index.php"><img src="style/116-2.jpg" class="menu-mobile-logo" alt=""/></a>
+				<span class="menu-mobile-logo-container"><a href="index.html"><img src="style/116-2.jpg" class="menu-mobile-logo" alt=""/></a>
 				</span><ul class="auto menu-mobile-hidden">
 					<li id="imMnMnNode0" class=" imPage">
-						<a href="index.php">
+						<a href="index.html">
 							<span class="imMnMnFirstBg">
 								<span class="imMnMnTxt"><span class="imMnMnImg"></span><span class="imMnMnTextLabel">Главная</span></span>
 							</span>
@@ -86,12 +86,6 @@
 							</span>
 						</a>
 					</li></ul></div></li>
-				<li id="imMnMnNode9" class=" imLevel">
-						<span class="imMnMnFirstBg">
-							<span class="imMnMnTxt"><span class="imMnMnImg"></span><span class="imMnMnTextLabel">Уровень 5</span></span>
-						</span>
-				<div class="auto" style="width: 170px;"><ul>
-				</ul></div></li>
 				</ul>
 				</div>
 			</div>
