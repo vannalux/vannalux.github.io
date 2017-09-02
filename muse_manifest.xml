@@ -1,4 +1,4 @@
-<manifest alg="2" build="2017.0.4.363" opt="false" iceEnabled="true" iceMarkupVersion="2" iceEnabledOptions="link,responsive,cachebuster,textStyling" exportTarget="other" domain="https://vannalux.github.io" resolutions="1x" timestamp="1504393467015">
+<manifest alg="2" build="2017.0.4.363" opt="false" iceEnabled="true" iceMarkupVersion="2" iceEnabledOptions="link,responsive,cachebuster,textStyling" exportTarget="other" domain="https://vannalux.github.io" resolutions="1x" timestamp="1504393953473">
   <folder name="css">
     <file name="site_global.css" crc="100015723"/>
     <file name="master_______-a.css" crc="268687384" ref="nalivnaya-vanna:emalirovka-vannyi:index:emalirovka-vann-akrilom"/>
@@ -9,8 +9,8 @@
     <file name="nomq_emalirovka-vannyi.css" crc="298787138" ref="emalirovka-vannyi"/>
     <file name="index.css" crc="4021010241" ref="index"/>
     <file name="nomq_index.css" crc="4289911003" ref="index"/>
-    <file name="emalirovka-vann-akrilom.css" crc="3980066292" ref="emalirovka-vann-akrilom"/>
-    <file name="nomq_emalirovka-vann-akrilom.css" crc="4219212658" ref="emalirovka-vann-akrilom"/>
+    <file name="emalirovka-vann-akrilom.css" crc="3840176562" ref="emalirovka-vann-akrilom"/>
+    <file name="nomq_emalirovka-vann-akrilom.css" crc="3881991212" ref="emalirovka-vann-akrilom"/>
   </folder>
   <folder name="scripts">
     <file name="jquery-1.8.3.min.js" crc="209076791" ref="index:emalirovka-vannyi:nalivnaya-vanna:emalirovka-vann-akrilom"/>
@@ -173,5 +173,5 @@
   <file name="index.html" crc="205242134" seo="true" mt="1504347055029" redirect="true"/>
   <file name="emalirovka-vannyi.html" crc="315283436" seo="true" mt="1504347055029" redirect="true"/>
   <file name="nalivnaya-vanna.html" crc="3895212522" seo="true" mt="1504347055029" redirect="true"/>
-  <file name="emalirovka-vann-akrilom.html" crc="3955355025" seo="true" mt="1504393321765" redirect="true"/>
+  <file name="emalirovka-vann-akrilom.html" crc="4265201437" seo="true" mt="1504393920133" redirect="true"/>
 </manifest>
