@@ -106,6 +106,12 @@
     <priority>0.5</priority>
   </url>
   <url>
+    <loc>https://vannalux.github.io/assets/21.jpg</loc>
+    <lastmod>2017-10-20</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
     <loc>https://vannalux.github.io/assets/25.jpg</loc>
     <lastmod>2017-10-22</lastmod>
     <changefreq>weekly</changefreq>
