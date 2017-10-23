@@ -1,4 +1,4 @@
-<manifest alg="2" build="2017.0.4.363" opt="false" iceEnabled="true" iceMarkupVersion="2" iceEnabledOptions="link,responsive,cachebuster,textStyling" exportTarget="other" domain="https://vannalux.github.io" resolutions="1x" timestamp="1508797628981">
+<manifest alg="2" build="2017.0.4.363" opt="false" iceEnabled="true" iceMarkupVersion="2" iceEnabledOptions="link,responsive,cachebuster,textStyling" exportTarget="other" domain="https://vannalux.github.io" resolutions="1x" timestamp="1508798258190">
   <folder name="assets">
     <file name="26.jpg" crc="94073080" seo="true" mt="1508665758000"/>
     <file name="25.jpg" crc="83773052" seo="true" mt="1508662367000"/>
@@ -173,8 +173,8 @@
       <caption webpage="emalirovka-vann-akrilom" alt=""/>
     </file>
   </folder>
-  <file name="index.html" crc="3884039708" seo="true" mt="1508797606831" redirect="true"/>
-  <file name="emalirovka-vannyi.html" crc="427131219" seo="true" mt="1508797606831" redirect="true"/>
-  <file name="nalivnaya-vanna.html" crc="3991070526" seo="true" mt="1508797606831" redirect="true"/>
-  <file name="emalirovka-vann-akrilom.html" crc="3976560676" seo="true" mt="1508797606831" redirect="true"/>
+  <file name="index.html" crc="3850917246" seo="true" mt="1508798141151" redirect="true"/>
+  <file name="emalirovka-vannyi.html" crc="452552537" seo="true" mt="1508798141151" redirect="true"/>
+  <file name="nalivnaya-vanna.html" crc="13571064" seo="true" mt="1508798141151" redirect="true"/>
+  <file name="emalirovka-vann-akrilom.html" crc="4071046291" seo="true" mt="1508798141151" redirect="true"/>
 </manifest>
