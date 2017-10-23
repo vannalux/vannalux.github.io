@@ -1,4 +1,4 @@
-<manifest alg="2" build="2017.0.4.363" opt="false" iceEnabled="true" iceMarkupVersion="2" iceEnabledOptions="link,responsive,cachebuster,textStyling" exportTarget="other" domain="https://vannalux.github.io" resolutions="1x" timestamp="1508793104098">
+<manifest alg="2" build="2017.0.4.363" opt="false" iceEnabled="true" iceMarkupVersion="2" iceEnabledOptions="link,responsive,cachebuster,textStyling" exportTarget="other" domain="https://vannalux.github.io" resolutions="1x" timestamp="1508793475912">
   <folder name="css">
     <file name="site_global.css" crc="358404212"/>
     <file name="master_______-a.css" crc="438853246" ref="nalivnaya-vanna:emalirovka-vannyi:index:emalirovka-vann-akrilom"/>
@@ -9,7 +9,7 @@
     <file name="nomq_emalirovka-vannyi.css" crc="232118455" ref="emalirovka-vannyi"/>
     <file name="index.css" crc="4175560820" ref="index"/>
     <file name="nomq_index.css" crc="193719921" ref="index"/>
-    <file name="emalirovka-vann-akrilom.css" crc="184454154" ref="emalirovka-vann-akrilom"/>
+    <file name="emalirovka-vann-akrilom.css" crc="118810555" ref="emalirovka-vann-akrilom"/>
     <file name="nomq_emalirovka-vann-akrilom.css" crc="459391836" ref="emalirovka-vann-akrilom"/>
   </folder>
   <folder name="scripts">
@@ -30,7 +30,7 @@
     <file name="require.js" crc="3951022091" ref="index:emalirovka-vannyi:nalivnaya-vanna:emalirovka-vann-akrilom"/>
   </folder>
   <folder name="images">
-    <file name="шаблон-a-favicon.ico" crc="3980330178" ref="index:emalirovka-vann-akrilom"/>
+    <file name="шаблон-a-favicon.ico" crc="3980330178" ref="index"/>
     <file name="up.png" crc="456847235" seo="true" ref="index:emalirovka-vannyi:nalivnaya-vanna:emalirovka-vann-akrilom">
       <caption webpage="index" alt=""/>
       <caption webpage="index" alt=""/>
@@ -157,7 +157,7 @@
     <file name="116-2445x177.jpg" crc="372680444" seo="true" ref="nalivnaya-vanna">
       <caption webpage="nalivnaya-vanna" alt=""/>
     </file>
-    <file name="135-2-u7907-fr.jpg" crc="158643692" ref="nalivnaya-vanna"/>
+    <file name="135-2-u7907-fr.jpg" crc="158643692" ref="nalivnaya-vanna:emalirovka-vann-akrilom"/>
     <file name="116-2310x124.jpg" crc="3783501499" seo="true" ref="nalivnaya-vanna">
       <caption webpage="nalivnaya-vanna" alt=""/>
     </file>
@@ -168,10 +168,9 @@
       <caption webpage="emalirovka-vann-akrilom" alt=""/>
       <caption webpage="emalirovka-vann-akrilom" alt=""/>
     </file>
-    <file name="135-2-u9507-fr.jpg" crc="158643692" ref="emalirovka-vann-akrilom"/>
   </folder>
-  <file name="index.html" crc="378956437" seo="true" mt="1508791499064" redirect="true"/>
-  <file name="emalirovka-vannyi.html" crc="147591642" seo="true" mt="1508791499064" redirect="true"/>
-  <file name="nalivnaya-vanna.html" crc="250926745" seo="true" mt="1508791499064" redirect="true"/>
-  <file name="emalirovka-vann-akrilom.html" crc="455928313" seo="true" mt="1508793007574" redirect="true"/>
+  <file name="index.html" crc="4158340338" seo="true" mt="1508793453001" redirect="true"/>
+  <file name="emalirovka-vannyi.html" crc="4230123272" seo="true" mt="1508793453001" redirect="true"/>
+  <file name="nalivnaya-vanna.html" crc="4174767962" seo="true" mt="1508793453001" redirect="true"/>
+  <file name="emalirovka-vann-akrilom.html" crc="3969057408" seo="true" mt="1508793453001" redirect="true"/>
 </manifest>
