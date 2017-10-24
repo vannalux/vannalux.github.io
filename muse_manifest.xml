@@ -1,11 +1,11 @@
-<manifest alg="2" build="2017.0.4.363" opt="false" iceEnabled="true" iceMarkupVersion="2" iceEnabledOptions="link,responsive,cachebuster,textStyling" exportTarget="other" domain="https://vannalux.github.io" resolutions="1x" timestamp="1508836741910">
+<manifest alg="2" build="2017.0.4.363" opt="false" iceEnabled="true" iceMarkupVersion="2" iceEnabledOptions="link,responsive,cachebuster,textStyling" exportTarget="other" domain="https://vannalux.github.io" resolutions="1x" timestamp="1508836960128">
   <folder name="assets">
     <file name="26.jpg" crc="94073080" seo="true" mt="1508665758000"/>
     <file name="25.jpg" crc="83773052" seo="true" mt="1508662367000"/>
     <file name="21.jpg" crc="4163620751" seo="true" mt="1508492636000"/>
   </folder>
   <folder name="css">
-    <file name="site_global.css" crc="3963366832"/>
+    <file name="site_global.css" crc="293371475"/>
     <file name="master_______-a.css" crc="422890429" ref="nalivnaya-vanna:emalirovka-vannyi:index:emalirovka-vann-akrilom"/>
     <file name="nomq_preview_master_______-a.css" crc="4180625491" ref="nalivnaya-vanna:emalirovka-vannyi:index:emalirovka-vann-akrilom"/>
     <file name="nalivnaya-vanna.css" crc="4043313873" ref="nalivnaya-vanna"/>
@@ -174,8 +174,8 @@
       <caption webpage="emalirovka-vann-akrilom" alt=""/>
     </file>
   </folder>
-  <file name="index.html" crc="4029354378" seo="true" mt="1508836677956" redirect="true"/>
-  <file name="emalirovka-vannyi.html" crc="268997779" seo="true" mt="1508836677956" redirect="true"/>
-  <file name="nalivnaya-vanna.html" crc="526778533" seo="true" mt="1508836677956" redirect="true"/>
-  <file name="emalirovka-vann-akrilom.html" crc="4230032276" seo="true" mt="1508836677956" redirect="true"/>
+  <file name="index.html" crc="445288682" seo="true" mt="1508836906354" redirect="true"/>
+  <file name="emalirovka-vannyi.html" crc="4149412692" seo="true" mt="1508836906354" redirect="true"/>
+  <file name="nalivnaya-vanna.html" crc="4174964389" seo="true" mt="1508836906354" redirect="true"/>
+  <file name="emalirovka-vann-akrilom.html" crc="356680107" seo="true" mt="1508836906354" redirect="true"/>
 </manifest>
