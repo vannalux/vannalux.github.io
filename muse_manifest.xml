@@ -1,4 +1,4 @@
-<manifest alg="2" build="2017.0.4.363" opt="false" iceEnabled="true" iceMarkupVersion="2" iceEnabledOptions="link,responsive,cachebuster,textStyling" exportTarget="other" domain="https://vannalux.github.io" resolutions="1x" timestamp="1508835286334">
+<manifest alg="2" build="2017.0.4.363" opt="false" iceEnabled="true" iceMarkupVersion="2" iceEnabledOptions="link,responsive,cachebuster,textStyling" exportTarget="other" domain="https://vannalux.github.io" resolutions="1x" timestamp="1508836139636">
   <folder name="assets">
     <file name="26.jpg" crc="94073080" seo="true" mt="1508665758000"/>
     <file name="25.jpg" crc="83773052" seo="true" mt="1508662367000"/>
@@ -6,7 +6,7 @@
   </folder>
   <folder name="css">
     <file name="site_global.css" crc="358404212"/>
-    <file name="master_______-a.css" crc="421331244" ref="nalivnaya-vanna:emalirovka-vannyi:index:emalirovka-vann-akrilom"/>
+    <file name="master_______-a.css" crc="422890429" ref="nalivnaya-vanna:emalirovka-vannyi:index:emalirovka-vann-akrilom"/>
     <file name="nomq_preview_master_______-a.css" crc="4180625491" ref="nalivnaya-vanna:emalirovka-vannyi:index:emalirovka-vann-akrilom"/>
     <file name="nalivnaya-vanna.css" crc="3957290787" ref="nalivnaya-vanna"/>
     <file name="nomq_nalivnaya-vanna.css" crc="165937956" ref="nalivnaya-vanna"/>
@@ -14,8 +14,8 @@
     <file name="nomq_emalirovka-vannyi.css" crc="232118455" ref="emalirovka-vannyi"/>
     <file name="index.css" crc="4175560820" ref="index"/>
     <file name="nomq_index.css" crc="193719921" ref="index"/>
-    <file name="emalirovka-vann-akrilom.css" crc="4194510620" ref="emalirovka-vann-akrilom"/>
-    <file name="nomq_emalirovka-vann-akrilom.css" crc="183950363" ref="emalirovka-vann-akrilom"/>
+    <file name="emalirovka-vann-akrilom.css" crc="3928557993" ref="emalirovka-vann-akrilom"/>
+    <file name="nomq_emalirovka-vann-akrilom.css" crc="459391836" ref="emalirovka-vann-akrilom"/>
   </folder>
   <folder name="scripts">
     <file name="jquery-1.8.3.min.js" crc="209076791" ref="index:emalirovka-vannyi:nalivnaya-vanna:emalirovka-vann-akrilom"/>
@@ -178,5 +178,5 @@
   <file name="index.html" crc="319027763" seo="true" mt="1508804301552" redirect="true"/>
   <file name="emalirovka-vannyi.html" crc="116119044" seo="true" mt="1508804301552" redirect="true"/>
   <file name="nalivnaya-vanna.html" crc="3849427329" seo="true" mt="1508804301552" redirect="true"/>
-  <file name="emalirovka-vann-akrilom.html" crc="3909394220" seo="true" mt="1508835193379" redirect="true"/>
+  <file name="emalirovka-vann-akrilom.html" crc="4113611275" seo="true" mt="1508804301552" redirect="true"/>
 </manifest>
