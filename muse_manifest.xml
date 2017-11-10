@@ -1,6 +1,6 @@
-<manifest alg="2" build="2017.0.4.363" opt="false" iceEnabled="true" iceMarkupVersion="2" iceEnabledOptions="link,responsive,cachebuster,textStyling" exportTarget="other" domain="https://vannalux.github.io" resolutions="1x" timestamp="1510333266403">
+<manifest alg="2" build="2017.0.4.363" opt="false" iceEnabled="true" iceMarkupVersion="2" iceEnabledOptions="link,responsive,cachebuster,textStyling" exportTarget="other" domain="https://vannalux.github.io" resolutions="1x" timestamp="1510351921494">
   <folder name="css">
-    <file name="site_global.css" crc="3961619944"/>
+    <file name="site_global.css" crc="293371475"/>
     <file name="master_______-a.css" crc="3946185422" ref="emalirovka-vannyi:emalirovka-vann-akrilom:index:nalivnaya-vanna"/>
     <file name="nomq_preview_master_______-a.css" crc="166119576" ref="emalirovka-vannyi:emalirovka-vann-akrilom:index:nalivnaya-vanna"/>
     <file name="emalirovka-vannyi.css" crc="102655535" ref="emalirovka-vannyi"/>
