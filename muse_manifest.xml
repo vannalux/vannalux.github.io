@@ -1,15 +1,15 @@
-<manifest alg="2" build="2017.0.4.363" opt="false" iceEnabled="true" iceMarkupVersion="2" iceEnabledOptions="link,responsive,cachebuster,textStyling" exportTarget="other" domain="https://vannalux.github.io" resolutions="1x" timestamp="1510352332158">
+<manifest alg="2" build="2017.0.4.363" opt="false" iceEnabled="true" iceMarkupVersion="2" iceEnabledOptions="link,responsive,cachebuster,textStyling" exportTarget="other" domain="https://vannalux.github.io" resolutions="1x" timestamp="1510355156070">
   <folder name="css">
     <file name="site_global.css" crc="293371475"/>
-    <file name="master_______-a.css" crc="3946185422" ref="emalirovka-vannyi:emalirovka-vann-akrilom:index:nalivnaya-vanna"/>
+    <file name="master_______-a.css" crc="283706037" ref="emalirovka-vannyi:emalirovka-vann-akrilom:index:nalivnaya-vanna"/>
     <file name="nomq_preview_master_______-a.css" crc="166119576" ref="emalirovka-vannyi:emalirovka-vann-akrilom:index:nalivnaya-vanna"/>
-    <file name="emalirovka-vannyi.css" crc="102655535" ref="emalirovka-vannyi"/>
+    <file name="emalirovka-vannyi.css" crc="160529656" ref="emalirovka-vannyi"/>
     <file name="nomq_emalirovka-vannyi.css" crc="97288652" ref="emalirovka-vannyi"/>
-    <file name="emalirovka-vann-akrilom.css" crc="205799866" ref="emalirovka-vann-akrilom"/>
-    <file name="nomq_emalirovka-vann-akrilom.css" crc="30147026" ref="emalirovka-vann-akrilom"/>
-    <file name="index.css" crc="499772084" ref="index"/>
+    <file name="emalirovka-vann-akrilom.css" crc="128575085" ref="emalirovka-vann-akrilom"/>
+    <file name="nomq_emalirovka-vann-akrilom.css" crc="258877678" ref="emalirovka-vann-akrilom"/>
+    <file name="index.css" crc="101109001" ref="index"/>
     <file name="nomq_index.css" crc="317702388" ref="index"/>
-    <file name="nalivnaya-vanna.css" crc="3759336856" ref="nalivnaya-vanna"/>
+    <file name="nalivnaya-vanna.css" crc="4208372871" ref="nalivnaya-vanna"/>
     <file name="nomq_nalivnaya-vanna.css" crc="4252663121" ref="nalivnaya-vanna"/>
   </folder>
   <folder name="assets">
@@ -47,16 +47,16 @@
       <caption webpage="emalirovka-vann-akrilom" alt=""/>
       <caption webpage="emalirovka-vann-akrilom" alt=""/>
       <caption webpage="emalirovka-vann-akrilom" alt=""/>
-      <caption webpage="emalirovka-vannyi" alt=""/>
-      <caption webpage="emalirovka-vannyi" alt=""/>
-      <caption webpage="emalirovka-vannyi" alt=""/>
-      <caption webpage="emalirovka-vannyi" alt=""/>
-      <caption webpage="emalirovka-vannyi" alt=""/>
       <caption webpage="nalivnaya-vanna" alt=""/>
       <caption webpage="nalivnaya-vanna" alt=""/>
       <caption webpage="nalivnaya-vanna" alt=""/>
       <caption webpage="nalivnaya-vanna" alt=""/>
       <caption webpage="nalivnaya-vanna" alt=""/>
+      <caption webpage="emalirovka-vannyi" alt=""/>
+      <caption webpage="emalirovka-vannyi" alt=""/>
+      <caption webpage="emalirovka-vannyi" alt=""/>
+      <caption webpage="emalirovka-vannyi" alt=""/>
+      <caption webpage="emalirovka-vannyi" alt=""/>
     </file>
     <file name="135-2.jpg" crc="314611938" ref="index:emalirovka-vannyi:nalivnaya-vanna:emalirovka-vann-akrilom">
       <caption webpage="index" alt=""/>
@@ -173,8 +173,8 @@
       <caption webpage="emalirovka-vann-akrilom" alt=""/>
     </file>
   </folder>
-  <file name="index.html" crc="509716657" seo="true" mt="1510331496516" redirect="true"/>
-  <file name="emalirovka-vannyi.html" crc="4167698231" seo="true" mt="1510331496516" redirect="true"/>
-  <file name="nalivnaya-vanna.html" crc="4247033496" seo="true" mt="1510331496516" redirect="true"/>
-  <file name="emalirovka-vann-akrilom.html" crc="89959860" seo="true" mt="1510331496516" redirect="true"/>
+  <file name="index.html" crc="3846218732" seo="true" mt="1510354715922" redirect="true"/>
+  <file name="emalirovka-vannyi.html" crc="292263235" seo="true" mt="1510354797199" redirect="true"/>
+  <file name="nalivnaya-vanna.html" crc="417912908" seo="true" mt="1510354861833" redirect="true"/>
+  <file name="emalirovka-vann-akrilom.html" crc="190471328" seo="true" mt="1510355066705" redirect="true"/>
 </manifest>
