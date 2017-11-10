@@ -99,4 +99,22 @@
       <image:loc>https://vannalux.github.io/images/000.gif</image:loc>
     </image:image>
   </url>
+  <url>
+    <loc>https://vannalux.github.io/assets/21.jpg</loc>
+    <lastmod>2017-11-10</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://vannalux.github.io/assets/26.jpg</loc>
+    <lastmod>2017-11-10</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://vannalux.github.io/assets/25.jpg</loc>
+    <lastmod>2017-11-10</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
 </urlset>
