@@ -1,15 +1,15 @@
-<manifest alg="2" build="2017.0.4.363" opt="false" iceEnabled="true" iceMarkupVersion="2" iceEnabledOptions="link,responsive,cachebuster,textStyling" exportTarget="other" domain="https://vannalux.github.io" resolutions="1x" timestamp="1510355156070">
+<manifest alg="2" build="2017.0.4.363" opt="false" iceEnabled="true" iceMarkupVersion="2" iceEnabledOptions="link,responsive,cachebuster,textStyling" exportTarget="other" domain="https://vannalux.github.io" resolutions="1x" timestamp="1511630688258">
   <folder name="css">
-    <file name="site_global.css" crc="293371475"/>
-    <file name="master_______-a.css" crc="283706037" ref="emalirovka-vannyi:emalirovka-vann-akrilom:index:nalivnaya-vanna"/>
-    <file name="nomq_preview_master_______-a.css" crc="166119576" ref="emalirovka-vannyi:emalirovka-vann-akrilom:index:nalivnaya-vanna"/>
-    <file name="emalirovka-vannyi.css" crc="160529656" ref="emalirovka-vannyi"/>
+    <file name="site_global.css" crc="3961619944"/>
+    <file name="master_______-a.css" crc="4267395581" ref="emalirovka-vannyi:emalirovka-vann-akrilom:index:nalivnaya-vanna"/>
+    <file name="nomq_preview_master_______-a.css" crc="4180625491" ref="emalirovka-vannyi:emalirovka-vann-akrilom:index:nalivnaya-vanna"/>
+    <file name="emalirovka-vannyi.css" crc="116251602" ref="emalirovka-vannyi"/>
     <file name="nomq_emalirovka-vannyi.css" crc="97288652" ref="emalirovka-vannyi"/>
-    <file name="emalirovka-vann-akrilom.css" crc="128575085" ref="emalirovka-vann-akrilom"/>
-    <file name="nomq_emalirovka-vann-akrilom.css" crc="258877678" ref="emalirovka-vann-akrilom"/>
-    <file name="index.css" crc="101109001" ref="index"/>
+    <file name="emalirovka-vann-akrilom.css" crc="87845324" ref="emalirovka-vann-akrilom"/>
+    <file name="nomq_emalirovka-vann-akrilom.css" crc="472976249" ref="emalirovka-vann-akrilom"/>
+    <file name="index.css" crc="4194642478" ref="index"/>
     <file name="nomq_index.css" crc="317702388" ref="index"/>
-    <file name="nalivnaya-vanna.css" crc="4208372871" ref="nalivnaya-vanna"/>
+    <file name="nalivnaya-vanna.css" crc="4089169981" ref="nalivnaya-vanna"/>
     <file name="nomq_nalivnaya-vanna.css" crc="4252663121" ref="nalivnaya-vanna"/>
   </folder>
   <folder name="assets">
@@ -42,29 +42,29 @@
       <caption webpage="index" alt=""/>
       <caption webpage="index" alt=""/>
       <caption webpage="index" alt=""/>
-      <caption webpage="emalirovka-vann-akrilom" alt=""/>
-      <caption webpage="emalirovka-vann-akrilom" alt=""/>
-      <caption webpage="emalirovka-vann-akrilom" alt=""/>
-      <caption webpage="emalirovka-vann-akrilom" alt=""/>
-      <caption webpage="emalirovka-vann-akrilom" alt=""/>
-      <caption webpage="nalivnaya-vanna" alt=""/>
-      <caption webpage="nalivnaya-vanna" alt=""/>
-      <caption webpage="nalivnaya-vanna" alt=""/>
-      <caption webpage="nalivnaya-vanna" alt=""/>
-      <caption webpage="nalivnaya-vanna" alt=""/>
       <caption webpage="emalirovka-vannyi" alt=""/>
       <caption webpage="emalirovka-vannyi" alt=""/>
       <caption webpage="emalirovka-vannyi" alt=""/>
       <caption webpage="emalirovka-vannyi" alt=""/>
       <caption webpage="emalirovka-vannyi" alt=""/>
+      <caption webpage="nalivnaya-vanna" alt=""/>
+      <caption webpage="nalivnaya-vanna" alt=""/>
+      <caption webpage="nalivnaya-vanna" alt=""/>
+      <caption webpage="nalivnaya-vanna" alt=""/>
+      <caption webpage="nalivnaya-vanna" alt=""/>
+      <caption webpage="emalirovka-vann-akrilom" alt=""/>
+      <caption webpage="emalirovka-vann-akrilom" alt=""/>
+      <caption webpage="emalirovka-vann-akrilom" alt=""/>
+      <caption webpage="emalirovka-vann-akrilom" alt=""/>
+      <caption webpage="emalirovka-vann-akrilom" alt=""/>
     </file>
     <file name="135-2.jpg" crc="314611938" ref="index:emalirovka-vannyi:nalivnaya-vanna:emalirovka-vann-akrilom">
       <caption webpage="index" alt=""/>
     </file>
     <file name="156.jpg" crc="4012615779" seo="true" ref="index">
-      <caption webpage="index" alt=""/>
-      <caption webpage="index" alt=""/>
-      <caption webpage="index" alt=""/>
+      <caption webpage="index" alt="Реставрация ванн"/>
+      <caption webpage="index" alt="Реставрация ванн"/>
+      <caption webpage="index" alt="Реставрация ванн"/>
     </file>
     <file name="akc-bg-kopiya.jpg" crc="497121731" ref="index">
       <caption webpage="index" alt=""/>
@@ -73,108 +73,108 @@
       <caption webpage="index" alt=""/>
     </file>
     <file name="222.gif" crc="447303549" seo="true" ref="index">
-      <caption webpage="index" alt=""/>
-      <caption webpage="index" alt=""/>
-      <caption webpage="index" alt=""/>
-      <caption webpage="index" alt=""/>
-      <caption webpage="index" alt=""/>
+      <caption webpage="index" alt="Реставрация ванн"/>
+      <caption webpage="index" alt="Реставрация ванн"/>
+      <caption webpage="index" alt="Реставрация ванн"/>
+      <caption webpage="index" alt="Реставрация ванн"/>
+      <caption webpage="index" alt="Реставрация ванн"/>
     </file>
     <file name="138.jpg" crc="4199072227" seo="true" ref="index">
-      <caption webpage="index" alt=""/>
-      <caption webpage="index" alt=""/>
-      <caption webpage="index" alt=""/>
+      <caption webpage="index" alt="Реставрация ванн"/>
+      <caption webpage="index" alt="Реставрация ванн"/>
+      <caption webpage="index" alt="Реставрация ванн"/>
     </file>
     <file name="4578854.jpg" crc="208471496" seo="true" ref="index">
-      <caption webpage="index" alt=""/>
-      <caption webpage="index" alt=""/>
-      <caption webpage="index" alt=""/>
-      <caption webpage="index" alt=""/>
+      <caption webpage="index" alt="Реставрация ванн"/>
+      <caption webpage="index" alt="Реставрация ванн"/>
+      <caption webpage="index" alt="Реставрация ванн"/>
+      <caption webpage="index" alt="Реставрация ванн"/>
     </file>
     <file name="78656456.jpg" crc="3829303505" seo="true" ref="index">
-      <caption webpage="index" alt=""/>
-      <caption webpage="index" alt=""/>
-      <caption webpage="index" alt=""/>
-      <caption webpage="index" alt=""/>
-      <caption webpage="index" alt=""/>
+      <caption webpage="index" alt="Реставрация ванн"/>
+      <caption webpage="index" alt="Реставрация ванн"/>
+      <caption webpage="index" alt="Реставрация ванн"/>
+      <caption webpage="index" alt="Реставрация ванн"/>
+      <caption webpage="index" alt="Реставрация ванн"/>
     </file>
     <file name="978676575.jpg" crc="4001830355" seo="true" ref="index">
-      <caption webpage="index" alt=""/>
-      <caption webpage="index" alt=""/>
-      <caption webpage="index" alt=""/>
-      <caption webpage="index" alt=""/>
-      <caption webpage="index" alt=""/>
+      <caption webpage="index" alt="Реставрация ванн"/>
+      <caption webpage="index" alt="Реставрация ванн"/>
+      <caption webpage="index" alt="Реставрация ванн"/>
+      <caption webpage="index" alt="Реставрация ванн"/>
+      <caption webpage="index" alt="Реставрация ванн"/>
     </file>
     <file name="156387x260.jpg" crc="4224822996" seo="true" ref="index">
-      <caption webpage="index" alt=""/>
+      <caption webpage="index" alt="Реставрация ванн"/>
     </file>
     <file name="138335x232.jpg" crc="3765881765" seo="true" ref="index">
-      <caption webpage="index" alt=""/>
+      <caption webpage="index" alt="Реставрация ванн"/>
     </file>
     <file name="4578854200x150.jpg" crc="3826984141" seo="true" ref="index">
-      <caption webpage="index" alt=""/>
+      <caption webpage="index" alt="Реставрация ванн"/>
     </file>
     <file name="135-2-u1916-fr.jpg" crc="4269741532" ref="index:emalirovka-vannyi"/>
     <file name="156310x209.jpg" crc="77008149" seo="true" ref="index">
-      <caption webpage="index" alt=""/>
+      <caption webpage="index" alt="Реставрация ванн"/>
     </file>
     <file name="138310x215.jpg" crc="4129164285" seo="true" ref="index">
-      <caption webpage="index" alt=""/>
+      <caption webpage="index" alt="Реставрация ванн"/>
     </file>
     <file name="blank.gif" crc="4208392903" ref="index:emalirovka-vannyi:nalivnaya-vanna:emalirovka-vann-akrilom"/>
     <file name="120111-1.gif" crc="258560627" seo="true" ref="emalirovka-vannyi">
-      <caption webpage="emalirovka-vannyi" alt=""/>
-      <caption webpage="emalirovka-vannyi" alt=""/>
-      <caption webpage="emalirovka-vannyi" alt=""/>
-      <caption webpage="emalirovka-vannyi" alt=""/>
-      <caption webpage="emalirovka-vannyi" alt=""/>
+      <caption webpage="emalirovka-vannyi" alt="Эмалировка ванн"/>
+      <caption webpage="emalirovka-vannyi" alt="Эмалировка ванн"/>
+      <caption webpage="emalirovka-vannyi" alt="Эмалировка ванн"/>
+      <caption webpage="emalirovka-vannyi" alt="Эмалировка ванн"/>
+      <caption webpage="emalirovka-vannyi" alt="Эмалировка ванн"/>
     </file>
     <file name="120111-2.gif" crc="88081567" seo="true" ref="emalirovka-vannyi">
-      <caption webpage="emalirovka-vannyi" alt=""/>
-      <caption webpage="emalirovka-vannyi" alt=""/>
-      <caption webpage="emalirovka-vannyi" alt=""/>
-      <caption webpage="emalirovka-vannyi" alt=""/>
-      <caption webpage="emalirovka-vannyi" alt=""/>
+      <caption webpage="emalirovka-vannyi" alt="Эмалировка ванн"/>
+      <caption webpage="emalirovka-vannyi" alt="Эмалировка ванн"/>
+      <caption webpage="emalirovka-vannyi" alt="Эмалировка ванн"/>
+      <caption webpage="emalirovka-vannyi" alt="Эмалировка ванн"/>
+      <caption webpage="emalirovka-vannyi" alt="Эмалировка ванн"/>
     </file>
     <file name="116-2.jpg" crc="516940547" seo="true" ref="nalivnaya-vanna">
-      <caption webpage="nalivnaya-vanna" alt=""/>
+      <caption webpage="nalivnaya-vanna" alt="Наливная ванна"/>
     </file>
     <file name="6328222-1.jpg" crc="460442816" seo="true" ref="nalivnaya-vanna">
-      <caption webpage="nalivnaya-vanna" alt=""/>
-      <caption webpage="nalivnaya-vanna" alt=""/>
-      <caption webpage="nalivnaya-vanna" alt=""/>
-      <caption webpage="nalivnaya-vanna" alt=""/>
-      <caption webpage="nalivnaya-vanna" alt=""/>
+      <caption webpage="nalivnaya-vanna" alt="Порядок реставрации ванны методом «Наливная ванна»"/>
+      <caption webpage="nalivnaya-vanna" alt="Порядок реставрации ванны методом «Наливная ванна»"/>
+      <caption webpage="nalivnaya-vanna" alt="Порядок реставрации ванны методом «Наливная ванна»"/>
+      <caption webpage="nalivnaya-vanna" alt="Порядок реставрации ванны методом «Наливная ванна»"/>
+      <caption webpage="nalivnaya-vanna" alt="Порядок реставрации ванны методом «Наливная ванна»"/>
     </file>
     <file name="12133.gif" crc="150994064" seo="true" ref="nalivnaya-vanna">
-      <caption webpage="nalivnaya-vanna" alt=""/>
-      <caption webpage="nalivnaya-vanna" alt=""/>
-      <caption webpage="nalivnaya-vanna" alt=""/>
-      <caption webpage="nalivnaya-vanna" alt=""/>
-      <caption webpage="nalivnaya-vanna" alt=""/>
+      <caption webpage="nalivnaya-vanna" alt="Наливная ванна видео"/>
+      <caption webpage="nalivnaya-vanna" alt="Наливная ванна видео"/>
+      <caption webpage="nalivnaya-vanna" alt="Наливная ванна видео"/>
+      <caption webpage="nalivnaya-vanna" alt="Наливная ванна видео"/>
+      <caption webpage="nalivnaya-vanna" alt="Наливная ванна видео"/>
     </file>
     <file name="116-2940x374.jpg" crc="516940547" seo="true" ref="nalivnaya-vanna">
-      <caption webpage="nalivnaya-vanna" alt=""/>
+      <caption webpage="nalivnaya-vanna" alt="Наливная ванна"/>
     </file>
     <file name="116-2720x287.jpg" crc="4069391570" seo="true" ref="nalivnaya-vanna">
-      <caption webpage="nalivnaya-vanna" alt=""/>
+      <caption webpage="nalivnaya-vanna" alt="Наливная ванна"/>
     </file>
     <file name="116-2445x177.jpg" crc="372680444" seo="true" ref="nalivnaya-vanna">
-      <caption webpage="nalivnaya-vanna" alt=""/>
+      <caption webpage="nalivnaya-vanna" alt="Наливная ванна"/>
     </file>
     <file name="135-2-u7907-fr.jpg" crc="158643692" ref="nalivnaya-vanna:emalirovka-vann-akrilom"/>
     <file name="116-2310x124.jpg" crc="3783501499" seo="true" ref="nalivnaya-vanna">
-      <caption webpage="nalivnaya-vanna" alt=""/>
+      <caption webpage="nalivnaya-vanna" alt="Наливная ванна"/>
     </file>
-    <file name="000.gif" crc="198073543" seo="true" ref="emalirovka-vann-akrilom">
-      <caption webpage="emalirovka-vann-akrilom" alt=""/>
-      <caption webpage="emalirovka-vann-akrilom" alt=""/>
-      <caption webpage="emalirovka-vann-akrilom" alt=""/>
-      <caption webpage="emalirovka-vann-akrilom" alt=""/>
-      <caption webpage="emalirovka-vann-akrilom" alt=""/>
+    <file name="7654yyt.gif" crc="328011233" seo="true" ref="emalirovka-vann-akrilom">
+      <caption webpage="emalirovka-vann-akrilom" alt="Этапы восстановления эмали ванны"/>
+      <caption webpage="emalirovka-vann-akrilom" alt="Этапы восстановления эмали ванны"/>
+      <caption webpage="emalirovka-vann-akrilom" alt="Этапы восстановления эмали ванны"/>
+      <caption webpage="emalirovka-vann-akrilom" alt="Этапы восстановления эмали ванны"/>
+      <caption webpage="emalirovka-vann-akrilom" alt="Этапы восстановления эмали ванны"/>
     </file>
   </folder>
-  <file name="index.html" crc="3846218732" seo="true" mt="1510354715922" redirect="true"/>
-  <file name="emalirovka-vannyi.html" crc="292263235" seo="true" mt="1510354797199" redirect="true"/>
-  <file name="nalivnaya-vanna.html" crc="417912908" seo="true" mt="1510354861833" redirect="true"/>
-  <file name="emalirovka-vann-akrilom.html" crc="190471328" seo="true" mt="1510355066705" redirect="true"/>
+  <file name="index.html" crc="3872408327" seo="true" mt="1511629814787" redirect="true"/>
+  <file name="emalirovka-vannyi.html" crc="3891644741" seo="true" mt="1511629900077" redirect="true"/>
+  <file name="nalivnaya-vanna.html" crc="196264890" seo="true" mt="1511630019269" redirect="true"/>
+  <file name="emalirovka-vann-akrilom.html" crc="4140311427" seo="true" mt="1511630465678" redirect="true"/>
 </manifest>
