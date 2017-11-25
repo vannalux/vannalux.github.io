@@ -1,18 +1,18 @@
-<manifest alg="2" build="2017.0.4.363" opt="false" iceEnabled="true" iceMarkupVersion="2" iceEnabledOptions="link,responsive,cachebuster,textStyling" exportTarget="other" domain="https://vannalux.github.io" resolutions="1x" timestamp="1511640492889">
+<manifest alg="2" build="2017.0.4.363" opt="false" iceEnabled="true" iceMarkupVersion="2" iceEnabledOptions="link,responsive,cachebuster,textStyling" exportTarget="other" domain="https://vannalux.github.io" resolutions="1x" timestamp="1511641535202">
   <folder name="css">
     <file name="site_global.css" crc="3961619944"/>
-    <file name="master_______-a.css" crc="152827884" ref="emalirovka-vannyi:emalirovka-vann-akrilom:index:nalivnaya-vanna:tsena"/>
+    <file name="master_______-a.css" crc="3913943535" ref="emalirovka-vannyi:emalirovka-vann-akrilom:index:nalivnaya-vanna:tsena"/>
     <file name="nomq_preview_master_______-a.css" crc="189808678" ref="emalirovka-vannyi:emalirovka-vann-akrilom:index:nalivnaya-vanna:tsena"/>
-    <file name="emalirovka-vannyi.css" crc="33316417" ref="emalirovka-vannyi"/>
-    <file name="nomq_emalirovka-vannyi.css" crc="3995361418" ref="emalirovka-vannyi"/>
-    <file name="emalirovka-vann-akrilom.css" crc="4130011408" ref="emalirovka-vann-akrilom"/>
-    <file name="nomq_emalirovka-vann-akrilom.css" crc="399298480" ref="emalirovka-vann-akrilom"/>
-    <file name="index.css" crc="476587425" ref="index"/>
-    <file name="nomq_index.css" crc="4026245626" ref="index"/>
-    <file name="nalivnaya-vanna.css" crc="3799470021" ref="nalivnaya-vanna"/>
-    <file name="nomq_nalivnaya-vanna.css" crc="220845504" ref="nalivnaya-vanna"/>
-    <file name="tsena.css" crc="4079886806" ref="tsena"/>
-    <file name="nomq_tsena.css" crc="4286699593" ref="tsena"/>
+    <file name="emalirovka-vannyi.css" crc="4118409183" ref="emalirovka-vannyi"/>
+    <file name="nomq_emalirovka-vannyi.css" crc="4232131460" ref="emalirovka-vannyi"/>
+    <file name="emalirovka-vann-akrilom.css" crc="4236255212" ref="emalirovka-vann-akrilom"/>
+    <file name="nomq_emalirovka-vann-akrilom.css" crc="372009949" ref="emalirovka-vann-akrilom"/>
+    <file name="index.css" crc="3795885965" ref="index"/>
+    <file name="nomq_index.css" crc="3861536572" ref="index"/>
+    <file name="nalivnaya-vanna.css" crc="3788384011" ref="nalivnaya-vanna"/>
+    <file name="nomq_nalivnaya-vanna.css" crc="32192395" ref="nalivnaya-vanna"/>
+    <file name="tsena.css" crc="4283153271" ref="tsena"/>
+    <file name="nomq_tsena.css" crc="527255506" ref="tsena"/>
   </folder>
   <folder name="assets">
     <file name="21.jpg" crc="4163620751" seo="true" mt="1510332539000"/>
@@ -44,16 +44,6 @@
       <caption webpage="index" alt=""/>
       <caption webpage="index" alt=""/>
       <caption webpage="index" alt=""/>
-      <caption webpage="nalivnaya-vanna" alt=""/>
-      <caption webpage="nalivnaya-vanna" alt=""/>
-      <caption webpage="nalivnaya-vanna" alt=""/>
-      <caption webpage="nalivnaya-vanna" alt=""/>
-      <caption webpage="nalivnaya-vanna" alt=""/>
-      <caption webpage="emalirovka-vannyi" alt=""/>
-      <caption webpage="emalirovka-vannyi" alt=""/>
-      <caption webpage="emalirovka-vannyi" alt=""/>
-      <caption webpage="emalirovka-vannyi" alt=""/>
-      <caption webpage="emalirovka-vannyi" alt=""/>
       <caption webpage="emalirovka-vann-akrilom" alt=""/>
       <caption webpage="emalirovka-vann-akrilom" alt=""/>
       <caption webpage="emalirovka-vann-akrilom" alt=""/>
@@ -64,6 +54,16 @@
       <caption webpage="tsena" alt=""/>
       <caption webpage="tsena" alt=""/>
       <caption webpage="tsena" alt=""/>
+      <caption webpage="nalivnaya-vanna" alt=""/>
+      <caption webpage="nalivnaya-vanna" alt=""/>
+      <caption webpage="nalivnaya-vanna" alt=""/>
+      <caption webpage="nalivnaya-vanna" alt=""/>
+      <caption webpage="nalivnaya-vanna" alt=""/>
+      <caption webpage="emalirovka-vannyi" alt=""/>
+      <caption webpage="emalirovka-vannyi" alt=""/>
+      <caption webpage="emalirovka-vannyi" alt=""/>
+      <caption webpage="emalirovka-vannyi" alt=""/>
+      <caption webpage="emalirovka-vannyi" alt=""/>
     </file>
     <file name="135-2.jpg" crc="314611938" ref="index:emalirovka-vannyi:nalivnaya-vanna:emalirovka-vann-akrilom:tsena">
       <caption webpage="index" alt=""/>
@@ -189,9 +189,9 @@
       <caption webpage="tsena" alt="Реставрация ванн Цена"/>
     </file>
   </folder>
-  <file name="index.html" crc="4174800717" seo="true" mt="1511639949742" redirect="true"/>
-  <file name="emalirovka-vannyi.html" crc="365824375" seo="true" mt="1511639949742" redirect="true"/>
-  <file name="nalivnaya-vanna.html" crc="3806385841" seo="true" mt="1511639949742" redirect="true"/>
-  <file name="emalirovka-vann-akrilom.html" crc="4038424034" seo="true" mt="1511639949742" redirect="true"/>
-  <file name="tsena.html" crc="326180985" seo="true" mt="1511639949742" redirect="true"/>
+  <file name="index.html" crc="206856040" seo="true" mt="1511641391660" redirect="true"/>
+  <file name="emalirovka-vannyi.html" crc="4062503194" seo="true" mt="1511641391660" redirect="true"/>
+  <file name="nalivnaya-vanna.html" crc="3801300846" seo="true" mt="1511641391660" redirect="true"/>
+  <file name="emalirovka-vann-akrilom.html" crc="98701077" seo="true" mt="1511641391660" redirect="true"/>
+  <file name="tsena.html" crc="4106582333" seo="true" mt="1511641391660" redirect="true"/>
 </manifest>
