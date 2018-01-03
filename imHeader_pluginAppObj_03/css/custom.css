@@ -1,0 +1,27 @@
+#imHeader_pluginAppObj_03 .cd-headline {
+	display: block;
+	font-family: 'Tahoma';
+	font-size: 28px;
+	line-height: 36px;
+	color: rgba(0, 48, 191, 1);
+	font-style: italic;
+	font-weight: normal;
+}
+
+#imHeader_pluginAppObj_03 .cd-headline b,
+#imHeader_pluginAppObj_03 .cd-headline i,
+#imHeader_pluginAppObj_03 .cd-headline em {
+	
+	font-family: 'Tahoma';
+	font-size: 28px;
+	line-height: 36px;
+	color: rgba(192, 0, 0, 1);
+	font-style: italic !important;
+	font-weight: normal;
+}
+
+/* Loading bar color */
+#imHeader_pluginAppObj_03 .cd-headline.loading-bar .cd-words-wrapper::after {
+	background-color: rgba(192, 0, 0, 1);
+}
+
