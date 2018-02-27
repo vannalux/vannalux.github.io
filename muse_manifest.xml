@@ -1,0 +1,77 @@
+<manifest alg="2" build="2017.0.4.363" opt="false" iceEnabled="true" iceMarkupVersion="2" iceEnabledOptions="link,responsive,cachebuster,textStyling" exportTarget="other" domain="vannalux.github.io" resolutions="1x" timestamp="1519774570152">
+  <folder name="css">
+    <file name="site_global.css" crc="443350757"/>
+    <file name="index.css" crc="3768524640" ref="index"/>
+  </folder>
+  <folder name="scripts">
+    <file name="jquery-1.8.3.min.js" crc="209076791" ref="index"/>
+    <file name="museutils.js" crc="4216313831" ref="index"/>
+    <file name="whatinput.js" crc="86476730" ref="index"/>
+    <file name="museconfig.js" crc="474374037" ref="index"/>
+    <file name="jquery.musepolyfill.bgsize.js" crc="4110862005" ref="index"/>
+    <file name="jquery.watch.js" crc="460461809" ref="index"/>
+    <file name="require.js" crc="3951022091" ref="index"/>
+  </folder>
+  <folder name="images">
+    <file name="topbg.jpg" crc="416064470" ref="index">
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="garantiya.png" crc="178700040" seo="true" ref="index">
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="chto_luche_title.png" crc="4249701718" seo="true" ref="index">
+      <caption webpage="index" alt=""/>
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="kist_vanna.png" crc="153412198" seo="true" ref="index">
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="zhidky_akril.png" crc="4251454146" seo="true" ref="index">
+      <caption webpage="index" alt=""/>
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="vkladysh.png" crc="394028988" seo="true" ref="index">
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="color.png" crc="4136390283" seo="true" ref="index">
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="my_rabotaem_title.png" crc="406649132" seo="true" ref="index">
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="i_telefon.png" crc="3959655228" seo="true" ref="index">
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="i_kist.png" crc="405568711" seo="true" ref="index">
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="i_chasy.png" crc="151979571" seo="true" ref="index">
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="i_galka.png" crc="3846536574" seo="true" ref="index">
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="minus.png" crc="3966387140" seo="true" ref="index">
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="plus.png" crc="4256161651" seo="true" ref="index">
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="i_5_letpsd2.png" crc="440572558" seo="true" ref="index">
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="i_rekommend.png" crc="492544606" seo="true" ref="index">
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="i_kachestvo.png" crc="406450315" seo="true" ref="index">
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="i_garantiya.png" crc="466913781" seo="true" ref="index">
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="pochemu_nas_title.png" crc="162229612" seo="true" ref="index">
+      <caption webpage="index" alt=""/>
+    </file>
+  </folder>
+  <file name="index.html" crc="3931515073" seo="true" mt="1519773920074" redirect="true"/>
+</manifest>
