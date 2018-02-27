@@ -1,4 +1,4 @@
-<manifest alg="2" build="2017.0.4.363" opt="false" iceEnabled="true" iceMarkupVersion="2" iceEnabledOptions="link,responsive,cachebuster,textStyling" exportTarget="other" domain="https://vannalux.github.io" resolutions="1x" timestamp="1519749422520">
+<manifest alg="2" build="2017.0.4.363" opt="false" iceEnabled="true" iceMarkupVersion="2" iceEnabledOptions="link,responsive,cachebuster,textStyling" exportTarget="other" domain="https://vannalux.github.io" resolutions="1x" timestamp="1519749589002">
   <folder name="css">
     <file name="site_global.css" crc="3961619944"/>
     <file name="master_______-a.css" crc="4031451576" ref="index:emalirovka-vann-akrilom:emalirovka-vannyi:tsena:nalivnaya-vanna"/>
