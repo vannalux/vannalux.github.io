@@ -1,20 +1,20 @@
-<manifest alg="2" build="2017.0.4.363" opt="false" iceEnabled="true" iceMarkupVersion="2" iceEnabledOptions="link,responsive,cachebuster,textStyling" exportTarget="other" domain="vannalux.github.io" resolutions="1x" timestamp="1519782255875">
+<manifest alg="2" build="2018.0.0.379" opt="false" iceEnabled="true" iceMarkupVersion="2" iceEnabledOptions="link,responsive,cachebuster,textStyling" exportTarget="other" domain="vannalux.github.io" resolutions="1x" timestamp="1519785750129">
   <folder name="css">
-    <file name="site_global.css" crc="443350757"/>
-    <file name="index.css" crc="262603298" ref="index"/>
+    <file name="site_global.css" crc="444006867"/>
+    <file name="index.css" crc="466045926" ref="index"/>
   </folder>
   <folder name="scripts">
     <file name="jquery-1.8.3.min.js" crc="209076791" ref="index"/>
-    <file name="museutils.js" crc="4216313831" ref="index"/>
+    <file name="museutils.js" crc="3803043152" ref="index"/>
     <file name="whatinput.js" crc="86476730" ref="index"/>
-    <file name="museconfig.js" crc="474374037" ref="index"/>
-    <file name="jquery.musepolyfill.bgsize.js" crc="4110862005" ref="index"/>
-    <file name="jquery.watch.js" crc="460461809" ref="index"/>
-    <file name="require.js" crc="3951022091" ref="index"/>
-    <file name="webpro.js" crc="4143865194" ref="index"/>
-    <file name="musewpslideshow.js" crc="3781122836" ref="index"/>
-    <file name="jquery.museoverlay.js" crc="4030747646" ref="index"/>
-    <file name="touchswipe.js" crc="4200445185" ref="index"/>
+    <file name="museconfig.js" crc="380897831" ref="index"/>
+    <file name="jquery.musepolyfill.bgsize.js" crc="4148998990" ref="index"/>
+    <file name="jquery.watch.js" crc="99325471" ref="index"/>
+    <file name="webpro.js" crc="242022427" ref="index"/>
+    <file name="musewpslideshow.js" crc="457073769" ref="index"/>
+    <file name="jquery.museoverlay.js" crc="483674903" ref="index"/>
+    <file name="touchswipe.js" crc="4066113679" ref="index"/>
+    <file name="require.js" crc="4157109226" ref="index"/>
   </folder>
   <folder name="images">
     <file name="topbg.jpg" crc="416064470" ref="index">
@@ -80,6 +80,9 @@
     <file name="nashy_raboty_bg.png" crc="3895170830" ref="index">
       <caption webpage="index" alt=""/>
     </file>
+    <file name="arrow_left.png" crc="4023843386" ref="index">
+      <caption webpage="index" alt=""/>
+    </file>
     <file name="3f.jpg" crc="4102072782" seo="true" ref="index">
       <caption webpage="index" alt=""/>
     </file>
@@ -110,9 +113,6 @@
     <file name="10f.jpg" crc="4175889308" seo="true" ref="index">
       <caption webpage="index" alt=""/>
     </file>
-    <file name="arrow_left.png" crc="4023843386" ref="index">
-      <caption webpage="index" alt=""/>
-    </file>
     <file name="arrow_right.png" crc="4163625304" ref="index">
       <caption webpage="index" alt=""/>
     </file>
@@ -129,5 +129,5 @@
       <caption webpage="index" alt=""/>
     </file>
   </folder>
-  <file name="index.html" crc="413883026" seo="true" mt="1519782241276" redirect="true"/>
+  <file name="index.html" crc="422994921" seo="true" mt="1519785616977" redirect="true"/>
 </manifest>
