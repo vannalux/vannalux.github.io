@@ -1,7 +1,7 @@
-<manifest alg="2" build="2018.0.0.379" opt="false" iceEnabled="true" iceMarkupVersion="2" iceEnabledOptions="link,responsive,cachebuster,textStyling" exportTarget="other" domain="vannalux.github.io" resolutions="1x" timestamp="1519788853627">
+<manifest alg="2" build="2018.0.0.379" opt="false" iceEnabled="true" iceMarkupVersion="2" iceEnabledOptions="link,responsive,cachebuster,textStyling" exportTarget="other" domain="vannalux.github.io" resolutions="1x" timestamp="1519789168114">
   <folder name="css">
     <file name="site_global.css" crc="444006867"/>
-    <file name="index.css" crc="459966785" ref="index"/>
+    <file name="index.css" crc="4091456483" ref="index"/>
   </folder>
   <folder name="scripts">
     <file name="jquery-1.8.3.min.js" crc="209076791" ref="index"/>
@@ -130,5 +130,5 @@
     </file>
     <file name="домашняя-favicon.ico" crc="3980330178" ref="index"/>
   </folder>
-  <file name="index.html" crc="535224968" seo="true" mt="1519788831400" redirect="true"/>
+  <file name="index.html" crc="3791189323" seo="true" mt="1519789141787" redirect="true"/>
 </manifest>
