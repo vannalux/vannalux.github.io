@@ -1,7 +1,7 @@
-<manifest alg="2" build="2017.0.4.363" opt="false" iceEnabled="true" iceMarkupVersion="2" iceEnabledOptions="link,responsive,cachebuster,textStyling" exportTarget="other" domain="vannalux.github.io" resolutions="1x" timestamp="1519781949142">
+<manifest alg="2" build="2017.0.4.363" opt="false" iceEnabled="true" iceMarkupVersion="2" iceEnabledOptions="link,responsive,cachebuster,textStyling" exportTarget="other" domain="vannalux.github.io" resolutions="1x" timestamp="1519782255875">
   <folder name="css">
     <file name="site_global.css" crc="443350757"/>
-    <file name="index.css" crc="121660448" ref="index"/>
+    <file name="index.css" crc="262603298" ref="index"/>
   </folder>
   <folder name="scripts">
     <file name="jquery-1.8.3.min.js" crc="209076791" ref="index"/>
@@ -75,6 +75,7 @@
     </file>
     <file name="pochemu_nas_title.png" crc="162229612" seo="true" ref="index">
       <caption webpage="index" alt=""/>
+      <caption webpage="index" alt=""/>
     </file>
     <file name="nashy_raboty_bg.png" crc="3895170830" ref="index">
       <caption webpage="index" alt=""/>
@@ -128,5 +129,5 @@
       <caption webpage="index" alt=""/>
     </file>
   </folder>
-  <file name="index.html" crc="234574684" seo="true" mt="1519781888738" redirect="true"/>
+  <file name="index.html" crc="413883026" seo="true" mt="1519782241276" redirect="true"/>
 </manifest>
