@@ -1,7 +1,7 @@
-<manifest alg="2" build="2017.0.4.363" opt="false" iceEnabled="true" iceMarkupVersion="2" iceEnabledOptions="link,responsive,cachebuster,textStyling" exportTarget="other" domain="vannalux.github.io" resolutions="1x" timestamp="1519774570152">
+<manifest alg="2" build="2017.0.4.363" opt="false" iceEnabled="true" iceMarkupVersion="2" iceEnabledOptions="link,responsive,cachebuster,textStyling" exportTarget="other" domain="vannalux.github.io" resolutions="1x" timestamp="1519781949142">
   <folder name="css">
     <file name="site_global.css" crc="443350757"/>
-    <file name="index.css" crc="3768524640" ref="index"/>
+    <file name="index.css" crc="121660448" ref="index"/>
   </folder>
   <folder name="scripts">
     <file name="jquery-1.8.3.min.js" crc="209076791" ref="index"/>
@@ -11,6 +11,10 @@
     <file name="jquery.musepolyfill.bgsize.js" crc="4110862005" ref="index"/>
     <file name="jquery.watch.js" crc="460461809" ref="index"/>
     <file name="require.js" crc="3951022091" ref="index"/>
+    <file name="webpro.js" crc="4143865194" ref="index"/>
+    <file name="musewpslideshow.js" crc="3781122836" ref="index"/>
+    <file name="jquery.museoverlay.js" crc="4030747646" ref="index"/>
+    <file name="touchswipe.js" crc="4200445185" ref="index"/>
   </folder>
   <folder name="images">
     <file name="topbg.jpg" crc="416064470" ref="index">
@@ -72,6 +76,57 @@
     <file name="pochemu_nas_title.png" crc="162229612" seo="true" ref="index">
       <caption webpage="index" alt=""/>
     </file>
+    <file name="nashy_raboty_bg.png" crc="3895170830" ref="index">
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="3f.jpg" crc="4102072782" seo="true" ref="index">
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="times.png" crc="3954705966" seo="true" ref="index">
+      <caption webpage="index" alt=""/>
+      <caption webpage="index" alt=""/>
+      <caption webpage="index" alt=""/>
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="4f.jpg" crc="3807196615" seo="true" ref="index">
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="5f.jpg" crc="4170769108" seo="true" ref="index">
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="6f.jpg" crc="3872446801" seo="true" ref="index">
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="7f.jpg" crc="4210021110" seo="true" ref="index">
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="8f.jpg" crc="90946228" seo="true" ref="index">
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="9f.jpg" crc="416425347" seo="true" ref="index">
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="10f.jpg" crc="4175889308" seo="true" ref="index">
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="arrow_left.png" crc="4023843386" ref="index">
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="arrow_right.png" crc="4163625304" ref="index">
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="image001.jpg" crc="3959053179" seo="true" ref="index">
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="image003.jpg" crc="4220246666" seo="true" ref="index">
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="sqhw5qqys6w.jpg" crc="320318975" seo="true" ref="index">
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="serts.png" crc="283226985" seo="true" ref="index">
+      <caption webpage="index" alt=""/>
+    </file>
   </folder>
-  <file name="index.html" crc="3931515073" seo="true" mt="1519773920074" redirect="true"/>
+  <file name="index.html" crc="234574684" seo="true" mt="1519781888738" redirect="true"/>
 </manifest>
