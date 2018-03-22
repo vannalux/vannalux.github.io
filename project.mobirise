@@ -111,10 +111,10 @@
           "logo": {
             "image": {
               "active": true,
-              "src": "@PROJECT_PATH@/assets/images/2233-100x100.jpg",
+              "src": "@PROJECT_PATH@/assets/images/216-192x128.jpg",
               "height": 128,
               "alt": "Mobirise",
-              "link": "index.html",
+              "link": "",
               "title": ""
             },
             "iconFont": {
