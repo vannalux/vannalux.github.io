@@ -1,102 +1,158 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:image="http://www.google.com/schemas/sitemap-image/1.1" xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>http://vannalux.github.io/index.html</loc>
-    <lastmod>2018-02-28</lastmod>
+    <loc>https://vannalux.github.io/index.html</loc>
+    <lastmod>2018-03-22</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
     <image:image>
-      <image:loc>http://vannalux.github.io/images/garantiya.png</image:loc>
+      <image:loc>https://vannalux.github.io/images/up.png</image:loc>
     </image:image>
     <image:image>
-      <image:loc>http://vannalux.github.io/images/chto_luche_title.png</image:loc>
+      <image:loc>https://vannalux.github.io/images/156.jpg</image:loc>
+      <image:caption>Реставрация ванн</image:caption>
     </image:image>
     <image:image>
-      <image:loc>http://vannalux.github.io/images/kist_vanna.png</image:loc>
+      <image:loc>https://vannalux.github.io/images/222.gif</image:loc>
+      <image:caption>Реставрация ванн</image:caption>
     </image:image>
     <image:image>
-      <image:loc>http://vannalux.github.io/images/zhidky_akril.png</image:loc>
+      <image:loc>https://vannalux.github.io/images/138.jpg</image:loc>
+      <image:caption>Реставрация ванн</image:caption>
     </image:image>
     <image:image>
-      <image:loc>http://vannalux.github.io/images/vkladysh.png</image:loc>
+      <image:loc>https://vannalux.github.io/images/4578854.jpg</image:loc>
+      <image:caption>Реставрация ванн</image:caption>
     </image:image>
     <image:image>
-      <image:loc>http://vannalux.github.io/images/color.png</image:loc>
+      <image:loc>https://vannalux.github.io/images/78656456.jpg</image:loc>
+      <image:caption>Реставрация ванн</image:caption>
     </image:image>
     <image:image>
-      <image:loc>http://vannalux.github.io/images/my_rabotaem_title.png</image:loc>
+      <image:loc>https://vannalux.github.io/images/978676575.jpg</image:loc>
+      <image:caption>Реставрация ванн</image:caption>
     </image:image>
     <image:image>
-      <image:loc>http://vannalux.github.io/images/i_telefon.png</image:loc>
+      <image:loc>https://vannalux.github.io/images/156387x260.jpg</image:loc>
+      <image:caption>Реставрация ванн</image:caption>
     </image:image>
     <image:image>
-      <image:loc>http://vannalux.github.io/images/i_kist.png</image:loc>
+      <image:loc>https://vannalux.github.io/images/138335x232.jpg</image:loc>
+      <image:caption>Реставрация ванн</image:caption>
     </image:image>
     <image:image>
-      <image:loc>http://vannalux.github.io/images/i_chasy.png</image:loc>
+      <image:loc>https://vannalux.github.io/images/4578854200x150.jpg</image:loc>
+      <image:caption>Реставрация ванн</image:caption>
     </image:image>
     <image:image>
-      <image:loc>http://vannalux.github.io/images/i_galka.png</image:loc>
+      <image:loc>https://vannalux.github.io/images/156310x209.jpg</image:loc>
+      <image:caption>Реставрация ванн</image:caption>
     </image:image>
     <image:image>
-      <image:loc>http://vannalux.github.io/images/minus.png</image:loc>
+      <image:loc>https://vannalux.github.io/images/138310x215.jpg</image:loc>
+      <image:caption>Реставрация ванн</image:caption>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://vannalux.github.io/emalirovka-vannyi.html</loc>
+    <lastmod>2018-01-03</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+    <image:image>
+      <image:loc>https://vannalux.github.io/images/up.png</image:loc>
     </image:image>
     <image:image>
-      <image:loc>http://vannalux.github.io/images/plus.png</image:loc>
+      <image:loc>https://vannalux.github.io/images/120111-1.gif</image:loc>
+      <image:caption>Эмалировка ванн</image:caption>
     </image:image>
     <image:image>
-      <image:loc>http://vannalux.github.io/images/i_5_letpsd2.png</image:loc>
+      <image:loc>https://vannalux.github.io/images/120111-2.gif</image:loc>
+      <image:caption>Эмалировка ванн</image:caption>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://vannalux.github.io/nalivnaya-vanna.html</loc>
+    <lastmod>2018-01-03</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+    <image:image>
+      <image:loc>https://vannalux.github.io/images/up.png</image:loc>
     </image:image>
     <image:image>
-      <image:loc>http://vannalux.github.io/images/i_rekommend.png</image:loc>
+      <image:loc>https://vannalux.github.io/images/116-2.jpg</image:loc>
+      <image:caption>Наливная ванна</image:caption>
     </image:image>
     <image:image>
-      <image:loc>http://vannalux.github.io/images/i_kachestvo.png</image:loc>
+      <image:loc>https://vannalux.github.io/images/6328222-1.jpg</image:loc>
+      <image:caption>Порядок реставрации ванны методом «Наливная ванна»</image:caption>
     </image:image>
     <image:image>
-      <image:loc>http://vannalux.github.io/images/i_garantiya.png</image:loc>
+      <image:loc>https://vannalux.github.io/images/12133.gif</image:loc>
+      <image:caption>Наливная ванна видео</image:caption>
     </image:image>
     <image:image>
-      <image:loc>http://vannalux.github.io/images/pochemu_nas_title.png</image:loc>
+      <image:loc>https://vannalux.github.io/images/116-2940x374.jpg</image:loc>
+      <image:caption>Наливная ванна</image:caption>
     </image:image>
     <image:image>
-      <image:loc>http://vannalux.github.io/images/3f.jpg</image:loc>
+      <image:loc>https://vannalux.github.io/images/116-2720x287.jpg</image:loc>
+      <image:caption>Наливная ванна</image:caption>
     </image:image>
     <image:image>
-      <image:loc>http://vannalux.github.io/images/times.png</image:loc>
+      <image:loc>https://vannalux.github.io/images/116-2445x177.jpg</image:loc>
+      <image:caption>Наливная ванна</image:caption>
     </image:image>
     <image:image>
-      <image:loc>http://vannalux.github.io/images/4f.jpg</image:loc>
+      <image:loc>https://vannalux.github.io/images/116-2310x124.jpg</image:loc>
+      <image:caption>Наливная ванна</image:caption>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://vannalux.github.io/emalirovka-vann-akrilom.html</loc>
+    <lastmod>2018-01-03</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+    <image:image>
+      <image:loc>https://vannalux.github.io/images/up.png</image:loc>
     </image:image>
     <image:image>
-      <image:loc>http://vannalux.github.io/images/5f.jpg</image:loc>
+      <image:loc>https://vannalux.github.io/images/7654yyt.gif</image:loc>
+      <image:caption>Этапы восстановления эмали ванны</image:caption>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://vannalux.github.io/tsena.html</loc>
+    <lastmod>2018-01-03</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+    <image:image>
+      <image:loc>https://vannalux.github.io/images/up.png</image:loc>
     </image:image>
     <image:image>
-      <image:loc>http://vannalux.github.io/images/6f.jpg</image:loc>
+      <image:loc>https://vannalux.github.io/images/216.jpg</image:loc>
+      <image:caption>Реставрация ванн Цена</image:caption>
     </image:image>
     <image:image>
-      <image:loc>http://vannalux.github.io/images/7f.jpg</image:loc>
+      <image:loc>https://vannalux.github.io/images/216310x207.jpg</image:loc>
+      <image:caption>Реставрация ванн Цена</image:caption>
     </image:image>
-    <image:image>
-      <image:loc>http://vannalux.github.io/images/8f.jpg</image:loc>
-    </image:image>
-    <image:image>
-      <image:loc>http://vannalux.github.io/images/9f.jpg</image:loc>
-    </image:image>
-    <image:image>
-      <image:loc>http://vannalux.github.io/images/10f.jpg</image:loc>
-    </image:image>
-    <image:image>
-      <image:loc>http://vannalux.github.io/images/image001.jpg</image:loc>
-    </image:image>
-    <image:image>
-      <image:loc>http://vannalux.github.io/images/image003.jpg</image:loc>
-    </image:image>
-    <image:image>
-      <image:loc>http://vannalux.github.io/images/sqhw5qqys6w.jpg</image:loc>
-    </image:image>
-    <image:image>
-      <image:loc>http://vannalux.github.io/images/serts.png</image:loc>
-    </image:image>
+  </url>
+  <url>
+    <loc>https://vannalux.github.io/assets/21.jpg</loc>
+    <lastmod>2017-11-10</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://vannalux.github.io/assets/25.jpg</loc>
+    <lastmod>2017-11-10</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://vannalux.github.io/assets/26.jpg</loc>
+    <lastmod>2017-11-10</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
   </url>
 </urlset>
