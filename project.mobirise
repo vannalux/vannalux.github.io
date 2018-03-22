@@ -367,7 +367,12 @@
             "Темы"
           ],
           "_name": "testimonials1",
-          "_anchor": "testimonials1-5"
+          "_anchor": "testimonials1-5",
+          "_styles": {
+            ".card-block P": {
+              "text-align": "center"
+            }
+          }
         },
         {
           "_params": {

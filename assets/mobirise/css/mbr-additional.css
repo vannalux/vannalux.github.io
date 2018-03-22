@@ -474,6 +474,9 @@ h6,
 #content5-4 p {
   color: #fff;
 }
+#testimonials1-5 .card-block P {
+  text-align: center;
+}
 #contacts1-6 P {
   font-size: 15px;
 }
