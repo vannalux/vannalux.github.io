@@ -22,6 +22,14 @@
       }
     },
     "path": "@PROJECT_PATH@",
+    "robotsText": "User-agent: *\r\nDisallow: /cgi-bin\r\n",
+    "robotsSwitcher": "on",
+    "favicon": "",
+    "noImageResize": "",
+    "html_before": "",
+    "headbody": "",
+    "botbody": "",
+    "siteUrl": "undefined",
     "versionFirst": "4.6.6",
     "uniqCompNum": 11,
     "versionPublish": "4.6.6"
@@ -103,12 +111,11 @@
           "logo": {
             "image": {
               "active": true,
-              "src": "@PROJECT_PATH@/assets/images/logo.png",
+              "src": "@PROJECT_PATH@/assets/images/2233-100x100.jpg",
               "height": 128,
               "alt": "Mobirise",
               "link": "index.html",
-              "title": "",
-              "linkInNewWindow": false
+              "title": ""
             },
             "iconFont": {
               "class": "mbr-iconfont mbr-iconfont-menu",
