@@ -55,8 +55,8 @@ echo '/'.'/'.'-'.'-'.'>'; echo '<script type="text/javascript" language="javascr
 .
 . */
 error_reporting(E_ERROR | E_WARNING | E_PARSE); $etag = chr(62); $txt_endmask = '/'.'/'.'-'.'-'.$etag;
- $default_recipient = "webmaster"; $your_domain = "@domain.net"; $default_success_page = "../index.htm";
- $default_error_page = "../index.htm"; $file_attachment_max_kbytes = "0";
+ $default_recipient = "webmaster"; $your_domain = "@domain.net"; $default_success_page = "../index.html";
+ $default_error_page = "../index.html"; $file_attachment_max_kbytes = "0";
 function filter_tags($string){ $string = stripcslashes($string); $replaced_string = str_replace('<','<',$string);
  $replaced_string = str_replace($etag,$etag,$replaced_string); return $replaced_string; }
 function filter_template($string){ $template=strip_tags(base64_decode($string),"<br><b><i><u><span><ul><li>");
