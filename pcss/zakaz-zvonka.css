@@ -1,5 +1,5 @@
 @import 'https://fonts.googleapis.com/css?family=PT+Sans+Narrow:700,regular&display=swap';
-#imPageExtContainer {background-image: none; background-color: rgba(0, 255, 0, 1);}
+#imPageExtContainer {background-image: none; background-color: rgba(191, 255, 255, 1);}
 #imContentGraphics {background-image: none; background-color: transparent;}
 #imPage { display: -ms-grid; display: grid; -ms-grid-columns: minmax(0, 1fr) 380px minmax(0, 1fr); grid-template-columns: minmax(0, 1fr) 380px minmax(0, 1fr); -ms-grid-rows: 1fr; grid-template-rows: auto; }
 #imHeader { display: none; }
