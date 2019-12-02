@@ -17,7 +17,7 @@
 		<link rel="stylesheet" href="style/print.css?2019-3-9-1" media="print" />
 		<link rel="stylesheet" href="style/style.css?2019-3-9-1" media="screen,print" />
 		<link rel="stylesheet" href="style/template.css?2019-3-9-1" media="screen" />
-		<link rel="stylesheet" href="pcss/imsearch.css?2019-3-9-1-637108951378672763" media="screen,print" />
+		<link rel="stylesheet" href="pcss/imsearch.css?2019-3-9-1-637109016544964682" media="screen,print" />
 		<script src="res/jquery.js?2019-3-9-1"></script>
 		<script src="res/x5engine.js?2019-3-9-1" data-files-version="2019-3-9-1"></script>
 		<script>
@@ -28,11 +28,7 @@
 			x5engine.utils.currentPagePath = 'imsearch.php';
 			x5engine.boot.push(function () { x5engine.imPageToTop.initializeButton({}); });
 		</script>
-		<link rel="icon" href="favicon.png?2019-3-9-1-637108951377703109" type="image/png" />
-		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css">
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.0/umd/popper.min.js"></script>
-  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.0/js/bootstrap.min.js"></script>
+		<link rel="icon" href="favicon.png?2019-3-9-1-637109016544924665" type="image/png" />
 	</head>
 	<body>
 		<div id="imPageExtContainer">
