@@ -156,19 +156,19 @@ textarea { resize: none; }
 .imNoScript { position: absolute; top: 5px; left: 5%; width: 90%; font: normal normal normal 12pt 'Arial'; text-decoration: none; text-align: left; }
 
 /* Tip */
-.imTip { position: absolute; z-index: 100201; margin: 0 auto; padding: 10px; background-color: rgba(255, 255, 255, 1); border-style: solid; border-width: 0px 0px 0px 0px; border-color: rgba(255, 255, 255, 1) rgba(255, 255, 255, 1) rgba(255, 255, 255, 1) rgba(255, 255, 255, 1); border-top-left-radius: 5px; border-top-right-radius: 5px; border-bottom-left-radius: 5px; border-bottom-right-radius: 5px;border-top-left-radius: 5px; border-top-right-radius: 5px; border-bottom-left-radius: 5px; border-bottom-right-radius: 5px;}
+.imTip { position: absolute; z-index: 100201; margin: 0 auto; padding: 10px; background-color: rgba(67, 67, 67, 1); border-style: solid; border-width: 0px 0px 0px 0px; border-color: rgba(255, 255, 255, 1) rgba(255, 255, 255, 1) rgba(255, 255, 255, 1) rgba(255, 255, 255, 1); border-top-left-radius: 5px; border-top-right-radius: 5px; border-bottom-left-radius: 5px; border-bottom-right-radius: 5px;border-top-left-radius: 5px; border-top-right-radius: 5px; border-bottom-left-radius: 5px; border-bottom-right-radius: 5px;}
 .imTip { opacity: 0; }
 .imTip.imTipVisible { opacity: 1; }
 .imTipArrowBorder, .imTipArrow { border-style: solid; height: 0; width: 0; position: absolute; }
 .imTip.imTipTop>.imTipArrowBorder { border-color: rgba(255, 255, 255, 1) transparent transparent transparent; border-width: 0px 0px 0px 0px; top: 100%; left: calc(50% - 0px); }
-.imTip.imTipTop>.imTipArrow { border-color: rgba(255, 255, 255, 1) transparent transparent transparent; border-width: 10px 10px 0px 10px; top: 100%; left: calc(50% - 10px); }
+.imTip.imTipTop>.imTipArrow { border-color: rgba(67, 67, 67, 1) transparent transparent transparent; border-width: 10px 10px 0px 10px; top: 100%; left: calc(50% - 10px); }
 .imTip.imTipBottom>.imTipArrowBorder { border-color: transparent transparent rgba(255, 255, 255, 1) transparent; border-width: 0px 0px 0px 0px; bottom: 100%; left: calc(50% - 0px); }
-.imTip.imTipBottom>.imTipArrow { border-color: transparent transparent rgba(255, 255, 255, 1) transparent; border-width: 0px 10px 10px 10px; bottom: 100%; left: calc(50% - 10px); }
+.imTip.imTipBottom>.imTipArrow { border-color: transparent transparent rgba(67, 67, 67, 1) transparent; border-width: 0px 10px 10px 10px; bottom: 100%; left: calc(50% - 10px); }
 .imTip.imTipLeft>.imTipArrowBorder { border-color: transparent transparent transparent rgba(255, 255, 255, 1); border-width: 0px 0px 0px 0px; left: 100%; top: calc(50% - 0px); }
-.imTip.imTipLeft>.imTipArrow { border-color: transparent transparent transparent rgba(255, 255, 255, 1); border-width: 10px 0px 10px 10px; left: 100%; top: calc(50% - 10px); }
+.imTip.imTipLeft>.imTipArrow { border-color: transparent transparent transparent rgba(67, 67, 67, 1); border-width: 10px 0px 10px 10px; left: 100%; top: calc(50% - 10px); }
 .imTip.imTipRight>.imTipArrowBorder { border-color: transparent rgba(255, 255, 255, 1) transparent transparent; border-width: 0px 0px 0px 0px; right: 100%; top: calc(50% - 0px); }
-.imTip.imTipRight>.imTipArrow { border-color: transparent rgba(255, 255, 255, 1) transparent transparent; border-width: 10px 10px 10px 0px; right: 100%; top: calc(50% - 10px); }
-.imTipContent { width: 100%; font: normal normal normal 10pt 'Arial'; color: rgba(210, 129, 6, 1); background-color: rgba(255, 255, 255, 1); text-decoration: none; text-align: center;  }
+.imTip.imTipRight>.imTipArrow { border-color: transparent rgba(67, 67, 67, 1) transparent transparent; border-width: 10px 10px 10px 0px; right: 100%; top: calc(50% - 10px); }
+.imTipContent { width: 100%; font: normal normal normal 12pt 'Arial'; color: rgba(255, 255, 255, 1); background-color: rgba(67, 67, 67, 1); text-decoration: none; text-align: center;  }
 .imTipContent img { margin-bottom: 6px; max-width: 100%; }
 .imTip.textLeft .imTipContent { text-align: left; }
 
@@ -191,7 +191,7 @@ textarea { resize: none; }
 
 
 /* Popup */
-#imGuiPopUp { padding: 10px; position: fixed; background-color: rgba(0, 0, 0, 1); border-style: solid; border-width: 1px 1px 1px 1px; border-color: rgba(0, 0, 0, 1) rgba(0, 0, 0, 1) rgba(0, 0, 0, 1) rgba(0, 0, 0, 1); border-top-left-radius: 5px; border-top-right-radius: 5px; border-bottom-left-radius: 5px; border-bottom-right-radius: 5px;font: normal normal normal 12pt 'Arial'; color: rgba(0, 0, 0, 1); background-color: rgba(255, 255, 255, 1); text-decoration: none; text-align: left; }
+#imGuiPopUp { padding: 10px; position: fixed; background-color: rgba(0, 0, 0, 1); border-style: solid; border-width: 1px 1px 1px 1px; border-color: rgba(0, 0, 0, 1) rgba(0, 0, 0, 1) rgba(0, 0, 0, 1) rgba(0, 0, 0, 1); border-top-left-radius: 0px; border-top-right-radius: 0px; border-bottom-left-radius: 0px; border-bottom-right-radius: 0px;font: normal normal normal 12pt 'Arial'; color: rgba(0, 0, 0, 1); background-color: rgba(255, 255, 255, 1); text-decoration: none; text-align: left; }
 .imGuiButton { margin-top: 20px; margin-left: auto; margin-right: auto; text-align: center;  width: 80px; cursor: pointer; background-color: #444; color: white; padding: 5px; font-size: 14px; font-family: Arial; }
 #imGuiPopUpBg { position: fixed; top: 0; left: 0; right: 0; bottom: 0; background-color: rgba(0, 0, 0, 1); }
 .alertbox { cursor: default; text-align: center; padding: 0; }

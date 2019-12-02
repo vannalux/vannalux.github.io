@@ -8,12 +8,8 @@ $imSettings['search']['general'] = array(
 	'defaultScope' => array(
 		'0' => 'index.html',
 		'6' => 'cena.html',
-		'7' => '---------14.html',
-		'8' => '---------15.html',
-		'9' => '---------16.html',
-		'10' => '---------17.html',
-		'11' => '---------18.html',
-		'12' => '---------19.html'
+		'7' => 'metodi-restavracii.html',
+		'8' => 'foto.html'
 	),
 	'extendedScope' => array(
 	)
@@ -35,6 +31,118 @@ $imSettings['search']['images'] = array(
 		'location' => '',
 		'src' => 'images/765432122w.png',
 		'page' => 'index.html'
+	),
+	array(
+		'title' => '',
+		'description' => '',
+		'location' => '',
+		'src' => 'images/82-2.jpg',
+		'page' => 'cena.html'
+	),
+	array(
+		'title' => '',
+		'description' => '',
+		'location' => '',
+		'src' => 'images/120111-3.gif',
+		'page' => 'metodi-restavracii.html'
+	),
+	array(
+		'title' => '',
+		'description' => '',
+		'location' => '',
+		'src' => 'images/tov2.png',
+		'page' => 'metodi-restavracii.html'
+	),
+	array(
+		'title' => '',
+		'description' => '',
+		'location' => '',
+		'src' => 'images/120111-1.gif',
+		'page' => 'metodi-restavracii.html'
+	),
+	array(
+		'title' => '',
+		'description' => '',
+		'location' => '',
+		'src' => 'images/ork11.jpg',
+		'page' => 'foto.html'
+	),
+	array(
+		'title' => '',
+		'description' => '',
+		'location' => '',
+		'src' => 'images/ork13.jpg',
+		'page' => 'foto.html'
+	),
+	array(
+		'title' => '',
+		'description' => '',
+		'location' => '',
+		'src' => 'images/ork15.jpg',
+		'page' => 'foto.html'
+	),
+	array(
+		'title' => '',
+		'description' => '',
+		'location' => '',
+		'src' => 'images/ork12.jpg',
+		'page' => 'foto.html'
+	),
+	array(
+		'title' => '',
+		'description' => '',
+		'location' => '',
+		'src' => 'images/ork14.jpg',
+		'page' => 'foto.html'
+	),
+	array(
+		'title' => '',
+		'description' => '',
+		'location' => '',
+		'src' => 'images/ork16.jpg',
+		'page' => 'foto.html'
+	),
+	array(
+		'title' => '',
+		'description' => '',
+		'location' => '',
+		'src' => 'images/ork21.jpg',
+		'page' => 'foto.html'
+	),
+	array(
+		'title' => '',
+		'description' => '',
+		'location' => '',
+		'src' => 'images/ork23.jpg',
+		'page' => 'foto.html'
+	),
+	array(
+		'title' => '',
+		'description' => '',
+		'location' => '',
+		'src' => 'images/ork25.jpg',
+		'page' => 'foto.html'
+	),
+	array(
+		'title' => '',
+		'description' => '',
+		'location' => '',
+		'src' => 'images/ork22.jpg',
+		'page' => 'foto.html'
+	),
+	array(
+		'title' => '',
+		'description' => '',
+		'location' => '',
+		'src' => 'images/ork24.jpg',
+		'page' => 'foto.html'
+	),
+	array(
+		'title' => '',
+		'description' => '',
+		'location' => '',
+		'src' => 'images/ork26.jpg',
+		'page' => 'foto.html'
 	)
 );
 

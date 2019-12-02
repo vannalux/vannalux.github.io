@@ -17,7 +17,7 @@
 		<link rel="stylesheet" href="style/print.css?2019-3-9-1" media="print" />
 		<link rel="stylesheet" href="style/style.css?2019-3-9-1" media="screen,print" />
 		<link rel="stylesheet" href="style/template.css?2019-3-9-1" media="screen" />
-		<link rel="stylesheet" href="pcss/imsearch.css?2019-3-9-1-637107621844277617" media="screen,print" />
+		<link rel="stylesheet" href="pcss/imsearch.css?2019-3-9-1-637108951378672763" media="screen,print" />
 		<script src="res/jquery.js?2019-3-9-1"></script>
 		<script src="res/x5engine.js?2019-3-9-1" data-files-version="2019-3-9-1"></script>
 		<script>
@@ -28,7 +28,7 @@
 			x5engine.utils.currentPagePath = 'imsearch.php';
 			x5engine.boot.push(function () { x5engine.imPageToTop.initializeButton({}); });
 		</script>
-		<link rel="icon" href="favicon.png?2019-3-9-1-637107621844121326" type="image/png" />
+		<link rel="icon" href="favicon.png?2019-3-9-1-637108951377703109" type="image/png" />
 		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css">
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.0/umd/popper.min.js"></script>
@@ -62,49 +62,21 @@
 Цены		</a>
 </div>
 </div>
-	</li><li class="imMnMnMiddle imPage" data-link-paths=",/---------14.html">
+	</li><li class="imMnMnMiddle imPage" data-link-paths=",/metodi-restavracii.html">
 <div class="label-wrapper">
 <div class="label-inner-wrapper">
-		<a class="label" href="---------14.html">
-Страница 14		</a>
+		<a class="label" href="metodi-restavracii.html">
+Методы реставрации		</a>
 </div>
 </div>
-	</li><li class="imMnMnMiddle imPage" data-link-paths=",/---------15.html">
+	</li><li class="imMnMnMiddle imPage" data-link-paths=",/foto.html">
 <div class="label-wrapper">
 <div class="label-inner-wrapper">
-		<a class="label" href="---------15.html">
-Страница 15		</a>
+		<a class="label" href="foto.html">
+Фото		</a>
 </div>
 </div>
-	</li><li class="imMnMnMiddle imPage" data-link-paths=",/---------16.html">
-<div class="label-wrapper">
-<div class="label-inner-wrapper">
-		<a class="label" href="---------16.html">
-Страница 16		</a>
-</div>
-</div>
-	</li><li class="imMnMnMiddle imPage" data-link-paths=",/---------17.html">
-<div class="label-wrapper">
-<div class="label-inner-wrapper">
-		<a class="label" href="---------17.html">
-Страница 17		</a>
-</div>
-</div>
-	</li><li class="imMnMnMiddle imPage" data-link-paths=",/---------18.html">
-<div class="label-wrapper">
-<div class="label-inner-wrapper">
-		<a class="label" href="---------18.html">
-Страница 18		</a>
-</div>
-</div>
-	</li><li class="imMnMnLast imPage" data-link-paths=",/---------19.html">
-<div class="label-wrapper">
-<div class="label-inner-wrapper">
-		<a class="label" href="---------19.html">
-Страница 19		</a>
-</div>
-</div>
-	</li></ul></div></div><!-- UNSEARCHABLE END --><script>
+	</li><li class="imMnMnLast imLevel" data-link-paths=",/index.html,/" data-link-anchor="kontakty" data-link-hash="1338006685"><div class="label-wrapper"><div class="label-inner-wrapper"><a href="index.html#kontakty" class="label" onclick="return x5engine.utils.location('index.html#kontakty', null, false)">Контакты</a></div></div></li></ul></div></div><!-- UNSEARCHABLE END --><script>
 var imHeader_imMenuObject_12_settings = {
 	'menuId': 'imHeader_imMenuObject_12',
 	'responsiveMenuEffect': 'slide',
@@ -139,49 +111,21 @@ $(function () {$('#imHeader_imMenuObject_12_container ul li').not('.imMnMnSepara
 Цены		</a>
 </div>
 </div>
-	</li><li class="imMnMnMiddle imPage" data-link-paths=",/---------14.html">
+	</li><li class="imMnMnMiddle imPage" data-link-paths=",/metodi-restavracii.html">
 <div class="label-wrapper">
 <div class="label-inner-wrapper">
-		<a class="label" href="---------14.html">
-Страница 14		</a>
+		<a class="label" href="metodi-restavracii.html">
+Методы реставрации		</a>
 </div>
 </div>
-	</li><li class="imMnMnMiddle imPage" data-link-paths=",/---------15.html">
+	</li><li class="imMnMnMiddle imPage" data-link-paths=",/foto.html">
 <div class="label-wrapper">
 <div class="label-inner-wrapper">
-		<a class="label" href="---------15.html">
-Страница 15		</a>
+		<a class="label" href="foto.html">
+Фото		</a>
 </div>
 </div>
-	</li><li class="imMnMnMiddle imPage" data-link-paths=",/---------16.html">
-<div class="label-wrapper">
-<div class="label-inner-wrapper">
-		<a class="label" href="---------16.html">
-Страница 16		</a>
-</div>
-</div>
-	</li><li class="imMnMnMiddle imPage" data-link-paths=",/---------17.html">
-<div class="label-wrapper">
-<div class="label-inner-wrapper">
-		<a class="label" href="---------17.html">
-Страница 17		</a>
-</div>
-</div>
-	</li><li class="imMnMnMiddle imPage" data-link-paths=",/---------18.html">
-<div class="label-wrapper">
-<div class="label-inner-wrapper">
-		<a class="label" href="---------18.html">
-Страница 18		</a>
-</div>
-</div>
-	</li><li class="imMnMnLast imPage" data-link-paths=",/---------19.html">
-<div class="label-wrapper">
-<div class="label-inner-wrapper">
-		<a class="label" href="---------19.html">
-Страница 19		</a>
-</div>
-</div>
-	</li></ul></div></div><!-- UNSEARCHABLE END --><script>
+	</li><li class="imMnMnLast imLevel" data-link-paths=",/index.html,/" data-link-anchor="kontakty" data-link-hash="1338006685"><div class="label-wrapper"><div class="label-inner-wrapper"><a href="index.html#kontakty" class="label" onclick="return x5engine.utils.location('index.html#kontakty', null, false)">Контакты</a></div></div></li></ul></div></div><!-- UNSEARCHABLE END --><script>
 var imStickyBar_imMenuObject_01_settings = {
 	'menuId': 'imStickyBar_imMenuObject_01',
 	'responsiveMenuEffect': 'slide',
