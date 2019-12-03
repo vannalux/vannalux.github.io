@@ -8,7 +8,7 @@ if(substr(basename($_SERVER['PHP_SELF']), 0, 11) == "imEmailForm") {
 	if(@$_POST['action'] != 'check_answer') {
 		if(!isset($_POST['imJsCheck']) || $_POST['imJsCheck'] != '42080CBC4DC4C71864B336A5EC0F6FE3' || (isset($_POST['imSpProt']) && $_POST['imSpProt'] != ""))
 			die(imPrintJsError());
-		$form->mailToOwner('vannavam2015@gmail.com', 'vannavam2015@gmail.com', 'Заказ звонка VannaLux', '', false);
+		$form->mailToOwner('vannavam2015@gmail.com', 'vannavam2015@gmail.com', 'Заказ звонка OD.Vannavam Одесса', '', false);
 		@header('Location: ../otpravleno.html');
 		exit();
 	} else {
