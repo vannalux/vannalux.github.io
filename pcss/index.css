@@ -334,7 +334,7 @@ max-height: 100%; position: absolute; top: 0; bottom: 0; left: 3px; margin: auto
 #imHeader_imCellStyleGraphics_14 { position: absolute; top: 0px; bottom: 0px; background-color: transparent; }
 #imHeader_imCellStyleBorders_14 { position: absolute; top: 0px; bottom: 0px; }
 #imHeader_imObjectTitle_14 {margin: 0; text-align: center;}
-#imHeader_imObjectTitle_14_text {font: normal normal normal 36pt 'PT Sans Narrow';  padding: 0px 0px 0px 0px; background-color: transparent; position: relative; display: inline-block; }
+#imHeader_imObjectTitle_14_text {font: normal normal normal 48pt 'PT Sans Narrow';  padding: 0px 0px 0px 0px; background-color: transparent; position: relative; display: inline-block; }
 #imHeader_imObjectTitle_14_text,
 #imHeader_imObjectTitle_14_text a { color: rgba(12, 52, 61, 1); word-wrap: break-word; max-width: 100%;}
 #imHeader_imObjectTitle_14_text a{ text-decoration: none; }
@@ -343,7 +343,7 @@ max-height: 100%; position: absolute; top: 0; bottom: 0; left: 3px; margin: auto
 #imHeader_imCellStyleGraphics_15 { position: absolute; top: 0px; bottom: 0px; background-color: transparent; }
 #imHeader_imCellStyleBorders_15 { position: absolute; top: 0px; bottom: 0px; }
 #imHeader_imObjectTitle_15 {margin: 0; text-align: center;}
-#imHeader_imObjectTitle_15_text {font: normal normal normal 30pt 'PT Sans Narrow';  padding: 0px 0px 0px 0px; background-color: transparent; position: relative; display: inline-block; }
+#imHeader_imObjectTitle_15_text {font: normal normal bold 30pt 'PT Sans Narrow';  padding: 0px 0px 0px 0px; background-color: transparent; position: relative; display: inline-block; }
 #imHeader_imObjectTitle_15_text,
 #imHeader_imObjectTitle_15_text a { color: rgba(12, 52, 61, 1); word-wrap: break-word; max-width: 100%;}
 #imHeader_imObjectTitle_15_text a{ text-decoration: none; }
@@ -1527,7 +1527,7 @@ max-height: 100%; position: absolute; top: 0; bottom: 0; left: 3px; margin: auto
 #imCellStyleBorders_57 { position: absolute; top: 10px; bottom: 10px; }
 #imCell_64 { -ms-grid-columns: 100%; grid-template-columns: 100%; position: relative; box-sizing: border-box; }
 #imTextObject_64 { position: relative; -ms-grid-row-align: start; align-self: start; -ms-grid-column-align: center; justify-self: center; max-width: 100%; box-sizing: border-box; z-index: 3; }
-#imCellStyleGraphics_64 { position: absolute; top: 10px; bottom: 10px; background-color: transparent; }
+#imCellStyleGraphics_64 { position: absolute; top: 10px; bottom: 10px; background-color: rgba(255, 255, 255, 1); }
 #imCellStyleBorders_64 { position: absolute; top: 10px; bottom: 10px; }
 #imTextObject_64 { width: 100%; }
 #imTextObject_64 { font-style: normal; font-weight: normal; line-height: 24px; }
@@ -1578,7 +1578,7 @@ max-height: 100%; position: absolute; top: 0; bottom: 0; left: 3px; margin: auto
 #imCellStyleBorders_60 { position: absolute; top: 10px; bottom: 10px; }
 #imCell_66 { -ms-grid-columns: 100%; grid-template-columns: 100%; position: relative; box-sizing: border-box; }
 #imTextObject_66 { position: relative; -ms-grid-row-align: start; align-self: start; -ms-grid-column-align: center; justify-self: center; max-width: 100%; box-sizing: border-box; z-index: 3; }
-#imCellStyleGraphics_66 { position: absolute; top: 10px; bottom: 10px; background-color: transparent; }
+#imCellStyleGraphics_66 { position: absolute; top: 10px; bottom: 10px; background-color: rgba(255, 255, 255, 1); }
 #imCellStyleBorders_66 { position: absolute; top: 10px; bottom: 10px; }
 #imTextObject_66 { width: 100%; }
 #imTextObject_66 { font-style: normal; font-weight: normal; line-height: 24px; }
@@ -1629,7 +1629,7 @@ max-height: 100%; position: absolute; top: 0; bottom: 0; left: 3px; margin: auto
 #imCellStyleBorders_58 { position: absolute; top: 10px; bottom: 10px; }
 #imCell_65 { -ms-grid-columns: 100%; grid-template-columns: 100%; position: relative; box-sizing: border-box; }
 #imTextObject_65 { position: relative; -ms-grid-row-align: start; align-self: start; -ms-grid-column-align: center; justify-self: center; max-width: 100%; box-sizing: border-box; z-index: 3; }
-#imCellStyleGraphics_65 { position: absolute; top: 10px; bottom: 10px; background-color: transparent; }
+#imCellStyleGraphics_65 { position: absolute; top: 10px; bottom: 10px; background-color: rgba(255, 255, 255, 1); }
 #imCellStyleBorders_65 { position: absolute; top: 10px; bottom: 10px; }
 #imTextObject_65 { width: 100%; }
 #imTextObject_65 { font-style: normal; font-weight: normal; line-height: 24px; }
@@ -1680,7 +1680,7 @@ max-height: 100%; position: absolute; top: 0; bottom: 0; left: 3px; margin: auto
 #imCellStyleBorders_61 { position: absolute; top: 10px; bottom: 10px; }
 #imCell_67 { -ms-grid-columns: 100%; grid-template-columns: 100%; position: relative; box-sizing: border-box; }
 #imTextObject_67 { position: relative; -ms-grid-row-align: start; align-self: start; -ms-grid-column-align: center; justify-self: center; max-width: 100%; box-sizing: border-box; z-index: 3; }
-#imCellStyleGraphics_67 { position: absolute; top: 10px; bottom: 10px; background-color: transparent; }
+#imCellStyleGraphics_67 { position: absolute; top: 10px; bottom: 10px; background-color: rgba(255, 255, 255, 1); }
 #imCellStyleBorders_67 { position: absolute; top: 10px; bottom: 10px; }
 #imTextObject_67 { width: 100%; }
 #imTextObject_67 { font-style: normal; font-weight: normal; line-height: 24px; }
@@ -1731,7 +1731,7 @@ max-height: 100%; position: absolute; top: 0; bottom: 0; left: 3px; margin: auto
 #imCellStyleBorders_59 { position: absolute; top: 10px; bottom: 10px; }
 #imCell_68 { -ms-grid-columns: 100%; grid-template-columns: 100%; position: relative; box-sizing: border-box; }
 #imTextObject_68 { position: relative; -ms-grid-row-align: start; align-self: start; -ms-grid-column-align: center; justify-self: center; max-width: 100%; box-sizing: border-box; z-index: 3; }
-#imCellStyleGraphics_68 { position: absolute; top: 10px; bottom: 10px; background-color: transparent; }
+#imCellStyleGraphics_68 { position: absolute; top: 10px; bottom: 10px; background-color: rgba(255, 255, 255, 1); }
 #imCellStyleBorders_68 { position: absolute; top: 10px; bottom: 10px; }
 #imTextObject_68 { width: 100%; }
 #imTextObject_68 { font-style: normal; font-weight: normal; line-height: 24px; }
@@ -1782,7 +1782,7 @@ max-height: 100%; position: absolute; top: 0; bottom: 0; left: 3px; margin: auto
 #imCellStyleBorders_62 { position: absolute; top: 10px; bottom: 10px; }
 #imCell_69 { -ms-grid-columns: 100%; grid-template-columns: 100%; position: relative; box-sizing: border-box; }
 #imTextObject_69 { position: relative; -ms-grid-row-align: start; align-self: start; -ms-grid-column-align: center; justify-self: center; max-width: 100%; box-sizing: border-box; z-index: 3; }
-#imCellStyleGraphics_69 { position: absolute; top: 10px; bottom: 10px; background-color: transparent; }
+#imCellStyleGraphics_69 { position: absolute; top: 10px; bottom: 10px; background-color: rgba(255, 255, 255, 1); }
 #imCellStyleBorders_69 { position: absolute; top: 10px; bottom: 10px; }
 #imTextObject_69 { width: 100%; }
 #imTextObject_69 { font-style: normal; font-weight: normal; line-height: 24px; }
@@ -4064,7 +4064,7 @@ max-height: 100%; position: absolute; top: 0; bottom: 0; left: 3px; margin: auto
 	}
 	#imHeader_imMenuObject_12-menu-opened { display: none; }
 	#imHeader_imMenuObject_12 .hamburger-component { display: none; }
-	#imHeader_imObjectTitle_14_wrapper { position: absolute; top: 156px; left: 578px; width: 420px; height: 62px; text-align: center; z-index: 1003;  }
+	#imHeader_imObjectTitle_14_wrapper { position: absolute; top: 135px; left: 578px; width: 420px; height: 83px; text-align: center; z-index: 1003;  }
 	#imHeader_imCell_14 { padding-top: 0px; padding-bottom: 0px; padding-left: 0px; padding-right: 0px; }
 	#imHeader_imCell_14 { -ms-grid-rows: 100%; grid-template-rows: 100%; }
 	#imHeader_imObjectTitle_14 { padding-top: 0px; padding-bottom: 0px; padding-left: 0px; padding-right: 0px; }
@@ -4196,7 +4196,7 @@ max-height: 100%; position: absolute; top: 0; bottom: 0; left: 3px; margin: auto
 	}
 	#imHeader_imMenuObject_12-menu-opened { display: none; }
 	#imHeader_imMenuObject_12 .hamburger-component { display: none; }
-	#imHeader_imObjectTitle_14_wrapper { position: absolute; top: 49px; left: 144px; width: 420px; height: 62px; text-align: center; z-index: 1003;  }
+	#imHeader_imObjectTitle_14_wrapper { position: absolute; top: 47px; left: 144px; width: 420px; height: 83px; text-align: center; z-index: 1003;  }
 	#imHeader_imCell_14 { padding-top: 0px; padding-bottom: 0px; padding-left: 0px; padding-right: 0px; }
 	#imHeader_imCell_14 { -ms-grid-rows: 100%; grid-template-rows: 100%; }
 	#imHeader_imObjectTitle_14 { padding-top: 0px; padding-bottom: 0px; padding-left: 0px; padding-right: 0px; }
@@ -4208,7 +4208,7 @@ max-height: 100%; position: absolute; top: 0; bottom: 0; left: 3px; margin: auto
 	margin-top: 0px;
 	margin-bottom: 0px;
 	 }
-	#imHeader_imObjectTitle_15_wrapper { position: absolute; top: 110px; left: 144px; width: 420px; height: 62px; text-align: center; z-index: 1004;  }
+	#imHeader_imObjectTitle_15_wrapper { position: absolute; top: 120px; left: 144px; width: 420px; height: 62px; text-align: center; z-index: 1004;  }
 	#imHeader_imCell_15 { padding-top: 0px; padding-bottom: 0px; padding-left: 0px; padding-right: 0px; }
 	#imHeader_imCell_15 { -ms-grid-rows: 100%; grid-template-rows: 100%; }
 	#imHeader_imObjectTitle_15 { padding-top: 0px; padding-bottom: 0px; padding-left: 0px; padding-right: 0px; }
@@ -4320,7 +4320,7 @@ max-height: 100%; position: absolute; top: 0; bottom: 0; left: 3px; margin: auto
 	/* Responsive menu separation line style */
 	#imHeader_imMenuObject_12-menu-opened {  transform: translate3d(-200px, 0 ,0);  transition: transform 1000ms;  -webkit-transition: transform 1000ms;}
 	#imHeader_imMenuObject_12-menu-opened.animated {  transform: translate3d(0, 0, 0);}
-	#imHeader_imObjectTitle_14_wrapper { position: absolute; top: 50px; left: 29px; width: 420px; height: 62px; text-align: center; z-index: 1003;  }
+	#imHeader_imObjectTitle_14_wrapper { position: absolute; top: 50px; left: 29px; width: 420px; height: 83px; text-align: center; z-index: 1003;  }
 	#imHeader_imCell_14 { padding-top: 0px; padding-bottom: 0px; padding-left: 0px; padding-right: 0px; }
 	#imHeader_imCell_14 { -ms-grid-rows: 100%; grid-template-rows: 100%; }
 	#imHeader_imObjectTitle_14 { padding-top: 0px; padding-bottom: 0px; padding-left: 0px; padding-right: 0px; }
@@ -4332,7 +4332,7 @@ max-height: 100%; position: absolute; top: 0; bottom: 0; left: 3px; margin: auto
 	margin-top: 0px;
 	margin-bottom: 0px;
 	 }
-	#imHeader_imObjectTitle_15_wrapper { position: absolute; top: 111px; left: 29px; width: 420px; height: 62px; text-align: center; z-index: 1004;  }
+	#imHeader_imObjectTitle_15_wrapper { position: absolute; top: 121px; left: 29px; width: 420px; height: 62px; text-align: center; z-index: 1004;  }
 	#imHeader_imCell_15 { padding-top: 0px; padding-bottom: 0px; padding-left: 0px; padding-right: 0px; }
 	#imHeader_imCell_15 { -ms-grid-rows: 100%; grid-template-rows: 100%; }
 	#imHeader_imObjectTitle_15 { padding-top: 0px; padding-bottom: 0px; padding-left: 0px; padding-right: 0px; }
