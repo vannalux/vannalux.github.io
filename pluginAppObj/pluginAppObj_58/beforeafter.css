@@ -12,7 +12,7 @@
 	width: 100%;
 	
 }
-#pluginAppObj_58 .container:hover { cursor: move; }
+
 #pluginAppObj_58 .container img { 
 	width: 100%;
 	height: auto;
@@ -38,7 +38,7 @@
 #pluginAppObj_58 .handle {
 	position: absolute;
 	cursor: move;
-	
+	top: 0; left: 0;
 	height: 20px;
 	width: 20px;
 	background-color: #ccc;
