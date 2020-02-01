@@ -34,6 +34,41 @@
     <meta name="theme-color" content="#478ac9">
     <link rel="canonical" href="index.html">
     <meta property="og:url" content="index.html">
+    <style>
+        #arrowup {
+            position: fixed;
+            right: 30px; /*позиция кнопки: отступ справа*/
+            bottom: 30px; /*позиция кнопки: отступ снизу*/
+            background: url(https://vannalux.github.io/images/page-to-top.png); /*путь к изображению кнопки*/
+            width: 40px; /*размер кнопки по ширине*/
+            height: 40px; /*размер кнопки по высоте*/
+            cursor: pointer;
+            display: none;
+            opacity: 0.75; /*уровень прозрачности в статике*/
+            z-index: 999999999;
+        	}
+             
+        #arrowup:hover {
+            opacity: 1; /*уровень прозрачности при наведении*/
+            }
+    </style>
+
+    <script type="text/javascript">
+        $(document).ready(function() {
+            $(window).scroll(function() {
+                if ($(this).scrollTop() > 0) {
+                    $('#arrowup').fadeIn(500); //скорость исчезновения кнопки
+                } else {
+            $('#arrowup').fadeOut(500); //скорость появления кнопки
+                }
+            });
+            $('#arrowup').click(function() {
+                $('body,html').animate({
+                    scrollTop: 0
+                }, 500); //скорость прокрутки
+                return false;
+            });});
+    </script>
 </head>
 
 <body class="u-body">

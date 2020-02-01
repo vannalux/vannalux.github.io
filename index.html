@@ -37,6 +37,41 @@
     <meta name="theme-color" content="#478ac9">
     <link rel="canonical" href="index.html">
     <meta property="og:url" content="index.html">
+    <style>
+        #arrowup {
+            position: fixed;
+            right: 30px; /*позиция кнопки: отступ справа*/
+            bottom: 30px; /*позиция кнопки: отступ снизу*/
+            background: url(https://vannalux.github.io/images/page-to-top.png); /*путь к изображению кнопки*/
+            width: 40px; /*размер кнопки по ширине*/
+            height: 40px; /*размер кнопки по высоте*/
+            cursor: pointer;
+            display: none;
+            opacity: 0.75; /*уровень прозрачности в статике*/
+            z-index: 999999999;
+        	}
+             
+        #arrowup:hover {
+            opacity: 1; /*уровень прозрачности при наведении*/
+            }
+    </style>
+
+    <script type="text/javascript">
+        $(document).ready(function() {
+            $(window).scroll(function() {
+                if ($(this).scrollTop() > 0) {
+                    $('#arrowup').fadeIn(500); //скорость исчезновения кнопки
+                } else {
+            $('#arrowup').fadeOut(500); //скорость появления кнопки
+                }
+            });
+            $('#arrowup').click(function() {
+                $('body,html').animate({
+                    scrollTop: 0
+                }, 500); //скорость прокрутки
+                return false;
+            });});
+    </script>
 </head>
 
 <body class="u-body u-overlap">
@@ -506,8 +541,11 @@
 
 
     <footer class="u-align-center u-clearfix u-footer u-grey-80 u-footer" id="sec-3bcd">
-        <div class="u-clearfix u-sheet u-valign-middle u-sheet-1">
+        <div class="u-clearfix u-sheet u-sheet-1">
             <p class="u-small-text u-text u-text-variant u-text-1">Пример текста. Кликните, чтобы выбрать текстовый блок. Кликните еще раз или сделайте двойной клик, чтобы начать редактирование текста.</p>
+            <div class="u-clearfix u-custom-html u-custom-html-1">
+                <div id="arrowup"></div>
+            </div>
         </div>
     </footer>
 </body>
