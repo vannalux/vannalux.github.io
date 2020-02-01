@@ -130,25 +130,6 @@
                     <div class="u-black u-menu-overlay u-opacity u-opacity-70"></div>
                 </div>
             </nav>
-            <div class="u-clearfix u-custom-html u-custom-html-1">
-                <div id="arrowup"></div>
-                <script type="text/javascript">
-                    $(document).ready(function() {
-                        $(window).scroll(function() {
-                            if ($(this).scrollTop() > 0) {
-                                $('#arrowup').fadeIn(500); //скорость исчезновения кнопки
-                            } else {
-                        $('#arrowup').fadeOut(500); //скорость появления кнопки
-                            }
-                        });
-                        $('#arrowup').click(function() {
-                            $('body,html').animate({
-                                scrollTop: 0
-                            }, 500); //скорость прокрутки
-                            return false;
-                        });});
-                </script>
-            </div>
         </div>
     </header>
     <section class="u-align-left u-clearfix u-image u-section-1" id="carousel_2a21">
