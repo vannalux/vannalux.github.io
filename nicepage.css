@@ -24972,7 +24972,7 @@ color: #000000; }
  .u-footer {background-image: none}
 .u-footer .u-sheet-1 {min-height: 164px}
 .u-footer .u-text-1 {width: 765px; margin: 49px auto 0}
-.u-footer .u-custom-html-1 {width: 1140px; min-height: 45px; height: auto; margin: 30px 0 60px} 
+.u-footer .u-custom-html-1 {width: 1140px; min-height: 28px; height: auto; margin: 30px 0 60px} 
 @media (max-width: 1199px){ .u-footer .u-sheet-1 {min-height: 99px}
 .u-footer .u-custom-html-1 {width: 940px} }
 @media (max-width: 991px){ .u-footer .u-sheet-1 {min-height: 76px}
@@ -24985,22 +24985,17 @@ color: #000000; }
 .u-footer .u-text-1 {width: 320px; height: 88px}
 .u-footer .u-custom-html-1 {width: 340px} }
 
- /*begin-variables custom-site-css*/#arrowup {
-    position: fixed;
-    right: 30px; /*позиция кнопки: отступ справа*/
-    bottom: 30px; /*позиция кнопки: отступ снизу*/
-    background: url(images/page-to-top.png); /*путь к изображению кнопки*/
-    width: 40px; /*размер кнопки по ширине*/
-    height: 40px; /*размер кнопки по высоте*/
-    cursor: pointer;
-    display: none;
-    opacity: 0.75; /*уровень прозрачности в статике*/
-    z-index: 999999999;
-	}
-     
-#arrowup:hover {
-    opacity: 1; /*уровень прозрачности при наведении*/
-    }/*end-variables custom-site-css*/
+ /*begin-variables custom-site-css*/.scrollup{
+    width:40px;
+    height:40px;
+    opacity:0.3;
+    position:fixed;
+    bottom:50px;
+    right:100px;
+    display:none;
+    text-indent:-9999px;
+    background: url('page-to-top.png') no-repeat;
+}/*end-variables custom-site-css*/
  /*begin-variables base-font-size*/ 
  html { font-size: 16px; }
  /*end-variables base-font-size*/
