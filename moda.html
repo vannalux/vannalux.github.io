@@ -38,7 +38,7 @@
 
 <body class="u-body">
     <header class="u-align-left u-clearfix u-header u-header" id="sec-cc71">
-        <div class="u-clearfix u-sheet u-valign-middle u-sheet-1">
+        <div class="u-clearfix u-sheet u-sheet-1">
             <nav class="u-menu u-menu-dropdown u-offcanvas u-offcanvas-shift u-menu-1">
                 <div class="menu-collapse" style="font-size: 1rem; letter-spacing: 0; font-weight: 700; text-transform: uppercase;">
                     <a class="u-active-white u-border-no-bottom u-border-no-left u-border-no-right u-border-no-top u-button-style u-custom-border u-custom-border-color u-custom-left-right-menu-spacing u-custom-padding-bottom u-custom-text-color u-custom-top-bottom-menu-spacing u-hover-white u-nav-link u-text-active-grey-90 u-text-black u-text-hover-custom-color-2 u-white"
@@ -92,6 +92,25 @@
                     <div class="u-black u-menu-overlay u-opacity u-opacity-70"></div>
                 </div>
             </nav>
+            <div class="u-clearfix u-custom-html u-custom-html-1">
+                <div id="arrowup"></div>
+                <script type="text/javascript">
+                    $(document).ready(function() {
+                        $(window).scroll(function() {
+                            if ($(this).scrollTop() > 0) {
+                                $('#arrowup').fadeIn(500); //скорость исчезновения кнопки
+                            } else {
+                        $('#arrowup').fadeOut(500); //скорость появления кнопки
+                            }
+                        });
+                        $('#arrowup').click(function() {
+                            $('body,html').animate({
+                                scrollTop: 0
+                            }, 500); //скорость прокрутки
+                            return false;
+                        });});
+                </script>
+            </div>
         </div>
     </header>
 
