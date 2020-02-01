@@ -24985,7 +24985,7 @@ color: #000000; }
 .u-footer .u-text-1 {width: 320px; height: 88px}
 .u-footer .u-custom-html-1 {margin-left: 299px} }
 
- /*begin-variables custom-site-css*/.scrollup{
+ /*begin-variables custom-site-css*/#arrowup{
     position: fixed;
     right: 30px; /*позиция кнопки: отступ справа*/
     bottom: 30px; /*позиция кнопки: отступ снизу*/
@@ -24997,7 +24997,7 @@ color: #000000; }
     opacity: 0.75; /*уровень прозрачности в статике*/
     z-index: 10500;
 }
-.scrollup:hover {
+#arrowup:hover {
     opacity: 1; /*уровень прозрачности при наведении*/
     }/*end-variables custom-site-css*/
  /*begin-variables base-font-size*/ 
