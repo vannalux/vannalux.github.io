@@ -40,10 +40,10 @@
     <script type="text/javascript">
         $(document).ready(function() {
             $(window).scroll(function() {
-                if ($(this).scrollTop() > 200) {
-                    $('#arrowup').fadeIn(); //скорость исчезновения кнопки
+                if ($(this).scrollTop() > 100) {
+                    $('#arrowup').fadeIn(800); //скорость исчезновения кнопки
                 } else {
-            $('#arrowup').fadeOut(); //скорость появления кнопки
+            $('#arrowup').fadeOut(800); //скорость появления кнопки
                 }
             });
             $('#arrowup').click(function() {
