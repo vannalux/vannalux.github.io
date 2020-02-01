@@ -41,13 +41,13 @@
           
             $(window).scroll(function(){
                 if ($(this).scrollTop() > 100) {
-                    $('#arrowup').fadeIn();
+                    $('.scrollup').fadeIn();
                 } else {
-                    $('#arrowup').fadeOut();
+                    $('.scrollup').fadeOut();
                 }
                 });
                   
-                $('#arrowup').click(function(){
+                $('.scrollup').click(function(){
                 $("html, body").animate({ scrollTop: 0 }, 600);
                 return false;
             });
