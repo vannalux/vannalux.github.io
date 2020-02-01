@@ -24989,7 +24989,7 @@ color: #000000; }
     position: fixed;
     right: 30px; /*позиция кнопки: отступ справа*/
     bottom: 30px; /*позиция кнопки: отступ снизу*/
-    background: url(/images/page-to-top.png); /*путь к изображению кнопки*/
+    background: url(images/page-to-top.png); /*путь к изображению кнопки*/
     width: 40px; /*размер кнопки по ширине*/
     height: 40px; /*размер кнопки по высоте*/
     cursor: pointer;
