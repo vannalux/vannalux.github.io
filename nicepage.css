@@ -24992,7 +24992,7 @@ color: #000000; }
     cursor: pointer;
     display: none;
     opacity: 0.75; /*уровень прозрачности в статике*/
-    z-index: 10500;
+    z-index: 9999999;
 	}
      
 #arrowup:hover {
