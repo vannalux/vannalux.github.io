@@ -42,9 +42,9 @@
         $(document).ready(function() {
             $(window).scroll(function() {
                 if ($(this).scrollTop() > 200) {
-                    $('#arrowup').fadeIn(500); //скорость исчезновения кнопки
+                    $('#arrowup').fadeIn(); //скорость исчезновения кнопки
                 } else {
-            $('#arrowup').fadeOut(500); //скорость появления кнопки
+            $('#arrowup').fadeOut(); //скорость появления кнопки
                 }
             });
             $('#arrowup').click(function() {
