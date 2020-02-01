@@ -36,21 +36,24 @@
     <link rel="canonical" href="index.html">
     <meta property="og:url" content="index.html">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.0/jquery.min.js"></script>
+
     <script type="text/javascript">
-        $(document).ready(function() {
-            $(window).scroll(function() {
+        $(document).ready(function(){
+          
+            $(window).scroll(function(){
                 if ($(this).scrollTop() > 100) {
-                    $('#arrowup').fadeIn(800); //скорость исчезновения кнопки
+                    $('.scrollup').fadeIn();
                 } else {
-            $('#arrowup').fadeOut(800); //скорость появления кнопки
+                    $('.scrollup').fadeOut();
                 }
-            });
-            $('#arrowup').click(function() {
-                $('body,html').animate({
-                    scrollTop: 0
-                }, 500); //скорость прокрутки
+                });
+                  
+                $('.scrollup').click(function(){
+                $("html, body").animate({ scrollTop: 0 }, 600);
                 return false;
-            });});
+            });
+          
+        });
     </script>
 </head>
 
