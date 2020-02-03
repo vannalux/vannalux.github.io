@@ -20,18 +20,18 @@
 .u-section-1 .u-group-2 {width: 340px}
 .u-section-1 .u-group-3 {width: 340px; margin-left: 0} }.u-section-2 {min-height: 660px; background-image: url("images/52e7dc454d51a914f6da8c7dda79367d1d38d6ed5b586c4870277bd3934bc458ba_1280.jpg")}
 .u-section-2 .u-layout-wrap-1 {margin-top: 130px; margin-bottom: 50px; position: relative}
-.u-section-2 .u-image-1 {min-height: 430px; background-image: url("images/52e8d5454b55ad14f6da8c7dda79367d1d38d6ed5b586c4870277bd3934bc458ba_1280.jpg")}
+.u-section-2 .u-image-1 {min-height: 430px; background-image: url("images/52e8d5454b55ad14f6da8c7dda79367d1d38d6ed5b586c4870277bd3934bc458ba_1280.jpg"); background-position: 50% 50%}
 .u-section-2 .u-container-layout-1 {padding: 30px}
-.u-section-2 .u-image-2 {min-height: 430px; background-image: url("images/52e8d5464353aa14f6da8c7dda79367d1d38d6ed5b586c4870277bd3934bc458ba_1280.jpg")}
+.u-section-2 .u-image-2 {min-height: 430px; background-image: url("images/52e8d5464353aa14f6da8c7dda79367d1d38d6ed5b586c4870277bd3934bc458ba_1280.jpg"); background-position: 50% 50%}
 .u-section-2 .u-container-layout-2 {padding: 30px}
-.u-section-2 .u-image-3 {min-height: 430px; background-image: url("images/52e8d5464d57aa14f6da8c7dda79367d1d38d6ed5b586c4870277bd3934bc458ba_1280.jpg")}
+.u-section-2 .u-image-3 {min-height: 430px; background-image: url("images/52e8d5464d57aa14f6da8c7dda79367d1d38d6ed5b586c4870277bd3934bc458ba_1280.jpg"); background-position: 50% 50%}
 .u-section-2 .u-container-layout-3 {padding: 30px} 
 
 @media (max-width: 1199px){ .u-section-2 {min-height: 590px; background-position: 50% 50%}
 .u-section-2 .u-layout-wrap-1 {margin-bottom: 20px}
-.u-section-2 .u-image-1 {min-height: 355px; background-position: 50% 50%}
-.u-section-2 .u-image-2 {min-height: 355px; background-position: 50% 50%}
-.u-section-2 .u-image-3 {min-height: 355px; background-position: 50% 50%} }
+.u-section-2 .u-image-1 {min-height: 355px}
+.u-section-2 .u-image-2 {min-height: 355px}
+.u-section-2 .u-image-3 {min-height: 355px} }
 
 @media (max-width: 991px){ .u-section-2 {min-height: 493px}
 .u-section-2 .u-layout-wrap-1 {margin-bottom: 130px}
