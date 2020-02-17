@@ -3,7 +3,7 @@
 
 
 $imSettings['blog'] = array(	'description' => 'Первый мой блог о разном и интересном',
-	'root' => 'http://moy.iblogger.org/blog/',
+	'root' => 'https://vannalux.github.io/blog/',
 	'home_posts_number' => 10,
 	'card_type' => 'topcoverbottomcontents',
 	'show_card_title' => true,
@@ -61,12 +61,12 @@ $imSettings['blog']['posts']['00000000E'] = array(
 	'slideshow' => '<div style="margin: 5px auto;"><div id="ss_00000000E" style="max-width: 400px; margin: 0 auto;"></div></div><script>function loadpostgallery00000000E() {$(\'#ss_00000000E\').empty().width(\'auto\');var settings = { target: \'#ss_00000000E\', media: [{ url: \'../images/ork12.jpg\', width: 400, height: 280, autoplayTime: 3000, effect: \'scramble\'},{ url: \'../images/ork14.jpg\', width: 400, height: 280, autoplayTime: 3000, effect: \'scramble\'},{ url: \'../images/ork16.jpg\', width: 400, height: 280, autoplayTime: 3000, effect: \'scramble\'},{ url: \'../images/ork22.jpg\', width: 400, height: 280, autoplayTime: 3000, effect: \'scramble\'},{ url: \'../images/ork24.jpg\', width: 400, height: 280, autoplayTime: 3000, effect: \'scramble\'},{ url: \'../images/ork26.jpg\', width: 400, height: 280, autoplayTime: 3000, effect: \'scramble\'}],width: 400,height: 280, backgroundColor: \'transparent\', resFolder: \'../res\', autoplay: true,slideshow: { active: true, buttonPrev: { url: x5engine.settings.currentPath + \'blog/files/b17_l.png\', x: 4, y: 0 }, buttonNext: { url: x5engine.settings.currentPath + \'blog/files/b17_r.png\', x: 4, y: 0 }, nextPrevMode: \'hover\'}};var currentBp = x5engine.responsive.getCurrentBreakPoint();if (currentBp.end == 1340) {settings.width = 400;settings.height = 300;}if (currentBp.end == 720) {settings.width = 400;settings.height = 300;}if (currentBp.end == 480) {settings.width = 400;settings.height = 300;}if (currentBp.end == 0) {settings.width = Math.min(400, $(\'#ss_00000000E\').width());settings.height = settings.width / 400 * 280;}x5engine.gallery(settings);$(\'#imContent\').off(\'breakpointChangedOrFluid\', loadpostgallery00000000E).on(\'breakpointChangedOrFluid\', loadpostgallery00000000E);}x5engine.boot.push(loadpostgallery00000000E);</script>',
 	'tag' => array('Ванна'),
 	'opengraph' => array(
-		'url' => 'http://moy.iblogger.org/blog/?vanna',
+		'url' => 'https://vannalux.github.io/blog/?vanna',
 		'type' => 'article',
 		'title' => 'Реставрация ванн жидким акрилом своими руками',
 		'description' => 'Метод: Реставрация ванн жидким наливным акрилом своими руками в домашних условиях.',
 		'updated_time' => '1579530600',
-		'images' => array('http://moy.iblogger.org/blog/files/pixabay-465577_thumb.jpg','http://moy.iblogger.org/blog/files/pixabay-465577.jpg','http://moy.iblogger.org/images/constructor-with-hat-and-a-gear.png','http://moy.iblogger.org/images/pixabay-885402.jpg'),
+		'images' => array('https://vannalux.github.io/blog/files/pixabay-465577_thumb.jpg','https://vannalux.github.io/blog/files/pixabay-465577.jpg','https://vannalux.github.io/images/constructor-with-hat-and-a-gear.png','https://vannalux.github.io/images/pixabay-885402.jpg'),
 		'postimage' => 'images/constructor-with-hat-and-a-gear.png'
 	)
 );$imSettings['blog']['posts_cat']['Ванна'][] = '00000000E';
@@ -96,12 +96,12 @@ $imSettings['blog']['posts']['000000006'] = array(
 	'sources' => array(),
 	'tag' => array(),
 	'opengraph' => array(
-		'url' => 'http://moy.iblogger.org/blog/?lorem-ipsum-dolor',
+		'url' => 'https://vannalux.github.io/blog/?lorem-ipsum-dolor',
 		'type' => 'article',
 		'title' => 'Lorem Ipsum Dolor',
 		'description' => 'Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam.',
 		'updated_time' => '1578667440',
-		'images' => array('http://moy.iblogger.org/blog/files/pixabay-1840011_thumb.jpg','http://moy.iblogger.org/blog/files/pixabay-1840011.jpg','http://moy.iblogger.org/images/pixabay-508272.jpg'),
+		'images' => array('https://vannalux.github.io/blog/files/pixabay-1840011_thumb.jpg','https://vannalux.github.io/blog/files/pixabay-1840011.jpg','https://vannalux.github.io/images/pixabay-508272.jpg'),
 		'postimage' => 'images/pixabay-508272.jpg'
 	)
 );$imSettings['blog']['posts_cat']['Design'][] = '000000006';
@@ -131,12 +131,12 @@ $imSettings['blog']['posts']['000000009'] = array(
 	'sources' => array(),
 	'tag' => array(),
 	'opengraph' => array(
-		'url' => 'http://moy.iblogger.org/blog/?qui-ratione-voluptatem-sequi-nesciunt',
+		'url' => 'https://vannalux.github.io/blog/?qui-ratione-voluptatem-sequi-nesciunt',
 		'type' => 'article',
 		'title' => 'Qui ratione voluptatem sequi nesciunt',
 		'description' => 'Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet',
 		'updated_time' => '1550141640',
-		'images' => array('http://moy.iblogger.org/blog/files/pixabay-1868502_thumb.jpg','http://moy.iblogger.org/blog/files/pixabay-1868502.jpg','http://moy.iblogger.org/images/pixabay-416060.jpg','http://moy.iblogger.org/images/pixabay-2181994.jpg','http://moy.iblogger.org/images/pixabay-1868502.jpg'),
+		'images' => array('https://vannalux.github.io/blog/files/pixabay-1868502_thumb.jpg','https://vannalux.github.io/blog/files/pixabay-1868502.jpg','https://vannalux.github.io/images/pixabay-416060.jpg','https://vannalux.github.io/images/pixabay-2181994.jpg','https://vannalux.github.io/images/pixabay-1868502.jpg'),
 		'postimage' => 'images/pixabay-416060.jpg'
 	)
 );$imSettings['blog']['posts_cat']['Design'][] = '000000009';
@@ -166,12 +166,12 @@ $imSettings['blog']['posts']['00000000D'] = array(
 	'sources' => array(),
 	'tag' => array(),
 	'opengraph' => array(
-		'url' => 'http://moy.iblogger.org/blog/?at-vero-eos-et-accusamus-et-iusto-1',
+		'url' => 'https://vannalux.github.io/blog/?at-vero-eos-et-accusamus-et-iusto-1',
 		'type' => 'article',
 		'title' => 'At vero eos et accusamus et iusto',
 		'description' => 'Et harum quidem rerum facilis est et expedita distinctio.',
 		'updated_time' => '1550069400',
-		'images' => array('http://moy.iblogger.org/blog/files/pixabay-1834784_thumb.jpg','http://moy.iblogger.org/blog/files/pixabay-1834784.jpg','http://moy.iblogger.org/images/pixabay-447484.jpg'),
+		'images' => array('https://vannalux.github.io/blog/files/pixabay-1834784_thumb.jpg','https://vannalux.github.io/blog/files/pixabay-1834784.jpg','https://vannalux.github.io/images/pixabay-447484.jpg'),
 		'postimage' => 'images/pixabay-447484.jpg'
 	)
 );$imSettings['blog']['posts_cat']['Exposition'][] = '00000000D';
@@ -201,12 +201,12 @@ $imSettings['blog']['posts']['000000007'] = array(
 	'sources' => array(),
 	'tag' => array(),
 	'opengraph' => array(
-		'url' => 'http://moy.iblogger.org/blog/?ullamco-laboris-nisi-ut-aliquip',
+		'url' => 'https://vannalux.github.io/blog/?ullamco-laboris-nisi-ut-aliquip',
 		'type' => 'article',
 		'title' => 'Ullamco laboris nisi ut aliquip',
 		'description' => 'Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum',
 		'updated_time' => '1550069160',
-		'images' => array('http://moy.iblogger.org/blog/files/pixabay-1835923_thumb.jpg','http://moy.iblogger.org/blog/files/pixabay-1835923.jpg','http://moy.iblogger.org/images/pixabay-1483479.jpg','http://moy.iblogger.org/images/pixabay-1853552.jpg'),
+		'images' => array('https://vannalux.github.io/blog/files/pixabay-1835923_thumb.jpg','https://vannalux.github.io/blog/files/pixabay-1835923.jpg','https://vannalux.github.io/images/pixabay-1483479.jpg','https://vannalux.github.io/images/pixabay-1853552.jpg'),
 		'postimage' => 'images/pixabay-1483479.jpg'
 	)
 );$imSettings['blog']['posts_cat']['Exposition'][] = '000000007';

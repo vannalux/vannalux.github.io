@@ -1,5 +1,5 @@
 x5engine.settings.imBlog = {
-	root: 'http://moy.iblogger.org/blog/',
+	root: 'https://vannalux.github.io/blog/',
 	title_tag: 'Блог о самом интересном - Moy',
 	home_posts_number: 10,
 	card_type: 'topcoverbottomcontents',

@@ -4,10 +4,10 @@
 	GENERAL SETTINGS
 *****************/
 $imSettings['search']['general'] = array(
-	'menu_position' => 'right',
+	'menu_position' => 'left',
 	'defaultScope' => array(
-		'0' => 'index.php',
-		'9' => 'page-9.php'
+		'0' => 'index.html',
+		'9' => 'page-9.html'
 	),
 	'extendedScope' => array(
 	)
