@@ -26,7 +26,7 @@ if (!$data['valid']) {
 		<link rel="stylesheet" href="../pluginAppObj/imHeader_pluginAppObj_04/custom.css" media="screen, print" />
 		
 		<link rel="stylesheet" href="../pluginAppObj/imSideBar_pluginAppObj_01/custom.css" media="screen, print" />
-		<link rel="stylesheet" href="../blog/style.css?2019-3-14-0-637175779160187678" media="screen,print" />
+		<link rel="stylesheet" href="../blog/style.css?2019-3-14-0-637175781852731510" media="screen,print" />
 		<script src="../res/jquery.js?2019-3-14-0"></script>
 		<script src="../res/x5engine.js?2019-3-14-0" data-files-version="2019-3-14-0"></script>
 		<script src="../pluginAppObj/imHeader_pluginAppObj_04/main.js"></script>
@@ -38,7 +38,7 @@ if (!$data['valid']) {
 			x5engine.utils.currentPagePath = 'blog/index.php';
 			x5engine.boot.push(function () { x5engine.imPageToTop.initializeButton({}); });
 		</script>
-		<link rel="icon" href="../favicon.png?2019-3-14-0-637175779160027660" type="image/png" />
+		<link rel="icon" href="../favicon.png?2019-3-14-0-637175781852731510" type="image/png" />
 		<link rel="alternate" type="application/rss+xml" title="Блог о самом интересном" href="../blog/x5feed.php" />
 <?php
 $blogBaseUrl = $imSettings['general']['url'] . 'blog';

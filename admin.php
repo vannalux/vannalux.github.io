@@ -16,7 +16,7 @@
 		<link rel="stylesheet" href="pluginAppObj/imHeader_pluginAppObj_04/custom.css" media="screen, print" />
 		
 		<link rel="stylesheet" href="pluginAppObj/imSideBar_pluginAppObj_01/custom.css" media="screen, print" />
-		<link rel="stylesheet" href="pcss/admin.css?2019-3-14-0-637175779164007432" media="screen,print" />
+		<link rel="stylesheet" href="pcss/admin.css?2019-3-14-0-637175781858512441" media="screen,print" />
 		<script src="res/jquery.js?2019-3-14-0"></script>
 		<script src="res/x5engine.js?2019-3-14-0" data-files-version="2019-3-14-0"></script>
 		<script src="pluginAppObj/imHeader_pluginAppObj_04/main.js"></script>
@@ -27,7 +27,7 @@
 			x5engine.utils.currentPagePath = 'admin.php';
 			x5engine.boot.push(function () { x5engine.imPageToTop.initializeButton({}); });
 		</script>
-		<link rel="icon" href="favicon.png?2019-3-14-0-637175779162817514" type="image/png" />
+		<link rel="icon" href="favicon.png?2019-3-14-0-637175781857575004" type="image/png" />
 		<link rel="alternate" type="application/rss+xml" title="Блог о самом интересном" href="blog/x5feed.php" />
 		<style>
 h1, h2, h3, h4, h5, h6 {
