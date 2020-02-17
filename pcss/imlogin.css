@@ -187,7 +187,7 @@ max-height: 100%; position: absolute; top: 0; bottom: 0; left: 3px; margin: auto
 #imLoginError { color: red; }
 .imLogoutLink { color: inherit; }
 @media (min-width: 1340px) {
-	#imLoginPage { box-sizing: border-box; margin-left: 0; margin-right: 0; padding: 0 0px 0 10px; }
+	#imLoginPage { box-sizing: border-box; margin-left: 0; margin-right: 0; padding: 0 0px 0 0px; }
 	
 }
 
