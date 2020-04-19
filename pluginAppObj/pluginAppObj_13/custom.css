@@ -96,7 +96,9 @@
     border-color: rgba(25, 25, 112, 1);
     color: rgba(14, 131, 205, 1);
     font-style:italic;
-	
+	background-image: url('../../pluginAppObj/pluginAppObj_13/300300.jpg');
+	background-repeat: no-repeat;
+	background-position: center center;
 }
 
 #pluginAppObj_13 .button-wrapper-over.fade {
