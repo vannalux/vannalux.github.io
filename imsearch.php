@@ -2,17 +2,22 @@
 <!DOCTYPE html><!-- HTML5 -->
 <html prefix="og: http://ogp.me/ns#" lang="ru-RU" dir="ltr">
 	<head>
-		<title>Поиск - Новый проект</title>
+		<title>Поиск</title>
 		<meta charset="utf-8" />
 		<!--[if IE]><meta http-equiv="ImageToolbar" content="False" /><![endif]-->
+		<meta name="author" content="Vannalux" />
 		<meta name="generator" content="Incomedia WebSite X5 Evo 2020.1.12 - www.websitex5.com" />
+		<meta property="og:image" content="https://vannalux.github.io/favImage.png" />
+		<meta property="og:image:type" content="image/png">
+		<meta property="og:image:width" content="610">
+		<meta property="og:image:height" content="404">
 		<meta name="viewport" content="width=device-width, initial-scale=1" />
 		
 		<link rel="stylesheet" href="style/reset.css?2020-1-12-0" media="screen,print" />
 		<link rel="stylesheet" href="style/print.css?2020-1-12-0" media="print" />
 		<link rel="stylesheet" href="style/style.css?2020-1-12-0" media="screen,print" />
 		<link rel="stylesheet" href="style/template.css?2020-1-12-0" media="screen" />
-		<link rel="stylesheet" href="pcss/imsearch.css?2020-1-12-0-637272345021779221" media="screen,print" />
+		<link rel="stylesheet" href="pcss/imsearch.css?2020-1-12-0-637272355786222166" media="screen,print" />
 		<script src="res/jquery.js?2020-1-12-0"></script>
 		<script src="res/x5engine.js?2020-1-12-0" data-files-version="2020-1-12-0"></script>
 		<script>
@@ -20,7 +25,7 @@
 			x5engine.utils.currentPagePath = 'imsearch.php';
 			x5engine.boot.push(function () { x5engine.imPageToTop.initializeButton({}); });
 		</script>
-		
+		<link rel="icon" href="favicon.png?2020-1-12-0-637272355786162119" type="image/png" />
 	</head>
 	<body>
 		<div id="imPageExtContainer">
@@ -29,7 +34,7 @@
 				<div id="imFooterBg"></div>
 				<div id="imPage">
 					<header id="imHeader">
-						<h1 class="imHidden">Поиск - Новый проект</h1>
+						<h1 class="imHidden">Поиск</h1>
 						<div id="imHeaderObjects"><div id="imHeader_imObjectTitle_03_wrapper" class="template-object-wrapper"><div id="imHeader_imObjectTitle_03"><span id ="imHeader_imObjectTitle_03_text" >Title</span></div></div><div id="imHeader_imMenuObject_01_wrapper" class="template-object-wrapper"><!-- UNSEARCHABLE --><div id="imHeader_imMenuObject_01"><div id="imHeader_imMenuObject_01_container"><div class="hamburger-button hamburger-component"><div><div><div class="hamburger-bar"></div><div class="hamburger-bar"></div><div class="hamburger-bar"></div></div></div></div><div class="hamburger-menu-background-container hamburger-component">
 	<div class="hamburger-menu-background menu-mobile menu-mobile-animated hidden">
 		<div class="hamburger-menu-close-button"><span>&times;</span></div>

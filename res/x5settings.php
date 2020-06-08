@@ -9,10 +9,10 @@
 $imSettings['general'] = array(
 	'site_id' => '3F8ED6FB0A808641A39D7FEE2E950F71',
 	'url' => 'https://vannalux.github.io/',
-	'homepage_url' => 'https://vannalux.github.io/index.html',
-	'icon' => '',
+	'homepage_url' => 'https://vannalux.github.io/2.html',
+	'icon' => 'https://vannalux.github.io/favImage.png',
 	'version' => '2020.1.12.0',
-	'sitename' => 'Новый проект',
+	'sitename' => '',
 	'lang_code' => 'ru-RU',
 	'public_folder' => '',
 	'salt' => 'vmztql83h0o37m362d12kf5fnodp5tknvksu4wtyk888sdp935l0',
