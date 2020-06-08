@@ -1,0 +1,7 @@
+#New_ProjectStage {
+                  width:728px;
+			      height:300px;
+			      transform-origin: top left;
+			      transition: all 100ms ease-in-out !important;
+			      position: absolute;  
+			    }
