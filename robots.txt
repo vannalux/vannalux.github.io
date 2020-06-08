@@ -1,6 +1,6 @@
 User-agent: *
-Disallow: /ua/admin
-Disallow: /ua/captcha
-Disallow: /ua/menu
-Disallow: /ua/imemail
-Sitemap: https://vannalux.ml/ua/sitemap.xml
+Disallow: /admin
+Disallow: /captcha
+Disallow: /menu
+Disallow: /imemail
+Sitemap: https://vannalux.ml/sitemap.xml
