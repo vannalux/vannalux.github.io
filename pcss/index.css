@@ -821,8 +821,6 @@ max-height: 100%; position: absolute; top: 0; bottom: 0; left: 3px; margin: auto
 #imTextObject_3_17 .text-container .grid-prop.current-tab {z-index: 1; opacity: 1;  }
 #imTextObject_3_17 .text-container .grid-prop {-ms-grid-column: 1; -ms-grid-row: 1; grid-area: 1 / 1 / 2 / 2; opacity: 0; box-sizing: border-box; position: relative;  }
 #imTextObject_3_17 .text-container .text-tab-content.detach {position: absolute; top: 0; left: 0; width: 100%; display: none; }
-#imPageRowGraphics_10 { position: absolute; top: -50%; bottom: -50%; left: 0; right: 0; visibility: hidden; opacity: 1; }
-#imPageRowGraphics_10 { background: rgba(255, 255, 0, 1); background: -webkit-linear-gradient(180deg, rgba(255, 255, 0, 1), rgba(255, 153, 0, 1) 100%); background: -o-linear-gradient(180deg, rgba(255, 255, 0, 1), rgba(255, 153, 0, 1) 100%); background: -moz-linear-gradient(180deg, rgba(255, 255, 0, 1), rgba(255, 153, 0, 1) 100%); background: linear-gradient(180deg, rgba(255, 255, 0, 1), rgba(255, 153, 0, 1) 100%); }
 #imCell_44 { -ms-grid-columns: 100%; grid-template-columns: 100%; position: relative; box-sizing: border-box; }
 #pluginAppObj_3_44 { position: relative; -ms-grid-row-align: start; align-self: start; -ms-grid-column-align: center; justify-self: center; max-width: 100%; box-sizing: border-box; z-index: 3; }
 #imCellStyleGraphics_44 { position: absolute; top: 3px; bottom: 3px; background-color: rgba(152, 0, 0, 1); }
