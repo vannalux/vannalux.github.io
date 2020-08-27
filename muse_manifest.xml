@@ -1,10 +1,10 @@
-<manifest alg="2" build="2018.1.0.386" opt="false" iceEnabled="true" iceMarkupVersion="2" iceEnabledOptions="link,responsive,cachebuster,textStyling" exportTarget="other" domain="https://vannalux.github.io" resolutions="1x" timestamp="1598535369705">
+<manifest alg="2" build="2018.1.0.386" opt="false" iceEnabled="true" iceMarkupVersion="2" iceEnabledOptions="link,responsive,cachebuster,textStyling" exportTarget="other" domain="https://vannalux.github.io" resolutions="1x" timestamp="1598565674912">
   <folder name="css">
     <file name="site_global.css" crc="444006867"/>
-    <file name="master_______-a.css" crc="187291144" ref="index"/>
-    <file name="nomq_preview_master_______-a.css" crc="3824530138" ref="index"/>
-    <file name="index.css" crc="3927549502" ref="index"/>
-    <file name="nomq_index.css" crc="3820724555" ref="index"/>
+    <file name="master_______-a.css" crc="3783495370" ref="index"/>
+    <file name="nomq_preview_master_______-a.css" crc="3837135427" ref="index"/>
+    <file name="index.css" crc="386048718" ref="index"/>
+    <file name="nomq_index.css" crc="3944643815" ref="index"/>
   </folder>
   <folder name="fonts">
     <file name="ptsans-narrow.woff" crc="4137024931"/>
@@ -117,5 +117,5 @@
     </file>
     <file name="blank.gif" crc="4208392903" ref="index"/>
   </folder>
-  <file name="index.html" crc="3763148376" seo="true" mt="1598535329450" redirect="true"/>
+  <file name="index.html" crc="3874838563" seo="true" mt="1598565602150" redirect="true"/>
 </manifest>
