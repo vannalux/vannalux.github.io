@@ -1,12 +1,12 @@
-<manifest alg="2" build="2018.1.0.386" opt="false" iceEnabled="false" exportTarget="other" domain="https://vannalux.github.io" resolutions="1x" timestamp="1598603196748">
+<manifest alg="2" build="2018.1.0.386" opt="false" iceEnabled="false" exportTarget="other" domain="https://vannalux.github.io" resolutions="1x" timestamp="1598604719089">
   <folder name="css">
     <file name="site_global.css" crc="444006867"/>
-    <file name="master_______-a.css" crc="422181448" ref="index:foto"/>
+    <file name="master_______-a.css" crc="3937847924" ref="index:foto"/>
     <file name="nomq_preview_master_______-a.css" crc="32448277" ref="index:foto"/>
-    <file name="index.css" crc="346196644" ref="index"/>
-    <file name="nomq_index.css" crc="465123403" ref="index"/>
-    <file name="foto.css" crc="166763124" ref="foto"/>
-    <file name="nomq_foto.css" crc="507197397" ref="foto"/>
+    <file name="index.css" crc="4239812493" ref="index"/>
+    <file name="nomq_index.css" crc="315103857" ref="index"/>
+    <file name="foto.css" crc="4194233703" ref="foto"/>
+    <file name="nomq_foto.css" crc="4023775994" ref="foto"/>
   </folder>
   <folder name="fonts">
     <file name="ptsans-narrowbold.woff" crc="3942810612"/>
@@ -29,7 +29,7 @@
     <file name="require.js" crc="7928878" ref="index:foto"/>
   </folder>
   <folder name="images">
-    <file name="шаблон-a-favicon.ico" crc="3874248244" ref="index:foto"/>
+    <file name="шаблон-a-favicon.ico" crc="3874248244" ref="index"/>
     <file name="81-1.jpg" crc="3920583051" ref="index">
       <caption webpage="index" alt=""/>
     </file>
@@ -106,12 +106,12 @@
       <caption webpage="index" alt=""/>
       <caption webpage="index" alt=""/>
       <caption webpage="index" alt=""/>
-      <caption webpage="фотограф" alt=""/>
-      <caption webpage="фотограф" alt=""/>
-      <caption webpage="фотограф" alt=""/>
       <caption webpage="foto" alt=""/>
       <caption webpage="foto" alt=""/>
       <caption webpage="foto" alt=""/>
+      <caption webpage="фотограф" alt=""/>
+      <caption webpage="фотограф" alt=""/>
+      <caption webpage="фотограф" alt=""/>
     </file>
     <file name="portal-15270x180.jpg" crc="4144347565" seo="true" ref="index">
       <caption webpage="index" alt="Реставрация ванн Москва"/>
@@ -128,51 +128,51 @@
     <file name="blank.gif" crc="4208392903" ref="index:foto"/>
     <file name="pixabay-931711-u2084-fr.png" crc="4253650355" ref="foto"/>
     <file name="pixabay-1596288.jpg" crc="295270833" seo="true" ref="foto">
-      <caption webpage="фотограф" alt=""/>
       <caption webpage="foto" alt=""/>
+      <caption webpage="фотограф" alt=""/>
     </file>
     <file name="pixabay-2681039-crop-u2146.jpg" crc="311027679" seo="true" ref="foto">
-      <caption webpage="фотограф" alt=""/>
       <caption webpage="foto" alt=""/>
+      <caption webpage="фотограф" alt=""/>
     </file>
     <file name="pixabay-4178302.jpg" crc="4081511395" seo="true" ref="foto">
-      <caption webpage="фотограф" alt=""/>
-      <caption webpage="фотограф" alt=""/>
       <caption webpage="foto" alt=""/>
       <caption webpage="foto" alt=""/>
+      <caption webpage="фотограф" alt=""/>
+      <caption webpage="фотограф" alt=""/>
     </file>
     <file name="pixabay-3125816.jpg" crc="4228218567" seo="true" ref="foto">
-      <caption webpage="фотограф" alt=""/>
-      <caption webpage="фотограф" alt=""/>
       <caption webpage="foto" alt=""/>
       <caption webpage="foto" alt=""/>
+      <caption webpage="фотограф" alt=""/>
+      <caption webpage="фотограф" alt=""/>
     </file>
     <file name="pixabay-1596288729x487.jpg" crc="4061463836" seo="true" ref="foto">
-      <caption webpage="фотограф" alt=""/>
       <caption webpage="foto" alt=""/>
+      <caption webpage="фотограф" alt=""/>
     </file>
     <file name="pixabay-2681039-crop-u21462.jpg" crc="4122057120" seo="true" ref="foto">
-      <caption webpage="фотограф" alt=""/>
       <caption webpage="foto" alt=""/>
+      <caption webpage="фотограф" alt=""/>
     </file>
     <file name="pixabay-1596288456x305.jpg" crc="248627117" seo="true" ref="foto">
-      <caption webpage="фотограф" alt=""/>
       <caption webpage="foto" alt=""/>
+      <caption webpage="фотограф" alt=""/>
     </file>
     <file name="pixabay-2681039-crop-u21463.jpg" crc="507042158" seo="true" ref="foto">
-      <caption webpage="фотограф" alt=""/>
       <caption webpage="foto" alt=""/>
+      <caption webpage="фотограф" alt=""/>
     </file>
     <file name="pixabay-4178302219x300.jpg" crc="384817700" seo="true" ref="foto">
-      <caption webpage="фотограф" alt=""/>
       <caption webpage="foto" alt=""/>
+      <caption webpage="фотограф" alt=""/>
     </file>
     <file name="pixabay-3125816211x201.jpg" crc="320149507" seo="true" ref="foto">
-      <caption webpage="фотограф" alt=""/>
       <caption webpage="foto" alt=""/>
+      <caption webpage="фотограф" alt=""/>
     </file>
     <file name="pixabay-931711-u2084-fr2.png" crc="11534531" ref="foto"/>
   </folder>
-  <file name="index.html" crc="516387922" seo="true" mt="1598573513808" redirect="true"/>
-  <file name="foto.html" crc="4039162900" seo="true" mt="1598603070895" redirect="true"/>
+  <file name="index.html" crc="3907836523" seo="true" mt="1598604627129" redirect="true"/>
+  <file name="foto.html" crc="3994194688" seo="true" mt="1598604627129" redirect="true"/>
 </manifest>
