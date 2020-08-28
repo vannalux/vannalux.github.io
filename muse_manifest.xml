@@ -1,4 +1,4 @@
-<manifest alg="2" build="2018.1.0.386" opt="false" iceEnabled="false" exportTarget="other" domain="https://vannalux.github.io" resolutions="1x" timestamp="1598615449219">
+<manifest alg="2" build="2018.1.0.386" opt="false" iceEnabled="false" exportTarget="other" domain="https://vannalux.github.io" resolutions="1x" timestamp="1598615710175">
   <folder name="css">
     <file name="site_global.css" crc="444006867"/>
     <file name="master_______-a.css" crc="130553762" ref="index:foto:prom:blog"/>
@@ -9,8 +9,8 @@
     <file name="nomq_foto.css" crc="227912776" ref="foto"/>
     <file name="prom.css" crc="3959126958" ref="prom"/>
     <file name="nomq_prom.css" crc="3914466769" ref="prom"/>
-    <file name="blog.css" crc="4190759575" ref="blog"/>
-    <file name="nomq_blog.css" crc="3981228272" ref="blog"/>
+    <file name="blog.css" crc="4024534372" ref="blog"/>
+    <file name="nomq_blog.css" crc="4244230956" ref="blog"/>
   </folder>
   <folder name="fonts">
     <file name="ptsans-narrowbold.woff" crc="3942810612"/>
@@ -37,7 +37,7 @@
     <file name="touchswipe.js" crc="4075097462" ref="index:foto:prom:blog"/>
   </folder>
   <folder name="images">
-    <file name="шаблон-a-favicon.ico" crc="3874248244" ref="index"/>
+    <file name="шаблон-a-favicon.ico" crc="3874248244" ref="index:blog"/>
     <file name="81-1.jpg" crc="3920583051" ref="index">
       <caption webpage="index" alt=""/>
     </file>
@@ -142,7 +142,7 @@
     <file name="portal-12270x180.jpg" crc="359427038" seo="true" ref="index">
       <caption webpage="index" alt="Реставрация ванн Москва"/>
     </file>
-    <file name="blank.gif" crc="4208392903" ref="index:foto:prom:blog"/>
+    <file name="blank.gif" crc="4208392903" ref="index:foto:prom"/>
     <file name="pixabay-931711-u2084-fr.png" crc="4253650355" ref="foto"/>
     <file name="pixabay-1596288.jpg" crc="295270833" seo="true" ref="foto">
       <caption webpage="foto" alt=""/>
@@ -226,5 +226,5 @@
   <file name="index.html" crc="4280764823" seo="true" mt="1598615412360" redirect="true"/>
   <file name="foto.html" crc="4065436623" seo="true" mt="1598615412360" redirect="true"/>
   <file name="prom.html" crc="137758491" seo="true" mt="1598615412360" redirect="true"/>
-  <file name="blog.html" crc="3866600839" seo="true" mt="1598615412369" redirect="true"/>
+  <file name="blog.html" crc="3955429549" seo="true" mt="1598615678111" redirect="true"/>
 </manifest>
