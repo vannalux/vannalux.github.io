@@ -1,14 +1,16 @@
-<manifest alg="2" build="2018.1.0.386" opt="false" iceEnabled="false" exportTarget="other" domain="https://vannalux.github.io" resolutions="1x" timestamp="1598613166498">
+<manifest alg="2" build="2018.1.0.386" opt="false" iceEnabled="false" exportTarget="other" domain="https://vannalux.github.io" resolutions="1x" timestamp="1598615256019">
   <folder name="css">
     <file name="site_global.css" crc="444006867"/>
-    <file name="master_______-a.css" crc="4225098618" ref="index:foto:prom"/>
-    <file name="nomq_preview_master_______-a.css" crc="151408235" ref="index:foto:prom"/>
-    <file name="index.css" crc="4115887240" ref="index"/>
-    <file name="nomq_index.css" crc="3961329360" ref="index"/>
-    <file name="foto.css" crc="3945366255" ref="foto"/>
-    <file name="nomq_foto.css" crc="524869127" ref="foto"/>
-    <file name="prom.css" crc="4167580187" ref="prom"/>
-    <file name="nomq_prom.css" crc="4044284658" ref="prom"/>
+    <file name="master_______-a.css" crc="130553762" ref="index:foto:prom:блог"/>
+    <file name="nomq_preview_master_______-a.css" crc="3910579434" ref="index:foto:prom:блог"/>
+    <file name="index.css" crc="4066701994" ref="index"/>
+    <file name="nomq_index.css" crc="405671628" ref="index"/>
+    <file name="foto.css" crc="3853994559" ref="foto"/>
+    <file name="nomq_foto.css" crc="227912776" ref="foto"/>
+    <file name="prom.css" crc="3959126958" ref="prom"/>
+    <file name="nomq_prom.css" crc="3914466769" ref="prom"/>
+    <file name="____.css" crc="4190759575" ref="блог"/>
+    <file name="nomq_____.css" crc="3981228272" ref="блог"/>
   </folder>
   <folder name="fonts">
     <file name="ptsans-narrowbold.woff" crc="3942810612"/>
@@ -19,20 +21,20 @@
     <file name="ptsans-narrow.svg" crc="431651533"/>
   </folder>
   <folder name="scripts">
-    <file name="jquery-1.8.3.min.js" crc="209076791" ref="index:foto:prom"/>
-    <file name="museutils.js" crc="340535759" ref="index:foto:prom"/>
-    <file name="whatinput.js" crc="86476730" ref="index:foto:prom"/>
-    <file name="museconfig.js" crc="4286661555" ref="index:foto:prom"/>
-    <file name="jquery.musemenu.js" crc="510910590" ref="index:foto:prom"/>
-    <file name="jquery.watch.js" crc="51536988" ref="index:foto:prom"/>
+    <file name="jquery-1.8.3.min.js" crc="209076791" ref="index:foto:prom:блог"/>
+    <file name="museutils.js" crc="340535759" ref="index:foto:prom:блог"/>
+    <file name="whatinput.js" crc="86476730" ref="index:foto:prom:блог"/>
+    <file name="museconfig.js" crc="4286661555" ref="index:foto:prom:блог"/>
+    <file name="jquery.musemenu.js" crc="510910590" ref="index:foto:prom:блог"/>
+    <file name="jquery.watch.js" crc="51536988" ref="index:foto:prom:блог"/>
     <file name="jquery.musepolyfill.bgsize.js" crc="4260645839" ref="index:foto:prom"/>
-    <file name="html5shiv.js" crc="4241844378" ref="index:foto:prom"/>
-    <file name="jquery.museresponsive.js" crc="527716135" ref="index:foto:prom"/>
-    <file name="require.js" crc="7928878" ref="index:foto:prom"/>
-    <file name="webpro.js" crc="4059564322" ref="index:foto:prom"/>
-    <file name="musewpslideshow.js" crc="3862962738" ref="index:foto:prom"/>
-    <file name="jquery.museoverlay.js" crc="4147669564" ref="index:foto:prom"/>
-    <file name="touchswipe.js" crc="4075097462" ref="index:foto:prom"/>
+    <file name="html5shiv.js" crc="4241844378" ref="index:foto:prom:блог"/>
+    <file name="jquery.museresponsive.js" crc="527716135" ref="index:foto:prom:блог"/>
+    <file name="require.js" crc="7928878" ref="index:foto:prom:блог"/>
+    <file name="webpro.js" crc="4059564322" ref="index:foto:prom:блог"/>
+    <file name="musewpslideshow.js" crc="3862962738" ref="index:foto:prom:блог"/>
+    <file name="jquery.museoverlay.js" crc="4147669564" ref="index:foto:prom:блог"/>
+    <file name="touchswipe.js" crc="4075097462" ref="index:foto:prom:блог"/>
   </folder>
   <folder name="images">
     <file name="шаблон-a-favicon.ico" crc="3874248244" ref="index"/>
@@ -108,19 +110,22 @@
       <caption webpage="index" alt="Реставрация ванн Москва"/>
       <caption webpage="index" alt="Реставрация ванн Москва"/>
     </file>
-    <file name="103 (1).gif" crc="3877275844" ref="index:foto:prom">
+    <file name="103 (1).gif" crc="3877275844" ref="index:foto:prom:блог">
       <caption webpage="index" alt=""/>
       <caption webpage="index" alt=""/>
       <caption webpage="index" alt=""/>
       <caption webpage="foto" alt=""/>
       <caption webpage="foto" alt=""/>
       <caption webpage="foto" alt=""/>
-      <caption webpage="prom" alt=""/>
-      <caption webpage="prom" alt=""/>
-      <caption webpage="prom" alt=""/>
       <caption webpage="фотограф" alt=""/>
       <caption webpage="фотограф" alt=""/>
       <caption webpage="фотограф" alt=""/>
+      <caption webpage="prom" alt=""/>
+      <caption webpage="prom" alt=""/>
+      <caption webpage="prom" alt=""/>
+      <caption webpage="блог" alt=""/>
+      <caption webpage="блог" alt=""/>
+      <caption webpage="блог" alt=""/>
     </file>
     <file name="portal-15270x180.jpg" crc="4144347565" seo="true" ref="index">
       <caption webpage="index" alt="Реставрация ванн Москва"/>
@@ -134,13 +139,13 @@
     <file name="portal-12270x180.jpg" crc="359427038" seo="true" ref="index">
       <caption webpage="index" alt="Реставрация ванн Москва"/>
     </file>
-    <file name="blank.gif" crc="4208392903" ref="index:foto:prom"/>
+    <file name="blank.gif" crc="4208392903" ref="index:foto:prom:блог"/>
     <file name="pixabay-931711-u2084-fr.png" crc="4253650355" ref="foto"/>
     <file name="pixabay-1596288.jpg" crc="295270833" seo="true" ref="foto">
       <caption webpage="фотограф" alt=""/>
       <caption webpage="foto" alt=""/>
     </file>
-    <file name="pixabay-2681039-crop-u2146.jpg" crc="311027679" seo="true" ref="foto">
+    <file name="pixabay-2681039-crop-u2146.jpg" crc="3877672310" seo="true" ref="foto">
       <caption webpage="фотограф" alt=""/>
       <caption webpage="foto" alt=""/>
     </file>
@@ -215,7 +220,8 @@
     <file name="large-1736293_94upaym6-u2457-fr.jpg" crc="4168613886" ref="prom"/>
     <file name="large-897584-u2582-fr.jpg" crc="393047648" ref="prom"/>
   </folder>
-  <file name="index.html" crc="3954690222" seo="true" mt="1598613042632" redirect="true"/>
-  <file name="foto.html" crc="3980685661" seo="true" mt="1598613042632" redirect="true"/>
-  <file name="prom.html" crc="42991660" seo="true" mt="1598613042632" redirect="true"/>
+  <file name="index.html" crc="4236827173" seo="true" mt="1598614903055" redirect="true"/>
+  <file name="foto.html" crc="3797400103" seo="true" mt="1598614903055" redirect="true"/>
+  <file name="prom.html" crc="3969858152" seo="true" mt="1598614903055" redirect="true"/>
+  <file name="блог.html" crc="4161368284" seo="true" mt="1598615115158" redirect="true"/>
 </manifest>
