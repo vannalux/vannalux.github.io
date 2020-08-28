@@ -114,4 +114,25 @@
       <image:loc>https://vannalux.github.io/images/pixabay-3125816211x201.jpg</image:loc>
     </image:image>
   </url>
+  <url>
+    <loc>https://vannalux.github.io/prom.html</loc>
+    <lastmod>2020-08-28</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+    <image:image>
+      <image:loc>https://vannalux.github.io/images/large-271873.jpg</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://vannalux.github.io/images/large-1212472.jpg</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://vannalux.github.io/images/large-1541086.jpg</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://vannalux.github.io/images/large-3688252.jpg</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://vannalux.github.io/images/logowhite.png</image:loc>
+    </image:image>
+  </url>
 </urlset>
