@@ -1,16 +1,18 @@
-<manifest alg="2" build="2018.1.0.386" opt="false" iceEnabled="false" exportTarget="other" domain="https://vannalux.github.io" resolutions="1x" timestamp="1598615710175">
+<manifest alg="2" build="2018.1.0.386" opt="false" iceEnabled="false" exportTarget="other" domain="https://vannalux.github.io" resolutions="1x" timestamp="1599125808884">
   <folder name="css">
     <file name="site_global.css" crc="444006867"/>
-    <file name="master_______-a.css" crc="130553762" ref="index:foto:prom:blog"/>
-    <file name="nomq_preview_master_______-a.css" crc="3910579434" ref="index:foto:prom:blog"/>
+    <file name="master_______-a.css" crc="130553762" ref="index:foto:prom"/>
+    <file name="nomq_preview_master_______-a.css" crc="3910579434" ref="index:foto:prom"/>
     <file name="index.css" crc="4066701994" ref="index"/>
     <file name="nomq_index.css" crc="405671628" ref="index"/>
     <file name="foto.css" crc="3853994559" ref="foto"/>
     <file name="nomq_foto.css" crc="227912776" ref="foto"/>
     <file name="prom.css" crc="3959126958" ref="prom"/>
     <file name="nomq_prom.css" crc="3914466769" ref="prom"/>
-    <file name="blog.css" crc="4024534372" ref="blog"/>
-    <file name="nomq_blog.css" crc="4244230956" ref="blog"/>
+    <file name="blog.css" crc="532139367" ref="blog"/>
+    <file name="nomq_blog.css" crc="4129069562" ref="blog"/>
+    <file name="master_2.css" crc="4222680126" ref="blog"/>
+    <file name="nomq_preview_master_2.css" crc="4002989198" ref="blog"/>
   </folder>
   <folder name="fonts">
     <file name="ptsans-narrowbold.woff" crc="3942810612"/>
@@ -37,7 +39,7 @@
     <file name="touchswipe.js" crc="4075097462" ref="index:foto:prom:blog"/>
   </folder>
   <folder name="images">
-    <file name="шаблон-a-favicon.ico" crc="3874248244" ref="index:blog"/>
+    <file name="шаблон-a-favicon.ico" crc="3874248244" ref="index"/>
     <file name="81-1.jpg" crc="3920583051" ref="index">
       <caption webpage="index" alt=""/>
     </file>
@@ -114,21 +116,21 @@
       <caption webpage="index" alt=""/>
       <caption webpage="index" alt=""/>
       <caption webpage="index" alt=""/>
-      <caption webpage="blog" alt=""/>
-      <caption webpage="blog" alt=""/>
-      <caption webpage="blog" alt=""/>
-      <caption webpage="фотограф" alt=""/>
-      <caption webpage="фотограф" alt=""/>
-      <caption webpage="фотограф" alt=""/>
       <caption webpage="foto" alt=""/>
       <caption webpage="foto" alt=""/>
       <caption webpage="foto" alt=""/>
-      <caption webpage="prom" alt=""/>
-      <caption webpage="prom" alt=""/>
-      <caption webpage="prom" alt=""/>
       <caption webpage="блог" alt=""/>
       <caption webpage="блог" alt=""/>
       <caption webpage="блог" alt=""/>
+      <caption webpage="фотограф" alt=""/>
+      <caption webpage="фотограф" alt=""/>
+      <caption webpage="фотограф" alt=""/>
+      <caption webpage="prom" alt=""/>
+      <caption webpage="prom" alt=""/>
+      <caption webpage="prom" alt=""/>
+      <caption webpage="blog" alt=""/>
+      <caption webpage="blog" alt=""/>
+      <caption webpage="blog" alt=""/>
     </file>
     <file name="portal-15270x180.jpg" crc="4144347565" seo="true" ref="index">
       <caption webpage="index" alt="Реставрация ванн Москва"/>
@@ -222,9 +224,10 @@
     </file>
     <file name="large-1736293_94upaym6-u2457-fr.jpg" crc="4168613886" ref="prom"/>
     <file name="large-897584-u2582-fr.jpg" crc="393047648" ref="prom"/>
+    <file name="2-favicon.ico" crc="3874248244" ref="blog"/>
   </folder>
   <file name="index.html" crc="4280764823" seo="true" mt="1598615412360" redirect="true"/>
   <file name="foto.html" crc="4065436623" seo="true" mt="1598615412360" redirect="true"/>
   <file name="prom.html" crc="137758491" seo="true" mt="1598615412360" redirect="true"/>
-  <file name="blog.html" crc="3955429549" seo="true" mt="1598615678111" redirect="true"/>
+  <file name="blog.html" crc="494982117" seo="true" mt="1599125545416" redirect="true"/>
 </manifest>
