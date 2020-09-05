@@ -16,7 +16,7 @@
 		<link rel="stylesheet" href="style/print.css?2020-2-5-1" media="print" />
 		<link rel="stylesheet" href="style/style.css?2020-2-5-1" media="screen,print" />
 		<link rel="stylesheet" href="style/template.css?2020-2-5-1" media="screen" />
-		<link rel="stylesheet" href="pcss/imsearch.css?2020-2-5-1-637349157005756785" media="screen,print" />
+		<link rel="stylesheet" href="pcss/imsearch.css?2020-2-5-1-637349174116574051" media="screen,print" />
 		<script src="res/jquery.js?2020-2-5-1"></script>
 		<script src="res/x5engine.js?2020-2-5-1" data-files-version="2020-2-5-1"></script>
 		<script>
@@ -24,7 +24,7 @@
 			x5engine.utils.currentPagePath = 'imsearch.php';
 			x5engine.boot.push(function () { x5engine.imPageToTop.initializeButton({}); });
 		</script>
-		
+		<link rel="icon" href="favicon.png?2020-2-5-1-637349174116524086" type="image/png" />
 	</head>
 	<body>
 		<div id="imPageExtContainer">
@@ -143,7 +143,7 @@ $(function () {$('#imStickyBar_imMenuObject_03_container ul li').not('.imMnMnSep
 						<div id="imFooterObjects"><div id="imFooter_imTextObject_01_wrapper" class="template-object-wrapper"><div id="imFooter_imTextObject_01">
 	<div data-index="0"  class="text-tab-content grid-prop current-tab "  id="imFooter_imTextObject_01_tab0" style="opacity: 1; ">
 		<div class="text-inner">
-			<div class="imTACenter"><b><span class="fs10lh1-5 cf1">Made With </span></b><span class="fs12lh1-5 cf2 ff1">WebSite X5</span></div>
+			<div class="imTACenter"><span class="fs11lh1-5"><b><span class="cf1">Made With</span> <span class="cf2">V</span><span class="cf2"><span class="imTALeft">annaLux</span></span></b></span></div>
 		</div>
 	</div>
 
