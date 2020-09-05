@@ -16,22 +16,15 @@
 		<link rel="stylesheet" href="style/print.css?2020-2-5-1" media="print" />
 		<link rel="stylesheet" href="style/style.css?2020-2-5-1" media="screen,print" />
 		<link rel="stylesheet" href="style/template.css?2020-2-5-1" media="screen" />
-		
-		<link rel="stylesheet" href="pluginAppObj/imFooter_pluginAppObj_10/custom.css" media="screen, print" />
-		
-		<link rel="stylesheet" href="pluginAppObj/imStickyBar_pluginAppObj_01/custom.css" media="screen, print" />
-		<link rel="stylesheet" href="pcss/imsearch.css?2020-2-5-1-637348986508106631" media="screen,print" />
+		<link rel="stylesheet" href="pcss/imsearch.css?2020-2-5-1-637349157005756785" media="screen,print" />
 		<script src="res/jquery.js?2020-2-5-1"></script>
 		<script src="res/x5engine.js?2020-2-5-1" data-files-version="2020-2-5-1"></script>
-		
-		<script src="pluginAppObj/imFooter_pluginAppObj_10/main.js"></script>
-		
-		<script src="pluginAppObj/imStickyBar_pluginAppObj_01/main.js"></script>
 		<script>
 			window.onload = function(){ checkBrowserCompatibility('Ваш браузер не поддерживает функции, требуемые для визуализации этого Сайта.','Возможно, Ваш браузер не поддерживает функции, требуемые для визуализации этого Сайта.','[1]Обновите Ваш браузер[/1] или [2]продолжите процедуру [/2].','http://outdatedbrowser.com/'); };
 			x5engine.utils.currentPagePath = 'imsearch.php';
+			x5engine.boot.push(function () { x5engine.imPageToTop.initializeButton({}); });
 		</script>
-		<link rel="icon" href="favicon.png?2020-2-5-1-637348986508096596" type="image/png" />
+		
 	</head>
 	<body>
 		<div id="imPageExtContainer">
@@ -41,27 +34,94 @@
 				<div id="imPage">
 					<header id="imHeader">
 						<h1 class="imHidden">Поиск - Новый проект</h1>
-						<div id="imHeaderObjects"></div>
+						<div id="imHeaderObjects"><div id="imHeader_imTextObject_01_wrapper" class="template-object-wrapper"><div id="imHeader_imTextObject_01">
+	<div data-index="0"  class="text-tab-content grid-prop current-tab "  id="imHeader_imTextObject_01_tab0" style="opacity: 1; ">
+		<div class="text-inner">
+			<div class="imTACenter"><span class="fs10lh1-5 cf1">- Catch a big fish and show it to the world -</span><br></div>
+		</div>
+	</div>
+
+</div>
+</div><div id="imHeader_imTextObject_02_wrapper" class="template-object-wrapper"><div id="imHeader_imTextObject_02">
+	<div data-index="0"  class="text-tab-content grid-prop current-tab "  id="imHeader_imTextObject_02_tab0" style="opacity: 1; ">
+		<div class="text-inner">
+			<div class="imTALeft"><span class="fs18lh1-5 cf1"><a href="index.html" class="imCssLink" onclick="return x5engine.utils.location('index.html', null, false)">FISHY</a></span></div>
+		</div>
+	</div>
+
+</div>
+</div><div id="imHeader_imMenuObject_03_wrapper" class="template-object-wrapper"><!-- UNSEARCHABLE --><div id="imHeader_imMenuObject_03"><div id="imHeader_imMenuObject_03_container"><div class="hamburger-button hamburger-component"><div><div><div class="hamburger-bar"></div><div class="hamburger-bar"></div><div class="hamburger-bar"></div></div></div></div><div class="hamburger-menu-background-container hamburger-component">
+	<div class="hamburger-menu-background menu-mobile menu-mobile-animated hidden">
+		<div class="hamburger-menu-close-button"><span>&times;</span></div>
+	</div>
+</div>
+<ul class="menu-mobile-animated hidden">
+	<li class="imMnMnFirst imPage" data-link-paths=",/index.html,/">
+<div class="label-wrapper">
+<div class="label-inner-wrapper">
+		<a class="label" href="index.html">
+Главная		</a>
+</div>
+</div>
+	</li><li class="imMnMnMiddle imLevel" data-link-paths=",/index.html,/" data-link-anchor="ABOUT" data-link-hash="-1391421243"><div class="label-wrapper"><div class="label-inner-wrapper"><a href="index.html#ABOUT" class="label" onclick="return x5engine.utils.location('index.html#ABOUT', null, false)">ABOUT</a></div></div></li><li class="imMnMnMiddle imLevel" data-link-paths=",/index.html,/" data-link-anchor="CONTACT" data-link-hash="1012913362"><div class="label-wrapper"><div class="label-inner-wrapper"><a href="index.html#CONTACT" class="label" onclick="return x5engine.utils.location('index.html#CONTACT', null, false)">JOIN</a></div></div></li><li class="imMnMnLast imPage" data-link-paths=",/fish.html">
+<div class="label-wrapper">
+<div class="label-inner-wrapper">
+		<a class="label" href="fish.html">
+FISH		</a>
+</div>
+</div>
+	</li></ul></div></div><!-- UNSEARCHABLE END --><script>
+var imHeader_imMenuObject_03_settings = {
+	'menuId': 'imHeader_imMenuObject_03',
+	'responsiveMenuEffect': 'push',
+	'animationDuration': 1000,
+}
+x5engine.boot.push(function(){x5engine.initMenu(imHeader_imMenuObject_03_settings)});
+$(function () {$('#imHeader_imMenuObject_03_container ul li').not('.imMnMnSeparator').each(function () {    var $this = $(this), timeout = 0;    $this.on('mouseenter', function () {        if($(this).parents('#imHeader_imMenuObject_03_container-menu-opened').length > 0) return;         clearTimeout(timeout);        setTimeout(function () { $this.children('ul, .multiple-column').stop(false, false).fadeIn(); }, 250);    }).on('mouseleave', function () {        if($(this).parents('#imHeader_imMenuObject_03_container-menu-opened').length > 0) return;         timeout = setTimeout(function () { $this.children('ul, .multiple-column').stop(false, false).fadeOut(); }, 250);    });});});
+
+</script>
+</div></div>
 					</header>
 					<div id="imStickyBarContainer">
 						<div id="imStickyBarGraphics"></div>
 						<div id="imStickyBar">
-							<div id="imStickyBarObjects"><div id="imStickyBar_pluginAppObj_01_wrapper" class="template-object-wrapper"><!-- Social Icons v.16 --><div id="imStickyBar_pluginAppObj_01">
-            <div id="soc_imStickyBar_pluginAppObj_01">
-                <div class="wrapper horizontal flat shake">
-                	<div class='social-icon flat'><a href='https://www.facebook.com/Incomedia' target='_blank'><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100"><path d="M57,93V54H70.14l2-15H57V29.09c0-4.39.94-7.39,7.24-7.39H72V8.14a98.29,98.29,0,0,0-11.6-.6C48.82,7.54,41,14.61,41,27.59V39H27V54H41V93H57Z"/></svg><span class='fallbacktext'>Fb</span></a></div><div class='social-icon flat'><a href='https://it.linkedin.com/company/incomedia' target='_blank'><svg  xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100"><g><path d="M30,86H15V39H30V86ZM23.19,31.82a8.47,8.47,0,1,1,8.47-8.47A8.47,8.47,0,0,1,23.19,31.82ZM85,86H71V62.4c0-5.45.07-12.47-7.41-12.47S55,55.87,55,62V86H41V39H54v4H53.87c1.95-1,6.61-6.76,13.72-6.76C82.37,36.24,85,46.81,85,59.47V86Z"/></g></svg><span class='fallbacktext'>In</span></a></div>
-                </div>
+							<div id="imStickyBarObjects"><div id="imStickyBar_imObjectTitle_02_wrapper" class="template-object-wrapper"><div id="imStickyBar_imObjectTitle_02"><span id ="imStickyBar_imObjectTitle_02_text" >Title</span></div></div><div id="imStickyBar_imMenuObject_03_wrapper" class="template-object-wrapper"><!-- UNSEARCHABLE --><div id="imStickyBar_imMenuObject_03"><div id="imStickyBar_imMenuObject_03_container"><div class="hamburger-button hamburger-component"><div><div><div class="hamburger-bar"></div><div class="hamburger-bar"></div><div class="hamburger-bar"></div></div></div></div><div class="hamburger-menu-background-container hamburger-component">
+	<div class="hamburger-menu-background menu-mobile menu-mobile-animated hidden">
+		<div class="hamburger-menu-close-button"><span>&times;</span></div>
+	</div>
+</div>
+<ul class="menu-mobile-animated hidden">
+	<li class="imMnMnFirst imPage" data-link-paths=",/index.html,/">
+<div class="label-wrapper">
+<div class="label-inner-wrapper">
+		<a class="label" href="index.html">
+Главная		</a>
+</div>
+</div>
+	</li><li class="imMnMnMiddle imLevel" data-link-paths=",/index.html,/" data-link-anchor="ABOUT" data-link-hash="-1391421243"><div class="label-wrapper"><div class="label-inner-wrapper"><a href="index.html#ABOUT" class="label" onclick="return x5engine.utils.location('index.html#ABOUT', null, false)">ABOUT</a></div></div></li><li class="imMnMnMiddle imLevel" data-link-paths=",/index.html,/" data-link-anchor="CONTACT" data-link-hash="1012913362"><div class="label-wrapper"><div class="label-inner-wrapper"><a href="index.html#CONTACT" class="label" onclick="return x5engine.utils.location('index.html#CONTACT', null, false)">JOIN</a></div></div></li><li class="imMnMnLast imPage" data-link-paths=",/fish.html">
+<div class="label-wrapper">
+<div class="label-inner-wrapper">
+		<a class="label" href="fish.html">
+FISH		</a>
+</div>
+</div>
+	</li></ul></div></div><!-- UNSEARCHABLE END --><script>
+var imStickyBar_imMenuObject_03_settings = {
+	'menuId': 'imStickyBar_imMenuObject_03',
+	'responsiveMenuEffect': 'slide',
+	'animationDuration': 1000,
+}
+x5engine.boot.push(function(){x5engine.initMenu(imStickyBar_imMenuObject_03_settings)});
+$(function () {$('#imStickyBar_imMenuObject_03_container ul li').not('.imMnMnSeparator').each(function () {    var $this = $(this), timeout = 0, subtimeout = 0, width = 'none', height = 'none';        var submenu = $this.children('ul').add($this.find('.multiple-column > ul'));    $this.on('mouseenter', function () {        if($(this).parents('#imStickyBar_imMenuObject_03_container-menu-opened').length > 0) return;         clearTimeout(timeout);        clearTimeout(subtimeout);        $this.children('.multiple-column').show(0);        submenu.stop(false, false);        if (width == 'none') {             width = submenu.width();        }        if (height == 'none') {            height = submenu.height();            submenu.css({ overflow : 'hidden', height: 0});        }        setTimeout(function () {         submenu.css({ overflow : 'hidden'}).fadeIn(1).animate({ height: height }, 300, null, function() {$(this).css('overflow', 'visible'); });        }, 250);    }).on('mouseleave', function () {        if($(this).parents('#imStickyBar_imMenuObject_03_container-menu-opened').length > 0) return;         timeout = setTimeout(function () {         submenu.stop(false, false);            submenu.css('overflow', 'hidden').animate({ height: 0 }, 300, null, function() {$(this).fadeOut(0); });            subtimeout = setTimeout(function () { $this.children('.multiple-column').hide(0); }, 300);        }, 250);    });});});
 
-            </div>
-                <script>
-                    socialicons_imStickyBar_pluginAppObj_01();
-                </script>
-        </div></div></div>
+</script>
+</div></div>
 						</div>
 					</div>
 					<a class="imHidden" href="#imGoToCont" title="Заголовок главного меню">Перейти к контенту</a>
 					<div id="imSideBar">
-						<div id="imSideBarObjects"></div>
+						<div id="imSideBarObjects"><div id="imSideBar_imObjectImage_01_wrapper" class="template-object-wrapper"><div id="imSideBar_imObjectImage_01"><div id="imSideBar_imObjectImage_01_container"><img src="images/empty-GT_imagea-1-.png" title="" alt="" />
+</div></div></div></div>
 					</div>
 					<div id="imContentGraphics"></div>
 					<main id="imContent">
@@ -80,25 +140,15 @@
 						
 					</main>
 					<footer id="imFooter">
-						<div id="imFooterObjects"><div id="imFooter_imTextObject_07_wrapper" class="template-object-wrapper"><div id="imFooter_imTextObject_07">
-	<div data-index="0"  class="text-tab-content grid-prop current-tab "  id="imFooter_imTextObject_07_tab0" style="opacity: 1; ">
+						<div id="imFooterObjects"><div id="imFooter_imTextObject_01_wrapper" class="template-object-wrapper"><div id="imFooter_imTextObject_01">
+	<div data-index="0"  class="text-tab-content grid-prop current-tab "  id="imFooter_imTextObject_01_tab0" style="opacity: 1; ">
 		<div class="text-inner">
-			<div class="imTALeft"><span class="fs12lh1-5 cf1"><b>Created with WebSite X5</b></span></div>
+			<div class="imTACenter"><b><span class="fs10lh1-5 cf1">Made With </span></b><span class="fs12lh1-5 cf2 ff1">WebSite X5</span></div>
 		</div>
 	</div>
 
 </div>
-</div><div id="imFooter_pluginAppObj_10_wrapper" class="template-object-wrapper"><!-- Social Icons v.16 --><div id="imFooter_pluginAppObj_10">
-            <div id="soc_imFooter_pluginAppObj_10">
-                <div class="wrapper horizontal flat shake">
-                	<div class='social-icon flat'><a href='https://www.facebook.com/Incomedia' target='_blank'><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100"><path d="M57,93V54H70.14l2-15H57V29.09c0-4.39.94-7.39,7.24-7.39H72V8.14a98.29,98.29,0,0,0-11.6-.6C48.82,7.54,41,14.61,41,27.59V39H27V54H41V93H57Z"/></svg><span class='fallbacktext'>Fb</span></a></div><div class='social-icon flat'><a href='https://it.linkedin.com/company/incomedia' target='_blank'><svg  xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100"><g><path d="M30,86H15V39H30V86ZM23.19,31.82a8.47,8.47,0,1,1,8.47-8.47A8.47,8.47,0,0,1,23.19,31.82ZM85,86H71V62.4c0-5.45.07-12.47-7.41-12.47S55,55.87,55,62V86H41V39H54v4H53.87c1.95-1,6.61-6.76,13.72-6.76C82.37,36.24,85,46.81,85,59.47V86Z"/></g></svg><span class='fallbacktext'>In</span></a></div>
-                </div>
-
-            </div>
-                <script>
-                    socialicons_imFooter_pluginAppObj_10();
-                </script>
-        </div></div></div>
+</div></div>
 					</footer>
 				</div>
 				<span class="imHidden"><a href="#imGoToCont" title="Прочесть эту страницу заново">Назад к содержимому</a></span>

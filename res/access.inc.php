@@ -3,11 +3,11 @@
 // Users data
 $imSettings['access']['users'] = array(
 	'example@example.com' => array(
-		'id' => '7sol1n7n',
-		'groups' => array('5a9pzzs5'),
+		'id' => 'mw03vj1a',
+		'groups' => array('2nt295sl'),
 		'firstname' => 'Admin',
 		'lastname' => '',
-		'password' => '$2a$11$L9AStzx2MOPq/x.TOUdxG.EsBKTQzF12IIvPGqyeq0vTGwP6K4/aO',
+		'password' => '$2a$11$pAymNMpF/wJPwMKM9/YNkeodZG6WMBy2WcH4dD/fHhFs4Zx1SxAdm',
 		'crypt_encoding' => 'csharp_bcrypt',
 		'db_stored' => false,
 		'page' => false
@@ -15,7 +15,7 @@ $imSettings['access']['users'] = array(
 );
 
 // Admins list
-$imSettings['access']['admins'] = array('7sol1n7n');
+$imSettings['access']['admins'] = array('mw03vj1a');
 
 // Page/Users permissions
 $imSettings['access']['pages'] = array();

@@ -7,7 +7,7 @@
 */
 
 $imSettings['general'] = array(
-	'site_id' => 'F1FD57DBE550AFF33D02841A191ED126',
+	'site_id' => 'C308DB6841C30062D39A544F15E0F260',
 	'url' => 'https://vannalux.github.io/',
 	'homepage_url' => 'https://vannalux.github.io/index.html',
 	'icon' => '',
@@ -15,9 +15,9 @@ $imSettings['general'] = array(
 	'sitename' => 'Новый проект',
 	'lang_code' => 'ru-RU',
 	'public_folder' => '',
-	'salt' => '1bpyrl7pm0v4iixplxyfr923zp5iymawsdgij1jel0tjk3do2jhmuuzs',
-	'use_common_email_sender_address' => true,
-	'common_email_sender_addres' => 'vannavam2015@gmail.com'
+	'salt' => 'nbce9txde2gss9zqfkcoxfoyqphxj40xb6i5h7hzb6jaguq2zl4',
+	'use_common_email_sender_address' => false,
+	'common_email_sender_addres' => ''
 );
 /*
 |-------------------------------
@@ -44,9 +44,9 @@ $imSettings['password_policy'] = array(
 
 
 $imSettings['admin'] = array(
-	'icon' => 'admin/images/logo_gpntahph.png',
-	'notification_public_key' => 'eb296306d3c80237',
-	'notification_private_key' => 'b957d5a90467a3de',
+	'icon' => 'admin/images/logo_rr3d3mh1.png',
+	'notification_public_key' => '4690af337db45599',
+	'notification_private_key' => '4f5d975363695053',
 	'enable_manager_notifications' => false,
 	'theme' => 'orange',
 	'extra-dashboard' => array(),
@@ -71,7 +71,7 @@ $ecommerce->setCouponData($couponData);
 $ecommerce->setSettings(array(
 	'page_url' => 'https://vannalux.github.io/',
 	'force_sender' => false,
-	'mail_btn_css' => 'display: inline-block; text-decoration: none; color: rgba(43, 55, 60, 1); background-color: rgba(255, 217, 102, 1); padding: 10px 10px 10px 10px; border-style: solid; border-width: 1px 1px 1px 1px; border-color: transparent transparent transparent transparent; border-top-left-radius: 0px; border-top-right-radius: 0px; border-bottom-left-radius: 0px; border-bottom-right-radius: 0px;',
+	'mail_btn_css' => 'display: inline-block; text-decoration: none; color: rgba(255, 255, 255, 1); background-color: rgba(255, 163, 35, 1); padding: 16px 25px 16px 25px; border-style: solid; border-width: 0px 0px 0px 0px; border-color: rgba(55, 71, 79, 1) rgba(55, 71, 79, 1) rgba(55, 71, 79, 1) rgba(55, 71, 79, 1); border-top-left-radius: 0px; border-top-right-radius: 0px; border-bottom-left-radius: 0px; border-bottom-right-radius: 0px;',
 	'email_opening' => 'Уважаемый покупатель,Благодарим вас за ваш заказ и напоминаем, что вам нужно его оплатить.<br /><br />Ниже вы найдете список заказанных товаров, данные счета-фактуры и отправки и инструкции по оплате.',
 	'email_closing' => 'Обращайтесь к нам за дополнительной информацией.<br /><br />С уважением, сотрудники отдела продаж.',
 	'email_payment_opening' => 'Уважаемый покупатель,<br /><br />Благодарим вас за покупку. Мы получили ваш платеж. Ваш заказ будет выполнен в кратчайшие сроки.<br /><br />Ниже вы найдете список заказанных товаров, данные счета-фактуры и отправки.',
@@ -83,12 +83,12 @@ $ecommerce->setSettings(array(
 	'sendEmailBeforePayment' => true,
 	'sendEmailAfterPayment' => false,
 	'useCSV' => false,
-	'header_bg_color' => 'rgba(37, 58, 88, 1)',
-	'header_text_color' => 'rgba(255, 255, 255, 1)',
+	'header_bg_color' => 'rgba(217, 213, 202, 1)',
+	'header_text_color' => 'rgba(78, 74, 66, 1)',
 	'cell_bg_color' => 'rgba(255, 255, 255, 1)',
 	'cell_text_color' => 'rgba(0, 0, 0, 1)',
 	'availability_reduction_type' => 1,
-	'border_color' => 'rgba(211, 211, 211, 1)',
+	'border_color' => 'rgba(78, 74, 66, 1)',
 	'owner_email' => 'example@example.com',
 	'vat_type' => 'included',
 	'availability_image' => ''
@@ -162,16 +162,16 @@ $imSettings['dynamicobjects'] = array(	'template' => array(
 
 $ImMailer->emailType = 'phpmailer';
 $ImMailer->exposeWsx5 = false;
-$ImMailer->header = '<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">' . "\n" . '<html>' . "\n" . '<head>' . "\n" . '<meta http-equiv="content-type" content="text/html; charset=utf-8">' . "\n" . '</head>' . "\n" . '<body bgcolor="#2B373C" style="background-color: #2B373C;">' . "\n\t" . '<table border="0" cellpadding="0" align="center" cellspacing="0" style="padding: 0; margin: 0 auto; width: 700px;">' . "\n\t" . '<tr><td id="imEmailContent" style="min-height: 300px; padding: 10px; font: normal normal normal 12pt \'Quicksand\'; color: #000000; background-color: #FFFFFF; text-decoration: none; text-align: left; width: 700px; border-style: solid; border-color: transparent; border-top-width: 1px; border-right-width: 1px; border-bottom-width: 1px; border-left-width: 1px; background-color: #FFFFFF" width="700px">' . "\n\t\t";
-$ImMailer->footer = "\n\t" . '</td></tr>' . "\n\t" . '</table>' . "\n" . '<table width="100%"><tr><td id="imEmailFooter" style="font: normal normal normal 10pt \'Quicksand\'; color: #FFFFFF; background-color: transparent; text-decoration: none; text-align: center;  padding: 10px; margin-top: 5px;background-color: transparent">' . "\n\t\t" . 'Это письмо-подтверждение предназначено для исключения несанкционированного использования вашего адреса электронной почты.<br>Если вы получили это сообщение по ошибке, пожалуйста, сообщите об этом отправителю и удалите это письмо, не делая копий.' . "\n\t" . '</td></tr></table>' . "\n\t" . '</body>' . "\n" . '</html>';
+$ImMailer->header = '<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">' . "\n" . '<html>' . "\n" . '<head>' . "\n" . '<meta http-equiv="content-type" content="text/html; charset=utf-8">' . "\n" . '</head>' . "\n" . '<body bgcolor="#37474F" style="background-color: #37474F;">' . "\n\t" . '<table border="0" cellpadding="0" align="center" cellspacing="0" style="padding: 0; margin: 0 auto; width: 700px;">' . "\n\t" . '<tr><td id="imEmailContent" style="min-height: 300px; padding: 10px; font: normal normal normal 9pt \'Raleway\'; color: #000000; background-color: #FFFFFF; text-decoration: none; text-align: left; width: 700px; border-style: solid; border-color: #000000; border-top-width: 1px; border-right-width: 1px; border-bottom-width: 1px; border-left-width: 1px; background-color: #FFFFFF" width="700px">' . "\n\t\t";
+$ImMailer->footer = "\n\t" . '</td></tr>' . "\n\t" . '</table>' . "\n" . '<table width="100%"><tr><td id="imEmailFooter" style="font: normal normal normal 7pt \'Raleway\'; color: #FFFFFF; background-color: transparent; text-decoration: none; text-align: center;  padding: 10px; margin-top: 5px;background-color: transparent">' . "\n\t\t" . 'Это письмо-подтверждение предназначено для исключения несанкционированного использования вашего адреса электронной почты.<br>Если вы получили это сообщение по ошибке, пожалуйста, сообщите об этом отправителю и удалите это письмо, не делая копий.' . "\n\t" . '</td></tr></table>' . "\n\t" . '</body>' . "\n" . '</html>';
 $ImMailer->bodyBackground = '#FFFFFF';
 $ImMailer->bodyBackgroundEven = '#FFFFFF';
 $ImMailer->bodyBackgroundOdd = '#F0F0F0';
 $ImMailer->bodyBackgroundBorder = '#CDCDCD';
 $ImMailer->bodyTextColorOdd = '#000000';
 $ImMailer->bodySeparatorBorderColor = '#000000';
-$ImMailer->emailBackground = '#2B373C';
-$ImMailer->emailContentStyle = 'font: normal normal normal 12pt \'Quicksand\'; color: #000000; background-color: #FFFFFF; text-decoration: none; text-align: left; ';
-$ImMailer->emailContentFontFamily = 'font-family: Quicksand;';
+$ImMailer->emailBackground = '#37474F';
+$ImMailer->emailContentStyle = 'font: normal normal normal 9pt \'Raleway\'; color: #000000; background-color: #FFFFFF; text-decoration: none; text-align: left; ';
+$ImMailer->emailContentFontFamily = 'font-family: Raleway;';
 
 // End of file x5settings.php
