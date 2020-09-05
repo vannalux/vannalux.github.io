@@ -2,7 +2,7 @@
 <!DOCTYPE html><!-- HTML5 -->
 <html prefix="og: http://ogp.me/ns#" lang="ru-RU" dir="ltr">
 	<head>
-		<title>Поиск - Новый проект</title>
+		<title>Поиск</title>
 		<meta charset="utf-8" />
 		<!--[if IE]><meta http-equiv="ImageToolbar" content="False" /><![endif]-->
 		<meta property="og:locale" content="ru" />
@@ -16,7 +16,7 @@
 		<link rel="stylesheet" href="style/print.css?2020-2-5-1" media="print" />
 		<link rel="stylesheet" href="style/style.css?2020-2-5-1" media="screen,print" />
 		<link rel="stylesheet" href="style/template.css?2020-2-5-1" media="screen" />
-		<link rel="stylesheet" href="pcss/imsearch.css?2020-2-5-1-637349175486899500" media="screen,print" />
+		<link rel="stylesheet" href="pcss/imsearch.css?2020-2-5-1-637349179338379684" media="screen,print" />
 		<script src="res/jquery.js?2020-2-5-1"></script>
 		<script src="res/x5engine.js?2020-2-5-1" data-files-version="2020-2-5-1"></script>
 		<script>
@@ -24,7 +24,7 @@
 			x5engine.utils.currentPagePath = 'imsearch.php';
 			x5engine.boot.push(function () { x5engine.imPageToTop.initializeButton({}); });
 		</script>
-		<link rel="icon" href="favicon.png?2020-2-5-1-637349175486859432" type="image/png" />
+		<link rel="icon" href="favicon.png?2020-2-5-1-637349179338269599" type="image/png" />
 	</head>
 	<body>
 		<div id="imPageExtContainer">
@@ -33,7 +33,7 @@
 				<div id="imFooterBg"></div>
 				<div id="imPage">
 					<header id="imHeader">
-						<h1 class="imHidden">Поиск - Новый проект</h1>
+						
 						<div id="imHeaderObjects"><div id="imHeader_imTextObject_01_wrapper" class="template-object-wrapper"><div id="imHeader_imTextObject_01">
 	<div data-index="0"  class="text-tab-content grid-prop current-tab "  id="imHeader_imTextObject_01_tab0" style="opacity: 1; ">
 		<div class="text-inner">
@@ -127,7 +127,7 @@ $(function () {$('#imStickyBar_imMenuObject_03_container ul li').not('.imMnMnSep
 					<main id="imContent">
 						<a id="imGoToCont"></a>
 						<div id="imSearchPage">
-						<h2 id="imPgTitle">Результаты поиска</h2>
+						<h1 id="imPgTitle">Результаты поиска</h1>
 						<?php
 						$search = new imSearch();
 						$keys = isset($_GET['search']) ? @htmlspecialchars($_GET['search']) : "";
