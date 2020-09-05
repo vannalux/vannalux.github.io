@@ -20,7 +20,7 @@
 		<link rel="stylesheet" href="pluginAppObj/imFooter_pluginAppObj_10/custom.css" media="screen, print" />
 		
 		<link rel="stylesheet" href="pluginAppObj/imStickyBar_pluginAppObj_01/custom.css" media="screen, print" />
-		<link rel="stylesheet" href="pcss/imsearch.css?2020-2-5-1-637348982932010450" media="screen,print" />
+		<link rel="stylesheet" href="pcss/imsearch.css?2020-2-5-1-637348985282938448" media="screen,print" />
 		<script src="res/jquery.js?2020-2-5-1"></script>
 		<script src="res/x5engine.js?2020-2-5-1" data-files-version="2020-2-5-1"></script>
 		
