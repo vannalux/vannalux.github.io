@@ -16,8 +16,8 @@ $imSettings['general'] = array(
 	'lang_code' => 'ru-RU',
 	'public_folder' => '',
 	'salt' => '1bpyrl7pm0v4iixplxyfr923zp5iymawsdgij1jel0tjk3do2jhmuuzs',
-	'use_common_email_sender_address' => false,
-	'common_email_sender_addres' => ''
+	'use_common_email_sender_address' => true,
+	'common_email_sender_addres' => 'vannavam2015@gmail.com'
 );
 /*
 |-------------------------------
