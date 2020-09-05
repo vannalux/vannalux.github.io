@@ -20,7 +20,7 @@
 		<link rel="stylesheet" href="pluginAppObj/imFooter_pluginAppObj_10/custom.css" media="screen, print" />
 		
 		<link rel="stylesheet" href="pluginAppObj/imStickyBar_pluginAppObj_01/custom.css" media="screen, print" />
-		<link rel="stylesheet" href="pcss/imsearch.css?2020-2-5-1-637348985282938448" media="screen,print" />
+		<link rel="stylesheet" href="pcss/imsearch.css?2020-2-5-1-637348986508106631" media="screen,print" />
 		<script src="res/jquery.js?2020-2-5-1"></script>
 		<script src="res/x5engine.js?2020-2-5-1" data-files-version="2020-2-5-1"></script>
 		
@@ -31,7 +31,7 @@
 			window.onload = function(){ checkBrowserCompatibility('Ваш браузер не поддерживает функции, требуемые для визуализации этого Сайта.','Возможно, Ваш браузер не поддерживает функции, требуемые для визуализации этого Сайта.','[1]Обновите Ваш браузер[/1] или [2]продолжите процедуру [/2].','http://outdatedbrowser.com/'); };
 			x5engine.utils.currentPagePath = 'imsearch.php';
 		</script>
-		
+		<link rel="icon" href="favicon.png?2020-2-5-1-637348986508096596" type="image/png" />
 	</head>
 	<body>
 		<div id="imPageExtContainer">
