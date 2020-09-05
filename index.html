@@ -1,947 +1,297 @@
-<!DOCTYPE html>
-<html class="nojs html css_verticalspacer" lang="ru-RU">
- <head>
+<!DOCTYPE html><!-- HTML5 -->
+<html prefix="og: http://ogp.me/ns#" lang="ru-RU" dir="ltr">
+	<head>
+		<title>Новый проект</title>
+		<meta charset="utf-8" />
+		<!--[if IE]><meta http-equiv="ImageToolbar" content="False" /><![endif]-->
+		<meta name="description" content="A short description of your website content, what you talk about and who you are talking to. We suggest you add  this text to tell your users what you are talking about in your website before they come and visit. It will be amongst search engine results." />
+		<meta property="og:locale" content="ru" />
+		<meta property="og:type" content="website" />
+		<meta property="og:url" content="https://vannalux.github.io/index.html" />
+		<meta property="og:title" content="Главная" />
+		<meta property="og:site_name" content="Новый проект" />
+		<meta name="viewport" content="width=device-width, initial-scale=1" />
+		
+		<link rel="stylesheet" href="style/reset.css?2020-2-5-1" media="screen,print" />
+		<link rel="stylesheet" href="style/print.css?2020-2-5-1" media="print" />
+		<link rel="stylesheet" href="style/style.css?2020-2-5-1" media="screen,print" />
+		<link rel="stylesheet" href="style/template.css?2020-2-5-1" media="screen" />
+		
+		<link rel="stylesheet" href="pluginAppObj/imFooter_pluginAppObj_10/custom.css" media="screen, print" />
+		
+		<link rel="stylesheet" href="pluginAppObj/imStickyBar_pluginAppObj_01/custom.css" media="screen, print" />
+		<link rel="stylesheet" href="pcss/index.css?2020-2-5-1-637348978608339371" media="screen,print" />
+		<script src="res/jquery.js?2020-2-5-1"></script>
+		<script src="res/x5engine.js?2020-2-5-1" data-files-version="2020-2-5-1"></script>
+		
+		<script src="pluginAppObj/imFooter_pluginAppObj_10/main.js"></script>
+		
+		<script src="pluginAppObj/imStickyBar_pluginAppObj_01/main.js"></script>
+		<script>
+			window.onload = function(){ checkBrowserCompatibility('Ваш браузер не поддерживает функции, требуемые для визуализации этого Сайта.','Возможно, Ваш браузер не поддерживает функции, требуемые для визуализации этого Сайта.','[1]Обновите Ваш браузер[/1] или [2]продолжите процедуру [/2].','http://outdatedbrowser.com/'); };
+			x5engine.utils.currentPagePath = 'index.html';
+			x5engine.boot.push(function () { x5engine.parallax.start(); });
+			var fullHeightRows_settings = {
+				'scrollingEffect': 'none',
+				'autoscroll': {'active': true},
+				'bullets': {
+					'show': true,
+					'url': 'style/bullets.png',
+					'position': 'right'
+				},
+			};
+			x5engine.boot.push(function () { x5engine.fullHeightRows.start(fullHeightRows_settings); }, false, "last");
+		</script>
+		
+	</head>
+	<body>
+		<div id="imPageExtContainer">
+			<div id="imPageIntContainer">
+				<div id="imHeaderBg"></div>
+				<div id="imFooterBg"></div>
+				<div id="imPage">
+					<header id="imHeader">
+						<h1 class="imHidden">Новый проект</h1>
+						<div id="imHeaderObjects"></div>
+					</header>
+					<div id="imStickyBarContainer">
+						<div id="imStickyBarGraphics"></div>
+						<div id="imStickyBar">
+							<div id="imStickyBarObjects"><div id="imStickyBar_pluginAppObj_01_wrapper" class="template-object-wrapper"><!-- Social Icons v.16 --><div id="imStickyBar_pluginAppObj_01">
+            <div id="soc_imStickyBar_pluginAppObj_01">
+                <div class="wrapper horizontal flat shake">
+                	<div class='social-icon flat'><a href='https://www.facebook.com/Incomedia' target='_blank'><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100"><path d="M57,93V54H70.14l2-15H57V29.09c0-4.39.94-7.39,7.24-7.39H72V8.14a98.29,98.29,0,0,0-11.6-.6C48.82,7.54,41,14.61,41,27.59V39H27V54H41V93H57Z"/></svg><span class='fallbacktext'>Fb</span></a></div><div class='social-icon flat'><a href='https://it.linkedin.com/company/incomedia' target='_blank'><svg  xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100"><g><path d="M30,86H15V39H30V86ZM23.19,31.82a8.47,8.47,0,1,1,8.47-8.47A8.47,8.47,0,0,1,23.19,31.82ZM85,86H71V62.4c0-5.45.07-12.47-7.41-12.47S55,55.87,55,62V86H41V39H54v4H53.87c1.95-1,6.61-6.76,13.72-6.76C82.37,36.24,85,46.81,85,59.47V86Z"/></g></svg><span class='fallbacktext'>In</span></a></div>
+                </div>
 
-  <meta http-equiv="Content-type" content="text/html;charset=UTF-8"/>
-  <meta name="description" content="Реставрация ванн в Москве ударопрочным акрилом по доступной цене"/>
-  <meta name="keywords" content="реставрация ванн, эмалировка ванн, наливная ванна"/>
-  <meta name="generator" content="2018.1.0.386"/>
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  
-  <script type="text/javascript">
-   // Update the 'nojs'/'js' class on the html node
-document.documentElement.className = document.documentElement.className.replace(/\bnojs\b/g, 'js');
-
-// Check that all required assets are uploaded and up-to-date
-if(typeof Muse == "undefined") window.Muse = {}; window.Muse.assets = {"required":["museutils.js", "museconfig.js", "jquery.musemenu.js", "jquery.watch.js", "jquery.musepolyfill.bgsize.js", "webpro.js", "musewpslideshow.js", "jquery.museoverlay.js", "touchswipe.js", "jquery.museresponsive.js", "require.js", "index.css"], "outOfDate":[]};
-</script>
-  
-  <link rel="shortcut icon" href="images/%d1%88%d0%b0%d0%b1%d0%bb%d0%be%d0%bd-a-favicon.ico?crc=3874248244"/>
-  <title>Реставрация ванн Москва</title>
-  <!-- CSS -->
-  <link rel="stylesheet" type="text/css" href="css/site_global.css?crc=444006867"/>
-  <link rel="stylesheet" type="text/css" href="css/master_______-a.css?crc=130553762"/>
-  <link rel="stylesheet" type="text/css" href="css/index.css?crc=4066701994" id="pagesheet"/>
-  <!-- IE-only CSS -->
-  <!--[if lt IE 9]>
-  <link rel="stylesheet" type="text/css" href="css/nomq_preview_master_______-a.css?crc=3910579434"/>
-  <link rel="stylesheet" type="text/css" href="css/nomq_index.css?crc=405671628" id="nomq_pagesheet"/>
-  <![endif]-->
-  <!-- JS includes -->
-  <!--[if lt IE 9]>
-  <script src="scripts/html5shiv.js?crc=4241844378" type="text/javascript"></script>
-  <![endif]-->
-    <!--HTML Widget code-->
-  
-<style>
-.js body {visibility: visible !important; }
-false
-</style>
- <style> .button-up { position: fixed !important; bottom: -1000px !important; right: -1000px !important; left: auto !important; margin: 0 !important; cursor: pointer; } .button-up.active { bottom: 20px !important; right: 20px !important; } .animated { -webkit-animation-duration: 1s; animation-duration: 1s; -webkit-animation-fill-mode: both; animation-fill-mode: both } @-webkit-keyframes InUp { from,60%,75%,90%,to { -webkit-animation-timing-function: cubic-bezier(0.215,0.610,0.355,1.000); animation-timing-function: cubic-bezier(0.215,0.610,0.355,1.000) } from { opacity: 0; -webkit-transform: translate3d(0,3000px,0); transform: translate3d(0,3000px,0) } 60% { opacity: 1; -webkit-transform: translate3d(0,-20px,0); transform: translate3d(0,-20px,0) } 75% { -webkit-transform: translate3d(0,10px,0); transform: translate3d(0,10px,0) } 90% { -webkit-transform: translate3d(0,-5px,0); transform: translate3d(0,-5px,0) } to { -webkit-transform: translate3d(0,0,0); transform: translate3d(0,0,0) } } @keyframes InUp { from,60%,75%,90%,to { -webkit-animation-timing-function: cubic-bezier(0.215,0.610,0.355,1.000); animation-timing-function: cubic-bezier(0.215,0.610,0.355,1.000) } from { opacity: 0; -webkit-transform: translate3d(0,3000px,0); transform: translate3d(0,3000px,0) } 60% { opacity: 1; -webkit-transform: translate3d(0,-20px,0); transform: translate3d(0,-20px,0) } 75% { -webkit-transform: translate3d(0,10px,0); transform: translate3d(0,10px,0) } 90% { -webkit-transform: translate3d(0,-5px,0); transform: translate3d(0,-5px,0) } to { -webkit-transform: translate3d(0,0,0); transform: translate3d(0,0,0) } } .InUp { -webkit-animation-name: InUp; animation-name: InUp } @-webkit-keyframes OutDown { 20% { -webkit-transform: translate3d(0,10px,0); transform: translate3d(0,10px,0) } 40%,45% { opacity: 1; -webkit-transform: translate3d(0,-20px,0); transform: translate3d(0,-20px,0) } to { opacity: 0; -webkit-transform: translate3d(0,2000px,0); transform: translate3d(0,2000px,0) } } @keyframes OutDown { 20% { -webkit-transform: translate3d(0,10px,0); transform: translate3d(0,10px,0) } 40%,45% { opacity: 1; -webkit-transform: translate3d(0,-20px,0); transform: translate3d(0,-20px,0) } to { opacity: 0; -webkit-transform: translate3d(0,2000px,0); transform: translate3d(0,2000px,0) } } .OutDown { -webkit-animation-name: OutDown; animation-name: OutDown } </style> 
-<style>
-.menu-toggle{
-	flex:0 0 auto;
-	width:40px;
-	height:40px;
-	border:1px solid #000000;
-    box-sizing: border-box;
-	cursor:pointer;
-	position:relative;
-}
-.hamburger,.cross{
-	position:absolute;
-	top:50%;
-	left:50%;
-	transform:translate(-50%,-50%);
-}
-.hamburger span{
-	display:block;
-	width:18px;
-	height:2px;
-	margin-bottom:3px;
-	overflow:hidden;
-	position:relative;
-}
-.hamburger span:last-child{
-	margin:0;
-}
-.hamburger span:before,.hamburger span:after{
-	content:"";
-	position:absolute;
-	width:100%;
-	height:100%;
-	background-color:#000000;
-	transform:translateX(-200%);
-	transition:transform ease 300ms;
-}
-.hamburger span:after{
-	transform:translateX(0);
-}
-.hamburger span:nth-child(2):before,.hamburger span:nth-child(2):after{
-	transition-delay:75ms;
-}
-.hamburger span:last-child:before,.hamburger span:last-child:after{
-	transition-delay:150ms;
-}
-.menu-toggle:hover .hamburger span:before{
-	transform:translateX(0);
-}
-.menu-toggle:hover .hamburger span:after{
-	transform:translateX(200%);
-}
-.menu-toggle.active .hamburger span:before{
-	transform:translateX(100%);
-}
-.menu-toggle.active .hamburger span:after{
-	transform:translateX(200%);
-}
-.cross span{
-	display:block;
-	width:18px;
-	height:2px;
-	background-color:#000000;
-	transform:translateY(50%) rotate(45deg) scaleX(0);
-	transition:transform ease 200ms;
-}
-.cross span:last-child{
-	transform:translateY(-50%) rotate(-45deg) scaleX(0);
-}
-.menu-toggle.active .cross span{
-	transition-delay:450ms;
-	transform:translateY(50%) rotate(45deg) scaleX(1);
-}
-.menu-toggle.active .cross span:last-child{
-	transform:translateY(-50%) rotate(-45deg) scaleX(1);
-}
-</style>
-	
-  <!--/*
-
-*/
--->
- </head>
- <body class="always_vert_scroll">
-
-  <div class="breakpoint active" id="bp_infinity" data-min-width="769"><!-- responsive breakpoint node -->
-   <div class="clearfix borderbox" id="page"><!-- group -->
-    <div class="clearfix grpelem shared_content" id="pu309" data-content-guid="pu309_content"><!-- column -->
-     <div class="size_fixed colelem" id="u309" data-sizePolicy="fixed" data-pintopage="page_fixedLeft"><!-- custom html -->
-      
-
-     </div>
-     <div class="button-up rounded-corners clearfix colelem" id="u320-4" data-IBE-flags="txtStyleSrc" data-sizePolicy="fixed" data-pintopage="page_fixedLeft"><!-- content -->
-      <p>▲</p>
-     </div>
-     <div class="size_fixed colelem" id="u321" data-sizePolicy="fixed" data-pintopage="page_fixedLeft"><!-- custom html -->
-       
-     </div>
-    </div>
-    <div class="clearfix grpelem" id="pu1180"><!-- column -->
-     <div class="browser_width colelem" id="u1180-bw">
-      <div class="rgba-background" id="u1180"><!-- group -->
-       <div class="clearfix" id="u1180_align_to_page">
-        <nav class="MenuBar clearfix grpelem" id="menuu1186" data-sizePolicy="fixed" data-pintopage="page_fixedCenter"><!-- horizontal box -->
-         <div class="MenuItemContainer clearfix grpelem" id="u1187"><!-- vertical box -->
-          <a class="nonblock nontext MenuItem MenuItemWithSubMenu MuseMenuActive clearfix colelem" id="u1188" href="index.html" data-href="page:U93"><!-- horizontal box --><div class="MenuItemLabel NoWrap clearfix grpelem" id="u1190-4" data-sizePolicy="fixed" data-pintopage="page_fixedLeft"><!-- content --><p>Домашняя</p></div></a>
-         </div>
-         <div class="MenuItemContainer clearfix grpelem" id="u1939"><!-- vertical box -->
-          <a class="nonblock nontext MenuItem MenuItemWithSubMenu clearfix colelem" id="u1942" href="foto.html" data-href="page:U1938"><!-- horizontal box --><div class="MenuItemLabel NoWrap clearfix grpelem" id="u1944-4" data-sizePolicy="fixed" data-pintopage="page_fixedLeft"><!-- content --><p>Фотограф</p></div></a>
-         </div>
-         <div class="MenuItemContainer clearfix grpelem" id="u2406"><!-- vertical box -->
-          <a class="nonblock nontext MenuItem MenuItemWithSubMenu clearfix colelem" id="u2409" href="prom.html" data-href="page:U2405"><!-- horizontal box --><div class="MenuItemLabel NoWrap clearfix grpelem" id="u2410-4" data-sizePolicy="fixed" data-pintopage="page_fixedLeft"><!-- content --><p>Пром</p></div></a>
-         </div>
-         <div class="MenuItemContainer clearfix grpelem" id="u3299"><!-- vertical box -->
-          <a class="nonblock nontext MenuItem MenuItemWithSubMenu clearfix colelem" id="u3302" href="blog.html" data-href="page:U3298"><!-- horizontal box --><div class="MenuItemLabel NoWrap clearfix grpelem" id="u3303-4" data-sizePolicy="fixed" data-pintopage="page_fixedLeft"><!-- content --><p>Блог</p></div></a>
-         </div>
-        </nav>
-       </div>
-      </div>
-     </div>
-     <div class="browser_width colelem" id="u166-bw">
-      <div class="museBGSize" id="u166"><!-- column -->
-       <div class="clearfix" id="u166_align_to_page">
-        <!-- m_editable region-id="editable-static-tag-U180-BP_infinity" template="index.html" data-type="html" data-ice-options="disableImageResize,link,txtStyleTarget" -->
-        <div class="clearfix colelem shared_content" id="u180-6" data-muse-uid="U180" data-muse-type="txt_frame" data-IBE-flags="txtStyleSrc" data-sizePolicy="fixed" data-pintopage="page_fixedCenter" data-content-guid="u180-6_content"><!-- content -->
-         <p id="u180-2">Реставрация ванн Москва</p>
-         <p id="u180-4">VannaVam</p>
-        </div>
-        <!-- /m_editable -->
-        <div class="rgba-background clearfix colelem shared_content" id="u208" data-content-guid="u208_content"><!-- group -->
-         <!-- m_editable region-id="editable-static-tag-U187-BP_infinity" template="index.html" data-type="html" data-ice-options="disableImageResize,link,txtStyleTarget" -->
-         <div class="clearfix grpelem shared_content" id="u187-10" data-muse-uid="U187" data-muse-type="txt_frame" data-IBE-flags="txtStyleSrc" data-sizePolicy="fixed" data-pintopage="page_fixedCenter" data-content-guid="u187-10_content"><!-- content -->
-          <p id="u187-2">Восстановление Ванн</p>
-          <p id="u187-4">Ударопрочным Акрилом</p>
-          <p id="u187-6">С гарантией до 5 лет</p>
-          <p id="u187-8">(095) 939-67-59&nbsp; Vodafone</p>
-         </div>
-         <!-- /m_editable -->
-        </div>
-       </div>
-      </div>
-     </div>
-     <!-- m_editable region-id="editable-static-tag-U338-BP_infinity" template="index.html" data-type="html" data-ice-options="disableImageResize,link,txtStyleTarget" -->
-     <div class="clearfix colelem shared_content" id="u338-10" data-muse-uid="U338" data-muse-type="txt_frame" data-IBE-flags="txtStyleSrc" data-sizePolicy="fluidWidth" data-pintopage="page_fixedCenter" data-content-guid="u338-10_content"><!-- content -->
-      <p id="u338-2">Реставрация ванн в Москве качественно и недорого</p>
-      <p id="u338-4"><span id="u338-3">Производим реставрацию ванн в населённых пунктах: Москва и область</span></p>
-      <p id="u338-6">Реставрация ванны в Херсоне наливным и жидким акрилом, а так же эмалировка, не требуют от себя демонтажа ванны с последующей её утилизацией. Процедура позволит сэкономить ваши деньги, а ванна послужит вам верой и правдой ещё лет 15. Причин, по которым клиенты обращаются именно к нам довольно таки много, но самая главная – это то, что после реставрации ваша старая ванна превратится в новенькую глянцевую красотку!</p>
-      <p id="u338-8">Квалифицированная и быстрая реставрация ванной акрилом, как впрочем, и когда монтируется акриловый вкладыш, ванна преображается прямо на глазах! И что очень важно: теперь такие услуги доступны абсолютно каждому! Реставрация ванн – это один из основных видов деятельности нашей компании, который мы неизменно осуществляем много лет и на самом высоком уровне. С нами реставрация ванной всегда выполняется в максимально точные сроки. Задумайтесь на минуточку: какая прекрасная возможность не просто оставить любимую и удобную ванну, которая с годами просто потеряла былой внешний вид, но и сделать ее вновь неотразимой и, что очень важно, добавить ей дополнительные полезные характеристики.</p>
-     </div>
-     <!-- /m_editable -->
-     <!-- m_editable region-id="editable-static-tag-U344-BP_infinity" template="index.html" data-type="html" data-ice-options="disableImageResize,link,txtStyleTarget" -->
-     <div class="clearfix colelem shared_content" id="u344-4" data-muse-uid="U344" data-muse-type="txt_frame" data-IBE-flags="txtStyleSrc" data-sizePolicy="fixed" data-pintopage="page_fixedCenter" data-content-guid="u344-4_content"><!-- content -->
-      <p>Адекватные и Честные Цены</p>
-     </div>
-     <!-- /m_editable -->
-     <div class="clearfix colelem" id="pu350"><!-- group -->
-      <div class="rgba-background clearfix grpelem" id="u350"><!-- column -->
-       <!-- m_editable region-id="editable-static-tag-U356-BP_infinity" template="index.html" data-type="html" data-ice-options="disableImageResize,link,txtStyleTarget" -->
-       <div class="clearfix colelem shared_content" id="u356-4" data-muse-uid="U356" data-muse-type="txt_frame" data-IBE-flags="txtStyleSrc" data-sizePolicy="fixed" data-pintopage="page_fluidx" data-content-guid="u356-4_content"><!-- content -->
-        <p>Наливная ванна</p>
-       </div>
-       <!-- /m_editable -->
-       <!-- m_editable region-id="editable-static-tag-U368-BP_infinity" template="index.html" data-type="image" -->
-       <div class="clip_frame colelem shared_content" id="u368" data-muse-uid="U368" data-muse-type="img_frame" data-sizePolicy="fixed" data-pintopage="page_fluidx" data-content-guid="u368_content"><!-- image -->
-        <img class="block temp_no_img_src" id="u368_img" data-orig-src="images/nalivnoi_akril.png?crc=394772016" alt="Реставрация ванн Москва" title="Реставрация ванн Москва" width="262" height="189" data-muse-src="images/nalivnoi_akril.png?crc=394772016" src="images/blank.gif?crc=4208392903"/>
-       </div>
-       <!-- /m_editable -->
-       <!-- m_editable region-id="editable-static-tag-U362-BP_infinity" template="index.html" data-type="html" data-ice-options="disableImageResize,link,txtStyleTarget" -->
-       <div class="clearfix colelem shared_content" id="u362-13" data-muse-uid="U362" data-muse-type="txt_frame" data-IBE-flags="txtStyleSrc" data-sizePolicy="fixed" data-pintopage="page_fluidx" data-content-guid="u362-13_content"><!-- content -->
-        <p id="u362-2">(Жидким акрилом)</p>
-        <p id="u362-4">от 1600 руб.</p>
-        <ul class="list0 nls-None" id="u362-11">
-         <li id="u362-6">Срок службы наливной ванны 15-20 лет</li>
-         <li id="u362-8">Время проведения работ 3 - 4 часа</li>
-         <li id="u362-10">Время высыхания всего 24 часа</li>
-        </ul>
-       </div>
-       <!-- /m_editable -->
-      </div>
-      <div class="rgba-background clearfix grpelem" id="u441"><!-- column -->
-       <!-- m_editable region-id="editable-static-tag-U453-BP_infinity" template="index.html" data-type="html" data-ice-options="disableImageResize,link,txtStyleTarget" -->
-       <div class="clearfix colelem shared_content" id="u453-4" data-muse-uid="U453" data-muse-type="txt_frame" data-IBE-flags="txtStyleSrc" data-sizePolicy="fixed" data-pintopage="page_fluidx" data-content-guid="u453-4_content"><!-- content -->
-        <p>Наливная ванна</p>
-       </div>
-       <!-- /m_editable -->
-       <!-- m_editable region-id="editable-static-tag-U462-BP_infinity" template="index.html" data-type="image" -->
-       <div class="clip_frame colelem shared_content" id="u462" data-muse-uid="U462" data-muse-type="img_frame" data-sizePolicy="fixed" data-pintopage="page_fluidx" data-content-guid="u462_content"><!-- image -->
-        <img class="block temp_no_img_src" id="u462_img" data-orig-src="images/nalivnoi_akril.png?crc=394772016" alt="Реставрация ванн Москва" title="Реставрация ванн Москва" width="262" height="189" data-muse-src="images/nalivnoi_akril.png?crc=394772016" src="images/blank.gif?crc=4208392903"/>
-       </div>
-       <!-- /m_editable -->
-       <!-- m_editable region-id="editable-static-tag-U481-BP_infinity" template="index.html" data-type="html" data-ice-options="disableImageResize,link,txtStyleTarget" -->
-       <div class="clearfix colelem shared_content" id="u481-13" data-muse-uid="U481" data-muse-type="txt_frame" data-IBE-flags="txtStyleSrc" data-sizePolicy="fixed" data-pintopage="page_fluidx" data-content-guid="u481-13_content"><!-- content -->
-        <p id="u481-2">(Жидким акрилом)</p>
-        <p id="u481-4">от 1600 руб.</p>
-        <ul class="list0 nls-None" id="u481-11">
-         <li id="u481-6">Срок службы наливной ванны 15-20 лет</li>
-         <li id="u481-8">Время проведения работ 3 - 4 часа</li>
-         <li id="u481-10">Время высыхания всего 24 часа</li>
-        </ul>
-       </div>
-       <!-- /m_editable -->
-      </div>
-     </div>
-     <!-- m_editable region-id="editable-static-tag-U521-BP_infinity" template="index.html" data-type="html" data-ice-options="disableImageResize,link,txtStyleTarget" -->
-     <div class="clearfix colelem shared_content" id="u521-17" data-muse-uid="U521" data-muse-type="txt_frame" data-IBE-flags="txtStyleSrc" data-sizePolicy="fixed" data-pintopage="page_fixedCenter" data-content-guid="u521-17_content"><!-- content -->
-      <p id="u521-2">Дополнительные услуги</p>
-      <ul class="list0 nls-None" id="u521-15">
-       <li id="u521-5">Зачистка ранее нанесенного слоя эмали или акрила - <span id="u521-4">250 руб.</span></li>
-       <li id="u521-7">Выезд мастера за пределы города - обговаривается.</li>
-       <li id="u521-10">Устранение сколов - <span id="u521-9">от 500 руб.</span></li>
-       <li id="u521-12">Нестандартные ванны, поддоны, душевые кабины - обговаривается.</li>
-       <li id="u521-14">Монтаж сифона старого типа (чугун) - обговаривается с мастером.</li>
-      </ul>
-     </div>
-     <!-- /m_editable -->
-     <!-- m_editable region-id="editable-static-tag-U527-BP_infinity" template="index.html" data-type="html" data-ice-options="disableImageResize,link,txtStyleTarget" -->
-     <div class="clearfix colelem shared_content" id="u527-4" data-muse-uid="U527" data-muse-type="txt_frame" data-IBE-flags="txtStyleSrc" data-sizePolicy="fixed" data-pintopage="page_fixedCenter" data-content-guid="u527-4_content"><!-- content -->
-      <h2>Методы реставрации ванн которые можно заказать у нас</h2>
-     </div>
-     <!-- /m_editable -->
-     <!-- m_editable region-id="editable-static-tag-U533-BP_infinity" template="index.html" data-type="html" data-ice-options="disableImageResize,link,txtStyleTarget" -->
-     <div class="rgba-background clearfix colelem" id="u533-18" data-muse-uid="U533" data-muse-type="txt_frame" data-IBE-flags="txtStyleSrc" data-sizePolicy="fluidWidth" data-pintopage="page_fixedCenter"><!-- content -->
-      <p id="u533-2" class="shared_content" data-content-guid="u533-2_content">Наливная ванна в Москве — покрытие жидким акрилом</p>
-      <p id="u533-4" class="shared_content" data-content-guid="u533-4_content">Наливная реставрация – метод, который заключается в покрытии внутренней части чаши жидким акрилом. Предварительно нужно ошкурить рабочую поверхность, обезжирить и нанести эмаль способом налива. Жидкий акрил – самовыравнивающийся материал, который под воздействием собственной массы заполняет все микротрещины, создавая прочный внешний слой.</p>
-      <p id="u533-7"><span id="u533-5" class="shared_content" data-content-guid="u533-5_content">​</span><span class="actAsInlineDiv normal_text" id="u628"><!-- content --><span class="actAsDiv clip_frame excludeFromNormalFlow" id="u603" data-muse-uid="U603" data-muse-type="img_frame" data-sizePolicy="fixed" data-pintopage="page_fixedLeft"><!-- image --><img class="temp_no_img_src" id="u603_img" data-orig-src="images/portal-15.jpg?crc=4159905907" alt="Реставрация ванн Москва" title="Реставрация ванн Москва" width="350" height="233" data-muse-src="images/portal-15.jpg?crc=4159905907" src="images/blank.gif?crc=4208392903"/></span></span><span class="actAsInlineDiv normal_text" id="u645"><!-- content --><span class="actAsDiv clip_frame excludeFromNormalFlow" id="u605" data-muse-uid="U605" data-muse-type="img_frame" data-sizePolicy="fixed" data-pintopage="page_fixedLeft"><!-- image --><img class="temp_no_img_src" id="u605_img" data-orig-src="images/portal-36.jpg?crc=3860861521" alt="Реставрация ванн Москва" title="Реставрация ванн Москва" width="350" height="233" data-muse-src="images/portal-36.jpg?crc=3860861521" src="images/blank.gif?crc=4208392903"/></span></span><span class="shared_content" data-content-guid="u533-7_3_content"></span></p>
-      <p id="u533-9" class="shared_content" data-content-guid="u533-9_content">Эмалировка ванн в Москве — покрытие эпоксидной эмалью</p>
-      <p id="u533-11" class="shared_content" data-content-guid="u533-11_content">Самый быстрый и экономный метод реставрации. Уже долгое время используется специалистами по всему миру. Метод эмалировки заключается в нанесении специальной двухкомпонентной эмали кистью или валиком на ванну.</p>
-      <p id="u533-16"><span id="u533-12" class="shared_content" data-content-guid="u533-12_content">​</span><span id="u533-13"><span class="actAsInlineDiv normal_text" id="u693"><!-- content --><span class="actAsDiv clip_frame excludeFromNormalFlow" id="u662" data-muse-uid="U662" data-muse-type="img_frame" data-sizePolicy="fixed" data-pintopage="page_fixedLeft"><!-- image --><img class="temp_no_img_src" id="u662_img" data-orig-src="images/portal-8.jpg?crc=3772611264" alt="Реставрация ванн Москва" title="Реставрация ванн Москва" width="350" height="233" data-muse-src="images/portal-8.jpg?crc=3772611264" src="images/blank.gif?crc=4208392903"/></span></span></span><span id="u533-14"><span class="actAsInlineDiv normal_text" id="u710"><!-- content --><span class="actAsDiv clip_frame excludeFromNormalFlow" id="u664" data-muse-uid="U664" data-muse-type="img_frame" data-sizePolicy="fixed" data-pintopage="page_fixedLeft"><!-- image --><img class="temp_no_img_src" id="u664_img" data-orig-src="images/portal-12.jpg?crc=3791191748" alt="Реставрация ванн Москва" title="Реставрация ванн Москва" width="350" height="233" data-muse-src="images/portal-12.jpg?crc=3791191748" src="images/blank.gif?crc=4208392903"/></span></span></span><span id="u533-15" class="shared_content" data-content-guid="u533-15_content"></span></p>
-     </div>
-     <!-- /m_editable -->
-     <div class="browser_width colelem" id="u802-bw">
-      <div class="rgba-background" id="u802"><!-- column -->
-       <div class="clearfix" id="u802_align_to_page">
-        <!-- m_editable region-id="editable-static-tag-U741-BP_infinity" template="index.html" data-type="html" data-ice-options="disableImageResize,link,txtStyleTarget" -->
-        <div class="clearfix colelem shared_content" id="u741-4" data-muse-uid="U741" data-muse-type="txt_frame" data-IBE-flags="txtStyleSrc" data-sizePolicy="fluidWidth" data-pintopage="page_fixedCenter" data-content-guid="u741-4_content"><!-- content -->
-         <h2>Звоните нам! Мы ответим на все Ваши вопросы, проконсультируем и примем заявку.</h2>
-        </div>
-        <!-- /m_editable -->
-        <div class="clearfix colelem" id="pbuttonu772"><!-- group -->
-         <div class="Button rounded-corners clearfix grpelem shared_content" id="buttonu772" data-sizePolicy="fixed" data-pintopage="page_fluidx" data-content-guid="buttonu772_content"><!-- container box -->
-          <!-- m_editable region-id="editable-static-tag-U773-BP_infinity" template="index.html" data-type="html" data-ice-options="disableImageResize,link" -->
-          <div class="clearfix grpelem" id="u773-4" data-muse-uid="U773" data-muse-type="txt_frame" data-sizePolicy="fixed" data-pintopage="page_fixedLeft"><!-- content -->
-           <p>Lorem Ipsum</p>
-          </div>
-          <!-- /m_editable -->
-         </div>
-         <!-- m_editable region-id="editable-static-tag-U784-BP_infinity" template="index.html" data-type="html" data-ice-options="disableImageResize,link,txtStyleTarget" -->
-         <div class="clearfix grpelem shared_content" id="u784-8" data-muse-uid="U784" data-muse-type="txt_frame" data-IBE-flags="txtStyleSrc" data-sizePolicy="fixed" data-pintopage="page_fixedCenter" data-content-guid="u784-8_content"><!-- content -->
-          <p>Заявки по телефону:</p>
-          <p>БЕЗ ВЫХОДНЫХ</p>
-          <p>09.00 – 20.00</p>
-         </div>
-         <!-- /m_editable -->
-         <div class="Button rounded-corners clearfix grpelem shared_content" id="buttonu759" data-sizePolicy="fixed" data-pintopage="page_fluidx" data-content-guid="buttonu759_content"><!-- container box -->
-          <!-- m_editable region-id="editable-static-tag-U760-BP_infinity" template="index.html" data-type="html" data-ice-options="disableImageResize,link" -->
-          <div class="clearfix grpelem" id="u760-4" data-muse-uid="U760" data-muse-type="txt_frame" data-sizePolicy="fixed" data-pintopage="page_fixedLeft"><!-- content -->
-           <p>Lorem Ipsum</p>
-          </div>
-          <!-- /m_editable -->
-         </div>
-        </div>
-        <!-- m_editable region-id="editable-static-tag-U753-BP_infinity" template="index.html" data-type="html" data-ice-options="disableImageResize,link,txtStyleTarget" -->
-        <div class="clearfix colelem shared_content" id="u753-8" data-muse-uid="U753" data-muse-type="txt_frame" data-IBE-flags="txtStyleSrc" data-sizePolicy="fixed" data-pintopage="page_fixedCenter" data-content-guid="u753-8_content"><!-- content -->
-         <p id="u753-2">Телефон для заявок:</p>
-         <p id="u753-6"><span id="u753-3">(095)</span><span id="u753-4"> 939-67-59</span> Vodafone</p>
-        </div>
-        <!-- /m_editable -->
-       </div>
-      </div>
-     </div>
-     <!-- m_editable region-id="editable-static-tag-U808-BP_infinity" template="index.html" data-type="html" data-ice-options="disableImageResize,link,txtStyleTarget" -->
-     <div class="clearfix colelem shared_content" id="u808-11" data-muse-uid="U808" data-muse-type="txt_frame" data-IBE-flags="txtStyleSrc" data-sizePolicy="fluidWidth" data-pintopage="page_fixedCenter" data-content-guid="u808-11_content"><!-- content -->
-      <p id="u808-2">Ниже мы приведем несколько причин, указывающих на то, что реставрация ванн акрилом – это актуально и выгодно:</p>
-      <ol class="list0 nls-None" id="u808-9">
-       <li id="u808-4">Далеко не все имеют возможность организовать полную замену ванной. Не только сама новая ванна и ее монтаж требуют больших финансовых вложений, но и демонтаж старого изделия довольно дорого обходится.</li>
-       <li id="u808-6">Распространены случаи, когда необходимо чуть ли не половину квартиры или частного дома развалить, чтобы демонтировать и вынести старую чугунную ванну.</li>
-       <li id="u808-8">Очень многие из нас не хотят избавляться от своей старой ванны, да и к тому же, если осуществляется грамотный уход за чугунной ванной после ее реставрации, то это сооружение можно назвать вечным!</li>
-      </ol>
-     </div>
-     <!-- /m_editable -->
-     <div class="clearfix colelem" id="pu836"><!-- group -->
-      <!-- m_editable region-id="editable-static-tag-U836-BP_infinity" template="index.html" data-type="image" -->
-      <div class="clip_frame grpelem shared_content" id="u836" data-muse-uid="U836" data-muse-type="img_frame" data-sizePolicy="fixed" data-pintopage="page_fluidx" data-content-guid="u836_content"><!-- image -->
-       <img class="block temp_no_img_src" id="u836_img" data-orig-src="images/bathtub-outline.png?crc=303381879" alt="Реставрация ванн Москва" title="Реставрация ванн Москва" width="167" height="90" data-muse-src="images/bathtub-outline.png?crc=303381879" src="images/blank.gif?crc=4208392903"/>
-      </div>
-      <!-- /m_editable -->
-      <!-- m_editable region-id="editable-static-tag-U864-BP_infinity" template="index.html" data-type="image" -->
-      <div class="clip_frame grpelem shared_content" id="u864" data-muse-uid="U864" data-muse-type="img_frame" data-sizePolicy="fixed" data-pintopage="page_fluidx" data-content-guid="u864_content"><!-- image -->
-       <img class="block temp_no_img_src" id="u864_img" data-orig-src="images/price-tag.png?crc=34447761" alt="Реставрация ванн Москва" title="Реставрация ванн Москва" width="90" height="90" data-muse-src="images/price-tag.png?crc=34447761" src="images/blank.gif?crc=4208392903"/>
-      </div>
-      <!-- /m_editable -->
-      <!-- m_editable region-id="editable-static-tag-U857-BP_infinity" template="index.html" data-type="image" -->
-      <div class="clip_frame grpelem shared_content" id="u857" data-muse-uid="U857" data-muse-type="img_frame" data-sizePolicy="fixed" data-pintopage="page_fluidx" data-content-guid="u857_content"><!-- image -->
-       <img class="block temp_no_img_src" id="u857_img" data-orig-src="images/palette-and-brush.png?crc=3912360207" alt="Реставрация ванн Москва" title="Реставрация ванн Москва" width="90" height="90" data-muse-src="images/palette-and-brush.png?crc=3912360207" src="images/blank.gif?crc=4208392903"/>
-      </div>
-      <!-- /m_editable -->
-     </div>
-     <div class="clearfix colelem" id="pu982-8"><!-- group -->
-      <!-- m_editable region-id="editable-static-tag-U982-BP_infinity" template="index.html" data-type="html" data-ice-options="disableImageResize,link,txtStyleTarget" -->
-      <div class="clearfix grpelem shared_content" id="u982-8" data-muse-uid="U982" data-muse-type="txt_frame" data-IBE-flags="txtStyleSrc" data-sizePolicy="fixed" data-pintopage="page_fluidx" data-content-guid="u982-8_content"><!-- content -->
-       <p id="u982-2">Как новая</p>
-       <p>Визуально не видно</p>
-       <p>следов реставрации.</p>
-      </div>
-      <!-- /m_editable -->
-      <!-- m_editable region-id="editable-static-tag-U988-BP_infinity" template="index.html" data-type="html" data-ice-options="disableImageResize,link,txtStyleTarget" -->
-      <div class="clearfix grpelem shared_content" id="u988-8" data-muse-uid="U988" data-muse-type="txt_frame" data-IBE-flags="txtStyleSrc" data-sizePolicy="fixed" data-pintopage="page_fluidx" data-content-guid="u988-8_content"><!-- content -->
-       <p id="u988-2">Низкая цена</p>
-       <p>В 3-4 ниже, чем покупка</p>
-       <p>новой ванны</p>
-      </div>
-      <!-- /m_editable -->
-      <!-- m_editable region-id="editable-static-tag-U964-BP_infinity" template="index.html" data-type="html" data-ice-options="disableImageResize,link,txtStyleTarget" -->
-      <div class="clearfix grpelem shared_content" id="u964-8" data-muse-uid="U964" data-muse-type="txt_frame" data-IBE-flags="txtStyleSrc" data-sizePolicy="fixed" data-pintopage="page_fluidx" data-content-guid="u964-8_content"><!-- content -->
-       <p id="u964-2">Любой цвет</p>
-       <p>Все цвета радуги</p>
-       <p>в вашем распоряжении.</p>
-      </div>
-      <!-- /m_editable -->
-     </div>
-     <div class="clearfix colelem" id="pu822"><!-- group -->
-      <!-- m_editable region-id="editable-static-tag-U822-BP_infinity" template="index.html" data-type="image" -->
-      <div class="clip_frame grpelem shared_content" id="u822" data-muse-uid="U822" data-muse-type="img_frame" data-sizePolicy="fixed" data-pintopage="page_fluidx" data-content-guid="u822_content"><!-- image -->
-       <img class="block temp_no_img_src" id="u822_img" data-orig-src="images/24-hour-clock-.png?crc=331831202" alt="Реставрация ванн Москва" title="Реставрация ванн Москва" width="90" height="90" data-muse-src="images/24-hour-clock-.png?crc=331831202" src="images/blank.gif?crc=4208392903"/>
-      </div>
-      <!-- /m_editable -->
-      <!-- m_editable region-id="editable-static-tag-U843-BP_infinity" template="index.html" data-type="image" -->
-      <div class="clip_frame grpelem shared_content" id="u843" data-muse-uid="U843" data-muse-type="img_frame" data-sizePolicy="fixed" data-pintopage="page_fluidx" data-content-guid="u843_content"><!-- image -->
-       <img class="block temp_no_img_src" id="u843_img" data-orig-src="images/constructor-with-hat-and-a-gear.png?crc=4121113439" alt="Реставрация ванн Москва" title="Реставрация ванн Москва" width="95" height="90" data-muse-src="images/constructor-with-hat-and-a-gear.png?crc=4121113439" src="images/blank.gif?crc=4208392903"/>
-      </div>
-      <!-- /m_editable -->
-      <!-- m_editable region-id="editable-static-tag-U814-BP_infinity" template="index.html" data-type="image" -->
-      <div class="clip_frame grpelem shared_content" id="u814" data-muse-uid="U814" data-muse-type="img_frame" data-sizePolicy="fixed" data-pintopage="page_fluidx" data-content-guid="u814_content"><!-- image -->
-       <img class="block temp_no_img_src" id="u814_img" data-orig-src="images/warranty-certificate.png?crc=475466904" alt="Реставрация ванн Москва" title="Реставрация ванн Москва" width="59" height="90" data-muse-src="images/warranty-certificate.png?crc=475466904" src="images/blank.gif?crc=4208392903"/>
-      </div>
-      <!-- /m_editable -->
-     </div>
-     <div class="clearfix colelem" id="pu994-8"><!-- group -->
-      <!-- m_editable region-id="editable-static-tag-U994-BP_infinity" template="index.html" data-type="html" data-ice-options="disableImageResize,link,txtStyleTarget" -->
-      <div class="clearfix grpelem shared_content" id="u994-8" data-muse-uid="U994" data-muse-type="txt_frame" data-IBE-flags="txtStyleSrc" data-sizePolicy="fixed" data-pintopage="page_fluidx" data-content-guid="u994-8_content"><!-- content -->
-       <p id="u994-2">24 часа</p>
-       <p>И вы можете пользоваться</p>
-       <p>своей новой ванной.</p>
-      </div>
-      <!-- /m_editable -->
-      <!-- m_editable region-id="editable-static-tag-U976-BP_infinity" template="index.html" data-type="html" data-ice-options="disableImageResize,link,txtStyleTarget" -->
-      <div class="clearfix grpelem shared_content" id="u976-8" data-muse-uid="U976" data-muse-type="txt_frame" data-IBE-flags="txtStyleSrc" data-sizePolicy="fixed" data-pintopage="page_fluidx" data-content-guid="u976-8_content"><!-- content -->
-       <p id="u976-2">Более 10 лет</p>
-       <p>Опыт работы</p>
-       <p>каждого из мастеров.</p>
-      </div>
-      <!-- /m_editable -->
-      <!-- m_editable region-id="editable-static-tag-U970-BP_infinity" template="index.html" data-type="html" data-ice-options="disableImageResize,link,txtStyleTarget" -->
-      <div class="clearfix grpelem shared_content" id="u970-8" data-muse-uid="U970" data-muse-type="txt_frame" data-IBE-flags="txtStyleSrc" data-sizePolicy="fixed" data-pintopage="page_fluidx" data-content-guid="u970-8_content"><!-- content -->
-       <p id="u970-2">15 лет</p>
-       <p>Будет служить</p>
-       <p>новое покрытие.</p>
-      </div>
-      <!-- /m_editable -->
-     </div>
-     <!-- m_editable region-id="editable-static-tag-U1000-BP_infinity" template="index.html" data-type="html" data-ice-options="disableImageResize,link,txtStyleTarget" -->
-     <div class="clearfix colelem shared_content" id="u1000-4" data-muse-uid="U1000" data-muse-type="txt_frame" data-IBE-flags="txtStyleSrc" data-sizePolicy="fluidWidth" data-pintopage="page_fixedCenter" data-content-guid="u1000-4_content"><!-- content -->
-      <p>Что еще мы восстанавливаем?</p>
-     </div>
-     <!-- /m_editable -->
-     <div class="clearfix colelem" id="pu871"><!-- group -->
-      <!-- m_editable region-id="editable-static-tag-U871-BP_infinity" template="index.html" data-type="image" -->
-      <div class="clip_frame grpelem shared_content" id="u871" data-muse-uid="U871" data-muse-type="img_frame" data-sizePolicy="fixed" data-pintopage="page_fluidx" data-content-guid="u871_content"><!-- image -->
-       <img class="block temp_no_img_src" id="u871_img" data-orig-src="images/safety-shower.png?crc=535804723" alt="Реставрация ванн Москва" title="Реставрация ванн Москва" width="90" height="90" data-muse-src="images/safety-shower.png?crc=535804723" src="images/blank.gif?crc=4208392903"/>
-      </div>
-      <!-- /m_editable -->
-      <!-- m_editable region-id="editable-static-tag-U829-BP_infinity" template="index.html" data-type="image" -->
-      <div class="clip_frame grpelem shared_content" id="u829" data-muse-uid="U829" data-muse-type="img_frame" data-sizePolicy="fixed" data-pintopage="page_fluidx" data-content-guid="u829_content"><!-- image -->
-       <img class="block temp_no_img_src" id="u829_img" data-orig-src="images/bathroom-hanging-towel.png?crc=329990662" alt="Реставрация ванн Москва" title="Реставрация ванн Москва" width="105" height="90" data-muse-src="images/bathroom-hanging-towel.png?crc=329990662" src="images/blank.gif?crc=4208392903"/>
-      </div>
-      <!-- /m_editable -->
-      <!-- m_editable region-id="editable-static-tag-U850-BP_infinity" template="index.html" data-type="image" -->
-      <div class="clip_frame grpelem shared_content" id="u850" data-muse-uid="U850" data-muse-type="img_frame" data-sizePolicy="fixed" data-pintopage="page_fluidx" data-content-guid="u850_content"><!-- image -->
-       <img class="block temp_no_img_src" id="u850_img" data-orig-src="images/jacuzzi.png?crc=3979344608" alt="Реставрация ванн Москва" title="Реставрация ванн Москва" width="90" height="90" data-muse-src="images/jacuzzi.png?crc=3979344608" src="images/blank.gif?crc=4208392903"/>
-      </div>
-      <!-- /m_editable -->
-     </div>
-     <div class="clearfix colelem" id="pu1006-4"><!-- group -->
-      <!-- m_editable region-id="editable-static-tag-U1006-BP_infinity" template="index.html" data-type="html" data-ice-options="disableImageResize,link,txtStyleTarget" -->
-      <div class="clearfix grpelem shared_content" id="u1006-4" data-muse-uid="U1006" data-muse-type="txt_frame" data-IBE-flags="txtStyleSrc" data-sizePolicy="fixed" data-pintopage="page_fluidx" data-content-guid="u1006-4_content"><!-- content -->
-       <p>Душевые поддоны</p>
-      </div>
-      <!-- /m_editable -->
-      <!-- m_editable region-id="editable-static-tag-U1018-BP_infinity" template="index.html" data-type="html" data-ice-options="disableImageResize,link,txtStyleTarget" -->
-      <div class="clearfix grpelem shared_content" id="u1018-4" data-muse-uid="U1018" data-muse-type="txt_frame" data-IBE-flags="txtStyleSrc" data-sizePolicy="fixed" data-pintopage="page_fluidx" data-content-guid="u1018-4_content"><!-- content -->
-       <p>Полируем ванны</p>
-      </div>
-      <!-- /m_editable -->
-      <!-- m_editable region-id="editable-static-tag-U1012-BP_infinity" template="index.html" data-type="html" data-ice-options="disableImageResize,link,txtStyleTarget" -->
-      <div class="clearfix grpelem shared_content" id="u1012-4" data-muse-uid="U1012" data-muse-type="txt_frame" data-IBE-flags="txtStyleSrc" data-sizePolicy="fixed" data-pintopage="page_fluidx" data-content-guid="u1012-4_content"><!-- content -->
-       <p>Джакузи</p>
-      </div>
-      <!-- /m_editable -->
-     </div>
-     <!-- m_editable region-id="editable-static-tag-U1024-BP_infinity" template="index.html" data-type="html" data-ice-options="disableImageResize,link,txtStyleTarget" -->
-     <div class="clearfix colelem shared_content" id="u1024-6" data-muse-uid="U1024" data-muse-type="txt_frame" data-IBE-flags="txtStyleSrc" data-sizePolicy="fluidWidth" data-pintopage="page_fixedCenter" data-content-guid="u1024-6_content"><!-- content -->
-      <p id="u1024-2">Материалы</p>
-      <p id="u1024-4">Более чем за 10 лет работы по реставрации ванн, специалисты нашей компании испробовали большое количество эпоксидных эмалей, жидкого акрила и различных красок. В своей работе мы используем только лучшие материалы, которые на деле доказали свою долговечность, экологичность и белизну.</p>
-     </div>
-     <!-- /m_editable -->
-     <!-- m_editable region-id="editable-static-tag-U1030-BP_infinity" template="index.html" data-type="html" data-ice-options="disableImageResize,link,txtStyleTarget" -->
-     <div class="clearfix colelem shared_content" id="u1030-26" data-muse-uid="U1030" data-muse-type="txt_frame" data-IBE-flags="txtStyleSrc" data-sizePolicy="fluidWidth" data-pintopage="page_fixedCenter" data-content-guid="u1030-26_content"><!-- content -->
-      <p id="u1030-2">Виды ванн, которые поддаются восстановлению:</p>
-      <ol class="list0 nls-None" id="u1030-17">
-       <li id="u1030-4">Чугунные.</li>
-       <li id="u1030-6">Акриловые.</li>
-       <li id="u1030-8">Стальные.</li>
-       <li id="u1030-10">Железные.</li>
-       <li id="u1030-12">Квариловые.</li>
-       <li id="u1030-14">Из литьевого мрамора.</li>
-       <li id="u1030-16">Из натурального и искусственного камня.</li>
-      </ol>
-      <p id="u1030-19">Основные материалы для реставрации ванн:</p>
-      <ul class="list0 nls-None" id="u1030-24">
-       <li id="u1030-21">жидкий акрил – современная двухкомпонентная смесь, которая наносится методом налива;</li>
-       <li id="u1030-23">эмаль (эпоксидная и аэрозольная).</li>
-      </ul>
-     </div>
-     <!-- /m_editable -->
-     <!-- m_editable region-id="editable-static-tag-U1036-BP_infinity" template="index.html" data-type="html" data-ice-options="disableImageResize,link,txtStyleTarget" -->
-     <div class="clearfix colelem shared_content" id="u1036-17" data-muse-uid="U1036" data-muse-type="txt_frame" data-IBE-flags="txtStyleSrc" data-sizePolicy="fluidWidth" data-pintopage="page_fixedCenter" data-content-guid="u1036-17_content"><!-- content -->
-      <p id="u1036-2">По прошествии времени мы проверяем восстановленные ванны по следующим показателям:</p>
-      <ul class="list0 nls-None" id="u1036-11">
-       <li id="u1036-4">желтизна;</li>
-       <li id="u1036-6">насыщенность цвета;</li>
-       <li id="u1036-8">гладкость;</li>
-       <li id="u1036-10">трещины и сколы.</li>
-      </ul>
-      <p id="u1036-13">Постоянно проводим тесты новых материалов. Занимаемся подготовкой мастеров в Москве. Повышаем уровень существующих специалистов.</p>
-      <p id="u1036-15">На основании своего опыта мы отобрали только лучшие марки, которые существуют в продаже в России.</p>
-     </div>
-     <!-- /m_editable -->
-    </div>
-    <div class="verticalspacer" data-offset-top="5315" data-content-above-spacer="5314" data-content-below-spacer="227" data-sizePolicy="fixed" data-pintopage="page_fixedLeft"></div>
-    <div class="browser_width grpelem shared_content" id="u1170-bw" data-content-guid="u1170-bw_content">
-     <div class="gradient" id="u1170"><!-- group -->
-      <div class="clearfix" id="u1170_align_to_page">
-       <div class="clearfix grpelem" id="u1175-9" data-IBE-flags="txtStyleSrc" data-sizePolicy="fluidWidth" data-pintopage="page_fixedCenter"><!-- content -->
-        <p>1998-2020 <a class="nonblock" href="index.html" data-href="page:U93"><span id="u1175-2">vannalux.github.io</span></a> Все права защищены.</p>
-        <p>Использовать материал без активной ссылки на источник запрещено.</p>
-       </div>
-      </div>
-     </div>
-    </div>
-   </div>
-  </div>
-  <div class="breakpoint" id="bp_768" data-min-width="481" data-max-width="768"><!-- responsive breakpoint node -->
-   <div class="clearfix borderbox temp_no_id" data-orig-id="page"><!-- group -->
-    <span class="clearfix grpelem placeholder" data-placeholder-for="pu309_content"><!-- placeholder node --></span>
-    <div class="clearfix grpelem temp_no_id" data-orig-id="pu1180"><!-- column -->
-     <div class="browser_width colelem temp_no_id" data-orig-id="u1180-bw">
-      <div class="rgba-background temp_no_id" data-orig-id="u1180"><!-- group -->
-       <div class="clearfix temp_no_id" data-orig-id="u1180_align_to_page">
-        <div class="PamphletWidget clearfix allow_click_through grpelem" id="pamphletu2907" data-visibility="changed" style="visibility:hidden"><!-- none box -->
-         <div class="ThumbGroup clearfix colelem" data-col-pos="1" id="u2912"><!-- none box -->
-          <div class="popup_anchor allow_click_through grpelem" data-col-pos="0" id="u2915popup">
-           <div class="Thumb popup_element clearfix" data-col-pos="0" id="u2915"><!-- group -->
-            <div class="size_fixed grpelem shared_content" id="u2833" data-sizePolicy="fixed" data-pintopage="page_fixedLeft" data-content-guid="u2833_content"><!-- custom html -->
-             
-  <div class="menu-toggle">
-	<div class="hamburger">
-		<span></span>
-		<span></span>
-		<span></span>
+            </div>
+                <script>
+                    socialicons_imStickyBar_pluginAppObj_01();
+                </script>
+        </div></div></div>
+						</div>
+					</div>
+					<a class="imHidden" href="#imGoToCont" title="Заголовок главного меню">Перейти к контенту</a>
+					<div id="imSideBar">
+						<div id="imSideBarObjects"></div>
+					</div>
+					<div id="imContentGraphics"></div>
+					<main id="imContent" class="imFullHeightRows imAutoScrollingRows">
+						<a id="imGoToCont"></a>
+						<div id="imPageRow_1" class="imPageRow">
+						
+						</div>
+						<div id="imCell_35" class=""  data-responsive-sequence-number="1"> <div id="imCellStyleGraphics_35"></div><div id="imCellStyleBorders_35"></div><div id="imObjectTitle_35"><span id ="imObjectTitle_35_text" >Name Surname</span></div></div><div id="imCell_45" class=""  data-responsive-sequence-number="2"> <div id="imCellStyleGraphics_45"></div><div id="imCellStyleBorders_45"></div><div id="imTextObject_45">
+							<div data-index="0"  class="text-tab-content grid-prop current-tab "  id="imTextObject_45_tab0" style="opacity: 1; ">
+								<div class="text-inner">
+									<div class="imTACenter"><div>Dolor sit amet, 12 <span class="fs14lh1-5">12345 Consectetur / </span><span class="fs14lh1-5">+00 012 345 678 / info@example.com</span></div></div>
+								</div>
+							</div>
+						
+						</div>
+						</div><div id="imPageRow_2" class="imPageRow">
+						<div style="position: absolute; top: 0; left: 0; right: 0; bottom: 0; overflow: hidden;"><div id="imPageRowGraphics_2"><div id="imPageRowGraphicsOverlay_2"></div></div></div>
+						</div>
+						<div id="imCell_6" class=""  data-responsive-sequence-number="3"> <div id="imCellStyleGraphics_6"></div><div id="imCellStyleBorders_6"></div><div id="imTextObject_06">
+							<div data-index="0"  class="text-tab-content grid-prop current-tab "  id="imTextObject_06_tab0" style="opacity: 1; ">
+								<div class="text-inner">
+									<div class="imHeading3 imTACenter"><span class="cf1">Aenean massa. Cum sociis natoque penatibus et magnis.</span></div>
+								</div>
+							</div>
+						
+						</div>
+						</div><div id="imPageRow_3" class="imPageRow">
+						
+						</div>
+						<div id="imCell_36" class=""  data-responsive-sequence-number="4"> <div id="imCellStyleGraphics_36"></div><div id="imCellStyleBorders_36"></div><div id="imObjectTitle_36"><span id ="imObjectTitle_36_text" >Bio</span></div></div><div id="imCell_16" class=""  data-responsive-sequence-number="5"> <div id="imCellStyleGraphics_16"></div><div id="imCellStyleBorders_16"></div><div id="imTextObject_16">
+							<div data-index="0"  class="text-tab-content grid-prop current-tab "  id="imTextObject_16_tab0" style="opacity: 1; ">
+								<div class="text-inner">
+									<div class="imHeading2">Born in the USA</div><div><div>consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.</div></div><div><br></div><div><div>onec vitae sapien ut libero venenatis faucibus. Nullam quis ante. Etiam sit amet orci eget eros faucibus tincidunt. Duis leo. Sed fringilla mauris sit amet nibh. Donec sodales sagittis magna.</div></div>
+								</div>
+							</div>
+						
+						</div>
+						</div><div id="imPageRow_4" class="imPageRow">
+						<div style="position: absolute; top: 0; left: 0; right: 0; bottom: 0; overflow: hidden;"><div id="imPageRowGraphics_4"></div></div>
+						</div>
+						<div id="imCell_38" class=""  data-responsive-sequence-number="6"> <div id="imCellStyleGraphics_38"></div><div id="imCellStyleBorders_38"></div><div id="imObjectTitle_38"><span id ="imObjectTitle_38_text" >Photo Gallery</span></div></div><div id="imCell_13" class=""  data-responsive-sequence-number="7"> <div id="imCellStyleGraphics_13"></div><div id="imCellStyleBorders_13"></div><script>
+						var showbox_imObjectGallery_13 = 
+						 { startIndex: 0 , showThumbs: true, media:[
+						
+						{type: "image", url: "gallery/pixabay-690084.jpg", width: 1280, height: 854, description: "", thumbUrl: "gallery/pixabay-690084_sb_thumb.png"},
+						{type: "image", url: "gallery/pixabay-849825.jpg", width: 1280, height: 853, description: "", thumbUrl: "gallery/pixabay-849825_sb_thumb.png"},
+						{type: "image", url: "gallery/pixabay-1868750.jpg", width: 1280, height: 851, description: "", thumbUrl: "gallery/pixabay-1868750_sb_thumb.png"},
+						{type: "image", url: "gallery/pixabay-2697954.jpg", width: 1080, height: 1080, description: "", thumbUrl: "gallery/pixabay-2697954_sb_thumb.png"},
+						{type: "image", url: "gallery/pixabay-849822.jpg", width: 1280, height: 853, description: "", thumbUrl: "gallery/pixabay-849822_sb_thumb.png"},
+						{type: "image", url: "gallery/pixabay-801823.jpg", width: 1280, height: 931, description: "", thumbUrl: "gallery/pixabay-801823_sb_thumb.png"},
+						{type: "image", url: "gallery/pixabay-1477601.jpg", width: 1280, height: 850, description: "", thumbUrl: "gallery/pixabay-1477601_sb_thumb.png"}
+						]};
+						function loadimObjectGallery_13() {
+							var w = $('#imObjectGallery_13').css('width', '100%').width();
+							$('#imObjectGallery_13 img').add('#imObjectGallery_13 .imRunner').add('#imObjectGallery_13 .imGlContent').add('#imObjectGallery_13').css({ width: '', height: '' });
+							$('#imObjectGallery_13 .imLeftArrow').add('#imObjectGallery_13 .imRightArrow').css('height', '');
+							var imGlContentWidth =  w - 28;
+							var thumbsSize = Math.round( imGlContentWidth / 3) - 2;
+							if( thumbsSize < 64) { thumbsSize = 64;};
+							if( thumbsSize > 369) { thumbsSize = 369;};
+							$('#imObjectGallery_13').add('#imObjectGallery_13 .imLeftArrow').add('#imObjectGallery_13 .imRightArrow').height(thumbsSize);
+							$('#imObjectGallery_13 img').width(thumbsSize).height(thumbsSize);
+							$('#imObjectGallery_13 .imRunner').width( (thumbsSize + 2) * 7).height(thumbsSize);
+							$('#imObjectGallery_13 .imGlContent').css('width', imGlContentWidth);
+							$('#imObjectGallery_13 .imRightArrow, #imObjectGallery_13 .imLeftArrow').css({ 'width': '28px', height: thumbsSize });
+							$('#imObjectGallery_13 .imRunner').css('left', 0);
+							x5engine.imSlider.Horizontal("#imObjectGallery_13", { "visibleImagesCount": Math.floor(w/(thumbsSize + 2)) });
+						}
+						x5engine.boot.push(function() {
+							var imObjectGallery_13_resizeTo = null,
+								imObjectGallery_13_width = 0,
+								isFirstTime = true;
+							loadimObjectGallery_13();
+							x5engine.utils.onElementResize(document.getElementById('imObjectGallery_13').parentNode, function (rect, target) {
+								if (imObjectGallery_13_width == rect.width) {
+									return;
+								}
+								imObjectGallery_13_width = rect.width;
+								if (!!imObjectGallery_13_resizeTo) {
+									clearTimeout(imObjectGallery_13_resizeTo);
+								}
+								imObjectGallery_13_resizeTo = setTimeout(function() {
+									if(!isFirstTime) {
+										loadimObjectGallery_13();
+									}
+									else {
+										isFirstTime = false;
+									}
+								}, 50);
+							});
+						});
+						</script><div id="imObjectGallery_13"><div class="imLeftArrow"></div><div class="imGlContent"><div class="imRunner">
+							<a href="gallery/pixabay-690084.jpg" onclick="return x5engine.imShowBox(showbox_imObjectGallery_13, 0, this)"><img src="gallery/pixabay-690084_thumb.png" style="" alt=""/></a>
+							<a href="gallery/pixabay-849825.jpg" onclick="return x5engine.imShowBox(showbox_imObjectGallery_13, 1, this)"><img src="gallery/pixabay-849825_thumb.png" style="" alt=""/></a>
+							<a href="gallery/pixabay-1868750.jpg" onclick="return x5engine.imShowBox(showbox_imObjectGallery_13, 2, this)"><img src="gallery/pixabay-1868750_thumb.png" style="" alt=""/></a>
+							<a href="gallery/pixabay-2697954.jpg" onclick="return x5engine.imShowBox(showbox_imObjectGallery_13, 3, this)"><img src="gallery/pixabay-2697954_thumb.png" style="" alt=""/></a>
+							<a href="gallery/pixabay-849822.jpg" onclick="return x5engine.imShowBox(showbox_imObjectGallery_13, 4, this)"><img src="gallery/pixabay-849822_thumb.png" style="" alt=""/></a>
+							<a href="gallery/pixabay-801823.jpg" onclick="return x5engine.imShowBox(showbox_imObjectGallery_13, 5, this)"><img src="gallery/pixabay-801823_thumb.png" style="" alt=""/></a>
+							<a href="gallery/pixabay-1477601.jpg" onclick="return x5engine.imShowBox(showbox_imObjectGallery_13, 6, this)"><img src="gallery/pixabay-1477601_thumb.png" style="" alt=""/></a>
+						</div></div><div class="imRightArrow"></div></div>
+						</div><div id="imPageRow_5" class="imPageRow">
+						
+						</div>
+						<div id="imCell_37" class=""  data-responsive-sequence-number="8"> <div id="imCellStyleGraphics_37"></div><div id="imCellStyleBorders_37"></div><div id="imObjectTitle_37"><span id ="imObjectTitle_37_text" >Experience</span></div></div><div id="imCell_17" class=""  data-responsive-sequence-number="9"> <div id="imCellStyleGraphics_17"></div><div id="imCellStyleBorders_17"></div><div id="imTextObject_17">
+							<div data-index="0"  class="text-tab-content grid-prop current-tab "  id="imTextObject_17_tab0" style="opacity: 1; ">
+								<div class="text-inner">
+									<div class="imHeading4"><div>Duis leo</div></div><div><div>Nullam quis ante. Etiam sit amet orci eget eros faucibus tincidunt. Duis leo. Sed fringilla mauris sit amet nibh. Donec sodales sagittis magna. Sed consequat, leo eget bibendum sodales, augue velit cursus nunc.</div></div>
+								</div>
+							</div>
+						
+						</div>
+						</div><div id="imCell_18" class=""  data-responsive-sequence-number="10"> <div id="imCellStyleGraphics_18"></div><div id="imCellStyleBorders_18"></div><div id="imTextObject_18">
+							<div data-index="0"  class="text-tab-content grid-prop current-tab "  id="imTextObject_18_tab0" style="opacity: 1; ">
+								<div class="text-inner">
+									<div><div class="imHeading4">Aenean massa</div><div>consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus</div></div>
+								</div>
+							</div>
+						
+						</div>
+						</div><div id="imPageRow_6" class="imPageRow">
+						<div style="position: absolute; top: 0; left: 0; right: 0; bottom: 0; overflow: hidden;"><div id="imPageRowGraphics_6"></div></div>
+						</div>
+						<div id="imCell_39" class=""  data-responsive-sequence-number="11"> <div id="imCellStyleGraphics_39"></div><div id="imCellStyleBorders_39"></div><div id="imObjectTitle_39"><span id ="imObjectTitle_39_text" >Education</span></div></div><div id="imCell_40" class=""  data-responsive-sequence-number="12"> <div id="imCellStyleGraphics_40"></div><div id="imCellStyleBorders_40"></div><div id="imTextObject_40">
+							<div data-index="0"  class="text-tab-content grid-prop current-tab "  id="imTextObject_40_tab0" style="opacity: 1; ">
+								<div class="text-inner">
+									<div class="imHeading6"><span class="cf1">Ridiculus mus</span></div><div><div><span class="cf1">consectetuer adipiscing elit. </span></div><div class="imHeading6"><span class="cf1">Aenean commodo </span></div><div><span class="cf1">ligula eget dolor. Aenean massa.</span></div><div class="imHeading6"><span class="cf1">Cum sociis natoque </span></div><div><span class="cf1">penatibus et magnis dis parturient montes.</span></div></div>
+								</div>
+							</div>
+						
+						</div>
+						</div><div id="imPageRow_7" class="imPageRow">
+						
+						</div>
+						<div id="imCell_41" class=""  data-responsive-sequence-number="13"> <div id="imCellStyleGraphics_41"></div><div id="imCellStyleBorders_41"></div><div id="imObjectTitle_41"><span id ="imObjectTitle_41_text" >Skills</span></div></div><div id="imCell_42" class=""  data-responsive-sequence-number="14"> <div id="imCellStyleGraphics_42"></div><div id="imCellStyleBorders_42"></div><div id="imTextObject_42">
+							<div data-index="0"  class="text-tab-content grid-prop current-tab "  id="imTextObject_42_tab0" style="opacity: 1; ">
+								<div class="text-inner">
+									<div class="imHeading4"><div>Duis leo</div></div><div><div>Nullam quis ante. Etiam sit amet orci eget eros faucibus tincidunt. Duis leo.</div></div>
+								</div>
+							</div>
+						
+						</div>
+						</div><div id="imCell_43" class=""  data-responsive-sequence-number="15"> <div id="imCellStyleGraphics_43"></div><div id="imCellStyleBorders_43"></div><div id="imTextObject_43">
+							<div data-index="0"  class="text-tab-content grid-prop current-tab "  id="imTextObject_43_tab0" style="opacity: 1; ">
+								<div class="text-inner">
+									<div><div class="imHeading4">Sed fringilla</div></div><div>mauris sit amet nibh. Donec sodales sagittis magna. </div>
+								</div>
+							</div>
+						
+						</div>
+						</div><div id="imCell_44" class=""  data-responsive-sequence-number="16"> <div id="imCellStyleGraphics_44"></div><div id="imCellStyleBorders_44"></div><div id="imTextObject_44">
+							<div data-index="0"  class="text-tab-content grid-prop current-tab "  id="imTextObject_44_tab0" style="opacity: 1; ">
+								<div class="text-inner">
+									<div class="imHeading4"><div>Sed consequat</div></div><div><div><span class="fs14lh1-5">leo eget bibendum sodales, augue velit cursus nunc.</span></div></div>
+								</div>
+							</div>
+						
+						</div>
+						</div><div id="imPageRow_8" class="imPageRow imParallax">
+						<div style="position: absolute; top: 0; left: 0; right: 0; bottom: 0; overflow: hidden;"><div id="imPageRowGraphics_8" class="imParallaxBackground" data-parallax-direction="down" data-parallax-zoom="140"><div id="imPageRowGraphicsOverlay_8"></div></div></div>
+						</div>
+						<div id="imCell_46" class=""  data-responsive-sequence-number="17"> <div id="imCellStyleGraphics_46"></div><div id="imCellStyleBorders_46"></div><div id="imObjectTitle_46"><span id ="imObjectTitle_46_text" >Contacts</span></div></div><div id="imCell_27" class=""  data-responsive-sequence-number="18"> <div id="imCellStyleGraphics_27"></div><div id="imCellStyleBorders_27"></div><div id="imTextObject_27">
+							<div data-index="0"  class="text-tab-content grid-prop current-tab "  id="imTextObject_27_tab0" style="opacity: 1; ">
+								<div class="text-inner">
+									<div class="imHeading2">Lorem ipsum</div><div>Dolor sit amet, 12<div>12345 Consectetur</div><div>(Adipiscing)</div></div><div><br></div><div>+00 012 345 678 - info@example.com<br></div>
+								</div>
+							</div>
+						
+						</div>
+						</div><div id="imPageRow_9" class="imPageRow">
+						
+						</div>
+						<div id="imCell_47" class=""  data-responsive-sequence-number="19"> <div id="imCellStyleGraphics_47"></div><div id="imCellStyleBorders_47"></div><div id="imObjectTitle_47"><span id ="imObjectTitle_47_text" >Write Me</span></div></div><div id="imCell_34" class=""  data-responsive-sequence-number="20"> <div id="imCellStyleGraphics_34"></div><div id="imCellStyleBorders_34"></div><div id="imObjectForm_34">	<form id="imObjectForm_34_form" action="imemail/imEmailForm.php" method="post" enctype="multipart/form-data">
+								<fieldset class="first">
+								<div>
+									<div id="imObjectForm_34_1_container" class="imObjectFormFieldContainer"><div id="imObjectForm_34_1_field">
+						<input type="text" class="mandatory " id="imObjectForm_34_1" name="imObjectForm_34_1" placeholder="NAME*" /></div>
+						</div>
+									<div id="imObjectForm_34_2_container" class="imObjectFormFieldContainer"><div id="imObjectForm_34_2_field">
+						<input type="text" class="mandatory " id="imObjectForm_34_2" name="imObjectForm_34_2" placeholder="SURNAME*" /></div>
+						</div>
+									</div>
+								</fieldset>
+								<fieldset>
+									<input type="text" id="imObjectForm_34_prot" name="imSpProt" />
+								</fieldset>
+								<div id="imObjectForm_34_buttonswrap">
+									<input type="submit" value="Отправить" />
+								</div>
+							</form>
+						</div>
+						<script>x5engine.boot.push('x5engine.imForm.initForm(\'#imObjectForm_34_form\', false, {jsid: \'80FC1E74E5739720E81C8F27F18052FE\', type: \'tip\', showAll: true, classes: \'validator\', landingPage: \'index.html\', labelColor: \'rgba(255, 255, 255, 1)\', fieldColor: \'rgba(245, 245, 247, 1)\', selectedFieldColor: \'rgba(255, 217, 102, 1)\'})');</script>
+						</div>
+					</main>
+					<footer id="imFooter">
+						<div id="imFooterObjects"><div id="imFooter_imTextObject_07_wrapper" class="template-object-wrapper"><div id="imFooter_imTextObject_07">
+	<div data-index="0"  class="text-tab-content grid-prop current-tab "  id="imFooter_imTextObject_07_tab0" style="opacity: 1; ">
+		<div class="text-inner">
+			<div class="imTALeft"><span class="fs12lh1-5 cf1"><b>Created with WebSite X5</b></span></div>
+		</div>
 	</div>
-	<div class="cross">
-		<span></span>
-		<span></span>
-	</div>
+
 </div>
+</div><div id="imFooter_pluginAppObj_10_wrapper" class="template-object-wrapper"><!-- Social Icons v.16 --><div id="imFooter_pluginAppObj_10">
+            <div id="soc_imFooter_pluginAppObj_10">
+                <div class="wrapper horizontal flat shake">
+                	<div class='social-icon flat'><a href='https://www.facebook.com/Incomedia' target='_blank'><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100"><path d="M57,93V54H70.14l2-15H57V29.09c0-4.39.94-7.39,7.24-7.39H72V8.14a98.29,98.29,0,0,0-11.6-.6C48.82,7.54,41,14.61,41,27.59V39H27V54H41V93H57Z"/></svg><span class='fallbacktext'>Fb</span></a></div><div class='social-icon flat'><a href='https://it.linkedin.com/company/incomedia' target='_blank'><svg  xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100"><g><path d="M30,86H15V39H30V86ZM23.19,31.82a8.47,8.47,0,1,1,8.47-8.47A8.47,8.47,0,0,1,23.19,31.82ZM85,86H71V62.4c0-5.45.07-12.47-7.41-12.47S55,55.87,55,62V86H41V39H54v4H53.87c1.95-1,6.61-6.76,13.72-6.76C82.37,36.24,85,46.81,85,59.47V86Z"/></g></svg><span class='fallbacktext'>In</span></a></div>
+                </div>
 
             </div>
-           </div>
-          </div>
-         </div>
-         <div class="clearfix" id="pu2918"><!-- group -->
-          <div class="popup_anchor allow_click_through grpelem" data-col-pos="0" id="u2918popup">
-           <div class="ContainerGroup clearfix" data-col-pos="0" id="u2918"><!-- stack box -->
-            <div class="Container invi clearfix grpelem" data-col-pos="0" id="u2921"><!-- group -->
-             <nav class="MenuBar clearfix grpelem" id="menuu2982"><!-- vertical box -->
-              <div class="MenuItemContainer clearfix colelem" id="u2983"><!-- horizontal box -->
-               <a class="nonblock nontext MenuItem MenuItemWithSubMenu MuseMenuActive borderbox clearfix grpelem" id="u2986" href="index.html" data-href="page:U93"><!-- horizontal box --><div class="MenuItemLabel clearfix grpelem" id="u2988-4"><!-- content --><p class="shared_content" data-content-guid="u2988-4_0_content">Домашняя</p></div></a>
-              </div>
-              <div class="MenuItemContainer clearfix colelem" id="u2990"><!-- horizontal box -->
-               <a class="nonblock nontext MenuItem MenuItemWithSubMenu borderbox clearfix grpelem" id="u2993" href="foto.html" data-href="page:U1938"><!-- horizontal box --><div class="MenuItemLabel clearfix grpelem" id="u2994-4"><!-- content --><p class="shared_content" data-content-guid="u2994-4_0_content">Фотограф</p></div></a>
-              </div>
-              <div class="MenuItemContainer clearfix colelem" id="u2997"><!-- horizontal box -->
-               <a class="nonblock nontext MenuItem MenuItemWithSubMenu borderbox clearfix grpelem" id="u3000" href="prom.html" data-href="page:U2405"><!-- horizontal box --><div class="MenuItemLabel clearfix grpelem" id="u3001-4"><!-- content --><p class="shared_content" data-content-guid="u3001-4_0_content">Пром</p></div></a>
-              </div>
-              <div class="MenuItemContainer clearfix colelem" id="u3350"><!-- horizontal box -->
-               <a class="nonblock nontext MenuItem MenuItemWithSubMenu borderbox clearfix grpelem" id="u3351" href="blog.html" data-href="page:U3298"><!-- horizontal box --><div class="MenuItemLabel clearfix grpelem" id="u3353-4"><!-- content --><p class="shared_content" data-content-guid="u3353-4_0_content">Блог</p></div></a>
-              </div>
-             </nav>
-            </div>
-           </div>
-          </div>
-         </div>
-        </div>
-       </div>
-      </div>
-     </div>
-     <div class="browser_width colelem temp_no_id" data-orig-id="u166-bw">
-      <div class="museBGSize temp_no_id" data-orig-id="u166"><!-- column -->
-       <div class="clearfix temp_no_id" data-orig-id="u166_align_to_page">
-        <!-- m_editable region-id="editable-static-tag-U180-BP_768" template="index.html" data-type="html" data-ice-options="disableImageResize,link,txtStyleTarget" -->
-        <span class="clearfix colelem placeholder" data-placeholder-for="u180-6_content"><!-- placeholder node --></span>
-        <!-- /m_editable -->
-        <span class="rgba-background clearfix colelem placeholder" data-placeholder-for="u208_content"><!-- placeholder node --></span>
-       </div>
-      </div>
-     </div>
-     <!-- m_editable region-id="editable-static-tag-U338-BP_768" template="index.html" data-type="html" data-ice-options="disableImageResize,link,txtStyleTarget" -->
-     <span class="clearfix colelem placeholder" data-placeholder-for="u338-10_content"><!-- placeholder node --></span>
-     <!-- /m_editable -->
-     <!-- m_editable region-id="editable-static-tag-U344-BP_768" template="index.html" data-type="html" data-ice-options="disableImageResize,link,txtStyleTarget" -->
-     <span class="clearfix colelem placeholder" data-placeholder-for="u344-4_content"><!-- placeholder node --></span>
-     <!-- /m_editable -->
-     <div class="rgba-background clearfix colelem temp_no_id" data-orig-id="u350"><!-- column -->
-      <!-- m_editable region-id="editable-static-tag-U356-BP_768" template="index.html" data-type="html" data-ice-options="disableImageResize,link,txtStyleTarget" -->
-      <span class="clearfix colelem placeholder" data-placeholder-for="u356-4_content"><!-- placeholder node --></span>
-      <!-- /m_editable -->
-      <!-- m_editable region-id="editable-static-tag-U368-BP_768" template="index.html" data-type="image" -->
-      <span class="clip_frame colelem placeholder" data-placeholder-for="u368_content"><!-- placeholder node --></span>
-      <!-- /m_editable -->
-      <!-- m_editable region-id="editable-static-tag-U362-BP_768" template="index.html" data-type="html" data-ice-options="disableImageResize,link,txtStyleTarget" -->
-      <span class="clearfix colelem placeholder" data-placeholder-for="u362-13_content"><!-- placeholder node --></span>
-      <!-- /m_editable -->
-     </div>
-     <div class="rgba-background clearfix colelem temp_no_id" data-orig-id="u441"><!-- column -->
-      <!-- m_editable region-id="editable-static-tag-U453-BP_768" template="index.html" data-type="html" data-ice-options="disableImageResize,link,txtStyleTarget" -->
-      <span class="clearfix colelem placeholder" data-placeholder-for="u453-4_content"><!-- placeholder node --></span>
-      <!-- /m_editable -->
-      <!-- m_editable region-id="editable-static-tag-U462-BP_768" template="index.html" data-type="image" -->
-      <span class="clip_frame colelem placeholder" data-placeholder-for="u462_content"><!-- placeholder node --></span>
-      <!-- /m_editable -->
-      <!-- m_editable region-id="editable-static-tag-U481-BP_768" template="index.html" data-type="html" data-ice-options="disableImageResize,link,txtStyleTarget" -->
-      <span class="clearfix colelem placeholder" data-placeholder-for="u481-13_content"><!-- placeholder node --></span>
-      <!-- /m_editable -->
-     </div>
-     <!-- m_editable region-id="editable-static-tag-U521-BP_768" template="index.html" data-type="html" data-ice-options="disableImageResize,link,txtStyleTarget" -->
-     <span class="clearfix colelem placeholder" data-placeholder-for="u521-17_content"><!-- placeholder node --></span>
-     <!-- /m_editable -->
-     <!-- m_editable region-id="editable-static-tag-U527-BP_768" template="index.html" data-type="html" data-ice-options="disableImageResize,link,txtStyleTarget" -->
-     <span class="clearfix colelem placeholder" data-placeholder-for="u527-4_content"><!-- placeholder node --></span>
-     <!-- /m_editable -->
-     <!-- m_editable region-id="editable-static-tag-U533-BP_768" template="index.html" data-type="html" data-ice-options="disableImageResize,link,txtStyleTarget" -->
-     <div class="rgba-background clearfix colelem temp_no_id" data-muse-uid="U533" data-muse-type="txt_frame" data-IBE-flags="txtStyleSrc" data-sizePolicy="fluidWidth" data-pintopage="page_fixedCenter" data-orig-id="u533-18"><!-- content -->
-      <span class="placeholder" data-placeholder-for="u533-2_content"><!-- placeholder node --></span>
-      <span class="placeholder" data-placeholder-for="u533-4_content"><!-- placeholder node --></span>
-      <p class="temp_no_id" data-orig-id="u533-7"><span class="placeholder" data-placeholder-for="u533-5_content"><!-- placeholder node --></span><span class="actAsInlineDiv normal_text temp_no_id" data-orig-id="u628"><!-- content --><span class="actAsDiv clip_frame excludeFromNormalFlow temp_no_id" data-muse-uid="U603" data-muse-type="img_frame" data-sizePolicy="fixed" data-pintopage="page_fixedLeft" data-orig-id="u603"><!-- image --><img class="temp_no_id temp_no_img_src" data-orig-src="images/portal-15.jpg?crc=4159905907" alt="Реставрация ванн Москва" title="Реставрация ванн Москва" width="400" height="266" data-muse-src="images/portal-15.jpg?crc=4159905907" data-orig-id="u603_img" src="images/blank.gif?crc=4208392903"/></span></span><span class="actAsInlineDiv normal_text temp_no_id" data-orig-id="u645"><!-- content --><span class="actAsDiv clip_frame excludeFromNormalFlow temp_no_id" data-muse-uid="U605" data-muse-type="img_frame" data-sizePolicy="fixed" data-pintopage="page_fixedLeft" data-orig-id="u605"><!-- image --><img class="temp_no_id temp_no_img_src" data-orig-src="images/portal-36.jpg?crc=3860861521" alt="Реставрация ванн Москва" title="Реставрация ванн Москва" width="400" height="266" data-muse-src="images/portal-36.jpg?crc=3860861521" data-orig-id="u605_img" src="images/blank.gif?crc=4208392903"/></span></span><span class="placeholder" data-placeholder-for="u533-7_3_content"><!-- placeholder node --></span></p>
-      <span class="placeholder" data-placeholder-for="u533-9_content"><!-- placeholder node --></span>
-      <span class="placeholder" data-placeholder-for="u533-11_content"><!-- placeholder node --></span>
-      <p class="temp_no_id" data-orig-id="u533-16"><span class="placeholder" data-placeholder-for="u533-12_content"><!-- placeholder node --></span><span class="temp_no_id" data-orig-id="u533-13"><span class="actAsInlineDiv normal_text temp_no_id" data-orig-id="u693"><!-- content --><span class="actAsDiv clip_frame excludeFromNormalFlow temp_no_id" data-muse-uid="U662" data-muse-type="img_frame" data-sizePolicy="fixed" data-pintopage="page_fixedLeft" data-orig-id="u662"><!-- image --><img class="temp_no_id temp_no_img_src" data-orig-src="images/portal-8.jpg?crc=3772611264" alt="Реставрация ванн Москва" title="Реставрация ванн Москва" width="400" height="266" data-muse-src="images/portal-8.jpg?crc=3772611264" data-orig-id="u662_img" src="images/blank.gif?crc=4208392903"/></span></span></span><span class="temp_no_id" data-orig-id="u533-14"><span class="actAsInlineDiv normal_text temp_no_id" data-orig-id="u710"><!-- content --><span class="actAsDiv clip_frame excludeFromNormalFlow temp_no_id" data-muse-uid="U664" data-muse-type="img_frame" data-sizePolicy="fixed" data-pintopage="page_fixedLeft" data-orig-id="u664"><!-- image --><img class="temp_no_id temp_no_img_src" data-orig-src="images/portal-12.jpg?crc=3791191748" alt="Реставрация ванн Москва" title="Реставрация ванн Москва" width="400" height="266" data-muse-src="images/portal-12.jpg?crc=3791191748" data-orig-id="u664_img" src="images/blank.gif?crc=4208392903"/></span></span></span><span class="placeholder" data-placeholder-for="u533-15_content"><!-- placeholder node --></span></p>
-     </div>
-     <!-- /m_editable -->
-     <div class="browser_width colelem temp_no_id" data-orig-id="u802-bw">
-      <div class="rgba-background temp_no_id" data-orig-id="u802"><!-- column -->
-       <div class="clearfix temp_no_id" data-orig-id="u802_align_to_page">
-        <!-- m_editable region-id="editable-static-tag-U741-BP_768" template="index.html" data-type="html" data-ice-options="disableImageResize,link,txtStyleTarget" -->
-        <span class="clearfix colelem placeholder" data-placeholder-for="u741-4_content"><!-- placeholder node --></span>
-        <!-- /m_editable -->
-        <!-- m_editable region-id="editable-static-tag-U753-BP_768" template="index.html" data-type="html" data-ice-options="disableImageResize,link,txtStyleTarget" -->
-        <span class="clearfix colelem placeholder" data-placeholder-for="u753-8_content"><!-- placeholder node --></span>
-        <!-- /m_editable -->
-        <span class="Button rounded-corners clearfix colelem placeholder" data-placeholder-for="buttonu759_content"><!-- placeholder node --></span>
-        <!-- m_editable region-id="editable-static-tag-U784-BP_768" template="index.html" data-type="html" data-ice-options="disableImageResize,link,txtStyleTarget" -->
-        <span class="clearfix colelem placeholder" data-placeholder-for="u784-8_content"><!-- placeholder node --></span>
-        <!-- /m_editable -->
-        <span class="Button rounded-corners clearfix colelem placeholder" data-placeholder-for="buttonu772_content"><!-- placeholder node --></span>
-       </div>
-      </div>
-     </div>
-     <!-- m_editable region-id="editable-static-tag-U808-BP_768" template="index.html" data-type="html" data-ice-options="disableImageResize,link,txtStyleTarget" -->
-     <span class="clearfix colelem placeholder" data-placeholder-for="u808-11_content"><!-- placeholder node --></span>
-     <!-- /m_editable -->
-     <div class="clearfix colelem temp_no_id" data-orig-id="pu836"><!-- group -->
-      <!-- m_editable region-id="editable-static-tag-U836-BP_768" template="index.html" data-type="image" -->
-      <span class="clip_frame grpelem placeholder" data-placeholder-for="u836_content"><!-- placeholder node --></span>
-      <!-- /m_editable -->
-      <!-- m_editable region-id="editable-static-tag-U864-BP_768" template="index.html" data-type="image" -->
-      <span class="clip_frame grpelem placeholder" data-placeholder-for="u864_content"><!-- placeholder node --></span>
-      <!-- /m_editable -->
-     </div>
-     <div class="clearfix colelem temp_no_id" data-orig-id="pu982-8"><!-- group -->
-      <!-- m_editable region-id="editable-static-tag-U982-BP_768" template="index.html" data-type="html" data-ice-options="disableImageResize,link,txtStyleTarget" -->
-      <span class="clearfix grpelem placeholder" data-placeholder-for="u982-8_content"><!-- placeholder node --></span>
-      <!-- /m_editable -->
-      <!-- m_editable region-id="editable-static-tag-U988-BP_768" template="index.html" data-type="html" data-ice-options="disableImageResize,link,txtStyleTarget" -->
-      <span class="clearfix grpelem placeholder" data-placeholder-for="u988-8_content"><!-- placeholder node --></span>
-      <!-- /m_editable -->
-     </div>
-     <div class="clearfix colelem" id="pu857"><!-- group -->
-      <!-- m_editable region-id="editable-static-tag-U857-BP_768" template="index.html" data-type="image" -->
-      <span class="clip_frame grpelem placeholder" data-placeholder-for="u857_content"><!-- placeholder node --></span>
-      <!-- /m_editable -->
-      <!-- m_editable region-id="editable-static-tag-U814-BP_768" template="index.html" data-type="image" -->
-      <span class="clip_frame grpelem placeholder" data-placeholder-for="u814_content"><!-- placeholder node --></span>
-      <!-- /m_editable -->
-     </div>
-     <div class="clearfix colelem" id="pu964-8"><!-- group -->
-      <!-- m_editable region-id="editable-static-tag-U964-BP_768" template="index.html" data-type="html" data-ice-options="disableImageResize,link,txtStyleTarget" -->
-      <span class="clearfix grpelem placeholder" data-placeholder-for="u964-8_content"><!-- placeholder node --></span>
-      <!-- /m_editable -->
-      <!-- m_editable region-id="editable-static-tag-U970-BP_768" template="index.html" data-type="html" data-ice-options="disableImageResize,link,txtStyleTarget" -->
-      <span class="clearfix grpelem placeholder" data-placeholder-for="u970-8_content"><!-- placeholder node --></span>
-      <!-- /m_editable -->
-     </div>
-     <div class="clearfix colelem temp_no_id" data-orig-id="pu822"><!-- group -->
-      <!-- m_editable region-id="editable-static-tag-U822-BP_768" template="index.html" data-type="image" -->
-      <span class="clip_frame grpelem placeholder" data-placeholder-for="u822_content"><!-- placeholder node --></span>
-      <!-- /m_editable -->
-      <!-- m_editable region-id="editable-static-tag-U843-BP_768" template="index.html" data-type="image" -->
-      <span class="clip_frame grpelem placeholder" data-placeholder-for="u843_content"><!-- placeholder node --></span>
-      <!-- /m_editable -->
-     </div>
-     <div class="clearfix colelem temp_no_id" data-orig-id="pu994-8"><!-- group -->
-      <!-- m_editable region-id="editable-static-tag-U994-BP_768" template="index.html" data-type="html" data-ice-options="disableImageResize,link,txtStyleTarget" -->
-      <span class="clearfix grpelem placeholder" data-placeholder-for="u994-8_content"><!-- placeholder node --></span>
-      <!-- /m_editable -->
-      <!-- m_editable region-id="editable-static-tag-U976-BP_768" template="index.html" data-type="html" data-ice-options="disableImageResize,link,txtStyleTarget" -->
-      <span class="clearfix grpelem placeholder" data-placeholder-for="u976-8_content"><!-- placeholder node --></span>
-      <!-- /m_editable -->
-     </div>
-     <!-- m_editable region-id="editable-static-tag-U1000-BP_768" template="index.html" data-type="html" data-ice-options="disableImageResize,link,txtStyleTarget" -->
-     <span class="clearfix colelem placeholder" data-placeholder-for="u1000-4_content"><!-- placeholder node --></span>
-     <!-- /m_editable -->
-     <div class="clearfix colelem temp_no_id" data-orig-id="pu871"><!-- group -->
-      <!-- m_editable region-id="editable-static-tag-U871-BP_768" template="index.html" data-type="image" -->
-      <span class="clip_frame grpelem placeholder" data-placeholder-for="u871_content"><!-- placeholder node --></span>
-      <!-- /m_editable -->
-      <!-- m_editable region-id="editable-static-tag-U829-BP_768" template="index.html" data-type="image" -->
-      <span class="clip_frame grpelem placeholder" data-placeholder-for="u829_content"><!-- placeholder node --></span>
-      <!-- /m_editable -->
-     </div>
-     <div class="clearfix colelem temp_no_id" data-orig-id="pu1006-4"><!-- group -->
-      <!-- m_editable region-id="editable-static-tag-U1006-BP_768" template="index.html" data-type="html" data-ice-options="disableImageResize,link,txtStyleTarget" -->
-      <span class="clearfix grpelem placeholder" data-placeholder-for="u1006-4_content"><!-- placeholder node --></span>
-      <!-- /m_editable -->
-      <!-- m_editable region-id="editable-static-tag-U1018-BP_768" template="index.html" data-type="html" data-ice-options="disableImageResize,link,txtStyleTarget" -->
-      <span class="clearfix grpelem placeholder" data-placeholder-for="u1018-4_content"><!-- placeholder node --></span>
-      <!-- /m_editable -->
-     </div>
-     <!-- m_editable region-id="editable-static-tag-U850-BP_768" template="index.html" data-type="image" -->
-     <span class="clip_frame colelem placeholder" data-placeholder-for="u850_content"><!-- placeholder node --></span>
-     <!-- /m_editable -->
-     <!-- m_editable region-id="editable-static-tag-U1012-BP_768" template="index.html" data-type="html" data-ice-options="disableImageResize,link,txtStyleTarget" -->
-     <span class="clearfix colelem placeholder" data-placeholder-for="u1012-4_content"><!-- placeholder node --></span>
-     <!-- /m_editable -->
-     <!-- m_editable region-id="editable-static-tag-U1024-BP_768" template="index.html" data-type="html" data-ice-options="disableImageResize,link,txtStyleTarget" -->
-     <span class="clearfix colelem placeholder" data-placeholder-for="u1024-6_content"><!-- placeholder node --></span>
-     <!-- /m_editable -->
-     <!-- m_editable region-id="editable-static-tag-U1030-BP_768" template="index.html" data-type="html" data-ice-options="disableImageResize,link,txtStyleTarget" -->
-     <span class="clearfix colelem placeholder" data-placeholder-for="u1030-26_content"><!-- placeholder node --></span>
-     <!-- /m_editable -->
-     <!-- m_editable region-id="editable-static-tag-U1036-BP_768" template="index.html" data-type="html" data-ice-options="disableImageResize,link,txtStyleTarget" -->
-     <span class="clearfix colelem placeholder" data-placeholder-for="u1036-17_content"><!-- placeholder node --></span>
-     <!-- /m_editable -->
-    </div>
-    <div class="verticalspacer" data-offset-top="7208" data-content-above-spacer="7208" data-content-below-spacer="188" data-sizePolicy="fixed" data-pintopage="page_fixedLeft"></div>
-    <span class="browser_width grpelem placeholder" data-placeholder-for="u1170-bw_content"><!-- placeholder node --></span>
-   </div>
-  </div>
-  <div class="breakpoint" id="bp_480" data-max-width="480"><!-- responsive breakpoint node -->
-   <div class="clearfix borderbox temp_no_id" data-orig-id="page"><!-- group -->
-    <span class="clearfix grpelem placeholder" data-placeholder-for="pu309_content"><!-- placeholder node --></span>
-    <div class="clearfix grpelem temp_no_id" data-orig-id="pu1180"><!-- column -->
-     <div class="browser_width colelem temp_no_id" data-orig-id="u1180-bw">
-      <div class="rgba-background temp_no_id" data-orig-id="u1180"><!-- group -->
-       <div class="clearfix temp_no_id" data-orig-id="u1180_align_to_page">
-        <div class="PamphletWidget clearfix allow_click_through grpelem temp_no_id" data-visibility="changed" style="visibility:hidden" data-orig-id="pamphletu2907"><!-- none box -->
-         <div class="position_content" id="pamphletu2907_position_content">
-          <div class="ThumbGroup clearfix colelem temp_no_id" data-col-pos="1" data-orig-id="u2912"><!-- none box -->
-           <div class="popup_anchor allow_click_through grpelem temp_no_id" data-col-pos="0" data-orig-id="u2915popup">
-            <div class="Thumb popup_element clearfix temp_no_id" data-col-pos="0" data-orig-id="u2915"><!-- group -->
-             <span class="size_fixed grpelem placeholder" data-placeholder-for="u2833_content"><!-- placeholder node --></span>
-            </div>
-           </div>
-          </div>
-          <div class="clearfix temp_no_id" data-orig-id="pu2918"><!-- group -->
-           <div class="popup_anchor allow_click_through grpelem temp_no_id" data-col-pos="0" data-orig-id="u2918popup">
-            <div class="ContainerGroup clearfix temp_no_id" data-col-pos="0" data-orig-id="u2918"><!-- stack box -->
-             <div class="Container invi clearfix grpelem temp_no_id" data-col-pos="0" data-orig-id="u2921"><!-- group -->
-              <nav class="MenuBar clearfix grpelem temp_no_id" data-orig-id="menuu2982"><!-- vertical box -->
-               <div class="MenuItemContainer clearfix colelem temp_no_id" data-orig-id="u2983"><!-- horizontal box -->
-                <a class="nonblock nontext MenuItem MenuItemWithSubMenu MuseMenuActive borderbox clearfix grpelem temp_no_id" href="index.html" data-href="page:U93" data-orig-id="u2986"><!-- horizontal box --><div class="MenuItemLabel clearfix grpelem temp_no_id" data-orig-id="u2988-4"><!-- content --><span class="placeholder" data-placeholder-for="u2988-4_0_content"><!-- placeholder node --></span></div></a>
-               </div>
-               <div class="MenuItemContainer clearfix colelem temp_no_id" data-orig-id="u2990"><!-- horizontal box -->
-                <a class="nonblock nontext MenuItem MenuItemWithSubMenu borderbox clearfix grpelem temp_no_id" href="foto.html" data-href="page:U1938" data-orig-id="u2993"><!-- horizontal box --><div class="MenuItemLabel clearfix grpelem temp_no_id" data-orig-id="u2994-4"><!-- content --><span class="placeholder" data-placeholder-for="u2994-4_0_content"><!-- placeholder node --></span></div></a>
-               </div>
-               <div class="MenuItemContainer clearfix colelem temp_no_id" data-orig-id="u2997"><!-- horizontal box -->
-                <a class="nonblock nontext MenuItem MenuItemWithSubMenu borderbox clearfix grpelem temp_no_id" href="prom.html" data-href="page:U2405" data-orig-id="u3000"><!-- horizontal box --><div class="MenuItemLabel clearfix grpelem temp_no_id" data-orig-id="u3001-4"><!-- content --><span class="placeholder" data-placeholder-for="u3001-4_0_content"><!-- placeholder node --></span></div></a>
-               </div>
-               <div class="MenuItemContainer clearfix colelem temp_no_id" data-orig-id="u3350"><!-- horizontal box -->
-                <a class="nonblock nontext MenuItem MenuItemWithSubMenu borderbox clearfix grpelem temp_no_id" href="blog.html" data-href="page:U3298" data-orig-id="u3351"><!-- horizontal box --><div class="MenuItemLabel clearfix grpelem temp_no_id" data-orig-id="u3353-4"><!-- content --><span class="placeholder" data-placeholder-for="u3353-4_0_content"><!-- placeholder node --></span></div></a>
-               </div>
-              </nav>
-             </div>
-            </div>
-           </div>
-          </div>
-         </div>
-        </div>
-       </div>
-      </div>
-     </div>
-     <div class="browser_width colelem temp_no_id" data-orig-id="u166-bw">
-      <div class="museBGSize temp_no_id" data-orig-id="u166"><!-- column -->
-       <div class="clearfix temp_no_id" data-orig-id="u166_align_to_page">
-        <!-- m_editable region-id="editable-static-tag-U180-BP_480" template="index.html" data-type="html" data-ice-options="disableImageResize,link,txtStyleTarget" -->
-        <span class="clearfix colelem placeholder" data-placeholder-for="u180-6_content"><!-- placeholder node --></span>
-        <!-- /m_editable -->
-        <div class="rgba-background clearfix colelem temp_no_id" data-orig-id="u208"><!-- group -->
-         <!-- m_editable region-id="editable-static-tag-U187-BP_480" template="index.html" data-type="html" data-ice-options="disableImageResize,link,txtStyleTarget" -->
-         <span class="clearfix grpelem placeholder" data-placeholder-for="u187-10_content"><!-- placeholder node --></span>
-         <!-- /m_editable -->
-        </div>
-       </div>
-      </div>
-     </div>
-     <!-- m_editable region-id="editable-static-tag-U338-BP_480" template="index.html" data-type="html" data-ice-options="disableImageResize,link,txtStyleTarget" -->
-     <span class="clearfix colelem placeholder" data-placeholder-for="u338-10_content"><!-- placeholder node --></span>
-     <!-- /m_editable -->
-     <!-- m_editable region-id="editable-static-tag-U344-BP_480" template="index.html" data-type="html" data-ice-options="disableImageResize,link,txtStyleTarget" -->
-     <span class="clearfix colelem placeholder" data-placeholder-for="u344-4_content"><!-- placeholder node --></span>
-     <!-- /m_editable -->
-     <div class="rgba-background clearfix colelem temp_no_id" data-orig-id="u350"><!-- column -->
-      <!-- m_editable region-id="editable-static-tag-U356-BP_480" template="index.html" data-type="html" data-ice-options="disableImageResize,link,txtStyleTarget" -->
-      <span class="clearfix colelem placeholder" data-placeholder-for="u356-4_content"><!-- placeholder node --></span>
-      <!-- /m_editable -->
-      <!-- m_editable region-id="editable-static-tag-U368-BP_480" template="index.html" data-type="image" -->
-      <span class="clip_frame colelem placeholder" data-placeholder-for="u368_content"><!-- placeholder node --></span>
-      <!-- /m_editable -->
-      <!-- m_editable region-id="editable-static-tag-U362-BP_480" template="index.html" data-type="html" data-ice-options="disableImageResize,link,txtStyleTarget" -->
-      <span class="clearfix colelem placeholder" data-placeholder-for="u362-13_content"><!-- placeholder node --></span>
-      <!-- /m_editable -->
-     </div>
-     <div class="rgba-background clearfix colelem temp_no_id" data-orig-id="u441"><!-- column -->
-      <!-- m_editable region-id="editable-static-tag-U453-BP_480" template="index.html" data-type="html" data-ice-options="disableImageResize,link,txtStyleTarget" -->
-      <span class="clearfix colelem placeholder" data-placeholder-for="u453-4_content"><!-- placeholder node --></span>
-      <!-- /m_editable -->
-      <!-- m_editable region-id="editable-static-tag-U462-BP_480" template="index.html" data-type="image" -->
-      <span class="clip_frame colelem placeholder" data-placeholder-for="u462_content"><!-- placeholder node --></span>
-      <!-- /m_editable -->
-      <!-- m_editable region-id="editable-static-tag-U481-BP_480" template="index.html" data-type="html" data-ice-options="disableImageResize,link,txtStyleTarget" -->
-      <span class="clearfix colelem placeholder" data-placeholder-for="u481-13_content"><!-- placeholder node --></span>
-      <!-- /m_editable -->
-     </div>
-     <!-- m_editable region-id="editable-static-tag-U521-BP_480" template="index.html" data-type="html" data-ice-options="disableImageResize,link,txtStyleTarget" -->
-     <span class="clearfix colelem placeholder" data-placeholder-for="u521-17_content"><!-- placeholder node --></span>
-     <!-- /m_editable -->
-     <!-- m_editable region-id="editable-static-tag-U527-BP_480" template="index.html" data-type="html" data-ice-options="disableImageResize,link,txtStyleTarget" -->
-     <span class="clearfix colelem placeholder" data-placeholder-for="u527-4_content"><!-- placeholder node --></span>
-     <!-- /m_editable -->
-     <!-- m_editable region-id="editable-static-tag-U533-BP_480" template="index.html" data-type="html" data-ice-options="disableImageResize,link,txtStyleTarget" -->
-     <div class="rgba-background clearfix colelem temp_no_id" data-muse-uid="U533" data-muse-type="txt_frame" data-IBE-flags="txtStyleSrc" data-sizePolicy="fluidWidth" data-pintopage="page_fixedCenter" data-orig-id="u533-18"><!-- content -->
-      <span class="placeholder" data-placeholder-for="u533-2_content"><!-- placeholder node --></span>
-      <span class="placeholder" data-placeholder-for="u533-4_content"><!-- placeholder node --></span>
-      <p class="temp_no_id" data-orig-id="u533-7"><span class="placeholder" data-placeholder-for="u533-5_content"><!-- placeholder node --></span><span class="actAsInlineDiv normal_text temp_no_id" data-orig-id="u628"><!-- content --><span class="actAsDiv clip_frame excludeFromNormalFlow temp_no_id" data-muse-uid="U603" data-muse-type="img_frame" data-sizePolicy="fixed" data-pintopage="page_fixedLeft" data-orig-id="u603"><!-- image --><img class="temp_no_id temp_no_img_src" data-orig-src="images/portal-15270x180.jpg?crc=4144347565" alt="Реставрация ванн Москва" title="Реставрация ванн Москва" width="270" height="180" data-muse-src="images/portal-15270x180.jpg?crc=4144347565" data-orig-id="u603_img" src="images/blank.gif?crc=4208392903"/></span></span><span class="actAsInlineDiv normal_text temp_no_id" data-orig-id="u645"><!-- content --><span class="actAsDiv clip_frame excludeFromNormalFlow temp_no_id" data-muse-uid="U605" data-muse-type="img_frame" data-sizePolicy="fixed" data-pintopage="page_fixedLeft" data-orig-id="u605"><!-- image --><img class="temp_no_id temp_no_img_src" data-orig-src="images/portal-36270x180.jpg?crc=3884392861" alt="Реставрация ванн Москва" title="Реставрация ванн Москва" width="270" height="180" data-muse-src="images/portal-36270x180.jpg?crc=3884392861" data-orig-id="u605_img" src="images/blank.gif?crc=4208392903"/></span></span><span class="placeholder" data-placeholder-for="u533-7_3_content"><!-- placeholder node --></span></p>
-      <span class="placeholder" data-placeholder-for="u533-9_content"><!-- placeholder node --></span>
-      <span class="placeholder" data-placeholder-for="u533-11_content"><!-- placeholder node --></span>
-      <p class="temp_no_id" data-orig-id="u533-16"><span class="placeholder" data-placeholder-for="u533-12_content"><!-- placeholder node --></span><span class="temp_no_id" data-orig-id="u533-13"><span class="actAsInlineDiv normal_text temp_no_id" data-orig-id="u693"><!-- content --><span class="actAsDiv clip_frame excludeFromNormalFlow temp_no_id" data-muse-uid="U662" data-muse-type="img_frame" data-sizePolicy="fixed" data-pintopage="page_fixedLeft" data-orig-id="u662"><!-- image --><img class="temp_no_id temp_no_img_src" data-orig-src="images/portal-8270x180.jpg?crc=94495611" alt="Реставрация ванн Москва" title="Реставрация ванн Москва" width="270" height="180" data-muse-src="images/portal-8270x180.jpg?crc=94495611" data-orig-id="u662_img" src="images/blank.gif?crc=4208392903"/></span></span></span><span class="temp_no_id" data-orig-id="u533-14"><span class="actAsInlineDiv normal_text temp_no_id" data-orig-id="u710"><!-- content --><span class="actAsDiv clip_frame excludeFromNormalFlow temp_no_id" data-muse-uid="U664" data-muse-type="img_frame" data-sizePolicy="fixed" data-pintopage="page_fixedLeft" data-orig-id="u664"><!-- image --><img class="temp_no_id temp_no_img_src" data-orig-src="images/portal-12270x180.jpg?crc=359427038" alt="Реставрация ванн Москва" title="Реставрация ванн Москва" width="270" height="180" data-muse-src="images/portal-12270x180.jpg?crc=359427038" data-orig-id="u664_img" src="images/blank.gif?crc=4208392903"/></span></span></span><span class="placeholder" data-placeholder-for="u533-15_content"><!-- placeholder node --></span></p>
-     </div>
-     <!-- /m_editable -->
-     <div class="browser_width colelem temp_no_id" data-orig-id="u802-bw">
-      <div class="rgba-background temp_no_id" data-orig-id="u802"><!-- column -->
-       <div class="clearfix temp_no_id" data-orig-id="u802_align_to_page">
-        <!-- m_editable region-id="editable-static-tag-U741-BP_480" template="index.html" data-type="html" data-ice-options="disableImageResize,link,txtStyleTarget" -->
-        <span class="clearfix colelem placeholder" data-placeholder-for="u741-4_content"><!-- placeholder node --></span>
-        <!-- /m_editable -->
-        <!-- m_editable region-id="editable-static-tag-U753-BP_480" template="index.html" data-type="html" data-ice-options="disableImageResize,link,txtStyleTarget" -->
-        <span class="clearfix colelem placeholder" data-placeholder-for="u753-8_content"><!-- placeholder node --></span>
-        <!-- /m_editable -->
-        <span class="Button rounded-corners clearfix colelem placeholder" data-placeholder-for="buttonu759_content"><!-- placeholder node --></span>
-        <!-- m_editable region-id="editable-static-tag-U784-BP_480" template="index.html" data-type="html" data-ice-options="disableImageResize,link,txtStyleTarget" -->
-        <span class="clearfix colelem placeholder" data-placeholder-for="u784-8_content"><!-- placeholder node --></span>
-        <!-- /m_editable -->
-        <span class="Button rounded-corners clearfix colelem placeholder" data-placeholder-for="buttonu772_content"><!-- placeholder node --></span>
-       </div>
-      </div>
-     </div>
-     <!-- m_editable region-id="editable-static-tag-U808-BP_480" template="index.html" data-type="html" data-ice-options="disableImageResize,link,txtStyleTarget" -->
-     <span class="clearfix colelem placeholder" data-placeholder-for="u808-11_content"><!-- placeholder node --></span>
-     <!-- /m_editable -->
-     <!-- m_editable region-id="editable-static-tag-U836-BP_480" template="index.html" data-type="image" -->
-     <span class="clip_frame colelem placeholder" data-placeholder-for="u836_content"><!-- placeholder node --></span>
-     <!-- /m_editable -->
-     <!-- m_editable region-id="editable-static-tag-U982-BP_480" template="index.html" data-type="html" data-ice-options="disableImageResize,link,txtStyleTarget" -->
-     <span class="clearfix colelem placeholder" data-placeholder-for="u982-8_content"><!-- placeholder node --></span>
-     <!-- /m_editable -->
-     <!-- m_editable region-id="editable-static-tag-U857-BP_480" template="index.html" data-type="image" -->
-     <span class="clip_frame colelem placeholder" data-placeholder-for="u857_content"><!-- placeholder node --></span>
-     <!-- /m_editable -->
-     <!-- m_editable region-id="editable-static-tag-U964-BP_480" template="index.html" data-type="html" data-ice-options="disableImageResize,link,txtStyleTarget" -->
-     <span class="clearfix colelem placeholder" data-placeholder-for="u964-8_content"><!-- placeholder node --></span>
-     <!-- /m_editable -->
-     <!-- m_editable region-id="editable-static-tag-U822-BP_480" template="index.html" data-type="image" -->
-     <span class="clip_frame colelem placeholder" data-placeholder-for="u822_content"><!-- placeholder node --></span>
-     <!-- /m_editable -->
-     <!-- m_editable region-id="editable-static-tag-U994-BP_480" template="index.html" data-type="html" data-ice-options="disableImageResize,link,txtStyleTarget" -->
-     <span class="clearfix colelem placeholder" data-placeholder-for="u994-8_content"><!-- placeholder node --></span>
-     <!-- /m_editable -->
-     <!-- m_editable region-id="editable-static-tag-U864-BP_480" template="index.html" data-type="image" -->
-     <span class="clip_frame colelem placeholder" data-placeholder-for="u864_content"><!-- placeholder node --></span>
-     <!-- /m_editable -->
-     <!-- m_editable region-id="editable-static-tag-U988-BP_480" template="index.html" data-type="html" data-ice-options="disableImageResize,link,txtStyleTarget" -->
-     <span class="clearfix colelem placeholder" data-placeholder-for="u988-8_content"><!-- placeholder node --></span>
-     <!-- /m_editable -->
-     <!-- m_editable region-id="editable-static-tag-U814-BP_480" template="index.html" data-type="image" -->
-     <span class="clip_frame colelem placeholder" data-placeholder-for="u814_content"><!-- placeholder node --></span>
-     <!-- /m_editable -->
-     <!-- m_editable region-id="editable-static-tag-U970-BP_480" template="index.html" data-type="html" data-ice-options="disableImageResize,link,txtStyleTarget" -->
-     <span class="clearfix colelem placeholder" data-placeholder-for="u970-8_content"><!-- placeholder node --></span>
-     <!-- /m_editable -->
-     <!-- m_editable region-id="editable-static-tag-U843-BP_480" template="index.html" data-type="image" -->
-     <span class="clip_frame colelem placeholder" data-placeholder-for="u843_content"><!-- placeholder node --></span>
-     <!-- /m_editable -->
-     <!-- m_editable region-id="editable-static-tag-U976-BP_480" template="index.html" data-type="html" data-ice-options="disableImageResize,link,txtStyleTarget" -->
-     <span class="clearfix colelem placeholder" data-placeholder-for="u976-8_content"><!-- placeholder node --></span>
-     <!-- /m_editable -->
-     <!-- m_editable region-id="editable-static-tag-U1000-BP_480" template="index.html" data-type="html" data-ice-options="disableImageResize,link,txtStyleTarget" -->
-     <span class="clearfix colelem placeholder" data-placeholder-for="u1000-4_content"><!-- placeholder node --></span>
-     <!-- /m_editable -->
-     <!-- m_editable region-id="editable-static-tag-U871-BP_480" template="index.html" data-type="image" -->
-     <span class="clip_frame colelem placeholder" data-placeholder-for="u871_content"><!-- placeholder node --></span>
-     <!-- /m_editable -->
-     <!-- m_editable region-id="editable-static-tag-U1006-BP_480" template="index.html" data-type="html" data-ice-options="disableImageResize,link,txtStyleTarget" -->
-     <span class="clearfix colelem placeholder" data-placeholder-for="u1006-4_content"><!-- placeholder node --></span>
-     <!-- /m_editable -->
-     <!-- m_editable region-id="editable-static-tag-U829-BP_480" template="index.html" data-type="image" -->
-     <span class="clip_frame colelem placeholder" data-placeholder-for="u829_content"><!-- placeholder node --></span>
-     <!-- /m_editable -->
-     <!-- m_editable region-id="editable-static-tag-U1018-BP_480" template="index.html" data-type="html" data-ice-options="disableImageResize,link,txtStyleTarget" -->
-     <span class="clearfix colelem placeholder" data-placeholder-for="u1018-4_content"><!-- placeholder node --></span>
-     <!-- /m_editable -->
-     <!-- m_editable region-id="editable-static-tag-U850-BP_480" template="index.html" data-type="image" -->
-     <span class="clip_frame colelem placeholder" data-placeholder-for="u850_content"><!-- placeholder node --></span>
-     <!-- /m_editable -->
-     <!-- m_editable region-id="editable-static-tag-U1012-BP_480" template="index.html" data-type="html" data-ice-options="disableImageResize,link,txtStyleTarget" -->
-     <span class="clearfix colelem placeholder" data-placeholder-for="u1012-4_content"><!-- placeholder node --></span>
-     <!-- /m_editable -->
-     <!-- m_editable region-id="editable-static-tag-U1024-BP_480" template="index.html" data-type="html" data-ice-options="disableImageResize,link,txtStyleTarget" -->
-     <span class="clearfix colelem placeholder" data-placeholder-for="u1024-6_content"><!-- placeholder node --></span>
-     <!-- /m_editable -->
-     <!-- m_editable region-id="editable-static-tag-U1030-BP_480" template="index.html" data-type="html" data-ice-options="disableImageResize,link,txtStyleTarget" -->
-     <span class="clearfix colelem placeholder" data-placeholder-for="u1030-26_content"><!-- placeholder node --></span>
-     <!-- /m_editable -->
-     <!-- m_editable region-id="editable-static-tag-U1036-BP_480" template="index.html" data-type="html" data-ice-options="disableImageResize,link,txtStyleTarget" -->
-     <span class="clearfix colelem placeholder" data-placeholder-for="u1036-17_content"><!-- placeholder node --></span>
-     <!-- /m_editable -->
-    </div>
-    <div class="verticalspacer" data-offset-top="8411" data-content-above-spacer="8410" data-content-below-spacer="215" data-sizePolicy="fixed" data-pintopage="page_fixedLeft"></div>
-    <span class="browser_width grpelem placeholder" data-placeholder-for="u1170-bw_content"><!-- placeholder node --></span>
-   </div>
-  </div>
-  <!-- JS includes -->
-  <script type="text/javascript">
-   if (document.location.protocol != 'https:') document.write('\x3Cscript src="http://musecdn.businesscatalyst.com/scripts/4.0/jquery-1.8.3.min.js" type="text/javascript">\x3C/script>');
-</script>
-  <script type="text/javascript">
-   window.jQuery || document.write('\x3Cscript src="scripts/jquery-1.8.3.min.js?crc=209076791" type="text/javascript">\x3C/script>');
-</script>
-  <!-- Other scripts -->
-  <script type="text/javascript">
-   // Decide whether to suppress missing file error or not based on preference setting
-var suppressMissingFileError = false
-</script>
-  <script type="text/javascript">
-   window.Muse.assets.check=function(c){if(!window.Muse.assets.checked){window.Muse.assets.checked=!0;var b={},d=function(a,b){if(window.getComputedStyle){var c=window.getComputedStyle(a,null);return c&&c.getPropertyValue(b)||c&&c[b]||""}if(document.documentElement.currentStyle)return(c=a.currentStyle)&&c[b]||a.style&&a.style[b]||"";return""},a=function(a){if(a.match(/^rgb/))return a=a.replace(/\s+/g,"").match(/([\d\,]+)/gi)[0].split(","),(parseInt(a[0])<<16)+(parseInt(a[1])<<8)+parseInt(a[2]);if(a.match(/^\#/))return parseInt(a.substr(1),
-16);return 0},f=function(f){for(var g=document.getElementsByTagName("link"),j=0;j<g.length;j++)if("text/css"==g[j].type){var l=(g[j].href||"").match(/\/?css\/([\w\-]+\.css)\?crc=(\d+)/);if(!l||!l[1]||!l[2])break;b[l[1]]=l[2]}g=document.createElement("div");g.className="version";g.style.cssText="display:none; width:1px; height:1px;";document.getElementsByTagName("body")[0].appendChild(g);for(j=0;j<Muse.assets.required.length;){var l=Muse.assets.required[j],k=l.match(/([\w\-\.]+)\.(\w+)$/),i=k&&k[1]?
-k[1]:null,k=k&&k[2]?k[2]:null;switch(k.toLowerCase()){case "css":i=i.replace(/\W/gi,"_").replace(/^([^a-z])/gi,"_$1");g.className+=" "+i;i=a(d(g,"color"));k=a(d(g,"backgroundColor"));i!=0||k!=0?(Muse.assets.required.splice(j,1),"undefined"!=typeof b[l]&&(i!=b[l]>>>24||k!=(b[l]&16777215))&&Muse.assets.outOfDate.push(l)):j++;g.className="version";break;case "js":j++;break;default:throw Error("Unsupported file type: "+k);}}c?c().jquery!="1.8.3"&&Muse.assets.outOfDate.push("jquery-1.8.3.min.js"):Muse.assets.required.push("jquery-1.8.3.min.js");
-g.parentNode.removeChild(g);if(Muse.assets.outOfDate.length||Muse.assets.required.length)g="Некоторые файлы на сервере могут отсутствовать или быть некорректными. Очистите кэш-память браузера и повторите попытку. Если проблему не удается устранить, свяжитесь с разработчиками сайта.",f&&Muse.assets.outOfDate.length&&(g+="\nOut of date: "+Muse.assets.outOfDate.join(",")),f&&Muse.assets.required.length&&(g+="\nMissing: "+Muse.assets.required.join(",")),suppressMissingFileError?(g+="\nUse SuppressMissingFileError key in AppPrefs.xml to show missing file error pop up.",console.log(g)):alert(g)};location&&location.search&&location.search.match&&location.search.match(/muse_debug/gi)?
-setTimeout(function(){f(!0)},5E3):f()}};
-var muse_init=function(){require.config({baseUrl:""});require(["jquery","museutils","whatinput","jquery.musemenu","jquery.watch","jquery.musepolyfill.bgsize","webpro","musewpslideshow","jquery.museoverlay","touchswipe","jquery.museresponsive"],function(c){var $ = c;$(document).ready(function(){try{
-window.Muse.assets.check($);/* body */
-Muse.Utils.transformMarkupToFixBrowserProblemsPreInit();/* body */
-Muse.Utils.prepHyperlinks(true);/* body */
-Muse.Utils.resizeHeight('.browser_width');/* resize height */
-Muse.Utils.requestAnimationFrame(function() { $('body').addClass('initialized'); });/* mark body as initialized */
-Muse.Utils.resizeHeight('.popup_anchor.allow_click_through');/* resize height */
-Muse.Utils.makeButtonsVisibleAfterSettingMinWidth();/* body */
-Muse.Utils.initWidget('.MenuBar', ['#bp_infinity', '#bp_768', '#bp_480'], function(elem) { return $(elem).museMenu(); });/* unifiedNavBar */
-Muse.Utils.initWidget('#pamphletu2907', ['#bp_768', '#bp_480'], function(elem) { return new WebPro.Widget.ContentSlideShow(elem, {contentLayout_runtime:'stack',event:'click',deactivationEvent:'mouseout_click',autoPlay:false,displayInterval:3000,transitionStyle:'fading',transitionDuration:500,hideAllContentsFirst:true,triggersOnTop:true,shuffle:false,enableSwipe:false,resumeAutoplay:true,resumeAutoplayInterval:3000,playOnce:false,autoActivate_runtime:false,isResponsive:true}); });/* #pamphletu2907 */
-Muse.Utils.fullPage('#page');/* 100% height page */
-$( '.breakpoint' ).registerBreakpoint();/* Register breakpoints */
-Muse.Utils.transformMarkupToFixBrowserProblems();/* body */
-}catch(b){if(b&&"function"==typeof b.notify?b.notify():Muse.Assert.fail("Error calling selector function: "+b),false)throw b;}})})};
-
-</script>
-  <!-- RequireJS script -->
-  <script src="scripts/require.js?crc=7928878" type="text/javascript" async data-main="scripts/museconfig.js?crc=4286661555" onload="if (requirejs) requirejs.onError = function(requireType, requireModule) { if (requireType && requireType.toString && requireType.toString().indexOf && 0 <= requireType.toString().indexOf('#scripterror')) window.Muse.assets.check(); }" onerror="window.Muse.assets.check();"></script>
-  
-  <!--HTML Widget code-->
-   <script> $('.button-up').click(function() { $('body, html').animate({ 'scrollTop': 0 }, 1000) }); $(window).scroll(function() { if ($(window).scrollTop() > 300) { if ($('.button-up').hasClass('OutDown')) { $('.button-up').removeClass('OutDown'); } $('.button-up').addClass('active animated InUp'); } else { if ($('.button-up').hasClass('active animated InUp')) { $('.button-up').addClass('animated OutDown'); setTimeout(function() { $('.btn').removeClass('InUp'); }, 100); } } }); </script> 
-<script>
-$(document).ready(function(){
-	$('.menu-toggle').on('click',function(){
-		$('.menu-toggle').toggleClass('active');
-	});
-});
-</script>
-	
-   </body>
+                <script>
+                    socialicons_imFooter_pluginAppObj_10();
+                </script>
+        </div></div></div>
+					</footer>
+				</div>
+				<span class="imHidden"><a href="#imGoToCont" title="Прочесть эту страницу заново">Назад к содержимому</a></span>
+			</div>
+		</div>
+		
+		<noscript class="imNoScript"><div class="alert alert-red">Для использования этого сайта необходимо включить JavaScript.</div></noscript>
+	</body>
 </html>
