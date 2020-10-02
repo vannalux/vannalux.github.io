@@ -32,6 +32,14 @@
     "versionFirst": "5.1.4",
     "siteFonts": [],
     "imageResize": true,
+    "canonical-url": "https://vannalux.github.io/url/to/amp/",
+    "favicon": false,
+    "robotsSwitcher": false,
+    "sitemapSwitcher": false,
+    "sitemapSwitcherAuto": false,
+    "siteUrl": false,
+    "cookiesAlert": false,
+    "gdpr": false,
     "uniqCompNum": 9,
     "versionPublish": "5.1.4"
   },
@@ -39,8 +47,8 @@
     "index.html": {
       "settings": {
         "main": true,
-        "title": "Home",
-        "meta_descr": "",
+        "title": "Пробный сайт",
+        "meta_descr": "Пробный сайт для пробы",
         "header_custom": "",
         "footer_custom": "",
         "html_before": ""
