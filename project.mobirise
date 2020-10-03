@@ -70,8 +70,8 @@
     "index.html": {
       "settings": {
         "main": true,
-        "title": "Home",
-        "meta_descr": "",
+        "title": "Пробная страница",
+        "meta_descr": "Тестирование страниц сайта",
         "header_custom": "",
         "footer_custom": "",
         "html_before": "",
