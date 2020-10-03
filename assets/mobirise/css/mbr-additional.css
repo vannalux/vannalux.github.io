@@ -26,11 +26,11 @@ body {
 }
 .display-4 {
   font-family: 'PT Sans Narrow', sans-serif;
-  font-size: 1rem;
+  font-size: 1.2rem;
   font-display: swap;
 }
 .display-4 > .mbr-iconfont {
-  font-size: 1.6rem;
+  font-size: 1.92rem;
 }
 .display-5 {
   font-family: 'Rubik', sans-serif;
@@ -65,9 +65,9 @@ body {
     line-height: calc( 1.4 * (1.7rem + (3 - 1.7) * ((100vw - 20rem) / (48 - 20))));
   }
   .display-4 {
-    font-size: 0.8rem;
-    font-size: calc( 1rem + (1 - 1) * ((100vw - 20rem) / (48 - 20)));
-    line-height: calc( 1.4 * (1rem + (1 - 1) * ((100vw - 20rem) / (48 - 20))));
+    font-size: 0.96rem;
+    font-size: calc( 1.07rem + (1.2 - 1.07) * ((100vw - 20rem) / (48 - 20)));
+    line-height: calc( 1.4 * (1.07rem + (1.2 - 1.07) * ((100vw - 20rem) / (48 - 20))));
   }
   .display-5 {
     font-size: 1.2rem;
@@ -1353,6 +1353,10 @@ section.lazy-placeholder:after {
 .cid-scjJrhqtRd .collapsed .navbar-collapse.show .navbar-nav .nav-item {
   clear: both;
 }
+.cid-scjJrhqtRd .collapsed .navbar-collapse.collapsing .navbar-nav .nav-item:last-child,
+.cid-scjJrhqtRd .collapsed .navbar-collapse.show .navbar-nav .nav-item:last-child {
+  margin-bottom: 1rem;
+}
 .cid-scjJrhqtRd .collapsed .navbar-collapse.collapsing .navbar-buttons,
 .cid-scjJrhqtRd .collapsed .navbar-collapse.show .navbar-buttons {
   text-align: center;
@@ -1453,6 +1457,10 @@ section.lazy-placeholder:after {
   .cid-scjJrhqtRd .navbar-collapse.collapsing .navbar-nav .nav-item,
   .cid-scjJrhqtRd .navbar-collapse.show .navbar-nav .nav-item {
     clear: both;
+  }
+  .cid-scjJrhqtRd .navbar-collapse.collapsing .navbar-nav .nav-item:last-child,
+  .cid-scjJrhqtRd .navbar-collapse.show .navbar-nav .nav-item:last-child {
+    margin-bottom: 1rem;
   }
   .cid-scjJrhqtRd .navbar-collapse.collapsing .navbar-buttons,
   .cid-scjJrhqtRd .navbar-collapse.show .navbar-buttons {
