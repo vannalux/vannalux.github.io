@@ -572,24 +572,6 @@
         },
         {
           "_name": "design-blocks-block",
-          "_anchor": "design-blocks-block-g",
-          "_styles": {
-            "padding-top": "(@paddingTop * 15px)",
-            "padding-bottom": "(@paddingBottom * 15px)",
-            "background-color": "@bgColor",
-            ".mbr-section-subtitle": {
-              "color": "#FFF"
-            }
-          },
-          "_customHTML": "<section class=\"mbr-section content4\" group=\"Article\" data-bg-video=\"{{bg.type == 'video' && bg.value.url}}\" mbr-class=\"{'mbr-parallax-background': bg.parallax}\">\n<link rel=\"stylesheet\" href=\"https://cdn.rawgit.com/CodyHouse/image-comparison-slider/7fb3ed73/css/reset.css\">\n<link rel=\"stylesheet\" href=\"https://cdn.rawgit.com/CodyHouse/image-comparison-slider/7fb3ed73/css/style.css\">\n<script src=\"https://cdn.rawgit.com/CodyHouse/image-comparison-slider/7fb3ed73/js/modernizr.js\"></script>\n<script src=\"https://cdn.rawgit.com/CodyHouse/image-comparison-slider/7fb3ed73/js/jquery-2.1.1.js\"></script>\n<script src=\"https://cdn.rawgit.com/CodyHouse/image-comparison-slider/7fb3ed73/js/jquery.mobile.custom.min.js\"></script>\n<script src=\"https://cdn.rawgit.com/CodyHouse/image-comparison-slider/7fb3ed73/js/main.js\"></script>\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"range\" inline title=\"Haut\" name=\"paddingTop\" min=\"0\" max=\"8\" step=\"1\" value=\"4\">\n        <input type=\"range\" inline title=\"Bas\" name=\"paddingBottom\" min=\"0\" max=\"8\" step=\"1\" value=\"4\">\n        <input type=\"image\" title=\"Image1\" name=\"img1\" value=\"@PROJECT_PATH@/assets/images/mbr-1920x1285.jpg\">\n        <input type=\"image\" title=\"Image2\" name=\"img2\" value=\"@PROJECT_PATH@/assets/images/mbr-1-1920x1280.jpg\">\n        <input type=\"checkbox\" title=\"Afficher le titre\" name=\"showTitle\" checked>\n        <input type=\"checkbox\" title=\"Afficher les sous-titres\" name=\"showSubtitle\" checked>\n        <input type=\"checkbox\" title=\"Afficher les boutons\" name=\"showButtons\" checked>\n        <input type=\"color\" title=\"Couleur de fond\" name=\"bgColor\" value=\"#ffffff\">\n    <!-- End block parameters -->\n    </mbr-parameters>\n<input id=\"image1\" value=\"{{img1}}\" type=\"hidden\">\n<input id=\"image2\" value=\"{{img2}}\" type=\"hidden\">\n    <div class=\"container\">\n        <div class=\"media-container-row\">\n            <div class=\"title col-12 col-md-8\">\n                <h2 mbr-if=\"showTitle\" class=\"align-center pb-3 mbr-fonts-style\" mbr-theme-style=\"display-2\">\n                    До и после\n                </h2>\n                <h3 mbr-if=\"showSubtitle\" data-app-selector=\".mbr-section-subtitle\" class=\"mbr-section-subtitle align-center mbr-light mbr-fonts-style\" mbr-theme-style=\"display-5\">\n<figure class=\"cd-image-container is-visible\">\n<img id=\"img1\" src=\"false\" ;=\"\" alt=\"Original Image\"><span class=\"cd-image-label\" data-type=\"original\">Original</span>\n<div class=\"cd-resize-img\" style=\"width: 36.5024%;\">\n<img id=\"img2\" src=\"false\" ;=\"\" alt=\"Modified Image\"><span class=\"cd-image-label\" data-type=\"modified\">Modified</span>\n</div>\n<span class=\"cd-handle\" style=\"left: 36.5024%;\"></span>\n</figure>\n                </h3>\n                <div class=\"mbr-section-btn align-center py-4\" mbr-if=\"showButtons\" mbr-buttons mbr-theme-style=\"display-4\">\n                    <a class=\"btn btn-primary\" href=\"https://mobirise.co\">Pour en savoir plus</a>\n                    <a class=\"btn btn-black-outline\" href=\"https://mobirise.co\">Démo en direct</a>\n                </div>\n            </div>\n        </div>\n    </div>\n<script>\n$(\"#img1\").attr(\"src\",$(\"#image1\").val());\n$(\"#img2\").attr(\"src\",$(\"#image2\").val());\n</script>\n</section>",
-          "_cid": "scjqDBUZeM",
-          "_protectedParams": [],
-          "_global": false,
-          "_once": false,
-          "_params": {}
-        },
-        {
-          "_name": "design-blocks-block",
           "_anchor": "design-blocks-block-j",
           "_styles": {
             "padding-top": "(@paddingTop * 15px)",
