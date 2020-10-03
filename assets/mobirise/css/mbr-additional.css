@@ -1023,16 +1023,31 @@ section.lazy-placeholder:after {
 .cid-sciAWQCgiL .dropdown-item:hover {
   color: #c1c1c1 !important;
 }
-.cid-sciBeenWpY {
-  background-image: url("../../../assets/images/background4.jpg");
-}
-.cid-sciBf8b2us {
+.cid-scjoKTlJ46 {
   padding-top: 90px;
   padding-bottom: 90px;
-  background-color: #efefef;
+  background-image: url("../../../assets/images/background4.jpg");
 }
-.cid-sciBf8b2us P {
-  color: #767676;
+.cid-scjoKTlJ46 .media-container-row {
+  flex-direction: row-reverse;
+  -webkit-flex-direction: row-reverse;
+}
+@media (min-width: 992px) {
+  .cid-scjoKTlJ46 .mbr-figure {
+    padding-right: 4rem;
+    padding-right: 0;
+    padding-left: 4rem;
+  }
+}
+@media (max-width: 991px) {
+  .cid-scjoKTlJ46 .mbr-figure {
+    padding-bottom: 3rem;
+  }
+}
+@media (max-width: 767px) {
+  .cid-scjoKTlJ46 .mbr-text {
+    text-align: center;
+  }
 }
 .cid-sciBh6QIqj {
   padding-top: 90px;
