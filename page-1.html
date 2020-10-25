@@ -15,7 +15,7 @@
 		<link rel="stylesheet" href="style/print.css?2020-3-3-1" media="print" />
 		<link rel="stylesheet" href="style/style.css?2020-3-3-1" media="screen,print" />
 		<link rel="stylesheet" href="style/template.css?2020-3-3-1" media="screen" />
-		<link rel="stylesheet" href="pcss/page-1.css?2020-3-3-1-637391864225920774" media="screen,print" />
+		<link rel="stylesheet" href="pcss/page-1.css?2020-3-3-1-637392696550871537" media="screen,print" />
 		<script src="res/jquery.js?2020-3-3-1"></script>
 		<script src="res/x5engine.js?2020-3-3-1" data-files-version="2020-3-3-1"></script>
 		<script>
@@ -23,7 +23,7 @@
 			x5engine.utils.currentPagePath = 'page-1.html';
 			x5engine.boot.push(function () { x5engine.imPageToTop.initializeButton({}); });
 		</script>
-		<link rel="icon" href="favicon.png?2020-3-3-1-637391864225830808" type="image/png" />
+		<link rel="icon" href="favicon.png?2020-3-3-1-637392696550561513" type="image/png" />
 		<style>
 h1, h2, h3, h4, h5, h6 {
     font-weight: normal;
@@ -38,7 +38,7 @@ h1, h2, h3, h4, h5, h6 {
 				<div id="imPage">
 					<header id="imHeader">
 						
-						<div id="imHeaderObjects"></div>
+						<!-- HeaderObjects -->
 					</header>
 					<div id="imStickyBarContainer">
 						<div id="imStickyBarGraphics"></div>
@@ -67,7 +67,7 @@ Page 1		</a>
 var imStickyBar_imMenuObject_01_settings = {
 	'menuId': 'imStickyBar_imMenuObject_01',
 	'responsiveMenuEffect': 'slide',
-	'animationDuration': 1000,
+	'animationDuration': 700,
 }
 x5engine.boot.push(function(){x5engine.initMenu(imStickyBar_imMenuObject_01_settings)});
 $(function () {$('#imStickyBar_imMenuObject_01_container ul li').not('.imMnMnSeparator').each(function () {    var $this = $(this), timeout = 0;    $this.on('mouseenter', function () {        if($(this).parents('#imStickyBar_imMenuObject_01_container-menu-opened').length > 0) return;         clearTimeout(timeout);        setTimeout(function () { $this.children('ul, .multiple-column').stop(false, false).fadeIn(); }, 250);    }).on('mouseleave', function () {        if($(this).parents('#imStickyBar_imMenuObject_01_container-menu-opened').length > 0) return;         timeout = setTimeout(function () { $this.children('ul, .multiple-column').stop(false, false).fadeOut(); }, 250);    });});});
@@ -87,7 +87,7 @@ $(function () {$('#imStickyBar_imMenuObject_01_container ul li').not('.imMnMnSep
 						<div id="imPageRow_1" class="imPageRow">
 						
 						</div>
-						<div id="imCell_1" class=""  data-responsive-sequence-number="1"> <div id="imCellStyleGraphics_1"></div><div id="imCellStyleBorders_1"></div><div id="imObjectImage_3_01"><div id="imObjectImage_3_01_container"><img src="images/-------_vqy441k7.jpg" title="" alt="" />
+						<div id="imCell_1" class=""  data-responsive-sequence-number="1"> <div id="imCellStyleGraphics_1"></div><div id="imCellStyleBorders_1"></div><div id="imObjectImage_3_01"><div id="imObjectImage_3_01_container"><img src="images/-------.jpg" title="" alt="" />
 						</div></div></div><div id="imPageRow_2" class="imPageRow">
 						<div style="position: absolute; top: 0; left: 0; right: 0; bottom: 0; overflow: hidden;"><div id="imPageRowGraphics_2"><div id="imPageRowGraphicsOverlay_2"></div></div></div>
 						</div>
@@ -105,7 +105,7 @@ $(function () {$('#imStickyBar_imMenuObject_01_container ul li').not('.imMnMnSep
 						<div id="imFooterObjects"><div id="imFooter_imTextObject_02_wrapper" class="template-object-wrapper"><div id="imFooter_imTextObject_02">
 	<div data-index="0"  class="text-tab-content grid-prop current-tab "  id="imFooter_imTextObject_02_tab0" style="opacity: 1; ">
 		<div class="text-inner">
-			<div><div style="text-align: center;"><span class="fs12 cf1">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</span></div></div>
+			<div><div class="imTACenter"><span class="fs12lh1-5 cf1">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</span></div></div>
 		</div>
 	</div>
 

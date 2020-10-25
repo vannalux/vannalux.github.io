@@ -24,7 +24,7 @@
 		<link rel="stylesheet" href="pluginAppObj/pluginAppObj_14/custom.css" media="screen, print" />
 		<link rel="stylesheet" href="pluginAppObj/pluginAppObj_15/custom.css" media="screen, print" />
 		<link rel="stylesheet" href="pluginAppObj/pluginAppObj_16/custom.css" media="screen, print" />
-		<link rel="stylesheet" href="pcss/index.css?2020-3-3-1-637391866861563461" media="screen,print" />
+		<link rel="stylesheet" href="pcss/index.css?2020-3-3-1-637392696572470125" media="screen,print" />
 		<script src="res/jquery.js?2020-3-3-1"></script>
 		<script src="res/x5engine.js?2020-3-3-1" data-files-version="2020-3-3-1"></script>
 		<script src="pluginAppObj/pluginAppObj_06/main.js"></script>
@@ -48,7 +48,7 @@
 			x5engine.boot.push(function () { x5engine.imageSequence.start(); });
 			x5engine.boot.push(function () { x5engine.imPageToTop.initializeButton({}); });
 		</script>
-		<link rel="icon" href="favicon.png?2020-3-3-1-637391866855001330" type="image/png" />
+		<link rel="icon" href="favicon.png?2020-3-3-1-637392696566080474" type="image/png" />
 		<style>
 h1, h2, h3, h4, h5, h6 {
     font-weight: normal;
@@ -63,7 +63,7 @@ h1, h2, h3, h4, h5, h6 {
 				<div id="imPage">
 					<header id="imHeader">
 						
-						<div id="imHeaderObjects"></div>
+						<!-- HeaderObjects -->
 					</header>
 					<div id="imStickyBarContainer">
 						<div id="imStickyBarGraphics"></div>
@@ -92,7 +92,7 @@ Page 1		</a>
 var imStickyBar_imMenuObject_01_settings = {
 	'menuId': 'imStickyBar_imMenuObject_01',
 	'responsiveMenuEffect': 'slide',
-	'animationDuration': 1000,
+	'animationDuration': 700,
 }
 x5engine.boot.push(function(){x5engine.initMenu(imStickyBar_imMenuObject_01_settings)});
 $(function () {$('#imStickyBar_imMenuObject_01_container ul li').not('.imMnMnSeparator').each(function () {    var $this = $(this), timeout = 0;    $this.on('mouseenter', function () {        if($(this).parents('#imStickyBar_imMenuObject_01_container-menu-opened').length > 0) return;         clearTimeout(timeout);        setTimeout(function () { $this.children('ul, .multiple-column').stop(false, false).fadeIn(); }, 250);    }).on('mouseleave', function () {        if($(this).parents('#imStickyBar_imMenuObject_01_container-menu-opened').length > 0) return;         timeout = setTimeout(function () { $this.children('ul, .multiple-column').stop(false, false).fadeOut(); }, 250);    });});});
@@ -216,7 +216,7 @@ $(function () {$('#imStickyBar_imMenuObject_01_container ul li').not('.imMnMnSep
 						<div id="imCell_13" class=""  data-responsive-sequence-number="6"> <div id="imCellStyleGraphics_13"></div><div id="imCellStyleBorders_13"></div><div id="imTextObject_13">
 							<div data-index="0"  class="text-tab-content grid-prop current-tab "  id="imTextObject_13_tab0" style="opacity: 1; ">
 								<div class="text-inner">
-									<div data-line-height="1" class="lh1 imTACenter mb1"><span class="fs28lh1 ff1">К счастью, они проигнорировали мои плохие предложения и предоставили мне готовый веб-сайт, который превзошел мои ожидания.</span></div><div class="imTACenter"><footer><span class="fs20lh1-5 ff1"><b><br></b></span></footer><footer><span class="fs26lh1-5 ff2"><b>ДЖЕЙМС ФЕСС</b> - ОПЫТНЫЙ ТУРИСТ</span></footer></div>
+									<div data-line-height="1" class="lh1 imTACenter mb1"><span class="fs28lh1 ff1">К счастью, они проигнорировали мои плохие предложения и предоставили мне готовый веб-сайт, который превзошел мои ожидания.</span></div><div class="imTACenter"><footer><span class="fs20lh1-5 ff1"><b><br></b></span></footer><footer><span class="fs26lh1-5 ff2"><i><b>ДЖЕЙМС ФЕСС</b> - ОПЫТНЫЙ ТУРИСТ</i></span></footer></div>
 								</div>
 							</div>
 						
@@ -338,7 +338,7 @@ $(function () {$('#imStickyBar_imMenuObject_01_container ul li').not('.imMnMnSep
 						<div id="imFooterObjects"><div id="imFooter_imTextObject_02_wrapper" class="template-object-wrapper"><div id="imFooter_imTextObject_02">
 	<div data-index="0"  class="text-tab-content grid-prop current-tab "  id="imFooter_imTextObject_02_tab0" style="opacity: 1; ">
 		<div class="text-inner">
-			<div><div style="text-align: center;"><span class="fs12 cf1">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</span></div></div>
+			<div><div class="imTACenter"><span class="fs12lh1-5 cf1">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</span></div></div>
 		</div>
 	</div>
 

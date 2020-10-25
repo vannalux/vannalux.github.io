@@ -16,7 +16,7 @@
 		<link rel="stylesheet" href="style/print.css?2020-3-3-1" media="print" />
 		<link rel="stylesheet" href="style/style.css?2020-3-3-1" media="screen,print" />
 		<link rel="stylesheet" href="style/template.css?2020-3-3-1" media="screen" />
-		<link rel="stylesheet" href="pcss/imsearch.css?2020-3-3-1-637391864225542301" media="screen,print" />
+		<link rel="stylesheet" href="pcss/imsearch.css?2020-3-3-1-637392696549951534" media="screen,print" />
 		<script src="res/jquery.js?2020-3-3-1"></script>
 		<script src="res/x5engine.js?2020-3-3-1" data-files-version="2020-3-3-1"></script>
 		<script>
@@ -24,7 +24,7 @@
 			x5engine.utils.currentPagePath = 'imsearch.php';
 			x5engine.boot.push(function () { x5engine.imPageToTop.initializeButton({}); });
 		</script>
-		<link rel="icon" href="favicon.png?2020-3-3-1-637391864225512216" type="image/png" />
+		<link rel="icon" href="favicon.png?2020-3-3-1-637392696549881541" type="image/png" />
 		<style>
 h1, h2, h3, h4, h5, h6 {
     font-weight: normal;
@@ -68,7 +68,7 @@ Page 1		</a>
 var imStickyBar_imMenuObject_01_settings = {
 	'menuId': 'imStickyBar_imMenuObject_01',
 	'responsiveMenuEffect': 'slide',
-	'animationDuration': 1000,
+	'animationDuration': 700,
 }
 x5engine.boot.push(function(){x5engine.initMenu(imStickyBar_imMenuObject_01_settings)});
 $(function () {$('#imStickyBar_imMenuObject_01_container ul li').not('.imMnMnSeparator').each(function () {    var $this = $(this), timeout = 0;    $this.on('mouseenter', function () {        if($(this).parents('#imStickyBar_imMenuObject_01_container-menu-opened').length > 0) return;         clearTimeout(timeout);        setTimeout(function () { $this.children('ul, .multiple-column').stop(false, false).fadeIn(); }, 250);    }).on('mouseleave', function () {        if($(this).parents('#imStickyBar_imMenuObject_01_container-menu-opened').length > 0) return;         timeout = setTimeout(function () { $this.children('ul, .multiple-column').stop(false, false).fadeOut(); }, 250);    });});});
@@ -102,7 +102,7 @@ $(function () {$('#imStickyBar_imMenuObject_01_container ul li').not('.imMnMnSep
 						<div id="imFooterObjects"><div id="imFooter_imTextObject_02_wrapper" class="template-object-wrapper"><div id="imFooter_imTextObject_02">
 	<div data-index="0"  class="text-tab-content grid-prop current-tab "  id="imFooter_imTextObject_02_tab0" style="opacity: 1; ">
 		<div class="text-inner">
-			<div><div style="text-align: center;"><span class="fs12 cf1">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</span></div></div>
+			<div><div class="imTACenter"><span class="fs12lh1-5 cf1">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</span></div></div>
 		</div>
 	</div>
 
