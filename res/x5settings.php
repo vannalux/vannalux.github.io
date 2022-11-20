@@ -7,7 +7,7 @@
 */
 
 $imSettings['general'] = array(
-	'site_id' => '3EDD3C6919303843CE8E8270FEBAEFCF',
+	'site_id' => 'CF8BF25F1BE590DDA65B4DE1ED3CAE1E',
 	'url' => 'https://nail-guru.tk/',
 	'homepage_url' => 'https://nail-guru.tk/index.html',
 	'icon' => 'https://nail-guru.tk/favImage.png',
@@ -36,8 +36,8 @@ $imSettings['password_policy'] = array(
 |	Captcha
 |-------------------------------
 */ImTopic::$captcha_code = "		<div class=\"x5captcha-wrap\">
-			<label for=\"adnvd7qd-imCpt\">Проверочное слово:</label><br />
-			<input type=\"text\" id=\"adnvd7qd-imCpt\" class=\"imCpt\" name=\"imCpt\" maxlength=\"5\" />
+			<label for=\"ix686wl0-imCpt\">Проверочное слово:</label><br />
+			<input type=\"text\" id=\"ix686wl0-imCpt\" class=\"imCpt\" name=\"imCpt\" maxlength=\"5\" />
 		</div>
 ";
 

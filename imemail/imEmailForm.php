@@ -8,7 +8,7 @@ if(substr(basename($_SERVER['PHP_SELF']), 0, 11) == "imEmailForm") {
 
 	$errorMessage = '';
 	if(@$_POST['action'] != 'check_answer') {
-		if(!isset($_POST['imJsCheck']) || $_POST['imJsCheck'] != '57DF1A6A35018A6D28651AE5849482B5' || (isset($_POST['imSpProt']) && $_POST['imSpProt'] != ""))
+		if(!isset($_POST['imJsCheck']) || $_POST['imJsCheck'] != 'B1330FDBAC36AE564934B9501F5DFA6F' || (isset($_POST['imSpProt']) && $_POST['imSpProt'] != ""))
 			$errorMessage = "Необходимо активировать JavaScript!";
 		$form->mailToOwner('annapumpkin777@gmail.com', '', 'annapumpkin777@gmail.com', 'Запись на Маникюр/Педикюр/Дизайн', "", false);
 		if ($errorMessage == '') {
