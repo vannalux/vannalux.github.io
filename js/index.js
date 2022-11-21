@@ -2,8 +2,8 @@
 document.addEventListener('DOMContentLoaded',function(event)
 {if(hasCookie('darktheme'))
 {document.documentElement.classList.add('darktheme');}});$(document).ready(function()
-{$('#wb_indexShape3').addClass('visibility-hidden');$("a[href*='#header']").click(function(event)
-{event.preventDefault();$('html, body').stop().animate({scrollTop:$('#wb_header').offset().top},600,'easeOutCirc');});function skrollrInit()
+{$('#wb_indexShape3').addClass('visibility-hidden');$("a[href*='#header-mixa']").click(function(event)
+{event.preventDefault();$('html, body').stop().animate({scrollTop:$('#wb_header-mixa').offset().top},600,'easeOutCirc');});function skrollrInit()
 {skrollr.init({forceHeight:false,mobileCheck:function(){return false;},smoothScrolling:false});}
 skrollrInit();$('#wb_VideoBackground').parallax();$("a[data-rel='gallery']").attr('rel','gallery');$("#gallery").magnificPopup({delegate:'a',type:'image',gallery:{enabled:true,navigateByImgClick:true}});function onScrollindexShape3()
 {var $obj=$("#wb_indexShape3");if(!$obj.hasClass("in-viewport")&&$obj.inViewPort(false))
