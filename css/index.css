@@ -1,10 +1,5 @@
 div#container { width:1150px; position:relative; margin:0 auto 0 auto; text-align:left; }
 body { background-color:#FFFFFF; color:#000000; font-family:Arial; font-weight:normal; font-size:16px; line-height:1.5; margin:0; text-align:center; }
-* { scrollbar-color:rgba(30,114,199,1.00) rgba(255,160,160,1.00); scrollbar-width:thin; }
-::-webkit-scrollbar { width:15px; }
-::-webkit-scrollbar-track { background:rgba(255,160,160,1.00); }
-::-webkit-scrollbar-thumb { background-color:rgba(30,114,199,1.00); }
-::-webkit-scrollbar-corner { background:rgba(255,160,160,1.00); }
 a { color:#0000FF; text-decoration:none; }
 a:visited { color:#800080; }
 a:active { color:#FF0000; }
@@ -86,6 +81,7 @@ a:hover { color:#0000FF; text-decoration:underline; }
 #wb_Text5 div { text-align:center; }
 #wb_Text5 { display:block; margin:0; box-sizing:border-box; width:100%; }
 #wb_FontAwesomeIcon1 { background-color:#2C3E50; background-image:none; border:2px solid #FFFFFF; border-radius:55px; text-align:center; margin:0 5px 0 5px; padding:10px 10px 10px 10px; vertical-align:top; display:inline-block; position:relative; }
+#wb_FontAwesomeIcon1 a::after { position:absolute; top:0; right:0; bottom:0; left:0; z-index:1; pointer-events:auto; content:""; }
 #wb_FontAwesomeIcon1:hover { background-color:#FFFFFF; background-image:none; border:2px solid #FFFFFF; }
 #FontAwesomeIcon1 { height:16px; width:16px; }
 #FontAwesomeIcon1 i { color:#FFFFFF; display:inline-block; font-size:16px; line-height:16px; vertical-align:middle; width:15px; }
@@ -93,6 +89,7 @@ a:hover { color:#0000FF; text-decoration:underline; }
 #wb_FontAwesomeIcon1 { transform:rotate(0deg); transition:transform 500ms linear 0ms; }
 #wb_FontAwesomeIcon1:hover { transform:rotate(360deg); transition:transform 500ms linear 0ms; }
 #wb_FontAwesomeIcon2 { background-color:#2C3E50; background-image:none; border:2px solid #FFFFFF; border-radius:50%; text-align:center; margin:0 5px 0 5px; padding:10px 10px 10px 10px; vertical-align:top; display:inline-block; position:relative; }
+#wb_FontAwesomeIcon2 a::after { position:absolute; top:0; right:0; bottom:0; left:0; z-index:1; pointer-events:auto; content:""; }
 #wb_FontAwesomeIcon2:hover { background-color:#FFFFFF; background-image:none; border:2px solid #FFFFFF; }
 #FontAwesomeIcon2 { height:16px; width:16px; }
 #FontAwesomeIcon2 i { color:#FFFFFF; display:inline-block; font-size:16px; line-height:16px; vertical-align:middle; width:15px; }
@@ -100,6 +97,7 @@ a:hover { color:#0000FF; text-decoration:underline; }
 #wb_FontAwesomeIcon2 { transform:rotate(0deg); transition:transform 500ms linear 0ms; }
 #wb_FontAwesomeIcon2:hover { transform:rotate(360deg); transition:transform 500ms linear 0ms; }
 #wb_FontAwesomeIcon3 { background-color:#2C3E50; background-image:none; border:2px solid #FFFFFF; border-radius:50%; text-align:center; margin:0 5px 0 5px; padding:10px 10px 10px 10px; vertical-align:top; display:inline-block; position:relative; }
+#wb_FontAwesomeIcon3 a::after { position:absolute; top:0; right:0; bottom:0; left:0; z-index:1; pointer-events:auto; content:""; }
 #wb_FontAwesomeIcon3:hover { background-color:#FFFFFF; background-image:none; border:2px solid #FFFFFF; }
 #FontAwesomeIcon3 { height:16px; width:16px; }
 #FontAwesomeIcon3 i { color:#FFFFFF; display:inline-block; font-size:16px; line-height:16px; vertical-align:middle; width:15px; }
@@ -107,6 +105,7 @@ a:hover { color:#0000FF; text-decoration:underline; }
 #wb_FontAwesomeIcon3 { transform:rotate(0deg); transition:transform 500ms linear 0ms; }
 #wb_FontAwesomeIcon3:hover { transform:rotate(360deg); transition:transform 500ms linear 0ms; }
 #wb_FontAwesomeIcon4 { background-color:#2C3E50; background-image:none; border:2px solid #FFFFFF; border-radius:50%; text-align:center; margin:0 5px 0 5px; padding:10px 10px 10px 10px; vertical-align:top; display:inline-block; position:relative; }
+#wb_FontAwesomeIcon4 a::after { position:absolute; top:0; right:0; bottom:0; left:0; z-index:1; pointer-events:auto; content:""; }
 #wb_FontAwesomeIcon4:hover { background-color:#FFFFFF; background-image:none; border:2px solid #FFFFFF; }
 #FontAwesomeIcon4 { height:16px; width:16px; }
 #FontAwesomeIcon4 i { color:#FFFFFF; display:inline-block; font-size:16px; line-height:16px; vertical-align:middle; width:15px; }
@@ -114,6 +113,7 @@ a:hover { color:#0000FF; text-decoration:underline; }
 #wb_FontAwesomeIcon4 { transform:rotate(0deg); transition:transform 500ms linear 0ms; }
 #wb_FontAwesomeIcon4:hover { transform:rotate(360deg); transition:transform 500ms linear 0ms; }
 #wb_FontAwesomeIcon5 { background-color:#2C3E50; background-image:none; border:2px solid #FFFFFF; border-radius:50%; text-align:center; margin:0 5px 0 5px; padding:10px 10px 10px 10px; vertical-align:top; display:inline-block; position:relative; }
+#wb_FontAwesomeIcon5 a::after { position:absolute; top:0; right:0; bottom:0; left:0; z-index:1; pointer-events:auto; content:""; }
 #wb_FontAwesomeIcon5:hover { background-color:#FFFFFF; background-image:none; border:2px solid #FFFFFF; }
 #FontAwesomeIcon5 { height:16px; width:16px; }
 #FontAwesomeIcon5 i { color:#FFFFFF; display:inline-block; font-size:16px; line-height:16px; vertical-align:middle; width:15px; }
@@ -129,6 +129,7 @@ a:hover { color:#0000FF; text-decoration:underline; }
 #masterLayer1 { background-color:transparent; background-image:none; border-radius:0px; padding:0; }
 #masterLayer1 { display:flex; align-items:center; flex-direction:column; justify-content:center; }
 #wb_masterIcon1 { background-color:transparent; background-image:none; border:0px solid #245580; border-radius:0px; text-align:center; margin:0; padding:0; vertical-align:top; display:inline-block; position:relative; }
+#wb_masterIcon1 a::after { position:absolute; top:0; right:0; bottom:0; left:0; z-index:1; pointer-events:auto; content:""; }
 #masterIcon1 { height:45px; width:45px; }
 #masterIcon1 i { color:#0963AD; display:inline-block; font-size:45px; line-height:45px; vertical-align:middle; width:44px; }
 #wb_masterIcon1:hover #masterIcon1 i { color:#337AB7; }
