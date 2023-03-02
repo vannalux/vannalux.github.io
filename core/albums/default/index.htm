@@ -1,0 +1,158 @@
+﻿<!DOCTYPE HTML>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<title>Photo Gallery</title>
+<meta name="generator" content="Antenna Web Design Studio">
+<meta http-equiv="imagetoolbar" content="no">
+<link rel="stylesheet" type="text/css" href="../../../antenna.css" id="css">
+<script type="text/javascript" src="../../../core/auto.js"></script>
+<style type="text/css">
+.abs {position:absolute}
+body {overflow:hidden}
+.content { display:flex; position:fixed; opacity:1; width:100%; height:100%; overflow:hidden; justify-content:center;
+ align-items:center; }
+.thumb-area { position:relative; height:100%; width:100%; position:absolute; top:0; left:0; }
+.photo-area { position:relative; flex-grow:1; }
+.thumbs { position:relative; top:0; left:0; width:100%; height:100%; overflow:visible; }
+.spc { float:left; cursor:pointer; margin-left:1px; margin-top:1px; }
+.tmb { width:125px; height:125px; position:relative; overflow:visible; }
+.tmb img { width:100%; height:100%; }
+</style>
+<style id="style-wrap" type="text/css">
+.wrap { transition:opacity 1s ease-out; position:fixed; background-color:rgba(255,255,255,0.7); }
+.lrg { border:1px solid; visibility:hidden; border-color:transparent; }
+.lrgdiv { position:relative; overflow:hidden; width:100%; height:100%; max-width:700px; max-height:700px; z-index:9999; }
+.lrg div img { position:absolute; left:0; width:100%; height:100%; object-fit:cover; }
+.photocaption { display:none; position:absolute; z-index:9999; bottom:0; width:100%; padding:0.5em; text-align:center;
+ color:rgba(230,230,230,1); background-color:rgba(0,0,0,0.6); font-size:14px; }
+</style>
+<script type="text/javascript">
+var sFilen; var sCap; var iCur=0; var iThumbContentHeight=127; var iSlideIndex=0; var iSlideOldIndex=-1; var bImgB=false;
+  var bFullScreen=false; var vViewDoc; var vViewWindow;
+function thumbClick(iIndex) { expandPhotoIdx(iIndex); }
+function expandPhotoIdx(iIndex){ iSlideIndex=iIndex; expandPhoto(vPhotoList[iIndex][0],vPhotoList[iIndex][1]); }
+function expandPhoto(sFilename,sCaption){ if (bFullScreen==bFullScreen) { showWrap(); }
+ document.getElementById('lastclicked').value=sFilename; var callback=document.getElementById('onclick').value; eval(callback);
+ sFilen=sFilename; sCap=sCaption; vLrg=vViewDoc.getElementById('vlarge'); vLrg.style.transition='transform 0.5s';
+ if (iSlideIndex>iSlideOldIndex) { setTimeout(function() { vLrg.style.transform='translateX(-300px)'; },10); }
+ else { setTimeout(function() { vLrg.style.transform='translateX(300px)'; },10); } iDelay=1;
+ vViewWindow.fadeTo(vLrg,0,0.2); iDelay=300; setTimeout(function() { vLrg.style.transition='transform 0s';
+ if (iSlideIndex<iSlideOldIndex) { vLrg.style.transform='translateX(-300px)'; }
+ else { vLrg.style.transform='translateX(300px)'; } expandPhoto2(sFilen,sCap); iSlideOldIndex=iSlideIndex; },iDelay); }
+function expandPhoto2(sFilename,sCaption){ var bFirstTime=(iSlideOldIndex<0); var p=sFilename.lastIndexOf('/');
+ if (p>-1) { sFilename=sFilename.substr(p+7) }; if (window.innerWidth) { var iMaxWidth=vViewWindow.innerWidth;
+ var iMaxHeight=vViewWindow.innerHeight; var iOffset=vViewWindow.pageYOffset; } else { var iMaxWidth=vViewDoc.body.offsetWidth;
+ var iMaxHeight=vViewDoc.body.offsetHeight; var iOffset=vViewDoc.body.scrollTop; } var iCaptionHeight=0;
+ vViewDoc.getElementById('photocaption').innerHTML=''; var iPadding=2; var vContainer=vViewDoc.getElementById('vlarge');
+ if (bImgB) { var vImage=vViewDoc.getElementById('vlargei2'); var vOld=vViewDoc.getElementById('vlargei'); } else { var vImage=vViewDoc.getElementById('vlargei'); var vOld=vViewDoc.getElementById('vlargei2'); }
+ vImage.style.position='absolute'; vImage.style.left='0'; vImage.style.width='100%'; vImage.style.height='auto';
+ vImage.style.transition='opacity 0s'; vImage.style.opacity=0; setTimeout(function() { vOld.style.zIndex=0; var vI=new Image();
+ vI.onload=function() { if (bFullScreen==true) { var str=window.location.href; var sPath=str.substring(0,str.lastIndexOf('/'));
+ vImage.src=sPath+'/'+sFilename; } else { vImage.src=sFilename; } var iImgWidth=((vI.width*100)/100)+iPadding;
+ var iImgHeight=((vI.height*100)/100)+iPadding; if (iImgWidth>iMaxWidth || iImgHeight>iMaxHeight) { var r1=iImgWidth/iMaxWidth;
+ var r2=iImgHeight/iMaxHeight; if (r1<r2) { r1=r2; } iImgWidth=iImgWidth/r1; iImgHeight=iImgHeight/r1; }
+ var iTotalHeight=iImgHeight+iCaptionHeight; var iShiftX=0; var iShiftY=0; var iX=(iMaxWidth-iImgWidth+iShiftX)/2;
+ var iY=(iMaxHeight-iTotalHeight+iShiftY)/2; vContainer.style.transition='transform 0.5s ease-out'; setTimeout(function() {
+ vImage.style.zIndex=99; vContainer.style.transform='translateX(0)'; vContainer.style.width=iImgWidth+'px';
+ vContainer.style.height=iImgHeight+'px'; vContainer.style.visibility='visible'; vImage.style.opacity=1;
+ vViewWindow.fadeTo(vContainer,100,0.3); bImgB=!bImgB; },0); }; vI.src=sFilename+'?t'; vI.src=sFilename; },75); }
+function mouseY(e) { if (e.pageY) return e.pageY; else if (e.clientY) return e.clientY; else return 0; }
+function mouseX(e) { if (e.pageX) return e.pageX; else if (e.clientX) return e.clientX; else return 0; }
+function getWindowWidth() { if (window.innerWidth) return window.innerWidth; else return document.body.offsetWidth; }
+function getWindowHeight() { if (window.innerHeight) return window.innerHeight; else return document.body.offsetHeight; }
+var bThumbScroll=1; var vTmr; var vTmrExit; var iTgt=0; var iTgt2=0; var iNew=0; var iMPos=0; var iMax=0; var bAxis='y';
+ var iWindow=1.5; var vInc=new Array(8,7,6,5,4,4,3,3,3,2,2,2,2,1,1,1,1,1,0.5,0.5,0.5,0.5,0.5,0.5,0.5); var bReady=0;
+ var iTouchStart=0; var bTouchActive=false;
+function calcSpeed(iP) { iP=Math.round(iP/2); return vInc[iP]; }
+function calcDamp(i,t) { i=i/(5-(Math.abs(t)/50)); if (i<0.5) {i=0.5}; return i; }
+function scrollThumbs() { var iChange=(iTgt-iCur)/16; if (iChange>-.5 && iChange<0) {iChange=-.5};
+ if (iChange>0 && iChange<.5) {iChange=.5}; if (Math.abs(iTgt-iCur)<.5) {iCur=iTgt} else {iCur=iCur+iChange}; var iInc;
+ if (iMPos<48 && iTgt2>iNew) { iInc=calcSpeed(iMPos); if (iNew>-200) { iInc=calcDamp(iInc,iNew) }; iNew=iNew+iInc };
+ if (iMPos>(iMax-48) && iTgt2<iNew) { iInc=calcSpeed(iMax-iMPos-1); if (iNew-iTgt2<200) { iInc=calcDamp(iInc,iNew-iTgt2) }; iNew=iNew-iInc; };
+var sLoc=Math.round(iNew+iCur)+'px'; if (bAxis=='y') document.getElementById('thumbs').style.top=sLoc;
+ else document.getElementById('thumbs').style.left=sLoc; }
+function startTimer() { if (bThumbScroll==1) { vTmr=setInterval('scrollThumbs()',16); }; };
+function removePx(coord) { return parseInt(coord.slice(0,-2)); };
+function getLimits() { var iDim; var iDim2; if (bAxis=='y') { iMax=getWindowHeight(); iDim=iMax*iWindow;
+ iDim2=iThumbContentHeight; if (iDim>iDim2) { iDim=iDim2 }; } else { iMax=getWindowWidth(); iDim=iMax*iWindow; iDim2=127;
+ if (iDim>iDim2) { iDim=iDim2 }; } return [iDim,iDim2]; }
+function setTargetPos(p) { if (bReady==1) { var iPos=p-50; var a=getLimits(); var iDim=a[0]; var iDim2=a[1]; var iL=iDim-iMax;
+ var iY=Math.round(iL/((iMax-100)/iPos)); if (iY>iL) iY=iL; if (iY<0) iY=0; iTgt=-iY; var iL2=iDim2-(iMax*iWindow);
+ var iY2=Math.round(iL2/((iMax-100)/iPos)); if (iY2>iL2) iY2=iL2; if (iY2<0) iY2=0; iTgt2=-iY2; iMPos=iPos+50; } }
+function handleMouseMove(e) { if (!bTouchActive) { var iPos; if (bAxis=='y') { iPos=mouseY(e) } else { iPos=mouseX(e) };
+ setTargetPos(iPos); } }
+function handleMouseOut(e) { if (vTmr) { /*vTmrExit=setTimeout(function() { setTargetPos(iTgt); },1000); */ } }
+function handleMouseOver(e) { if (vTmrExit) { clearTimeout(vTmrExit); } }
+function handleTouchStart(e) { bTouchActive=true; if (e.targetTouches.length==1) { var touch=e.targetTouches[0];
+ if (bAxis=='y') { iStart=touch.pageY } else { iStart=touch.pageX }; iMark=iCur; } }
+function handleTouchMove(e) { e.preventDefault(); if (e.targetTouches.length==1) { var touch=e.targetTouches[0]; var delta;
+ if (bAxis=='y') { delta=touch.pageY-iStart } else { delta=touch.pageX-iStart }; var a=getLimits(); var iL=-(a[1]-iMax);
+ var iP=iMark+(delta*1.5); if (iP>0) iP=0; if (iP<iL) iP=iL; iTgt=iP; iTgt2=iP; iMPos=50; iNew=0; } }
+function sendWrapOut() { var vWrap=document.getElementById('wrap'); if (vWrap) { vWrap.addEventListener('click',function() {
+ hideWrap(); }); if (bFullScreen==true) { vViewDoc.body.appendChild(vWrap); var vStyle=document.getElementById('style-wrap');
+ if (vStyle) { vViewDoc.head.appendChild(vStyle); } } } }
+function bringWrapIn() { if (bFullScreen==true) { var vWrap=vViewDoc.getElementById('wrap'); if (vWrap) {
+ document.body.appendChild(vWrap); } var vStyle=document.getElementById('style-wrap'); if (vStyle) {
+ document.head.appendChild(vStyle); } } }
+function showWrap() { sendWrapOut(); var vWrap=vViewDoc.getElementById('wrap'); if (vWrap) { if (vWrap.style.height=='0px') {
+ vWrap.style.height='100%'; setTimeout(function() { vWrap.style.opacity=1; },10); } } }
+function hideWrap() { var vWrap=vViewDoc.getElementById('wrap'); var vLrg=vViewDoc.getElementById('vlarge'); if (vWrap) {
+ if (vWrap.style.height!='0px') { setTimeout(function() { vWrap.style.height='0px'; bringWrapIn(); },1000);
+ vWrap.style.opacity=0; if (vLrg) { vLrg.style.opacity=0; } } } }
+function setupLrg() { var  vObj=document.getElementById('vlarge');
+vObj.addEventListener('click',function(e) { e.stopPropagation(); slideNext(); }); }
+function setupThumbs() { var iW=getWindowWidth(); if (iW<1) { setTimeout('setupVars()',250); return; };
+ var iThumbSpc=removePx('1px'); var iThumbDim=removePx('125px')+iThumbSpc; var iX=Math.floor(iW/iThumbDim);
+ iThumbContentHeight=(Math.ceil(vPhotoList.length/iX)*iThumbDim)+iThumbSpc; var iTmp;
+ if (bAxis=='x') { iTmp=127-getWindowWidth() } else { iTmp=iThumbContentHeight-getWindowHeight() }; if (iTmp<0) bThumbScroll=0; }
+function setupVars() { vViewDoc=document; vViewWindow=window; setupThumbs(); if (bFullScreen==true) { vViewWindow=window.parent;
+ vViewDoc=vViewWindow.document; } setupLrg(); startTimer(); bReady=1; }
+function stopTimer() { if (bThumbScroll==1) clearInterval(vTmr); };
+var vSlideShow; var iSlide=0;
+function slideShowReset() { iSlide=0; };
+function slideShowPlay() { expandPhotoIdx(iSlide); iSlide=iSlide+1; if (iSlide>vPhotoList.length-1) { iSlide=0; }; vSlideShow=setTimeout('slideShowPlay()',2*1000); };
+function slideNext() { iSlide=iSlideIndex+1; if (iSlide>vPhotoList.length-1) { iSlide=0; }
+ if (iSlide!=iSlideIndex) { expandPhotoIdx(iSlide); } }
+function slideShowPause() { clearTimeout(vSlideShow); };
+var vPhotoList=new Array();
+vPhotoList[0]=new Array("06062022ryu1 (1).jpg","");
+vPhotoList[1]=new Array("06062022ryu1 (2).jpg","");
+vPhotoList[2]=new Array("06062022ryu1 (3).jpg","");
+vPhotoList[3]=new Array("06062022ryu1 (4).jpg","");
+vPhotoList[4]=new Array("06062022ryu1 (5).jpg","");
+vPhotoList[5]=new Array("06062022ryu1 (6).jpg","");
+vPhotoList[6]=new Array("06062022ryu1 (7).jpg","");
+vPhotoList[7]=new Array("06062022ryu1 (8).jpg","");
+
+</script>
+
+</head><body class="global" style="overflow:hidden;" onload="setupVars()"><div style=""><center>
+<input type="hidden" id="lastclicked" value="None"><input type="hidden" id="onclick" value="">
+<div id="content" class="content" style="filter:alpha(opacity=100);">
+<div id="thumb-area" class="thumb-area"><div id="thumbs" class="thumbs" onmousemove="handleMouseMove(event)"
+ onmouseout="handleMouseOut(event)" onmouseover="handleMouseOver(event)"
+ ontouchstart="handleTouchStart(event)" ontouchmove="handleTouchMove(event)"><div class="spc"><div id="a0" class="tmb" style="opacity:0.8; filter:alpha(opacity=80)" onmouseover="rollOver('a0');" onmouseout="rollOut('a0');"><script type="text/javascript"><!-- 
+rollInit('a0','','', 100, 0.3,'','','' ); 
+// --></script><center><img id="a0i" src="thumb-06062022ryu1 (1).jpg" alt="" onclick="expandPhotoIdx(0);"></center></div></div><div class="spc"><div id="a1" class="tmb" style="opacity:0.8; filter:alpha(opacity=80)" onmouseover="rollOver('a1');" onmouseout="rollOut('a1');"><script type="text/javascript"><!-- 
+rollInit('a1','','', 100, 0.3,'','','' ); 
+// --></script><center><img id="a1i" src="thumb-06062022ryu1 (2).jpg" alt="" onclick="expandPhotoIdx(1);"></center></div></div><div class="spc"><div id="a2" class="tmb" style="opacity:0.8; filter:alpha(opacity=80)" onmouseover="rollOver('a2');" onmouseout="rollOut('a2');"><script type="text/javascript"><!-- 
+rollInit('a2','','', 100, 0.3,'','','' ); 
+// --></script><center><img id="a2i" src="thumb-06062022ryu1 (3).jpg" alt="" onclick="expandPhotoIdx(2);"></center></div></div><div class="spc"><div id="a3" class="tmb" style="opacity:0.8; filter:alpha(opacity=80)" onmouseover="rollOver('a3');" onmouseout="rollOut('a3');"><script type="text/javascript"><!-- 
+rollInit('a3','','', 100, 0.3,'','','' ); 
+// --></script><center><img id="a3i" src="thumb-06062022ryu1 (4).jpg" alt="" onclick="expandPhotoIdx(3);"></center></div></div><div class="spc"><div id="a4" class="tmb" style="opacity:0.8; filter:alpha(opacity=80)" onmouseover="rollOver('a4');" onmouseout="rollOut('a4');"><script type="text/javascript"><!-- 
+rollInit('a4','','', 100, 0.3,'','','' ); 
+// --></script><center><img id="a4i" src="thumb-06062022ryu1 (5).jpg" alt="" onclick="expandPhotoIdx(4);"></center></div></div><div class="spc"><div id="a5" class="tmb" style="opacity:0.8; filter:alpha(opacity=80)" onmouseover="rollOver('a5');" onmouseout="rollOut('a5');"><script type="text/javascript"><!-- 
+rollInit('a5','','', 100, 0.3,'','','' ); 
+// --></script><center><img id="a5i" src="thumb-06062022ryu1 (6).jpg" alt="" onclick="expandPhotoIdx(5);"></center></div></div><div class="spc"><div id="a6" class="tmb" style="opacity:0.8; filter:alpha(opacity=80)" onmouseover="rollOver('a6');" onmouseout="rollOut('a6');"><script type="text/javascript"><!-- 
+rollInit('a6','','', 100, 0.3,'','','' ); 
+// --></script><center><img id="a6i" src="thumb-06062022ryu1 (7).jpg" alt="" onclick="expandPhotoIdx(6);"></center></div></div><div class="spc"><div id="a7" class="tmb" style="opacity:0.8; filter:alpha(opacity=80)" onmouseover="rollOver('a7');" onmouseout="rollOut('a7');"><script type="text/javascript"><!-- 
+rollInit('a7','','', 100, 0.3,'','','' ); 
+// --></script><center><img id="a7i" src="thumb-06062022ryu1 (8).jpg" alt="" onclick="expandPhotoIdx(7);"></center></div></div></div></div>
+<div id="photo-area" class="photo-area"><div id="wrap" class="wrap fil cen hid" style="height:0; opacity:0;">
+ <div id="vlarge" class="rel hid lrg ptr" style="width:100px; height:100px; opacity:0.02; filter:alpha(opacity=1);">
+ <div id="lrgdiv" class="lrgdiv"><img id="vlargei" alt=""><img id="vlargei2" alt="">
+ <div id="photocaption" class="photocaption">Photo Caption</div></div></div></div></div>
+</div>
+</center></div>
+</body></html>
