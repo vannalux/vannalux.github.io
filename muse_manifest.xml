@@ -1,47 +1,68 @@
-<manifest alg="2" build="2018.1.0.386" opt="false" iceEnabled="false" exportTarget="other" domain="https://vannalux.github.io" resolutions="1x" timestamp="1677849712388">
+<manifest alg="2" build="2018.1.1.386" opt="false" iceEnabled="false" exportTarget="other" domain="https://vannalux.github.io" resolutions="1x" timestamp="1677876240790">
   <folder name="css">
     <file name="site_global.css" crc="323003486"/>
-    <file name="master_______-a.css" crc="3854474056" ref="index"/>
-    <file name="index.css" crc="4103945893" ref="index"/>
+    <file name="master_______-a.css" crc="4146347184" ref="index"/>
+    <file name="index.css" crc="3975551933" ref="index"/>
   </folder>
   <folder name="fonts">
     <file name="oswald.woff" crc="482114974"/>
     <file name="oswald.eot" crc="4163656752"/>
     <file name="oswald.svg" crc="242041924"/>
-    <file name="oswald-bold.woff" crc="210989999"/>
-    <file name="oswald-bold.eot" crc="3817401821"/>
-    <file name="oswald-bold.svg" crc="143085064"/>
-    <file name="fa-regular-400.woff" crc="412421562"/>
-    <file name="fa-regular-400.eot" crc="3881530089"/>
-    <file name="fa-regular-400.svg" crc="4210298987"/>
     <file name="ptsans-narrowbold.woff" crc="3942810612"/>
     <file name="ptsansnarrow-bold.eot" crc="35338678"/>
     <file name="ptsans-narrowbold.svg" crc="217463701"/>
-    <file name="ptsans-narrow.woff" crc="4137024931"/>
-    <file name="ptsansnarrow-regular.eot" crc="281157933"/>
-    <file name="ptsans-narrow.svg" crc="431651533"/>
     <file name="fa-solid-900.woff" crc="4160298096"/>
     <file name="fa-solid-900.eot" crc="3961261344"/>
     <file name="fa-solid-900.svg" crc="4152254594"/>
     <file name="fa-brands-400.woff" crc="325439872"/>
     <file name="fa-brands-400.eot" crc="3922879454"/>
     <file name="fa-brands-400.svg" crc="284517209"/>
+    <file name="ptsans-narrow.woff" crc="4137024931"/>
+    <file name="ptsansnarrow-regular.eot" crc="281157933"/>
+    <file name="ptsans-narrow.svg" crc="431651533"/>
+    <file name="fa-regular-400.woff" crc="412421562"/>
+    <file name="fa-regular-400.eot" crc="3881530089"/>
+    <file name="fa-regular-400.svg" crc="4210298987"/>
+    <file name="oswald-bold.woff" crc="210989999"/>
+    <file name="oswald-bold.eot" crc="3817401821"/>
+    <file name="oswald-bold.svg" crc="143085064"/>
+    <file name="oswald.woff" crc="482114974"/>
+    <file name="oswald.eot" crc="4163656752"/>
+    <file name="oswald.svg" crc="242041924"/>
+    <file name="ptsans-narrowbold.woff" crc="3942810612"/>
+    <file name="ptsansnarrow-bold.eot" crc="35338678"/>
+    <file name="ptsans-narrowbold.svg" crc="217463701"/>
+    <file name="fa-solid-900.woff" crc="4160298096"/>
+    <file name="fa-solid-900.eot" crc="3961261344"/>
+    <file name="fa-solid-900.svg" crc="4152254594"/>
+    <file name="fa-brands-400.woff" crc="325439872"/>
+    <file name="fa-brands-400.eot" crc="3922879454"/>
+    <file name="fa-brands-400.svg" crc="284517209"/>
+    <file name="ptsans-narrow.woff" crc="4137024931"/>
+    <file name="ptsansnarrow-regular.eot" crc="281157933"/>
+    <file name="ptsans-narrow.svg" crc="431651533"/>
+    <file name="fa-regular-400.woff" crc="412421562"/>
+    <file name="fa-regular-400.eot" crc="3881530089"/>
+    <file name="fa-regular-400.svg" crc="4210298987"/>
+    <file name="oswald-bold.woff" crc="210989999"/>
+    <file name="oswald-bold.eot" crc="3817401821"/>
+    <file name="oswald-bold.svg" crc="143085064"/>
   </folder>
   <folder name="scripts">
     <file name="jquery-1.8.3.min.js" crc="209076791" ref="phone>index:index"/>
-    <file name="museutils.js" crc="340535759" ref="phone>index:index"/>
+    <file name="museutils.js" crc="3939489907" ref="phone>index:index"/>
     <file name="whatinput.js" crc="86476730" ref="phone>index:index"/>
-    <file name="museconfig.js" crc="4286661555" ref="phone>index:index"/>
-    <file name="jquery.musemenu.js" crc="510910590" ref="phone>index:index"/>
-    <file name="jquery.musepolyfill.bgsize.js" crc="4260645839" ref="phone>index:index"/>
-    <file name="jquery.watch.js" crc="51536988" ref="phone>index:index"/>
-    <file name="webpro.js" crc="4059564322" ref="phone>index:index"/>
-    <file name="musewpslideshow.js" crc="3862962738" ref="phone>index:index"/>
-    <file name="jquery.museoverlay.js" crc="4147669564" ref="phone>index:index"/>
-    <file name="touchswipe.js" crc="4075097462" ref="phone>index:index"/>
-    <file name="jquery.scrolleffects.js" crc="39568856" ref="phone>index:index"/>
+    <file name="museconfig.js" crc="3936894949" ref="phone>index:index"/>
+    <file name="jquery.musemenu.js" crc="4139692962" ref="phone>index:index"/>
+    <file name="jquery.musepolyfill.bgsize.js" crc="85124417" ref="phone>index:index"/>
+    <file name="jquery.watch.js" crc="522499760" ref="phone>index:index"/>
+    <file name="webpro.js" crc="3856315280" ref="phone>index:index"/>
+    <file name="musewpslideshow.js" crc="244150766" ref="phone>index:index"/>
+    <file name="jquery.museoverlay.js" crc="3877667098" ref="phone>index:index"/>
+    <file name="touchswipe.js" crc="3888935200" ref="phone>index:index"/>
+    <file name="jquery.scrolleffects.js" crc="312044820" ref="phone>index:index"/>
     <file name="html5shiv.js" crc="4241844378" ref="phone>index:index"/>
-    <file name="require.js" crc="7928878" ref="phone>index:index"/>
+    <file name="require.js" crc="4177726516" ref="phone>index:index"/>
   </folder>
   <folder name="images">
     <file name="favicon.ico" crc="3804460695" ref="phone>index"/>
@@ -57,7 +78,7 @@
     <file name="kruto147kk (2)202x204.jpg" crc="441912547" seo="true" ref="phone>index">
       <caption webpage="index" alt=""/>
     </file>
-    <file name="kruto147kk (3)-crop-u1607.jpg" crc="3771413475" seo="true" ref="phone>index">
+    <file name="kruto147kk (3)-crop-u1607.jpg" crc="4114119535" seo="true" ref="phone>index">
       <caption webpage="index" alt=""/>
     </file>
     <file name="kruto147kk (4)202x219.jpg" crc="80916006" seo="true" ref="phone>index">
@@ -206,10 +227,10 @@
   </folder>
   <folder name="phone">
     <folder name="css">
-      <file name="master_______-a.css" crc="4126668852" ref="phone>index"/>
-      <file name="index.css" crc="377825942" ref="phone>index"/>
+      <file name="master_______-a.css" crc="3808909108" ref="phone>index"/>
+      <file name="index.css" crc="3898086823" ref="phone>index"/>
     </folder>
-    <file name="index.html" crc="4022855208" seo="true" mt="1677849631300" redirect="true"/>
+    <file name="index.html" crc="4055998361" seo="true" mt="1677876201679" redirect="true"/>
   </folder>
-  <file name="index.html" crc="307020600" seo="true" mt="1677849687779" redirect="true"/>
+  <file name="index.html" crc="199139442" seo="true" mt="1677876003709" redirect="true"/>
 </manifest>
