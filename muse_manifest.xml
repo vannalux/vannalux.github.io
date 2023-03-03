@@ -1,4 +1,4 @@
-<manifest alg="2" build="2018.1.1.386" opt="false" iceEnabled="false" exportTarget="other" domain="https://vannalux.github.io" resolutions="1x" timestamp="1677876308755">
+<manifest alg="2" build="2018.1.1.386" opt="false" iceEnabled="false" exportTarget="other" domain="https://vannalux.github.io" resolutions="1x" timestamp="1677876439208">
   <folder name="css">
     <file name="site_global.css" crc="323003486"/>
     <file name="master_______-a.css" crc="4146347184" ref="index"/>
@@ -70,7 +70,6 @@
     <file name="manikyur-v-odesse76lku-u1687-fr.jpg" crc="3882756832" ref="phone>index"/>
     <file name="devushki-1rty567.jpg" crc="3961553383" seo="true" ref="phone>index:index">
       <caption webpage="index" alt="Наталия Ната"/>
-      <caption webpage="index" alt="Наталия Ната"/>
     </file>
     <file name="kruto147kk (1)202x202.jpg" crc="3902227059" seo="true" ref="phone>index">
       <caption webpage="index" alt=""/>
@@ -78,7 +77,7 @@
     <file name="kruto147kk (2)202x204.jpg" crc="441912547" seo="true" ref="phone>index">
       <caption webpage="index" alt=""/>
     </file>
-    <file name="kruto147kk (3)-crop-u1607.jpg" crc="4114119535" seo="true" ref="phone>index">
+    <file name="kruto147kk (3)-crop-u1607.jpg" crc="3771413475" seo="true" ref="phone>index">
       <caption webpage="index" alt=""/>
     </file>
     <file name="kruto147kk (4)202x219.jpg" crc="80916006" seo="true" ref="phone>index">
@@ -110,7 +109,6 @@
     </file>
     <file name="loading.gif" crc="3815509949" ref="phone>index:index"/>
     <file name="pngtree-beauty-makeup-day-morning-girl-character-beauty-salon-makeup-photography-picture-picture-image_1524128.jpg" crc="256029958" seo="true" ref="phone>index:index">
-      <caption webpage="index" alt="Аля Саша"/>
       <caption webpage="index" alt="Аля Саша"/>
     </file>
     <file name="06062022ryu1 (21)202x251.jpg" crc="402127837" seo="true" ref="phone>index">
@@ -228,9 +226,9 @@
   <folder name="phone">
     <folder name="css">
       <file name="master_______-a.css" crc="3808909108" ref="phone>index"/>
-      <file name="index.css" crc="3898086823" ref="phone>index"/>
+      <file name="index.css" crc="4116630477" ref="phone>index"/>
     </folder>
-    <file name="index.html" crc="4055998361" seo="true" mt="1677876201679" redirect="true"/>
+    <file name="index.html" crc="3975296989" seo="true" mt="1677876427309" redirect="true"/>
   </folder>
   <file name="index.html" crc="199139442" seo="true" mt="1677876003709" redirect="true"/>
 </manifest>
