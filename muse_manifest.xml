@@ -1,4 +1,4 @@
-<manifest alg="2" build="2018.1.1.386" opt="false" iceEnabled="false" exportTarget="other" domain="https://vannalux.github.io" resolutions="1x" timestamp="1677876439208">
+<manifest alg="2" build="2018.1.1.386" opt="false" iceEnabled="false" exportTarget="other" domain="https://vannalux.github.io" resolutions="1x" timestamp="1677877321416">
   <folder name="css">
     <file name="site_global.css" crc="323003486"/>
     <file name="master_______-a.css" crc="4146347184" ref="index"/>
@@ -67,26 +67,11 @@
   <folder name="images">
     <file name="favicon.ico" crc="3804460695" ref="phone>index"/>
     <file name="blank.gif" crc="4208392903" ref="phone>index:index"/>
-    <file name="manikyur-v-odesse76lku-u1687-fr.jpg" crc="3882756832" ref="phone>index"/>
+    <file name="manikyur-v-odesse76lku-u1687-fr.jpg" crc="355329390" ref="phone>index"/>
     <file name="devushki-1rty567.jpg" crc="3961553383" seo="true" ref="phone>index:index">
       <caption webpage="index" alt="Наталия Ната"/>
     </file>
-    <file name="kruto147kk (1)202x202.jpg" crc="3902227059" seo="true" ref="phone>index">
-      <caption webpage="index" alt=""/>
-    </file>
-    <file name="kruto147kk (2)202x204.jpg" crc="441912547" seo="true" ref="phone>index">
-      <caption webpage="index" alt=""/>
-    </file>
-    <file name="kruto147kk (3)-crop-u1607.jpg" crc="3771413475" seo="true" ref="phone>index">
-      <caption webpage="index" alt=""/>
-    </file>
-    <file name="kruto147kk (4)202x219.jpg" crc="80916006" seo="true" ref="phone>index">
-      <caption webpage="index" alt=""/>
-    </file>
-    <file name="kruto147kk (5)202x202.jpg" crc="4237469297" seo="true" ref="phone>index">
-      <caption webpage="index" alt=""/>
-    </file>
-    <file name="kruto147kk (6)202x202.jpg" crc="3855328732" seo="true" ref="phone>index">
+    <file name="kruto147kk (3)-crop-u1607.jpg" crc="4095516720" seo="true" ref="phone>index">
       <caption webpage="index" alt=""/>
     </file>
     <file name="kruto147kk (1)426x426.jpg" crc="3842058809" seo="true" ref="phone>index">
@@ -110,24 +95,6 @@
     <file name="loading.gif" crc="3815509949" ref="phone>index:index"/>
     <file name="pngtree-beauty-makeup-day-morning-girl-character-beauty-salon-makeup-photography-picture-picture-image_1524128.jpg" crc="256029958" seo="true" ref="phone>index:index">
       <caption webpage="index" alt="Аля Саша"/>
-    </file>
-    <file name="06062022ryu1 (21)202x251.jpg" crc="402127837" seo="true" ref="phone>index">
-      <caption webpage="index" alt=""/>
-    </file>
-    <file name="06062022ryu1 (21)202x202.jpg" crc="4038796834" seo="true" ref="phone>index">
-      <caption webpage="index" alt=""/>
-    </file>
-    <file name="06062022ryu1 (22)202x204.jpg" crc="4097322816" seo="true" ref="phone>index">
-      <caption webpage="index" alt=""/>
-    </file>
-    <file name="06062022ryu1 (25)202x221.jpg" crc="4060416215" seo="true" ref="phone>index">
-      <caption webpage="index" alt=""/>
-    </file>
-    <file name="06062022ryu1 (25)202x202.jpg" crc="86913530" seo="true" ref="phone>index">
-      <caption webpage="index" alt=""/>
-    </file>
-    <file name="06062022ryu1 (26)232x202.jpg" crc="171025234" seo="true" ref="phone>index">
-      <caption webpage="index" alt=""/>
     </file>
     <file name="06062022ryu1 (21)-crop-u1661.jpg" crc="3884199983" seo="true" ref="phone>index">
       <caption webpage="index" alt=""/>
@@ -222,13 +189,46 @@
     <file name="06062022ryu1 (26).jpg" crc="269695848" seo="true" ref="index">
       <caption webpage="index" alt=""/>
     </file>
+    <file name="kruto147kk (1)150x150.jpg" crc="311561888" seo="true" ref="phone>index">
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="kruto147kk (2)150x151.jpg" crc="3921791726" seo="true" ref="phone>index">
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="kruto147kk (4)150x163.jpg" crc="404184827" seo="true" ref="phone>index">
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="kruto147kk (5)150x150.jpg" crc="3781268448" seo="true" ref="phone>index">
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="kruto147kk (6)150x150.jpg" crc="3908773453" seo="true" ref="phone>index">
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="06062022ryu1 (21)150x187.jpg" crc="4016612749" seo="true" ref="phone>index">
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="06062022ryu1 (21)150x150.jpg" crc="3961749975" seo="true" ref="phone>index">
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="06062022ryu1 (22)150x152.jpg" crc="438596570" seo="true" ref="phone>index">
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="06062022ryu1 (25)150x164.jpg" crc="235496404" seo="true" ref="phone>index">
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="06062022ryu1 (25)150x150.jpg" crc="4285960323" seo="true" ref="phone>index">
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="06062022ryu1 (26)173x150.jpg" crc="304802841" seo="true" ref="phone>index">
+      <caption webpage="index" alt=""/>
+    </file>
   </folder>
   <folder name="phone">
     <folder name="css">
       <file name="master_______-a.css" crc="3808909108" ref="phone>index"/>
-      <file name="index.css" crc="4116630477" ref="phone>index"/>
+      <file name="index.css" crc="394099730" ref="phone>index"/>
     </folder>
-    <file name="index.html" crc="3975296989" seo="true" mt="1677876427309" redirect="true"/>
+    <file name="index.html" crc="8781680" seo="true" mt="1677877261051" redirect="true"/>
   </folder>
   <file name="index.html" crc="199139442" seo="true" mt="1677876003709" redirect="true"/>
 </manifest>
