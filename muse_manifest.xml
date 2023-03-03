@@ -1,8 +1,8 @@
-<manifest alg="2" build="2018.1.0.386" opt="false" iceEnabled="false" exportTarget="other" domain="https://vannalux.github.io" resolutions="1x" timestamp="1677849018891">
+<manifest alg="2" build="2018.1.0.386" opt="false" iceEnabled="false" exportTarget="other" domain="https://vannalux.github.io" resolutions="1x" timestamp="1677849712388">
   <folder name="css">
     <file name="site_global.css" crc="323003486"/>
-    <file name="master_______-a.css" crc="45309775" ref="index"/>
-    <file name="index.css" crc="4091389674" ref="index"/>
+    <file name="master_______-a.css" crc="3854474056" ref="index"/>
+    <file name="index.css" crc="4103945893" ref="index"/>
   </folder>
   <folder name="fonts">
     <file name="oswald.woff" crc="482114974"/>
@@ -206,10 +206,10 @@
   </folder>
   <folder name="phone">
     <folder name="css">
-      <file name="master_______-a.css" crc="3329153" ref="phone>index"/>
-      <file name="index.css" crc="253413569" ref="phone>index"/>
+      <file name="master_______-a.css" crc="4126668852" ref="phone>index"/>
+      <file name="index.css" crc="377825942" ref="phone>index"/>
     </folder>
-    <file name="index.html" crc="362466738" seo="true" mt="1677848967688" redirect="true"/>
+    <file name="index.html" crc="4022855208" seo="true" mt="1677849631300" redirect="true"/>
   </folder>
-  <file name="index.html" crc="3840135920" seo="true" mt="1677848923225" redirect="true"/>
+  <file name="index.html" crc="307020600" seo="true" mt="1677849687779" redirect="true"/>
 </manifest>
