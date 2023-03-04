@@ -1,4 +1,4 @@
-<manifest alg="2" build="2018.1.1.386" opt="false" iceEnabled="false" exportTarget="other" domain="https://vannalux.github.io" resolutions="1x" timestamp="1677878227874">
+<manifest alg="2" build="2018.1.1.386" opt="false" iceEnabled="false" exportTarget="other" domain="https://vannalux.github.io" resolutions="1x" timestamp="1677964727734">
   <folder name="css">
     <file name="site_global.css" crc="323003486"/>
     <file name="master_______-a.css" crc="4146347184" ref="index"/>
@@ -67,7 +67,7 @@
   <folder name="images">
     <file name="favicon.ico" crc="3804460695" ref="phone>index"/>
     <file name="blank.gif" crc="4208392903" ref="phone>index:index"/>
-    <file name="manikyur-v-odesse76lku-u1687-fr.jpg" crc="355329390" ref="phone>index"/>
+    <file name="manikyur-v-odesse76lku-u1687-fr.jpg" crc="3965293635" ref="phone>index"/>
     <file name="devushki-1rty567.jpg" crc="3961553383" seo="true" ref="phone>index:index">
       <caption webpage="index" alt="Наталия Ната"/>
     </file>
@@ -226,9 +226,9 @@
   <folder name="phone">
     <folder name="css">
       <file name="master_______-a.css" crc="3808909108" ref="phone>index"/>
-      <file name="index.css" crc="313918957" ref="phone>index"/>
+      <file name="index.css" crc="48204045" ref="phone>index"/>
     </folder>
-    <file name="index.html" crc="3879591936" seo="true" mt="1677878216165" redirect="true"/>
+    <file name="index.html" crc="4199672654" seo="true" mt="1677964658094" redirect="true"/>
   </folder>
   <file name="index.html" crc="199139442" seo="true" mt="1677876003709" redirect="true"/>
 </manifest>
