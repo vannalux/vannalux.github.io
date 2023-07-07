@@ -1,4 +1,4 @@
-<manifest alg="2" build="2018.1.1.386" opt="false" iceEnabled="false" exportTarget="other" domain="https://vannalux.github.io" resolutions="1x" timestamp="1688742399389">
+<manifest alg="2" build="2018.1.1.386" opt="false" iceEnabled="false" exportTarget="other" domain="https://vannalux.github.io" resolutions="1x" timestamp="1688742778387">
   <folder name="css">
     <file name="site_global.css" crc="444006867"/>
     <file name="index.css" crc="306154698" ref="index"/>
@@ -50,5 +50,5 @@
     <file name="165@2x-u136-fr.jpg" crc="4276885383" ref="index"/>
     <file name="blank.gif" crc="4208392903" ref="index"/>
   </folder>
-  <file name="index.html" crc="400621592" seo="true" mt="1688742165777" redirect="true"/>
+  <file name="index.html" crc="466774638" seo="true" mt="1688742757099" redirect="true"/>
 </manifest>
