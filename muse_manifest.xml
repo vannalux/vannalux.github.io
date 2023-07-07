@@ -1,4 +1,4 @@
-<manifest alg="2" build="2018.1.1.386" opt="false" iceEnabled="false" exportTarget="other" domain="https://vannalux.github.io" resolutions="1x" timestamp="1688742778387">
+<manifest alg="2" build="2018.1.1.386" opt="false" iceEnabled="false" exportTarget="other" domain="https://vannalux.github.io" resolutions="1x" timestamp="1688744382225">
   <folder name="css">
     <file name="site_global.css" crc="444006867"/>
     <file name="index.css" crc="306154698" ref="index"/>
@@ -37,11 +37,6 @@
       <caption webpage="index" alt=""/>
       <caption webpage="index" alt=""/>
     </file>
-    <file name="285.jpg" crc="128639925" seo="true" ref="index">
-      <caption webpage="index" alt=""/>
-      <caption webpage="index" alt=""/>
-      <caption webpage="index" alt=""/>
-    </file>
     <file name="292.jpg" crc="3899849138" seo="true" ref="index">
       <caption webpage="index" alt=""/>
       <caption webpage="index" alt=""/>
@@ -49,6 +44,15 @@
     </file>
     <file name="165@2x-u136-fr.jpg" crc="4276885383" ref="index"/>
     <file name="blank.gif" crc="4208392903" ref="index"/>
+    <file name="06062022ryu1 (30)-crop-u220.jpg" crc="65913980" seo="true" ref="index">
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="06062022ryu1 (30)-crop-u2202.jpg" crc="4224818441" seo="true" ref="index">
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="06062022ryu1 (30)-crop-u2203.jpg" crc="341849637" seo="true" ref="index">
+      <caption webpage="index" alt=""/>
+    </file>
   </folder>
-  <file name="index.html" crc="466774638" seo="true" mt="1688742757099" redirect="true"/>
+  <file name="index.html" crc="108169510" seo="true" mt="1688744355578" redirect="true"/>
 </manifest>
