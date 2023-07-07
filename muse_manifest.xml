@@ -1,8 +1,8 @@
-<manifest alg="2" build="2018.1.1.386" opt="false" iceEnabled="false" exportTarget="other" domain="https://vannalux.github.io" resolutions="1x" timestamp="1688747278888">
+<manifest alg="2" build="2018.1.1.386" opt="false" iceEnabled="false" exportTarget="other" domain="https://vannalux.github.io" resolutions="1x" timestamp="1688747562348">
   <folder name="css">
     <file name="site_global.css" crc="444006867"/>
-    <file name="index.css" crc="3763831587" ref="index"/>
-    <file name="nomq_index.css" crc="3967739064" ref="index"/>
+    <file name="index.css" crc="4289637287" ref="index"/>
+    <file name="nomq_index.css" crc="4052872223" ref="index"/>
   </folder>
   <folder name="fonts">
     <file name="fa-solid-900.woff" crc="4160298096"/>
@@ -54,5 +54,5 @@
       <caption webpage="index" alt="Ноготки"/>
     </file>
   </folder>
-  <file name="index.html" crc="253117782" seo="true" mt="1688747263906" redirect="true"/>
+  <file name="index.html" crc="356267482" seo="true" mt="1688747507862" redirect="true"/>
 </manifest>
