@@ -1,0 +1,32 @@
+a { color:#5D5D9E; } 
+a:visited { color:#5D5D9E; } 
+a:active { color:#5C615E; } 
+a:hover { color:#B2B3B4; } 
+body { background-color:#FFFFFF; padding:0;  margin: 0; }
+.textstyle1 { text-align:center; }
+#container_2f04d44a { vertical-align: top; position:relative; display: inline-block; width:100%; min-height:150px; max-width:1200px; background-color:#80FFFF;  }
+#container_2f04d44a_padding { margin: 10px; display: block;  }
+#container_4bd8ccd3 { vertical-align: top; position:relative; display: inline-block; margin:10px; width:31%; min-height:150px; background-color:#FF8040;  }
+#container_4bd8ccd3_padding { margin: 10px; display: block;  }
+.textstyle2 { text-align:left; }
+#container_6848ba0 { vertical-align: top; position:relative; display: inline-block; margin:10px; width:31%; min-height:150px; background-color:#008000;  }
+#container_6848ba0_padding { margin: 10px; display: block;  }
+#container_5937bf07 { vertical-align: top; position:relative; display: inline-block; margin:10px; width:31%; min-height:150px; background-color:#0000FF;  }
+#container_5937bf07_padding { margin: 10px; display: block;  }
+#container_7a1f4ea1 { vertical-align: top; position:relative; display: inline-block; width:100%; min-height:150px; background:none;  }
+#container_7a1f4ea1_padding { margin: 10px; display: block;  }
+#container_38f1d0e3 { vertical-align: top; position:relative; display: inline-block; margin:10px; width:31%; min-height:150px; background-color:#004080;  }
+#container_38f1d0e3_padding { margin: 10px; display: block;  }
+#container_5abfa5b { vertical-align: top; position:relative; display: inline-block; margin:10px; width:31%; min-height:150px; background-color:#008080;  }
+#container_5abfa5b_padding { margin: 10px; display: block;  }
+#container_c75a26f { vertical-align: top; position:relative; display: inline-block; margin:10px; width:31%; min-height:150px; background-color:#800080;  }
+#container_c75a26f_padding { margin: 10px; display: block;  }
+@media only screen and (max-width: 640px)
+{
+		#container_4bd8ccd3 { width:100%;  }
+		#container_6848ba0 { width:100%;  }
+		#container_5937bf07 { width:100%;  }
+		#container_38f1d0e3 { width:100%;  }
+		#container_5abfa5b { width:100%;  }
+		#container_c75a26f { width:100%;  }
+}
