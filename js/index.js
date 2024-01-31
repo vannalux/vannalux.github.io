@@ -15,4 +15,9 @@ $(document).ready(function()
       event.preventDefault();
       $('html, body').stop().animate({ scrollTop: $('#wb_LayoutGrid3').offset().top-88 }, 600, 'easeOutCirc');
    });
+   function skrollrInit()
+   {
+      skrollr.init({forceHeight: false, mobileCheck: function() { return false; }, smoothScrolling: false});
+   }
+   skrollrInit();
 });
