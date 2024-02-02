@@ -292,16 +292,16 @@ body { background-color:#FFFFFF; color:#000000; font-family:Arial; font-weight:n
 #wb_uid13 { margin:0 0 0 24px; }
 #wb_uid4 { color:#000000; font-family:"Arial"; font-size:16px; line-height:24px; }
 #wb_uid22 { list-style-type:disc; }
-#wb_uid10 { color:#FFFF00; font-family:"Arial"; font-size:19px; line-height:16px; }
+#wb_uid10 { color:#00FFFF; font-family:"Arial"; font-size:24px; line-height:23px; }
 #wb_uid3 { color:#000000; font-family:"Arial"; font-size:13px; line-height:16px; }
 #wb_uid21 { margin:0 0 0 24px; }
 #wb_uid11 { list-style-type:disc; }
 #Button1 { display:inline-block; width:156px; height:37px; z-index:12; }
 #wb_uid2 { color:#FFFF00; font-family:"Open Sans"; font-weight:600; font-stretch:75%; font-size:35px; }
 #wb_uid20 { margin:0 0 0 24px; }
-#wb_uid16 { color:#000000; font-family:"Arial"; font-size:19px; line-height:16px; }
+#wb_uid16 { color:#000000; font-family:"Arial"; font-size:19px; line-height:23px; }
 #wb_uid1 { color:#FFFF00; font-family:"Open Sans"; font-weight:600; font-stretch:75%; font-size:35px; }
-#wb_uid17 { color:#FFFF00; font-family:"Arial"; font-size:19px; line-height:16px; }
+#wb_uid17 { color:#00FFFF; font-family:"Arial"; font-size:24px; line-height:23px; }
 #wb_uid0 { color:#FFFF00; font-family:"Open Sans"; font-weight:600; font-stretch:75%; font-size:35px; }
 #wb_uid30 { font-weight:bold; color:#A52A2A; }
 #wb_Heading6 { display:block; width:100%; z-index:28; }
@@ -323,7 +323,7 @@ body { background-color:#FFFFFF; color:#000000; font-family:Arial; font-weight:n
 #wb_uid28 { margin:0 0 0 24px; }
 #wb_uid19 { margin:0 0 0 24px; }
 #Layer1 { position:fixed; overflow:hidden; text-align:center; left:auto; right:20px; top:auto; bottom:20px; width:45px; height:45px; z-index:47; z-index:9999; }
-#wb_uid9 { color:#000000; font-family:"Arial"; font-size:19px; line-height:16px; }
+#wb_uid9 { color:#000000; font-family:"Arial"; font-size:19px; line-height:23px; }
 #wb_Heading1 { display:block; width:100%; z-index:0; }
 #wb_uid27 { margin:0 0 0 24px; }
 #wb_uid8 { color:#FFFFFF; font-family:"Arial"; font-size:19px; line-height:42px; }
