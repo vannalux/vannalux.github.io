@@ -1,6 +1,7 @@
-body { background-color:#FFFFFF; color:#000000; font-family:Arial; font-weight:normal; font-size:16px; line-height:1.4; margin:0; padding:0; }
+div#container { width:970px; position:relative; margin:0 auto 0 auto; text-align:left; }
+body { background-color:#FFFFFF; color:#000000; font-family:Arial; font-weight:normal; font-size:16px; line-height:1.4; margin:0; text-align:center; }
 .visibility-hidden { visibility:hidden; }
-#wb_LayoutGrid1 { clear:both; position:relative; table-layout:fixed; display:table; text-align:center; width:100%; background-color:transparent; background-image:url('../images/manikyur-v-odesse76lku.jpg'); background-repeat:repeat; background-position:right bottom; background-attachment:fixed; background-position:50% 0; background-size:cover; border:0px solid #CCCCCC; border-radius:0px; box-sizing:border-box; margin:0; }
+#wb_LayoutGrid1 { clear:both; position:relative; table-layout:fixed; display:table; text-align:center; width:100%; background-color:transparent; background-image:url('../images/11.jpg'); background-repeat:repeat; background-position:right bottom; background-attachment:fixed; background-position:50% 0; background-size:cover; border:0px solid #CCCCCC; border-radius:0px; box-sizing:border-box; margin:0; }
 #LayoutGrid1 { box-sizing:border-box; padding:200px 15px 200px 15px; margin-right:auto; margin-left:auto; }
 #LayoutGrid1 > .row { margin-right:-15px; margin-left:-15px; }
 #LayoutGrid1 > .row > .col-1 { box-sizing:border-box; font-size:0; min-height:1px; padding-right:15px; padding-left:15px; position:relative; }
@@ -190,27 +191,148 @@ body { background-color:#FFFFFF; color:#000000; font-family:Arial; font-weight:n
 #Icon1 { height:26px; width:26px; }
 #Icon1 i { color:#4F4F4F; display:inline-block; font-size:26px; line-height:26px; vertical-align:middle; width:25px; }
 #wb_Icon1:hover #Icon1 i { color:#4F4F4F; }
+#wb_LayoutGrid2 { clear:both; position:relative; table-layout:fixed; display:table; text-align:center; width:100%; background-color:transparent; background-image:none; border:0px solid #CCCCCC; border-radius:0px; box-sizing:border-box; margin:0; }
+#LayoutGrid2 { box-sizing:border-box; padding:15px 15px 15px 15px; margin-right:auto; margin-left:auto; max-width:1200px; }
+#LayoutGrid2 > .row { margin-right:-15px; margin-left:-15px; }
+#LayoutGrid2 > .row > .col-1,#LayoutGrid2 > .row > .col-2,#LayoutGrid2 > .row > .col-3 { box-sizing:border-box; font-size:0; min-height:1px; padding-right:15px; padding-left:15px; position:relative; }
+#LayoutGrid2 > .row > .col-1,#LayoutGrid2 > .row > .col-2,#LayoutGrid2 > .row > .col-3 { float:left; }
+#LayoutGrid2 > .row > .col-1 { background-color:transparent; background-image:none; border:0px solid #FFFFFF; border-radius:0px; width:calc((100% - 50px) / 2); text-align:left; }
+#LayoutGrid2 > .row > .col-1 > .col-1-padding { box-sizing:border-box; width:100%; padding:11px 0 11px 0; }
+#LayoutGrid2 > .row > .col-2 { background-color:transparent; background-image:none; border:0px solid #FFFFFF; border-radius:0px; width:50px; text-align:left; }
+#LayoutGrid2 > .row > .col-2 > .col-2-padding { box-sizing:border-box; width:100%; padding:11px 0 11px 0; }
+#LayoutGrid2 > .row > .col-3 { background-color:transparent; background-image:none; border:0px solid #FFFFFF; border-radius:0px; width:calc((100% - 50px) / 2); text-align:left; }
+#LayoutGrid2 > .row > .col-3 > .col-3-padding { box-sizing:border-box; width:100%; padding:11px 0 11px 0; }
+#LayoutGrid2:before,#LayoutGrid2:after,#LayoutGrid2 .row:before,#LayoutGrid2 .row:after { display:table; content:" "; }
+#LayoutGrid2:after,#LayoutGrid2 .row:after { clear:both; }
+@media (max-width: 768px) {
+#LayoutGrid2 > .row > .col-1,#LayoutGrid2 > .row > .col-2,#LayoutGrid2 > .row > .col-3 { float:none; width:100%  !important; }
+}
+#wb_LayoutGrid5 { clear:both; position:relative; table-layout:fixed; display:table; text-align:center; width:100%; background-color:transparent; background-image:url('../price-akril.webp'); background-repeat:repeat; background-position:center center; background-size:cover; border:0px solid #CCCCCC; border-radius:10px; box-sizing:border-box; margin:0; }
+#LayoutGrid5 { box-sizing:border-box; padding:55px 22px 55px 22px; margin-right:auto; margin-left:auto; }
+#LayoutGrid5 > .row { margin-right:-12px; margin-left:-12px; }
+#LayoutGrid5 > .row > .col-1 { box-sizing:border-box; font-size:0; min-height:1px; padding-right:22px; padding-left:22px; position:relative; }
+#LayoutGrid5 > .row > .col-1 { float:left; }
+#LayoutGrid5 > .row > .col-1 { background-color:transparent; background-image:none; border:0px solid #FFFFFF; border-radius:0px; width:100%; text-align:left; }
+#LayoutGrid5:before,#LayoutGrid5:after,#LayoutGrid5 .row:before,#LayoutGrid5 .row:after { display:table; content:" "; }
+#LayoutGrid5:after,#LayoutGrid5 .row:after { clear:both; }
+@media (max-width: 480px) {
+#LayoutGrid5 > .row > .col-1 { float:none; width:100%  !important; }
+}
+#wb_Text8 { background-color:transparent; background-image:none; border:0px solid #FFFFFF; border-radius:0px; padding:0; margin:0; text-align:center; }
+#wb_Text8 div { text-align:center; }
+#wb_Text8 { display:block; margin:0; box-sizing:border-box; width:100%; }
+#wb_Text9 { background-color:transparent; background-image:none; border:0px solid #000000; border-radius:0px; padding:0; margin:35px 15px 15px 15px; text-align:left; }
+#wb_Text9 { color:#FFFFFF; font-family:Arial; font-weight:400; font-size:16px; line-height:27px; }
+#wb_Text9 p,#wb_Text9 ul { margin:0; padding:0; }
+#wb_Text9 { display:block; margin:35px 15px 15px 15px; box-sizing:border-box; width:calc(100% - 30px); }
+#wb_LayoutGrid7 { clear:both; position:relative; table-layout:fixed; display:table; text-align:center; width:100%; background-color:transparent; background-image:url('../price-emalirovka.webp'); background-repeat:space; background-position:center center; background-size:cover; border:0px solid #CCCCCC; border-radius:10px; box-sizing:border-box; margin:0; }
+#LayoutGrid7 { box-sizing:border-box; padding:55px 15px 55px 15px; margin-right:auto; margin-left:auto; }
+#LayoutGrid7 > .row { margin-right:-5px; margin-left:-5px; }
+#LayoutGrid7 > .row > .col-1 { box-sizing:border-box; font-size:0; min-height:1px; padding-right:15px; padding-left:15px; position:relative; }
+#LayoutGrid7 > .row > .col-1 { float:left; }
+#LayoutGrid7 > .row > .col-1 { background-color:transparent; background-image:none; border:0px solid #FFFFFF; border-radius:0px; width:100%; text-align:left; }
+#LayoutGrid7:before,#LayoutGrid7:after,#LayoutGrid7 .row:before,#LayoutGrid7 .row:after { display:table; content:" "; }
+#LayoutGrid7:after,#LayoutGrid7 .row:after { clear:both; }
+@media (max-width: 480px) {
+#LayoutGrid7 > .row > .col-1 { float:none; width:100%  !important; }
+}
+#wb_Text11 { background-color:transparent; background-image:none; border:0px solid #000000; border-radius:0px; padding:0; margin:35px 15px 15px 15px; text-align:left; }
+#wb_Text11 { color:#FFFFFF; font-family:Arial; font-weight:400; font-size:16px; line-height:27px; }
+#wb_Text11 p,#wb_Text11 ul { margin:0; padding:0; }
+#wb_Text11 { display:block; margin:35px 15px 15px 15px; box-sizing:border-box; width:calc(100% - 30px); }
+#wb_LayoutGrid6 { clear:both; position:relative; table-layout:fixed; display:table; text-align:center; width:100%; background-color:transparent; background-image:none; border:0px solid #CCCCCC; border-radius:0px; box-sizing:border-box; margin:0; }
+#LayoutGrid6 { box-sizing:border-box; display:flex; flex-direction:row; flex-wrap:wrap; padding:15px 0 15px 0; margin-right:auto; margin-left:auto; max-width:1200px; }
+#LayoutGrid6 > .col-1 { box-sizing:border-box; font-size:0; min-height:1px; padding-right:15px; padding-left:15px; position:relative; }
+#LayoutGrid6 > .col-1 { flex:0 0 auto; }
+#LayoutGrid6 > .col-1 { background-color:transparent; background-image:none; border:0px solid #FFFFFF; border-radius:0px; flex-basis:100%; max-width:100%; display:flex; flex-wrap:wrap; align-content:flex-start; align-self:stretch; align-items:flex-start; justify-content:center; text-align:center; }
+@media (max-width: 480px) {
+#LayoutGrid6 > .col-1 { flex-basis:100%  !important; max-width:100%  !important; }
+}
+#wb_Text13 { background-color:transparent; background-image:none; border:0px solid #000000; border-radius:0px; padding:0; margin:0; text-align:left; }
+#wb_Text13 { color:#000000; font-family:Arial; font-weight:400; font-size:16px; line-height:27px; }
+#wb_Text13 p,#wb_Text13 ul { margin:0; padding:0; }
+#wb_Text13 { display:block; margin:0; box-sizing:border-box; width:100%; }
+#wb_Heading5 { background-color:transparent; background-image:none; border:0px solid #000000; border-radius:0px; box-sizing:border-box; vertical-align:top; margin:0; padding:0; text-align:center; }
+#Heading5 { color:#FFFFFF; font-family:"PT Sans Narrow"; font-weight:bold; font-style:normal; font-size:35px; margin:0; text-align:center; text-transform:none; }
+#wb_LayoutGrid8 { clear:both; position:relative; table-layout:fixed; display:table; text-align:center; width:100%; background-color:transparent; background-image:none; border:1px solid #FFFFFF; border-radius:3px; box-sizing:border-box; margin:0; }
+#LayoutGrid8 { box-sizing:border-box; padding:10px 15px 10px 15px; margin-right:auto; margin-left:auto; }
+#LayoutGrid8 > .row { margin-right:-15px; margin-left:-15px; }
+#LayoutGrid8 > .row > .col-1 { box-sizing:border-box; font-size:0; min-height:1px; padding-right:15px; padding-left:15px; position:relative; }
+#LayoutGrid8 > .row > .col-1 { float:left; }
+#LayoutGrid8 > .row > .col-1 { background-color:transparent; background-image:none; border:0px solid #FFFFFF; border-radius:0px; width:100%; text-align:center; }
+#LayoutGrid8:before,#LayoutGrid8:after,#LayoutGrid8 .row:before,#LayoutGrid8 .row:after { display:table; content:" "; }
+#LayoutGrid8:after,#LayoutGrid8 .row:after { clear:both; }
+@media (max-width: 480px) {
+#LayoutGrid8 > .row > .col-1 { float:none; width:100%  !important; }
+}
+#wb_LayoutGrid9 { clear:both; position:relative; table-layout:fixed; display:table; text-align:center; width:100%; background-color:transparent; background-image:none; border:1px solid #FFFFFF; border-radius:3px; box-sizing:border-box; margin:0; }
+#LayoutGrid9 { box-sizing:border-box; padding:10px 15px 10px 15px; margin-right:auto; margin-left:auto; }
+#LayoutGrid9 > .row { margin-right:-15px; margin-left:-15px; }
+#LayoutGrid9 > .row > .col-1 { box-sizing:border-box; font-size:0; min-height:1px; padding-right:15px; padding-left:15px; position:relative; }
+#LayoutGrid9 > .row > .col-1 { float:left; }
+#LayoutGrid9 > .row > .col-1 { background-color:transparent; background-image:none; border:0px solid #FFFFFF; border-radius:0px; width:100%; text-align:center; }
+#LayoutGrid9:before,#LayoutGrid9:after,#LayoutGrid9 .row:before,#LayoutGrid9 .row:after { display:table; content:" "; }
+#LayoutGrid9:after,#LayoutGrid9 .row:after { clear:both; }
+@media (max-width: 480px) {
+#LayoutGrid9 > .row > .col-1 { float:none; width:100%  !important; }
+}
+#wb_Heading6 { background-color:transparent; background-image:none; border:0px solid #000000; border-radius:0px; box-sizing:border-box; vertical-align:top; margin:0; padding:0; text-align:center; }
+#Heading6 { color:#FFFFFF; font-family:"PT Sans Narrow"; font-weight:bold; font-style:normal; font-size:35px; margin:0; text-align:center; text-transform:none; }
+#wb_Text10 { background-color:transparent; background-image:none; border:0px solid #FFFFFF; border-radius:0px; padding:0; margin:0; text-align:center; }
+#wb_Text10 div { text-align:center; }
+#wb_Text10 { display:block; margin:0; box-sizing:border-box; width:100%; }
+#wb_Heading7 { background-color:transparent; background-image:none; border:0px solid #000000; border-radius:0px; box-sizing:border-box; vertical-align:top; margin:0 0 15px 0; padding:0; text-align:center; }
+#Heading7 { color:#8B4513; font-family:"PT Sans Narrow"; font-weight:normal; font-style:normal; font-size:37px; margin:0; text-align:center; text-transform:none; }
+#wb_uid24 { font-weight:bold; color:#A52A2A; }
+#wb_uid12 { margin:0 0 0 24px; }
 #wb_Icon1 { display:inline-block; width:26px; height:26px; text-align:center; z-index:22; }
 #wb_uid5 { color:#34495E; font-family:"Arial"; font-size:16px; line-height:25px; }
 #wb_Card6 { display:flex; width:100%; z-index:6; }
-#wb_uid4 { color:#000000; font-family:"Arial"; font-size:16px; line-height:25px; }
-#wb_uid3 { color:#000000; font-family:"Arial"; font-size:13px; line-height:15px; }
+#wb_uid23 { margin:0 0 0 24px; }
+#wb_uid13 { margin:0 0 0 24px; }
+#wb_uid4 { color:#000000; font-family:"Arial"; font-size:16px; line-height:24px; }
+#wb_uid22 { list-style-type:disc; }
+#wb_uid10 { color:#FFFF00; font-family:"Arial"; font-size:19px; line-height:16px; }
+#wb_uid3 { color:#000000; font-family:"Arial"; font-size:13px; line-height:16px; }
+#wb_uid21 { margin:0 0 0 24px; }
+#wb_uid11 { list-style-type:disc; }
 #Button1 { display:inline-block; width:156px; height:37px; z-index:12; }
 #wb_uid2 { color:#FFFF00; font-family:"Open Sans"; font-weight:600; font-stretch:75%; font-size:35px; }
+#wb_uid20 { margin:0 0 0 24px; }
+#wb_uid16 { color:#000000; font-family:"Arial"; font-size:19px; line-height:16px; }
 #wb_uid1 { color:#FFFF00; font-family:"Open Sans"; font-weight:600; font-stretch:75%; font-size:35px; }
+#wb_uid17 { color:#FFFF00; font-family:"Arial"; font-size:19px; line-height:16px; }
 #wb_uid0 { color:#FFFF00; font-family:"Open Sans"; font-weight:600; font-stretch:75%; font-size:35px; }
+#wb_uid30 { font-weight:bold; color:#A52A2A; }
+#wb_Heading6 { display:block; width:100%; z-index:28; }
+#wb_uid14 { margin:0 0 0 24px; }
+#wb_uid31 { font-weight:bold; color:#A52A2A; }
+#wb_Heading7 { display:block; width:100%; z-index:41; }
+#wb_uid15 { color:#FFFFFF; font-family:"Arial"; font-size:19px; line-height:42px; }
 #wb_Carousel1 { }
+#wb_uid32 { margin:0 0 0 24px; }
 #wb_Heading4 { display:block; width:100%; z-index:20; }
+#wb_uid33 { margin:0 0 0 24px; }
+#wb_Heading5 { display:block; width:100%; z-index:23; }
 #wb_Card9 { display:flex; width:100%; z-index:3; }
 #wb_Heading2 { display:block; width:100%; z-index:16; }
 #wb_Card8 { display:flex; width:100%; z-index:2; }
+#wb_uid29 { font-weight:bold; color:#A52A2A; }
+#wb_uid18 { list-style-type:disc; }
 #wb_Heading3 { display:block; width:100%; z-index:18; }
-#Layer1 { position:fixed; overflow:hidden; text-align:center; left:auto; right:20px; top:auto; bottom:20px; width:45px; height:45px; z-index:28; z-index:9999; }
+#wb_uid28 { margin:0 0 0 24px; }
+#wb_uid19 { margin:0 0 0 24px; }
+#Layer1 { position:fixed; overflow:hidden; text-align:center; left:auto; right:20px; top:auto; bottom:20px; width:45px; height:45px; z-index:47; z-index:9999; }
+#wb_uid9 { color:#000000; font-family:"Arial"; font-size:19px; line-height:16px; }
 #wb_Heading1 { display:block; width:100%; z-index:0; }
+#wb_uid27 { margin:0 0 0 24px; }
+#wb_uid8 { color:#FFFFFF; font-family:"Arial"; font-size:19px; line-height:42px; }
 #wb_Card5 { display:flex; width:100%; z-index:5; }
+#wb_uid26 { font-weight:bold; color:#A52A2A; }
 #Layer1_Container { width:100%; }
 #wb_uid7 { color:#34495E; font-family:"Arial"; font-size:16px; line-height:25px; }
 #wb_Card4 { display:flex; width:100%; z-index:4; }
+#wb_uid25 { font-weight:bold; color:#A52A2A; }
 #wb_uid6 { color:#34495E; font-family:"Arial"; font-size:16px; line-height:25px; }
 #wb_Card7 { display:flex; width:100%; z-index:1; }
 html { scroll-behavior:smooth; }
