@@ -240,8 +240,8 @@ body { background-color:#FFFFFF; color:#000000; font-family:Arial; font-weight:n
 #wb_Text13 { color:#000000; font-family:Arial; font-weight:400; font-size:16px; line-height:27px; }
 #wb_Text13 p,#wb_Text13 ul { margin:0; padding:0; }
 #wb_Text13 { display:block; margin:0; box-sizing:border-box; width:100%; }
-#wb_Heading5 { -webkit-background-clip:text; background-clip:text; background-color:transparent; background-image:none; border-radius:0px; box-sizing:border-box; vertical-align:top; margin:0; padding:0; text-align:center; }
-#Heading5 { color:transparent; font-family:"PT Sans Narrow"; font-weight:700; font-style:normal; font-size:43px; margin:0; text-align:center; text-transform:none; -webkit-text-stroke:1px #FFFFFF; text-stroke:1px #FFFFFF; text-shadow:3px 3px 5px rgba(0,0,0,0.50); }
+#wb_Heading5 { background-color:transparent; background-image:none; border-radius:0px; box-sizing:border-box; vertical-align:top; margin:0; padding:0; text-align:center; }
+#Heading5 { color:#FF0000; font-family:"PT Sans Narrow"; font-weight:700; font-style:normal; font-size:43px; margin:0; text-align:center; text-transform:none; -webkit-text-stroke:1px #FFFFFF; text-stroke:1px #FFFFFF; text-shadow:3px 3px 5px rgba(0,0,0,0.50); }
 #wb_LayoutGrid8 { clear:both; position:relative; table-layout:fixed; display:table; text-align:center; width:100%; background-color:transparent; background-image:none; border:1px solid #FFFFFF; border-radius:3px; box-sizing:border-box; margin:0; }
 #LayoutGrid8 { box-sizing:border-box; padding:10px 15px 10px 15px; margin-right:auto; margin-left:auto; }
 #LayoutGrid8 > .row { margin-right:-15px; margin-left:-15px; }
@@ -264,8 +264,8 @@ body { background-color:#FFFFFF; color:#000000; font-family:Arial; font-weight:n
 @media (max-width: 480px) {
 #LayoutGrid9 > .row > .col-1 { float:none; width:100%  !important; }
 }
-#wb_Heading6 { -webkit-background-clip:text; background-clip:text; background-color:transparent; background-image:none; border-radius:0px; box-sizing:border-box; vertical-align:top; margin:0; padding:0; text-align:center; }
-#Heading6 { color:transparent; font-family:"PT Sans Narrow"; font-weight:700; font-style:normal; font-size:43px; margin:0; text-align:center; text-transform:none; -webkit-text-stroke:1px #FFFFFF; text-stroke:1px #FFFFFF; text-shadow:3px 3px 5px rgba(0,0,0,0.50); }
+#wb_Heading6 { background-color:transparent; background-image:none; border-radius:0px; box-sizing:border-box; vertical-align:top; margin:0; padding:0; text-align:center; }
+#Heading6 { color:#00008B; font-family:"PT Sans Narrow"; font-weight:700; font-style:normal; font-size:43px; margin:0; text-align:center; text-transform:none; -webkit-text-stroke:1px #FFFFFF; text-stroke:1px #FFFFFF; text-shadow:3px 3px 5px rgba(0,0,0,0.50); }
 #wb_Text10 { background-color:transparent; background-image:none; border:0px solid #FFFFFF; border-radius:0px; padding:0; margin:0; text-align:center; }
 #wb_Text10 div { text-align:center; }
 #wb_Text10 { display:block; margin:0; box-sizing:border-box; width:100%; }
