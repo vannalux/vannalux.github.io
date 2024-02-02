@@ -192,20 +192,17 @@ body { background-color:#FFFFFF; color:#000000; font-family:Arial; font-weight:n
 #Icon1 i { color:#4F4F4F; display:inline-block; font-size:26px; line-height:26px; vertical-align:middle; width:25px; }
 #wb_Icon1:hover #Icon1 i { color:#4F4F4F; }
 #wb_LayoutGrid2 { clear:both; position:relative; table-layout:fixed; display:table; text-align:center; width:100%; background-color:transparent; background-image:none; border:0px solid #CCCCCC; border-radius:0px; box-sizing:border-box; margin:0; }
-#LayoutGrid2 { box-sizing:border-box; padding:15px 15px 15px 15px; margin-right:auto; margin-left:auto; max-width:1200px; }
-#LayoutGrid2 > .row { margin-right:-15px; margin-left:-15px; }
-#LayoutGrid2 > .row > .col-1,#LayoutGrid2 > .row > .col-2,#LayoutGrid2 > .row > .col-3 { box-sizing:border-box; font-size:0; min-height:1px; padding-right:15px; padding-left:15px; position:relative; }
-#LayoutGrid2 > .row > .col-1,#LayoutGrid2 > .row > .col-2,#LayoutGrid2 > .row > .col-3 { float:left; }
-#LayoutGrid2 > .row > .col-1 { background-color:transparent; background-image:none; border:0px solid #FFFFFF; border-radius:0px; width:calc((100% - 50px) / 2); text-align:left; }
-#LayoutGrid2 > .row > .col-1 > .col-1-padding { box-sizing:border-box; width:100%; padding:11px 0 11px 0; }
-#LayoutGrid2 > .row > .col-2 { background-color:transparent; background-image:none; border:0px solid #FFFFFF; border-radius:0px; width:50px; text-align:left; }
-#LayoutGrid2 > .row > .col-2 > .col-2-padding { box-sizing:border-box; width:100%; padding:11px 0 11px 0; }
-#LayoutGrid2 > .row > .col-3 { background-color:transparent; background-image:none; border:0px solid #FFFFFF; border-radius:0px; width:calc((100% - 50px) / 2); text-align:left; }
-#LayoutGrid2 > .row > .col-3 > .col-3-padding { box-sizing:border-box; width:100%; padding:11px 0 11px 0; }
-#LayoutGrid2:before,#LayoutGrid2:after,#LayoutGrid2 .row:before,#LayoutGrid2 .row:after { display:table; content:" "; }
-#LayoutGrid2:after,#LayoutGrid2 .row:after { clear:both; }
+#LayoutGrid2 { box-sizing:border-box; display:flex; flex-direction:row; flex-wrap:wrap; padding:15px 0 15px 0; margin-right:auto; margin-left:auto; max-width:1200px; }
+#LayoutGrid2 > .col-1,#LayoutGrid2 > .col-2,#LayoutGrid2 > .col-3 { box-sizing:border-box; font-size:0; min-height:1px; padding-right:15px; padding-left:15px; position:relative; }
+#LayoutGrid2 > .col-1,#LayoutGrid2 > .col-2,#LayoutGrid2 > .col-3 { flex:0 0 auto; }
+#LayoutGrid2 > .col-1 { background-color:transparent; background-image:none; border:0px solid #FFFFFF; border-radius:0px; flex-basis:calc((100% - 50px) / 2); max-width:calc((100% - 50px) / 2); display:flex; flex-wrap:wrap; align-content:flex-start; align-self:stretch; align-items:flex-start; justify-content:center; text-align:center; }
+#LayoutGrid2 > .col-1 > .col-1-padding { box-sizing:border-box; width:100%; padding:11px 0 11px 0; }
+#LayoutGrid2 > .col-2 { background-color:transparent; background-image:none; border:0px solid #FFFFFF; border-radius:0px; flex-basis:50px; max-width:50px; display:flex; flex-wrap:wrap; align-content:flex-start; align-self:stretch; align-items:flex-start; justify-content:center; text-align:center; }
+#LayoutGrid2 > .col-2 > .col-2-padding { box-sizing:border-box; width:100%; padding:11px 0 11px 0; }
+#LayoutGrid2 > .col-3 { background-color:transparent; background-image:none; border:0px solid #FFFFFF; border-radius:0px; flex-basis:calc((100% - 50px) / 2); max-width:calc((100% - 50px) / 2); display:flex; flex-wrap:wrap; align-content:flex-start; align-self:stretch; align-items:flex-start; justify-content:center; text-align:center; }
+#LayoutGrid2 > .col-3 > .col-3-padding { box-sizing:border-box; width:100%; padding:11px 0 11px 0; }
 @media (max-width: 768px) {
-#LayoutGrid2 > .row > .col-1,#LayoutGrid2 > .row > .col-2,#LayoutGrid2 > .row > .col-3 { float:none; width:100%  !important; }
+#LayoutGrid2 > .col-1,#LayoutGrid2 > .col-2,#LayoutGrid2 > .col-3 { flex-basis:100%  !important; max-width:100%  !important; }
 }
 #wb_LayoutGrid5 { clear:both; position:relative; table-layout:fixed; display:table; text-align:center; width:100%; background-color:transparent; background-image:url('../price-akril.webp'); background-repeat:repeat; background-position:center center; background-size:cover; border:0px solid #CCCCCC; border-radius:10px; box-sizing:border-box; margin:0; }
 #LayoutGrid5 { box-sizing:border-box; padding:55px 22px 55px 22px; margin-right:auto; margin-left:auto; }
