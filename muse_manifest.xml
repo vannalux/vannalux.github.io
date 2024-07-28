@@ -1,16 +1,16 @@
-<manifest alg="2" build="2018.1.1.386" opt="false" iceEnabled="false" exportTarget="other" domain="https://vannalux.github.io" resolutions="1x" timestamp="1722179265746">
+<manifest alg="2" build="2018.1.1.386" opt="false" iceEnabled="false" exportTarget="other" domain="https://vannalux.github.io" resolutions="1x" timestamp="1722179994682">
   <folder name="css">
     <file name="site_global.css" crc="444006867"/>
-    <file name="master_______-a.css" crc="4195878531" ref="kvartira:index:zaglushka2:zaglushka1"/>
-    <file name="nomq_preview_master_______-a.css" crc="4098399601" ref="kvartira:index:zaglushka2:zaglushka1"/>
+    <file name="master_______-a.css" crc="432361337" ref="kvartira:index:zaglushka2:zaglushka1"/>
+    <file name="nomq_preview_master_______-a.css" crc="3941613313" ref="kvartira:index:zaglushka2:zaglushka1"/>
     <file name="kvartira.css" crc="4072004638" ref="kvartira"/>
     <file name="nomq_kvartira.css" crc="232296955" ref="kvartira"/>
     <file name="index.css" crc="4052985823" ref="index"/>
     <file name="nomq_index.css" crc="102361391" ref="index"/>
     <file name="zaglushka2.css" crc="4072211838" ref="zaglushka2"/>
     <file name="nomq_zaglushka2.css" crc="3974716484" ref="zaglushka2"/>
-    <file name="zaglushka1.css" crc="3943128097" ref="zaglushka1"/>
-    <file name="nomq_zaglushka1.css" crc="61994800" ref="zaglushka1"/>
+    <file name="zaglushka1.css" crc="3786919905" ref="zaglushka1"/>
+    <file name="nomq_zaglushka1.css" crc="4237508853" ref="zaglushka1"/>
   </folder>
   <folder name="fonts">
     <file name="ptsans-narrow.woff" crc="4137024931"/>
@@ -38,7 +38,7 @@
     <file name="touchswipe.js" crc="3888935200" ref="kvartira:index:zaglushka1:zaglushka2"/>
   </folder>
   <folder name="images">
-    <file name="favicon.ico" crc="4180352690" ref="index"/>
+    <file name="favicon.ico" crc="4180352690" ref="index:zaglushka1"/>
     <file name="devvyyshkkii23.jpg" crc="55669113" ref="index">
       <caption webpage="index" alt=""/>
     </file>
@@ -100,7 +100,7 @@
     <file name="uuu78iuu-crop-u10493.jpg" crc="3893415455" seo="true" ref="index">
       <caption webpage="index" alt="Sydney, Australia"/>
     </file>
-    <file name="blank.gif" crc="4208392903" ref="index:kvartira:zaglushka1:zaglushka2"/>
+    <file name="blank.gif" crc="4208392903" ref="index:kvartira:zaglushka2"/>
     <file name="ea26fd_e142fd7bcd8c46219312b22e8a91bb3c~mv2_d_4000_2447_s_4_2.jpg" crc="3774861746" ref="kvartira">
       <caption webpage="kvartira" alt=""/>
     </file>
@@ -160,25 +160,13 @@
     <file name="ea26fd_c5e8d35c458f4302a3bb1046ce510670~mv2_d_5100_3387_s_4_2312x205.jpg" crc="4146099329" seo="true" ref="kvartira">
       <caption webpage="kvartira" alt="Недавние проекты"/>
     </file>
-    <file name="8778990.svg" crc="4240799115" seo="true" ref="zaglushka1">
-      <caption webpage="zaglushka1" alt=""/>
-      <caption webpage="zaglushka1" alt=""/>
-      <caption webpage="zaglushka1" alt=""/>
-    </file>
-    <file name="8778990_poster_.png" crc="123572887" ref="zaglushka1"/>
     <file name="sportswear-homepage-desktop-v2_af4fea27-a45a-4db3-bd71-22ee0fb5ded7.jpg" crc="74967462" ref="zaglushka1">
       <caption webpage="zaglushka1" alt=""/>
     </file>
-    <file name="56798700.svg" crc="4113088933" seo="true" ref="zaglushka1">
-      <caption webpage="zaglushka1" alt=""/>
-      <caption webpage="zaglushka1" alt=""/>
-      <caption webpage="zaglushka1" alt=""/>
-    </file>
-    <file name="56798700_poster_.png" crc="4043095611" ref="zaglushka1"/>
     <file name="sportswear-homepage-desktop-v2_af4fea27-a45a-4db3-bd71-22ee0fb5ded7-u8211-fr.jpg" crc="225581683" ref="zaglushka1"/>
   </folder>
   <file name="index.html" crc="305980902" seo="true" mt="1722178876884" redirect="true"/>
   <file name="kvartira.html" crc="3834480895" seo="true" mt="1722177360653" redirect="true"/>
-  <file name="zaglushka1.html" crc="3964715768" seo="true" mt="1722179220577" redirect="true"/>
+  <file name="zaglushka1.html" crc="3924758508" seo="true" mt="1722179979205" redirect="true"/>
   <file name="zaglushka2.html" crc="144507391" seo="true" mt="1722177360653" redirect="true"/>
 </manifest>
