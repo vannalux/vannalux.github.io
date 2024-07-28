@@ -11,19 +11,19 @@
 document.documentElement.className = document.documentElement.className.replace(/\bnojs\b/g, 'js');
 
 // Check that all required assets are uploaded and up-to-date
-if(typeof Muse == "undefined") window.Muse = {}; window.Muse.assets = {"required":["museutils.js", "museconfig.js", "jquery.musemenu.js", "jquery.musepolyfill.bgsize.js", "jquery.watch.js", "webpro.js", "musewpslideshow.js", "jquery.museoverlay.js", "touchswipe.js", "jquery.scrolleffects.js", "jquery.museresponsive.js", "require.js", "zaglushka1.css"], "outOfDate":[]};
+if(typeof Muse == "undefined") window.Muse = {}; window.Muse.assets = {"required":["museutils.js", "museconfig.js", "jquery.musepolyfill.bgsize.js", "jquery.watch.js", "jquery.musemenu.js", "webpro.js", "musewpslideshow.js", "jquery.museoverlay.js", "touchswipe.js", "jquery.scrolleffects.js", "jquery.museresponsive.js", "require.js", "zaglushka1.css"], "outOfDate":[]};
 </script>
   
   <link rel="shortcut icon" href="images/favicon.ico?crc=4180352690"/>
   <title>Без имени 8</title>
   <!-- CSS -->
   <link rel="stylesheet" type="text/css" href="css/site_global.css?crc=444006867"/>
-  <link rel="stylesheet" type="text/css" href="css/master_______-a.css?crc=432361337"/>
-  <link rel="stylesheet" type="text/css" href="css/zaglushka1.css?crc=3786919905" id="pagesheet"/>
+  <link rel="stylesheet" type="text/css" href="css/master_______-a.css?crc=3787261587"/>
+  <link rel="stylesheet" type="text/css" href="css/zaglushka1.css?crc=405623558" id="pagesheet"/>
   <!-- IE-only CSS -->
   <!--[if lt IE 9]>
-  <link rel="stylesheet" type="text/css" href="css/nomq_preview_master_______-a.css?crc=3941613313"/>
-  <link rel="stylesheet" type="text/css" href="css/nomq_zaglushka1.css?crc=4237508853" id="nomq_pagesheet"/>
+  <link rel="stylesheet" type="text/css" href="css/nomq_preview_master_______-a.css?crc=4098399601"/>
+  <link rel="stylesheet" type="text/css" href="css/nomq_zaglushka1.css?crc=4244608417" id="nomq_pagesheet"/>
   <![endif]-->
   <!-- JS includes -->
   <!--[if lt IE 9]>
@@ -184,7 +184,7 @@ false
       <div class="museBGSize" id="u8211"><!-- simple frame --></div>
      </div>
     </div>
-    <div class="verticalspacer" data-offset-top="855" data-content-above-spacer="855" data-content-below-spacer="644"></div>
+    <div class="verticalspacer" data-offset-top="829" data-content-above-spacer="829" data-content-below-spacer="670"></div>
    </div>
   </div>
   <div class="breakpoint" id="bp_1280" data-min-width="769" data-max-width="1280"><!-- responsive breakpoint node -->
@@ -333,13 +333,13 @@ Muse.Utils.makeButtonsVisibleAfterSettingMinWidth();/* body */
 Muse.Utils.initWidget('.MenuBar', ['#bp_infinity', '#bp_1280', '#bp_768'], function(elem) { return $(elem).museMenu(); });/* unifiedNavBar */
 Muse.Utils.initWidget('#pamphletu4921', ['#bp_1280', '#bp_768'], function(elem) { return new WebPro.Widget.ContentSlideShow(elem, {contentLayout_runtime:'stack',event:'click',deactivationEvent:'mouseout_click',autoPlay:false,displayInterval:3000,transitionStyle:'fading',transitionDuration:500,hideAllContentsFirst:true,triggersOnTop:false,shuffle:false,enableSwipe:true,resumeAutoplay:true,resumeAutoplayInterval:3000,playOnce:false,autoActivate_runtime:false,isResponsive:false}); });/* #pamphletu4921 */
 Muse.Utils.fullPage('#page');/* 100% height page */
-$('#bp_768').one('muse_this_bp_activate', function(){
+$('#bp_infinity').one('muse_this_bp_activate', function(){
 $('#u8211').registerBackgroundPositionScrollEffect([{"in":[-Infinity,20],"speed":[0,0.7]},{"in":[20,Infinity],"speed":[0,0.7]}], $(this)); /* scroll effect */
 });/* scroll effects for one breakpoint */
 $('#bp_1280').one('muse_this_bp_activate', function(){
 $('#u8211').registerBackgroundPositionScrollEffect([{"in":[-Infinity,20],"speed":[0,0.7]},{"in":[20,Infinity],"speed":[0,0.7]}], $(this)); /* scroll effect */
 });/* scroll effects for one breakpoint */
-$('#bp_infinity').one('muse_this_bp_activate', function(){
+$('#bp_768').one('muse_this_bp_activate', function(){
 $('#u8211').registerBackgroundPositionScrollEffect([{"in":[-Infinity,20],"speed":[0,0.7]},{"in":[20,Infinity],"speed":[0,0.7]}], $(this)); /* scroll effect */
 });/* scroll effects for one breakpoint */
 $( '.breakpoint' ).registerBreakpoint();/* Register breakpoints */
