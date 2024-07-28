@@ -1,16 +1,16 @@
-<manifest alg="2" build="2018.1.1.386" opt="false" iceEnabled="false" exportTarget="other" domain="https://vannalux.github.io" resolutions="1x" timestamp="1722173659386">
+<manifest alg="2" build="2018.1.1.386" opt="false" iceEnabled="false" exportTarget="other" domain="https://vannalux.github.io" resolutions="1x" timestamp="1722176965638">
   <folder name="css">
     <file name="site_global.css" crc="444006867"/>
-    <file name="master_______-a.css" crc="298027996" ref="kvartira:index:zaglushka2:zaglushka1"/>
-    <file name="nomq_preview_master_______-a.css" crc="228284562" ref="kvartira:index:zaglushka2:zaglushka1"/>
-    <file name="kvartira.css" crc="4159525910" ref="kvartira"/>
-    <file name="nomq_kvartira.css" crc="4203569338" ref="kvartira"/>
-    <file name="index.css" crc="476182999" ref="index"/>
-    <file name="nomq_index.css" crc="4047716082" ref="index"/>
-    <file name="zaglushka2.css" crc="3876441435" ref="zaglushka2"/>
-    <file name="nomq_zaglushka2.css" crc="529626733" ref="zaglushka2"/>
-    <file name="zaglushka1.css" crc="3876441435" ref="zaglushka1"/>
-    <file name="nomq_zaglushka1.css" crc="529626733" ref="zaglushka1"/>
+    <file name="master_______-a.css" crc="4195878531" ref="kvartira:index:zaglushka2:zaglushka1"/>
+    <file name="nomq_preview_master_______-a.css" crc="4098399601" ref="kvartira:index:zaglushka2:zaglushka1"/>
+    <file name="kvartira.css" crc="4072004638" ref="kvartira"/>
+    <file name="nomq_kvartira.css" crc="232296955" ref="kvartira"/>
+    <file name="index.css" crc="4052985823" ref="index"/>
+    <file name="nomq_index.css" crc="102361391" ref="index"/>
+    <file name="zaglushka2.css" crc="4072211838" ref="zaglushka2"/>
+    <file name="nomq_zaglushka2.css" crc="3974716484" ref="zaglushka2"/>
+    <file name="zaglushka1.css" crc="4072211838" ref="zaglushka1"/>
+    <file name="nomq_zaglushka1.css" crc="3974716484" ref="zaglushka1"/>
   </folder>
   <folder name="fonts">
     <file name="ptsans-narrow.woff" crc="4137024931"/>
@@ -161,8 +161,8 @@
       <caption webpage="kvartira" alt="Недавние проекты"/>
     </file>
   </folder>
-  <file name="index.html" crc="4210518774" seo="true" mt="1722173609065" redirect="true"/>
-  <file name="kvartira.html" crc="292158648" seo="true" mt="1722173609065" redirect="true"/>
-  <file name="zaglushka1.html" crc="3908426772" seo="true" mt="1722173609065" redirect="true"/>
-  <file name="zaglushka2.html" crc="402451363" seo="true" mt="1722173609065" redirect="true"/>
+  <file name="index.html" crc="3761264522" seo="true" mt="1722176906965" redirect="true"/>
+  <file name="kvartira.html" crc="4189309253" seo="true" mt="1722176906965" redirect="true"/>
+  <file name="zaglushka1.html" crc="3917040739" seo="true" mt="1722176906965" redirect="true"/>
+  <file name="zaglushka2.html" crc="144507391" seo="true" mt="1722176906965" redirect="true"/>
 </manifest>
