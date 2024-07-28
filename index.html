@@ -20,11 +20,11 @@ if(typeof Muse == "undefined") window.Muse = {}; window.Muse.assets = {"required
   <title>Лучший Хара сайт</title>
   <!-- CSS -->
   <link rel="stylesheet" type="text/css" href="css/site_global.css?crc=444006867"/>
-  <link rel="stylesheet" type="text/css" href="css/master_______-a.css?crc=4195878531"/>
-  <link rel="stylesheet" type="text/css" href="css/index.css?crc=4052985823" id="pagesheet"/>
+  <link rel="stylesheet" type="text/css" href="css/master_______-a.css?crc=118975704"/>
+  <link rel="stylesheet" type="text/css" href="css/index.css?crc=464141968" id="pagesheet"/>
   <!-- IE-only CSS -->
   <!--[if lt IE 9]>
-  <link rel="stylesheet" type="text/css" href="css/nomq_preview_master_______-a.css?crc=4098399601"/>
+  <link rel="stylesheet" type="text/css" href="css/nomq_preview_master_______-a.css?crc=3941613313"/>
   <link rel="stylesheet" type="text/css" href="css/nomq_index.css?crc=102361391" id="nomq_pagesheet"/>
   <![endif]-->
   <!-- JS includes -->
@@ -597,13 +597,13 @@ Muse.Utils.makeButtonsVisibleAfterSettingMinWidth();/* body */
 Muse.Utils.initWidget('.MenuBar', ['#bp_infinity', '#bp_1280', '#bp_768'], function(elem) { return $(elem).museMenu(); });/* unifiedNavBar */
 Muse.Utils.initWidget('#pamphletu4921', ['#bp_1280', '#bp_768'], function(elem) { return new WebPro.Widget.ContentSlideShow(elem, {contentLayout_runtime:'stack',event:'click',deactivationEvent:'mouseout_click',autoPlay:false,displayInterval:3000,transitionStyle:'fading',transitionDuration:500,hideAllContentsFirst:true,triggersOnTop:false,shuffle:false,enableSwipe:true,resumeAutoplay:true,resumeAutoplayInterval:3000,playOnce:false,autoActivate_runtime:false,isResponsive:false}); });/* #pamphletu4921 */
 Muse.Utils.fullPage('#page');/* 100% height page */
+$('#bp_infinity').one('muse_this_bp_activate', function(){
+$('#u136').registerBackgroundPositionScrollEffect([{"in":[-Infinity,0],"speed":[0,0.7]},{"in":[0,Infinity],"speed":[0,0.7]}], $(this)); /* scroll effect */
+});/* scroll effects for one breakpoint */
 $('#bp_768').one('muse_this_bp_activate', function(){
 $('#u136').registerBackgroundPositionScrollEffect([{"in":[-Infinity,0],"speed":[0,0.7]},{"in":[0,Infinity],"speed":[0,0.7]}], $(this)); /* scroll effect */
 });/* scroll effects for one breakpoint */
 $('#bp_1280').one('muse_this_bp_activate', function(){
-$('#u136').registerBackgroundPositionScrollEffect([{"in":[-Infinity,0],"speed":[0,0.7]},{"in":[0,Infinity],"speed":[0,0.7]}], $(this)); /* scroll effect */
-});/* scroll effects for one breakpoint */
-$('#bp_infinity').one('muse_this_bp_activate', function(){
 $('#u136').registerBackgroundPositionScrollEffect([{"in":[-Infinity,0],"speed":[0,0.7]},{"in":[0,Infinity],"speed":[0,0.7]}], $(this)); /* scroll effect */
 });/* scroll effects for one breakpoint */
 $( '.breakpoint' ).registerBreakpoint();/* Register breakpoints */

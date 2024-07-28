@@ -1,11 +1,11 @@
-<manifest alg="2" build="2018.1.1.386" opt="false" iceEnabled="false" exportTarget="other" domain="https://vannalux.github.io" resolutions="1x" timestamp="1722203215150">
+<manifest alg="2" build="2018.1.1.386" opt="false" iceEnabled="false" exportTarget="other" domain="https://vannalux.github.io" resolutions="1x" timestamp="1722203481520">
   <folder name="css">
     <file name="site_global.css" crc="444006867"/>
-    <file name="master_______-a.css" crc="3787261587" ref="kvartira:index:zaglushka2:zaglushka1"/>
-    <file name="nomq_preview_master_______-a.css" crc="4098399601" ref="kvartira:index:zaglushka2:zaglushka1"/>
+    <file name="master_______-a.css" crc="118975704" ref="kvartira:index:zaglushka2:zaglushka1"/>
+    <file name="nomq_preview_master_______-a.css" crc="3941613313" ref="kvartira:index:zaglushka2:zaglushka1"/>
     <file name="kvartira.css" crc="4239695478" ref="kvartira"/>
     <file name="nomq_kvartira.css" crc="232296955" ref="kvartira"/>
-    <file name="index.css" crc="4052985823" ref="index"/>
+    <file name="index.css" crc="464141968" ref="index"/>
     <file name="nomq_index.css" crc="102361391" ref="index"/>
     <file name="zaglushka2.css" crc="4072211838" ref="zaglushka2"/>
     <file name="nomq_zaglushka2.css" crc="3974716484" ref="zaglushka2"/>
@@ -165,7 +165,7 @@
     </file>
     <file name="sportswear-homepage-desktop-v2_af4fea27-a45a-4db3-bd71-22ee0fb5ded7-u8211-fr.jpg" crc="225581683" ref="zaglushka1"/>
   </folder>
-  <file name="index.html" crc="305980902" seo="true" mt="1722178876884" redirect="true"/>
+  <file name="index.html" crc="210386400" seo="true" mt="1722203465468" redirect="true"/>
   <file name="kvartira.html" crc="3794182479" seo="true" mt="1722203148597" redirect="true"/>
   <file name="zaglushka1.html" crc="3925176924" seo="true" mt="1722180183288" redirect="true"/>
   <file name="zaglushka2.html" crc="144507391" seo="true" mt="1722177360653" redirect="true"/>
