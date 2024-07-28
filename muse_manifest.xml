@@ -1,4 +1,4 @@
-<manifest alg="2" build="2018.1.1.386" opt="false" iceEnabled="false" exportTarget="other" domain="https://vannalux.github.io" resolutions="1x" timestamp="1722169130135">
+<manifest alg="2" build="2018.1.1.386" opt="false" iceEnabled="false" exportTarget="other" domain="https://vannalux.github.io" resolutions="1x" timestamp="1722173421013">
   <folder name="css">
     <file name="site_global.css" crc="444006867"/>
     <file name="master_______-a.css" crc="298027996" ref="kvartira:index:zaglushka2:zaglushka1"/>
@@ -161,8 +161,8 @@
       <caption webpage="kvartira" alt="Недавние проекты"/>
     </file>
   </folder>
-  <file name="index.html" crc="161621135" seo="true" mt="1722169038707" redirect="true"/>
-  <file name="kvartira.html" crc="4186936109" seo="true" mt="1722169038707" redirect="true"/>
-  <file name="zaglushka1.html" crc="110559276" seo="true" mt="1722169038707" redirect="true"/>
-  <file name="zaglushka2.html" crc="4187895707" seo="true" mt="1722169038707" redirect="true"/>
+  <file name="index.html" crc="4061247991" seo="true" mt="1722173404893" redirect="true"/>
+  <file name="kvartira.html" crc="4107999181" seo="true" mt="1722173404893" redirect="true"/>
+  <file name="zaglushka1.html" crc="4171166308" seo="true" mt="1722173404893" redirect="true"/>
+  <file name="zaglushka2.html" crc="127387091" seo="true" mt="1722173404893" redirect="true"/>
 </manifest>

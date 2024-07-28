@@ -70,7 +70,7 @@ false
 	flex:0 0 auto;
 	width:40px;
 	height:40px;
-	border:1px solid #000000;
+	border:2px solid #000000;
     box-sizing: border-box;
 	cursor:pointer;
 	position:relative;
@@ -83,9 +83,9 @@ false
 }
 .hamburger span{
 	display:block;
-	width:18px;
-	height:2px;
-	margin-bottom:3px;
+	width:20px;
+	height:3px;
+	margin-bottom:4px;
 	overflow:hidden;
 	position:relative;
 }
@@ -124,8 +124,8 @@ false
 }
 .cross span{
 	display:block;
-	width:18px;
-	height:2px;
+	width:20px;
+	height:3px;
 	background-color:#000000;
 	transform:translateY(50%) rotate(45deg) scaleX(0);
 	transition:transform ease 200ms;
@@ -597,13 +597,13 @@ Muse.Utils.makeButtonsVisibleAfterSettingMinWidth();/* body */
 Muse.Utils.initWidget('.MenuBar', ['#bp_infinity', '#bp_1280', '#bp_768'], function(elem) { return $(elem).museMenu(); });/* unifiedNavBar */
 Muse.Utils.initWidget('#pamphletu4921', ['#bp_1280', '#bp_768'], function(elem) { return new WebPro.Widget.ContentSlideShow(elem, {contentLayout_runtime:'stack',event:'click',deactivationEvent:'mouseout_click',autoPlay:false,displayInterval:3000,transitionStyle:'fading',transitionDuration:500,hideAllContentsFirst:true,triggersOnTop:false,shuffle:false,enableSwipe:true,resumeAutoplay:true,resumeAutoplayInterval:3000,playOnce:false,autoActivate_runtime:false,isResponsive:false}); });/* #pamphletu4921 */
 Muse.Utils.fullPage('#page');/* 100% height page */
-$('#bp_infinity').one('muse_this_bp_activate', function(){
+$('#bp_1280').one('muse_this_bp_activate', function(){
 $('#u136').registerBackgroundPositionScrollEffect([{"in":[-Infinity,0],"speed":[0,0.7]},{"in":[0,Infinity],"speed":[0,0.7]}], $(this)); /* scroll effect */
 });/* scroll effects for one breakpoint */
 $('#bp_768').one('muse_this_bp_activate', function(){
 $('#u136').registerBackgroundPositionScrollEffect([{"in":[-Infinity,0],"speed":[0,0.7]},{"in":[0,Infinity],"speed":[0,0.7]}], $(this)); /* scroll effect */
 });/* scroll effects for one breakpoint */
-$('#bp_1280').one('muse_this_bp_activate', function(){
+$('#bp_infinity').one('muse_this_bp_activate', function(){
 $('#u136').registerBackgroundPositionScrollEffect([{"in":[-Infinity,0],"speed":[0,0.7]},{"in":[0,Infinity],"speed":[0,0.7]}], $(this)); /* scroll effect */
 });/* scroll effects for one breakpoint */
 $( '.breakpoint' ).registerBreakpoint();/* Register breakpoints */
