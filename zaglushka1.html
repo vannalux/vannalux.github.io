@@ -11,7 +11,7 @@
 document.documentElement.className = document.documentElement.className.replace(/\bnojs\b/g, 'js');
 
 // Check that all required assets are uploaded and up-to-date
-if(typeof Muse == "undefined") window.Muse = {}; window.Muse.assets = {"required":["museutils.js", "museconfig.js", "jquery.musemenu.js", "jquery.watch.js", "webpro.js", "musewpslideshow.js", "jquery.museoverlay.js", "touchswipe.js", "jquery.museresponsive.js", "require.js", "zaglushka1.css"], "outOfDate":[]};
+if(typeof Muse == "undefined") window.Muse = {}; window.Muse.assets = {"required":["museutils.js", "museconfig.js", "jquery.musemenu.js", "jquery.musepolyfill.bgsize.js", "jquery.watch.js", "webpro.js", "musewpslideshow.js", "jquery.museoverlay.js", "touchswipe.js", "jquery.museresponsive.js", "require.js", "zaglushka1.css"], "outOfDate":[]};
 </script>
   
   <link rel="shortcut icon" href="images/favicon.ico?crc=4180352690"/>
@@ -19,11 +19,11 @@ if(typeof Muse == "undefined") window.Muse = {}; window.Muse.assets = {"required
   <!-- CSS -->
   <link rel="stylesheet" type="text/css" href="css/site_global.css?crc=444006867"/>
   <link rel="stylesheet" type="text/css" href="css/master_______-a.css?crc=4195878531"/>
-  <link rel="stylesheet" type="text/css" href="css/zaglushka1.css?crc=4072211838" id="pagesheet"/>
+  <link rel="stylesheet" type="text/css" href="css/zaglushka1.css?crc=4183449746" id="pagesheet"/>
   <!-- IE-only CSS -->
   <!--[if lt IE 9]>
   <link rel="stylesheet" type="text/css" href="css/nomq_preview_master_______-a.css?crc=4098399601"/>
-  <link rel="stylesheet" type="text/css" href="css/nomq_zaglushka1.css?crc=3974716484" id="nomq_pagesheet"/>
+  <link rel="stylesheet" type="text/css" href="css/nomq_zaglushka1.css?crc=233681324" id="nomq_pagesheet"/>
   <![endif]-->
   <!-- JS includes -->
   <!--[if lt IE 9]>
@@ -165,32 +165,44 @@ false
        
      </div>
     </div>
-    <nav class="MenuBar clearfix grpelem" id="menuu4610"><!-- horizontal box -->
-     <div class="MenuItemContainer clearfix grpelem" id="u4611"><!-- vertical box -->
-      <a class="nonblock nontext MenuItem MenuItemWithSubMenu clearfix colelem" id="u4614" href="index.html"><!-- horizontal box --><div class="MenuItemLabel NoWrap clearfix grpelem" id="u4616-4"><!-- content --><p>Домашняя</p></div></a>
-     </div>
-     <div class="MenuItemContainer clearfix grpelem" id="u7917"><!-- vertical box -->
-      <a class="nonblock nontext MenuItem MenuItemWithSubMenu clearfix colelem" id="u7918" href="kvartira.html"><!-- horizontal box --><div class="MenuItemLabel NoWrap clearfix grpelem" id="u7919-4"><!-- content --><p>Квартиры</p></div></a>
-      <div class="SubMenu MenuLevel1 clearfix" id="u7922"><!-- vertical box -->
-       <ul class="SubMenuView clearfix colelem" id="u7923"><!-- vertical box -->
-        <li class="MenuItemContainer clearfix colelem" id="u7966"><!-- horizontal box --><a class="nonblock nontext MenuItem MenuItemWithSubMenu MuseMenuActive clearfix grpelem" id="u7970" href="zaglushka1.html"><!-- horizontal box --><div class="MenuItemLabel NoWrap clearfix grpelem" id="u7978-4"><!-- content --><p id="u7978-2"><span id="u7978">Без имени 8</span></p></div></a></li>
-        <li class="MenuItemContainer clearfix colelem" id="u8015"><!-- horizontal box --><a class="nonblock nontext MenuItem MenuItemWithSubMenu clearfix grpelem" id="u8016" href="zaglushka2.html"><!-- horizontal box --><div class="MenuItemLabel NoWrap clearfix grpelem" id="u8018-4"><!-- content --><p id="u8018-2"><span id="u8018">Без имени 9</span></p></div></a></li>
-       </ul>
+    <div class="clearfix grpelem" id="pmenuu4610"><!-- column -->
+     <nav class="MenuBar clearfix colelem" id="menuu4610"><!-- horizontal box -->
+      <div class="MenuItemContainer clearfix grpelem" id="u4611"><!-- vertical box -->
+       <a class="nonblock nontext MenuItem MenuItemWithSubMenu clearfix colelem" id="u4614" href="index.html"><!-- horizontal box --><div class="MenuItemLabel NoWrap clearfix grpelem" id="u4616-4"><!-- content --><p>Домашняя</p></div></a>
       </div>
+      <div class="MenuItemContainer clearfix grpelem" id="u7917"><!-- vertical box -->
+       <a class="nonblock nontext MenuItem MenuItemWithSubMenu clearfix colelem" id="u7918" href="kvartira.html"><!-- horizontal box --><div class="MenuItemLabel NoWrap clearfix grpelem" id="u7919-4"><!-- content --><p>Квартиры</p></div></a>
+       <div class="SubMenu MenuLevel1 clearfix" id="u7922"><!-- vertical box -->
+        <ul class="SubMenuView clearfix colelem" id="u7923"><!-- vertical box -->
+         <li class="MenuItemContainer clearfix colelem" id="u7966"><!-- horizontal box --><a class="nonblock nontext MenuItem MenuItemWithSubMenu MuseMenuActive clearfix grpelem" id="u7970" href="zaglushka1.html"><!-- horizontal box --><div class="MenuItemLabel NoWrap clearfix grpelem" id="u7978-4"><!-- content --><p id="u7978-2"><span id="u7978">Без имени 8</span></p></div></a></li>
+         <li class="MenuItemContainer clearfix colelem" id="u8015"><!-- horizontal box --><a class="nonblock nontext MenuItem MenuItemWithSubMenu clearfix grpelem" id="u8016" href="zaglushka2.html"><!-- horizontal box --><div class="MenuItemLabel NoWrap clearfix grpelem" id="u8018-4"><!-- content --><p id="u8018-2"><span id="u8018">Без имени 9</span></p></div></a></li>
+        </ul>
+       </div>
+      </div>
+     </nav>
+     <div class="browser_width colelem" id="u8211-bw">
+      <div class="museBGSize" id="u8211"><!-- simple frame --></div>
      </div>
-    </nav>
-    <div class="verticalspacer" data-offset-top="0" data-content-above-spacer="321" data-content-below-spacer="1500"></div>
+     <div class="clip_frame colelem shared_content" id="u8230" data-content-guid="u8230_content"><!-- svg -->
+      <img class="svg temp_no_img_src" id="u8226" data-orig-src="images/8778990.svg?crc=4240799115" width="323" height="346" alt="" data-mu-svgfallback="images/8778990_poster_.png?crc=123572887" src="images/blank.gif?crc=4208392903"/>
+     </div>
+    </div>
+    <div class="verticalspacer" data-offset-top="1172" data-content-above-spacer="1211" data-content-below-spacer="327"></div>
    </div>
   </div>
   <div class="breakpoint" id="bp_1280" data-min-width="769" data-max-width="1280"><!-- responsive breakpoint node -->
    <div class="clearfix temp_no_id" data-orig-id="page"><!-- group -->
     <span class="clearfix grpelem placeholder" data-placeholder-for="pu997_content"><!-- placeholder node --></span>
-    <div class="PamphletWidget clearfix grpelem" id="pamphletu4921"><!-- none box -->
-     <div class="ThumbGroup clearfix grpelem" id="u4922"><!-- none box -->
-      <div class="popup_anchor" id="u4923popup">
-       <div class="Thumb popup_element clearfix" id="u4923"><!-- group -->
-        <div class="size_fixed grpelem shared_content" id="u4912" data-content-guid="u4912_content"><!-- custom html -->
-         
+    <div class="clearfix grpelem" id="pu8211"><!-- column -->
+     <div class="browser_width colelem temp_no_id" data-orig-id="u8211-bw">
+      <div class="museBGSize temp_no_id" data-orig-id="u8211"><!-- group -->
+       <div class="clearfix" id="u8211_align_to_page">
+        <div class="PamphletWidget clearfix grpelem" id="pamphletu4921"><!-- none box -->
+         <div class="ThumbGroup clearfix grpelem" id="u4922"><!-- none box -->
+          <div class="popup_anchor" id="u4923popup">
+           <div class="Thumb popup_element clearfix" id="u4923"><!-- group -->
+            <div class="size_fixed grpelem shared_content" id="u4912" data-content-guid="u4912_content"><!-- custom html -->
+             
   <div class="menu-toggle">
 	<div class="hamburger">
 		<span></span>
@@ -203,65 +215,79 @@ false
 	</div>
 </div>
 
+            </div>
+           </div>
+          </div>
+         </div>
+         <div class="popup_anchor" id="u4928popup">
+          <div class="ContainerGroup clearfix" id="u4928"><!-- stack box -->
+           <div class="Container invi clearfix grpelem" id="u4931"><!-- group -->
+            <nav class="MenuBar clearfix grpelem" id="menuu4996"><!-- vertical box -->
+             <div class="MenuItemContainer clearfix colelem" id="u4997"><!-- horizontal box -->
+              <a class="nonblock nontext MenuItem MenuItemWithSubMenu clearfix grpelem" id="u4998" href="index.html"><!-- horizontal box --><div class="MenuItemLabel clearfix grpelem" id="u5001-4"><!-- content --><p class="shared_content" data-content-guid="u5001-4_0_content">Домашняя</p></div></a>
+             </div>
+             <div class="MenuItemContainer clearfix colelem" id="u8064"><!-- horizontal box -->
+              <a class="nonblock nontext MenuItem MenuItemWithSubMenu clearfix grpelem" id="u8065" href="kvartira.html"><!-- horizontal box --><div class="MenuItemLabel clearfix grpelem" id="u8068-4"><!-- content --><p class="shared_content" data-content-guid="u8068-4_0_content">Квартиры</p></div></a>
+              <div class="SubMenu MenuLevel1 clearfix" id="u8069"><!-- vertical box -->
+               <ul class="SubMenuView clearfix colelem" id="u8070"><!-- vertical box -->
+                <li class="MenuItemContainer clearfix colelem" id="u8113"><!-- horizontal box --><a class="nonblock nontext MenuItem MenuItemWithSubMenu MuseMenuActive clearfix grpelem" id="u8117" href="zaglushka1.html"><!-- horizontal box --><div class="MenuItemLabel clearfix grpelem" id="u8125-4"><!-- content --><p id="u8125-2" class="shared_content" data-content-guid="u8125-2_content"><span id="u8125">Без имени 8</span></p></div></a></li>
+                <li class="MenuItemContainer clearfix colelem" id="u8162"><!-- horizontal box --><a class="nonblock nontext MenuItem MenuItemWithSubMenu clearfix grpelem" id="u8163" href="zaglushka2.html"><!-- horizontal box --><div class="MenuItemLabel clearfix grpelem" id="u8166-4"><!-- content --><p id="u8166-2" class="shared_content" data-content-guid="u8166-2_content"><span id="u8166">Без имени 9</span></p></div></a></li>
+               </ul>
+              </div>
+             </div>
+            </nav>
+           </div>
+          </div>
+         </div>
         </div>
        </div>
       </div>
      </div>
-     <div class="popup_anchor" id="u4928popup">
-      <div class="ContainerGroup clearfix" id="u4928"><!-- stack box -->
-       <div class="Container invi clearfix grpelem" id="u4931"><!-- group -->
-        <nav class="MenuBar clearfix grpelem" id="menuu4996"><!-- vertical box -->
-         <div class="MenuItemContainer clearfix colelem" id="u4997"><!-- horizontal box -->
-          <a class="nonblock nontext MenuItem MenuItemWithSubMenu clearfix grpelem" id="u4998" href="index.html"><!-- horizontal box --><div class="MenuItemLabel clearfix grpelem" id="u5001-4"><!-- content --><p class="shared_content" data-content-guid="u5001-4_0_content">Домашняя</p></div></a>
-         </div>
-         <div class="MenuItemContainer clearfix colelem" id="u8064"><!-- horizontal box -->
-          <a class="nonblock nontext MenuItem MenuItemWithSubMenu clearfix grpelem" id="u8065" href="kvartira.html"><!-- horizontal box --><div class="MenuItemLabel clearfix grpelem" id="u8068-4"><!-- content --><p class="shared_content" data-content-guid="u8068-4_0_content">Квартиры</p></div></a>
-          <div class="SubMenu MenuLevel1 clearfix" id="u8069"><!-- vertical box -->
-           <ul class="SubMenuView clearfix colelem" id="u8070"><!-- vertical box -->
-            <li class="MenuItemContainer clearfix colelem" id="u8113"><!-- horizontal box --><a class="nonblock nontext MenuItem MenuItemWithSubMenu MuseMenuActive clearfix grpelem" id="u8117" href="zaglushka1.html"><!-- horizontal box --><div class="MenuItemLabel clearfix grpelem" id="u8125-4"><!-- content --><p id="u8125-2" class="shared_content" data-content-guid="u8125-2_content"><span id="u8125">Без имени 8</span></p></div></a></li>
-            <li class="MenuItemContainer clearfix colelem" id="u8162"><!-- horizontal box --><a class="nonblock nontext MenuItem MenuItemWithSubMenu clearfix grpelem" id="u8163" href="zaglushka2.html"><!-- horizontal box --><div class="MenuItemLabel clearfix grpelem" id="u8166-4"><!-- content --><p id="u8166-2" class="shared_content" data-content-guid="u8166-2_content"><span id="u8166">Без имени 9</span></p></div></a></li>
-           </ul>
-          </div>
-         </div>
-        </nav>
-       </div>
-      </div>
-     </div>
+     <span class="clip_frame colelem placeholder" data-placeholder-for="u8230_content"><!-- placeholder node --></span>
     </div>
-    <div class="verticalspacer shared_content" data-offset-top="0" data-content-above-spacer="316" data-content-below-spacer="1500" data-content-guid="page_2_content"></div>
+    <div class="verticalspacer shared_content" data-offset-top="1212" data-content-above-spacer="1211" data-content-below-spacer="288" data-content-guid="page_2_content"></div>
    </div>
   </div>
   <div class="breakpoint" id="bp_768" data-max-width="768"><!-- responsive breakpoint node -->
    <div class="clearfix temp_no_id" data-orig-id="page"><!-- group -->
     <span class="clearfix grpelem placeholder" data-placeholder-for="pu997_content"><!-- placeholder node --></span>
-    <div class="PamphletWidget clearfix grpelem temp_no_id" data-orig-id="pamphletu4921"><!-- none box -->
-     <div class="ThumbGroup clearfix grpelem temp_no_id" data-orig-id="u4922"><!-- none box -->
-      <div class="popup_anchor temp_no_id" data-orig-id="u4923popup">
-       <div class="Thumb popup_element clearfix temp_no_id" data-orig-id="u4923"><!-- group -->
-        <span class="size_fixed grpelem placeholder" data-placeholder-for="u4912_content"><!-- placeholder node --></span>
-       </div>
-      </div>
-     </div>
-     <div class="popup_anchor temp_no_id" data-orig-id="u4928popup">
-      <div class="ContainerGroup clearfix temp_no_id" data-orig-id="u4928"><!-- stack box -->
-       <div class="Container invi clearfix grpelem temp_no_id" data-orig-id="u4931"><!-- group -->
-        <nav class="MenuBar clearfix grpelem temp_no_id" data-orig-id="menuu4996"><!-- vertical box -->
-         <div class="MenuItemContainer clearfix colelem temp_no_id" data-orig-id="u4997"><!-- horizontal box -->
-          <a class="nonblock nontext MenuItem MenuItemWithSubMenu clearfix grpelem temp_no_id" href="index.html" data-orig-id="u4998"><!-- horizontal box --><div class="MenuItemLabel clearfix grpelem temp_no_id" data-orig-id="u5001-4"><!-- content --><span class="placeholder" data-placeholder-for="u5001-4_0_content"><!-- placeholder node --></span></div></a>
-         </div>
-         <div class="MenuItemContainer clearfix colelem temp_no_id" data-orig-id="u8064"><!-- horizontal box -->
-          <a class="nonblock nontext MenuItem MenuItemWithSubMenu clearfix grpelem temp_no_id" href="kvartira.html" data-orig-id="u8065"><!-- horizontal box --><div class="MenuItemLabel clearfix grpelem temp_no_id" data-orig-id="u8068-4"><!-- content --><span class="placeholder" data-placeholder-for="u8068-4_0_content"><!-- placeholder node --></span></div></a>
-          <div class="SubMenu MenuLevel1 clearfix temp_no_id" data-orig-id="u8069"><!-- vertical box -->
-           <ul class="SubMenuView clearfix colelem temp_no_id" data-orig-id="u8070"><!-- vertical box -->
-            <li class="MenuItemContainer clearfix colelem temp_no_id" data-orig-id="u8113"><!-- horizontal box --><a class="nonblock nontext MenuItem MenuItemWithSubMenu MuseMenuActive clearfix grpelem temp_no_id" href="zaglushka1.html" data-orig-id="u8117"><!-- horizontal box --><div class="MenuItemLabel clearfix grpelem temp_no_id" data-orig-id="u8125-4"><!-- content --><span class="placeholder" data-placeholder-for="u8125-2_content"><!-- placeholder node --></span></div></a></li>
-            <li class="MenuItemContainer clearfix colelem temp_no_id" data-orig-id="u8162"><!-- horizontal box --><a class="nonblock nontext MenuItem MenuItemWithSubMenu clearfix grpelem temp_no_id" href="zaglushka2.html" data-orig-id="u8163"><!-- horizontal box --><div class="MenuItemLabel clearfix grpelem temp_no_id" data-orig-id="u8166-4"><!-- content --><span class="placeholder" data-placeholder-for="u8166-2_content"><!-- placeholder node --></span></div></a></li>
-           </ul>
+    <div class="clearfix grpelem temp_no_id" data-orig-id="pu8211"><!-- column -->
+     <div class="browser_width colelem temp_no_id" data-orig-id="u8211-bw">
+      <div class="museBGSize temp_no_id" data-orig-id="u8211"><!-- group -->
+       <div class="clearfix temp_no_id" data-orig-id="u8211_align_to_page">
+        <div class="PamphletWidget clearfix grpelem temp_no_id" data-orig-id="pamphletu4921"><!-- none box -->
+         <div class="ThumbGroup clearfix grpelem temp_no_id" data-orig-id="u4922"><!-- none box -->
+          <div class="popup_anchor temp_no_id" data-orig-id="u4923popup">
+           <div class="Thumb popup_element clearfix temp_no_id" data-orig-id="u4923"><!-- group -->
+            <span class="size_fixed grpelem placeholder" data-placeholder-for="u4912_content"><!-- placeholder node --></span>
+           </div>
           </div>
          </div>
-        </nav>
+         <div class="popup_anchor temp_no_id" data-orig-id="u4928popup">
+          <div class="ContainerGroup clearfix temp_no_id" data-orig-id="u4928"><!-- stack box -->
+           <div class="Container invi clearfix grpelem temp_no_id" data-orig-id="u4931"><!-- group -->
+            <nav class="MenuBar clearfix grpelem temp_no_id" data-orig-id="menuu4996"><!-- vertical box -->
+             <div class="MenuItemContainer clearfix colelem temp_no_id" data-orig-id="u4997"><!-- horizontal box -->
+              <a class="nonblock nontext MenuItem MenuItemWithSubMenu clearfix grpelem temp_no_id" href="index.html" data-orig-id="u4998"><!-- horizontal box --><div class="MenuItemLabel clearfix grpelem temp_no_id" data-orig-id="u5001-4"><!-- content --><span class="placeholder" data-placeholder-for="u5001-4_0_content"><!-- placeholder node --></span></div></a>
+             </div>
+             <div class="MenuItemContainer clearfix colelem temp_no_id" data-orig-id="u8064"><!-- horizontal box -->
+              <a class="nonblock nontext MenuItem MenuItemWithSubMenu clearfix grpelem temp_no_id" href="kvartira.html" data-orig-id="u8065"><!-- horizontal box --><div class="MenuItemLabel clearfix grpelem temp_no_id" data-orig-id="u8068-4"><!-- content --><span class="placeholder" data-placeholder-for="u8068-4_0_content"><!-- placeholder node --></span></div></a>
+              <div class="SubMenu MenuLevel1 clearfix temp_no_id" data-orig-id="u8069"><!-- vertical box -->
+               <ul class="SubMenuView clearfix colelem temp_no_id" data-orig-id="u8070"><!-- vertical box -->
+                <li class="MenuItemContainer clearfix colelem temp_no_id" data-orig-id="u8113"><!-- horizontal box --><a class="nonblock nontext MenuItem MenuItemWithSubMenu MuseMenuActive clearfix grpelem temp_no_id" href="zaglushka1.html" data-orig-id="u8117"><!-- horizontal box --><div class="MenuItemLabel clearfix grpelem temp_no_id" data-orig-id="u8125-4"><!-- content --><span class="placeholder" data-placeholder-for="u8125-2_content"><!-- placeholder node --></span></div></a></li>
+                <li class="MenuItemContainer clearfix colelem temp_no_id" data-orig-id="u8162"><!-- horizontal box --><a class="nonblock nontext MenuItem MenuItemWithSubMenu clearfix grpelem temp_no_id" href="zaglushka2.html" data-orig-id="u8163"><!-- horizontal box --><div class="MenuItemLabel clearfix grpelem temp_no_id" data-orig-id="u8166-4"><!-- content --><span class="placeholder" data-placeholder-for="u8166-2_content"><!-- placeholder node --></span></div></a></li>
+               </ul>
+              </div>
+             </div>
+            </nav>
+           </div>
+          </div>
+         </div>
+        </div>
        </div>
       </div>
      </div>
+     <span class="clip_frame colelem placeholder" data-placeholder-for="u8230_content"><!-- placeholder node --></span>
     </div>
     <span class="verticalspacer placeholder" data-placeholder-for="page_2_content"><!-- placeholder node --></span>
    </div>
@@ -284,7 +310,7 @@ var suppressMissingFileError = false
 k[1]:null,k=k&&k[2]?k[2]:null;switch(k.toLowerCase()){case "css":i=i.replace(/\W/gi,"_").replace(/^([^a-z])/gi,"_$1");g.className+=" "+i;i=a(d(g,"color"));k=a(d(g,"backgroundColor"));i!=0||k!=0?(Muse.assets.required.splice(j,1),"undefined"!=typeof b[l]&&(i!=b[l]>>>24||k!=(b[l]&16777215))&&Muse.assets.outOfDate.push(l)):j++;g.className="version";break;case "js":j++;break;default:throw Error("Unsupported file type: "+k);}}c?c().jquery!="1.8.3"&&Muse.assets.outOfDate.push("jquery-1.8.3.min.js"):Muse.assets.required.push("jquery-1.8.3.min.js");
 g.parentNode.removeChild(g);if(Muse.assets.outOfDate.length||Muse.assets.required.length)g="Некоторые файлы на сервере могут отсутствовать или быть некорректными. Очистите кэш-память браузера и повторите попытку. Если проблему не удается устранить, свяжитесь с разработчиками сайта.",f&&Muse.assets.outOfDate.length&&(g+="\nOut of date: "+Muse.assets.outOfDate.join(",")),f&&Muse.assets.required.length&&(g+="\nMissing: "+Muse.assets.required.join(",")),suppressMissingFileError?(g+="\nUse SuppressMissingFileError key in AppPrefs.xml to show missing file error pop up.",console.log(g)):alert(g)};location&&location.search&&location.search.match&&location.search.match(/muse_debug/gi)?
 setTimeout(function(){f(!0)},5E3):f()}};
-var muse_init=function(){require.config({baseUrl:""});require(["jquery","museutils","whatinput","jquery.musemenu","jquery.watch","webpro","musewpslideshow","jquery.museoverlay","touchswipe","jquery.museresponsive"],function(c){var $ = c;$(document).ready(function(){try{
+var muse_init=function(){require.config({baseUrl:""});require(["jquery","museutils","whatinput","jquery.musemenu","jquery.musepolyfill.bgsize","jquery.watch","webpro","musewpslideshow","jquery.museoverlay","touchswipe","jquery.museresponsive"],function(c){var $ = c;$(document).ready(function(){try{
 window.Muse.assets.check($);/* body */
 Muse.Utils.transformMarkupToFixBrowserProblemsPreInit();/* body */
 Muse.Utils.prepHyperlinks(true);/* body */
@@ -310,6 +336,8 @@ Muse.Utils.prepHyperlinks(true);/* body */
 		Muse.Assert.fail('Error with Widget:Scroll to Top ParamHTMLOnDocReady Handler ' + e.toString());
 	}
 })();/* Widget:Scroll to Top */
+Muse.Utils.resizeHeight('.browser_width');/* resize height */
+Muse.Utils.requestAnimationFrame(function() { $('body').addClass('initialized'); });/* mark body as initialized */
 Muse.Utils.makeButtonsVisibleAfterSettingMinWidth();/* body */
 Muse.Utils.initWidget('.MenuBar', ['#bp_infinity', '#bp_1280', '#bp_768'], function(elem) { return $(elem).museMenu(); });/* unifiedNavBar */
 Muse.Utils.initWidget('#pamphletu4921', ['#bp_1280', '#bp_768'], function(elem) { return new WebPro.Widget.ContentSlideShow(elem, {contentLayout_runtime:'stack',event:'click',deactivationEvent:'mouseout_click',autoPlay:false,displayInterval:3000,transitionStyle:'fading',transitionDuration:500,hideAllContentsFirst:true,triggersOnTop:false,shuffle:false,enableSwipe:true,resumeAutoplay:true,resumeAutoplayInterval:3000,playOnce:false,autoActivate_runtime:false,isResponsive:false}); });/* #pamphletu4921 */
