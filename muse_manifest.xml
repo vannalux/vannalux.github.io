@@ -1,15 +1,15 @@
-<manifest alg="2" build="2018.1.1.386" opt="false" iceEnabled="false" exportTarget="other" domain="https://vannalux.github.io" resolutions="1x" timestamp="1722173421013">
+<manifest alg="2" build="2018.1.1.386" opt="false" iceEnabled="false" exportTarget="other" domain="https://vannalux.github.io" resolutions="1x" timestamp="1722173659386">
   <folder name="css">
     <file name="site_global.css" crc="444006867"/>
     <file name="master_______-a.css" crc="298027996" ref="kvartira:index:zaglushka2:zaglushka1"/>
     <file name="nomq_preview_master_______-a.css" crc="228284562" ref="kvartira:index:zaglushka2:zaglushka1"/>
-    <file name="kvartira.css" crc="4286208551" ref="kvartira"/>
+    <file name="kvartira.css" crc="4159525910" ref="kvartira"/>
     <file name="nomq_kvartira.css" crc="4203569338" ref="kvartira"/>
-    <file name="index.css" crc="4099772919" ref="index"/>
+    <file name="index.css" crc="476182999" ref="index"/>
     <file name="nomq_index.css" crc="4047716082" ref="index"/>
-    <file name="zaglushka2.css" crc="3795433717" ref="zaglushka2"/>
+    <file name="zaglushka2.css" crc="3876441435" ref="zaglushka2"/>
     <file name="nomq_zaglushka2.css" crc="529626733" ref="zaglushka2"/>
-    <file name="zaglushka1.css" crc="3795433717" ref="zaglushka1"/>
+    <file name="zaglushka1.css" crc="3876441435" ref="zaglushka1"/>
     <file name="nomq_zaglushka1.css" crc="529626733" ref="zaglushka1"/>
   </folder>
   <folder name="fonts">
@@ -161,8 +161,8 @@
       <caption webpage="kvartira" alt="Недавние проекты"/>
     </file>
   </folder>
-  <file name="index.html" crc="4061247991" seo="true" mt="1722173404893" redirect="true"/>
-  <file name="kvartira.html" crc="4107999181" seo="true" mt="1722173404893" redirect="true"/>
-  <file name="zaglushka1.html" crc="4171166308" seo="true" mt="1722173404893" redirect="true"/>
-  <file name="zaglushka2.html" crc="127387091" seo="true" mt="1722173404893" redirect="true"/>
+  <file name="index.html" crc="4210518774" seo="true" mt="1722173609065" redirect="true"/>
+  <file name="kvartira.html" crc="292158648" seo="true" mt="1722173609065" redirect="true"/>
+  <file name="zaglushka1.html" crc="3908426772" seo="true" mt="1722173609065" redirect="true"/>
+  <file name="zaglushka2.html" crc="402451363" seo="true" mt="1722173609065" redirect="true"/>
 </manifest>
