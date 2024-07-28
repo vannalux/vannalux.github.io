@@ -1,12 +1,12 @@
-<manifest alg="2" build="2018.1.1.386" opt="false" iceEnabled="false" exportTarget="other" domain="https://vannalux.github.io" resolutions="1x" timestamp="1722121379820">
+<manifest alg="2" build="2018.1.1.386" opt="false" iceEnabled="false" exportTarget="other" domain="https://vannalux.github.io" resolutions="1x" timestamp="1722160239533">
   <folder name="css">
     <file name="site_global.css" crc="444006867"/>
-    <file name="master_______-a.css" crc="3815110740" ref="kvartira:index"/>
+    <file name="master_______-a.css" crc="4172098435" ref="kvartira:index"/>
     <file name="nomq_preview_master_______-a.css" crc="3824530138" ref="kvartira:index"/>
-    <file name="kvartira.css" crc="4050428248" ref="kvartira"/>
-    <file name="nomq_kvartira.css" crc="381103440" ref="kvartira"/>
-    <file name="index.css" crc="3814122222" ref="index"/>
-    <file name="nomq_index.css" crc="4055170473" ref="index"/>
+    <file name="kvartira.css" crc="4218010342" ref="kvartira"/>
+    <file name="nomq_kvartira.css" crc="407293305" ref="kvartira"/>
+    <file name="index.css" crc="3921826585" ref="index"/>
+    <file name="nomq_index.css" crc="406121032" ref="index"/>
   </folder>
   <folder name="fonts">
     <file name="ptsans-narrow.woff" crc="4137024931"/>
@@ -157,6 +157,6 @@
       <caption webpage="kvartira" alt="Недавние проекты"/>
     </file>
   </folder>
-  <file name="index.html" crc="86991368" seo="true" mt="1722121313826" redirect="true"/>
-  <file name="kvartira.html" crc="298144550" seo="true" mt="1722121313826" redirect="true"/>
+  <file name="index.html" crc="408285088" seo="true" mt="1722160175807" redirect="true"/>
+  <file name="kvartira.html" crc="29070095" seo="true" mt="1722160175807" redirect="true"/>
 </manifest>
