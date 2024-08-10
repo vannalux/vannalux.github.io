@@ -20,11 +20,11 @@ if(typeof Muse == "undefined") window.Muse = {}; window.Muse.assets = {"required
   <title>Лучший Хара сайт</title>
   <!-- CSS -->
   <link rel="stylesheet" type="text/css" href="css/site_global.css?crc=444006867"/>
-  <link rel="stylesheet" type="text/css" href="css/master_______-a.css?crc=41937313"/>
-  <link rel="stylesheet" type="text/css" href="css/index.css?crc=4055823277" id="pagesheet"/>
+  <link rel="stylesheet" type="text/css" href="css/master_______-a.css?crc=458248205"/>
+  <link rel="stylesheet" type="text/css" href="css/index.css?crc=3960158062" id="pagesheet"/>
   <!-- IE-only CSS -->
   <!--[if lt IE 9]>
-  <link rel="stylesheet" type="text/css" href="css/nomq_preview_master_______-a.css?crc=3852397562"/>
+  <link rel="stylesheet" type="text/css" href="css/nomq_preview_master_______-a.css?crc=473214309"/>
   <link rel="stylesheet" type="text/css" href="css/nomq_index.css?crc=3938540589" id="nomq_pagesheet"/>
   <![endif]-->
   <!-- JS includes -->
@@ -210,7 +210,7 @@ false
       </div>
      </div>
      <div class="browser_width colelem" id="u199-bw">
-      <div class="museBGSize" id="u199"><!-- column -->
+      <div id="u199"><!-- column -->
        <div class="clearfix" id="u199_align_to_page">
         <div class="clearfix colelem" id="pu3377"><!-- group -->
          <div class="clip_frame grpelem" id="u3377"><!-- image -->
@@ -402,7 +402,7 @@ false
       </div>
      </div>
      <div class="browser_width colelem temp_no_id" data-orig-id="u199-bw">
-      <div class="museBGSize temp_no_id" data-orig-id="u199"><!-- column -->
+      <div class="temp_no_id" data-orig-id="u199"><!-- column -->
        <div class="clearfix temp_no_id" data-orig-id="u199_align_to_page">
         <div class="clearfix colelem temp_no_id" data-orig-id="pu3377"><!-- group -->
          <div class="clip_frame grpelem temp_no_id" data-orig-id="u3377"><!-- image -->
@@ -510,7 +510,7 @@ false
       </div>
      </div>
      <div class="browser_width colelem temp_no_id" data-orig-id="u199-bw">
-      <div class="museBGSize temp_no_id" data-orig-id="u199"><!-- column -->
+      <div class="temp_no_id" data-orig-id="u199"><!-- column -->
        <div class="clearfix temp_no_id" data-orig-id="u199_align_to_page">
         <div class="clip_frame colelem temp_no_id" data-orig-id="u3377"><!-- image -->
          <img class="block temp_no_id temp_no_img_src" data-orig-src="images/06062022ryu1%20(123)-crop-u33773.jpg?crc=3758901218" alt="Ноготки" title="Ноготки" width="280" height="202" data-orig-id="u3377_img" src="images/blank.gif?crc=4208392903"/>
@@ -618,13 +618,13 @@ Muse.Utils.makeButtonsVisibleAfterSettingMinWidth();/* body */
 Muse.Utils.initWidget('.MenuBar', ['#bp_infinity', '#bp_1280', '#bp_768'], function(elem) { return $(elem).museMenu(); });/* unifiedNavBar */
 Muse.Utils.initWidget('#pamphletu4921', ['#bp_1280', '#bp_768'], function(elem) { return new WebPro.Widget.ContentSlideShow(elem, {contentLayout_runtime:'stack',event:'click',deactivationEvent:'mouseout_click',autoPlay:false,displayInterval:3000,transitionStyle:'fading',transitionDuration:500,hideAllContentsFirst:true,triggersOnTop:false,shuffle:false,enableSwipe:true,resumeAutoplay:true,resumeAutoplayInterval:3000,playOnce:false,autoActivate_runtime:false,isResponsive:false}); });/* #pamphletu4921 */
 Muse.Utils.fullPage('#page');/* 100% height page */
+$('#bp_768').one('muse_this_bp_activate', function(){
+$('#u136').registerBackgroundPositionScrollEffect([{"in":[-Infinity,0],"speed":[0,0.7]},{"in":[0,Infinity],"speed":[0,0.7]}], $(this)); /* scroll effect */
+});/* scroll effects for one breakpoint */
 $('#bp_infinity').one('muse_this_bp_activate', function(){
 $('#u136').registerBackgroundPositionScrollEffect([{"in":[-Infinity,0],"speed":[0,0.7]},{"in":[0,Infinity],"speed":[0,0.7]}], $(this)); /* scroll effect */
 });/* scroll effects for one breakpoint */
 $('#bp_1280').one('muse_this_bp_activate', function(){
-$('#u136').registerBackgroundPositionScrollEffect([{"in":[-Infinity,0],"speed":[0,0.7]},{"in":[0,Infinity],"speed":[0,0.7]}], $(this)); /* scroll effect */
-});/* scroll effects for one breakpoint */
-$('#bp_768').one('muse_this_bp_activate', function(){
 $('#u136').registerBackgroundPositionScrollEffect([{"in":[-Infinity,0],"speed":[0,0.7]},{"in":[0,Infinity],"speed":[0,0.7]}], $(this)); /* scroll effect */
 });/* scroll effects for one breakpoint */
 $( '.breakpoint' ).registerBreakpoint();/* Register breakpoints */
