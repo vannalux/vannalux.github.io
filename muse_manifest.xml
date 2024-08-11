@@ -1,15 +1,15 @@
-<manifest alg="2" build="2018.1.1.386" opt="false" iceEnabled="false" exportTarget="other" domain="https://vannalux.github.io" resolutions="1x" timestamp="1723408080962">
+<manifest alg="2" build="2018.1.1.386" opt="false" iceEnabled="false" exportTarget="other" domain="https://vannalux.github.io" resolutions="1x" timestamp="1723409786854">
   <folder name="css">
     <file name="site_global.css" crc="444006867"/>
-    <file name="master_______-a.css" crc="420430912" ref="index:zaglushka1:kvartira-2:trackmate"/>
-    <file name="nomq_preview_master_______-a.css" crc="3852397562" ref="index:zaglushka1:kvartira-2:trackmate"/>
+    <file name="master_______-a.css" crc="4129617695" ref="index:zaglushka1:kvartira-2:trackmate"/>
+    <file name="nomq_preview_master_______-a.css" crc="473214309" ref="index:zaglushka1:kvartira-2:trackmate"/>
     <file name="index.css" crc="3844615115" ref="index"/>
     <file name="nomq_index.css" crc="4100945497" ref="index"/>
     <file name="zaglushka1.css" crc="280570709" ref="zaglushka1"/>
     <file name="nomq_zaglushka1.css" crc="219635027" ref="zaglushka1"/>
     <file name="kvartira-2.css" crc="449761535" ref="kvartira-2"/>
     <file name="nomq_kvartira-2.css" crc="290851803" ref="kvartira-2"/>
-    <file name="trackmate.css" crc="55132420" ref="trackmate"/>
+    <file name="trackmate.css" crc="368140464" ref="trackmate"/>
     <file name="nomq_trackmate.css" crc="3762410618" ref="trackmate"/>
   </folder>
   <folder name="fonts">
@@ -38,7 +38,7 @@
     <file name="require.js" crc="4177726516" ref="index:zaglushka1:trackmate:kvartira-2"/>
   </folder>
   <folder name="images">
-    <file name="favicon.ico" crc="4180352690" ref="index"/>
+    <file name="favicon.ico" crc="4180352690" ref="index:trackmate"/>
     <file name="devvyyshkkii23.jpg" crc="55669113" ref="index">
       <caption webpage="index" alt=""/>
     </file>
@@ -161,24 +161,24 @@
       <caption webpage="trackmate" alt=""/>
     </file>
     <file name="kreitere34 (19).png" crc="4026563314" seo="true" ref="trackmate">
-      <caption webpage="trackmate" alt="20 часов автономии"/>
-      <caption webpage="trackmate" alt="20 часов автономии"/>
-      <caption webpage="trackmate" alt="20 часов автономии"/>
+      <caption webpage="trackmate" alt="Значок батарейки"/>
+      <caption webpage="trackmate" alt="Значок батарейки"/>
+      <caption webpage="trackmate" alt="Значок батарейки"/>
     </file>
     <file name="kreitere34 (21).png" crc="4207827949" seo="true" ref="trackmate">
-      <caption webpage="trackmate" alt="Bluetooth"/>
-      <caption webpage="trackmate" alt="Bluetooth"/>
-      <caption webpage="trackmate" alt="Bluetooth"/>
+      <caption webpage="trackmate" alt="Значок блютуз"/>
+      <caption webpage="trackmate" alt="Значок блютуз"/>
+      <caption webpage="trackmate" alt="Значок блютуз"/>
     </file>
     <file name="kreitere34 (20).png" crc="234168051" seo="true" ref="trackmate">
-      <caption webpage="trackmate" alt="Водонепроницаемость"/>
-      <caption webpage="trackmate" alt="Водонепроницаемость"/>
-      <caption webpage="trackmate" alt="Водонепроницаемость"/>
+      <caption webpage="trackmate" alt="Значок защиты"/>
+      <caption webpage="trackmate" alt="Значок защиты"/>
+      <caption webpage="trackmate" alt="Значок защиты"/>
     </file>
     <file name="kreitere34 (22).png" crc="4227036089" seo="true" ref="trackmate">
-      <caption webpage="trackmate" alt="Беспроводная зарядка"/>
-      <caption webpage="trackmate" alt="Беспроводная зарядка"/>
-      <caption webpage="trackmate" alt="Беспроводная зарядка"/>
+      <caption webpage="trackmate" alt="Значок зарядки"/>
+      <caption webpage="trackmate" alt="Значок зарядки"/>
+      <caption webpage="trackmate" alt="Значок зарядки"/>
     </file>
     <file name="kreitere34 (2).jpg" crc="3778563478" seo="true" ref="trackmate">
       <caption webpage="trackmate" alt="Отслеживайте свой сон"/>
@@ -337,6 +337,6 @@
   </folder>
   <file name="index.html" crc="432990144" seo="true" mt="1723407973436" redirect="true"/>
   <file name="zaglushka1.html" crc="208844143" seo="true" mt="1723407973436" redirect="true"/>
-  <file name="trackmate.html" crc="96559953" seo="true" mt="1723407973439" redirect="true"/>
+  <file name="trackmate.html" crc="3960600070" seo="true" mt="1723409774650" redirect="true"/>
   <file name="kvartira-2.html" crc="4202824161" seo="true" mt="1723407973436" redirect="true"/>
 </manifest>
