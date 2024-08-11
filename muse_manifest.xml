@@ -1,10 +1,10 @@
-<manifest alg="2" build="2018.1.1.386" opt="false" iceEnabled="false" exportTarget="other" domain="https://vannalux.github.io" resolutions="1x" timestamp="1723384557412">
+<manifest alg="2" build="2018.1.1.386" opt="false" iceEnabled="false" exportTarget="other" domain="https://vannalux.github.io" resolutions="1x" timestamp="1723405188811">
   <folder name="css">
     <file name="site_global.css" crc="444006867"/>
-    <file name="master_______-a.css" crc="420430912" ref="zaglushka2:index:zaglushka1:kvartira-2"/>
-    <file name="nomq_preview_master_______-a.css" crc="3852397562" ref="zaglushka2:index:zaglushka1:kvartira-2"/>
-    <file name="zaglushka2.css" crc="168300193" ref="zaglushka2"/>
-    <file name="nomq_zaglushka2.css" crc="4065218318" ref="zaglushka2"/>
+    <file name="master_______-a.css" crc="3960830335" ref="zaglushka2:index:zaglushka1:kvartira-2"/>
+    <file name="nomq_preview_master_______-a.css" crc="473214309" ref="zaglushka2:index:zaglushka1:kvartira-2"/>
+    <file name="zaglushka2.css" crc="4147096578" ref="zaglushka2"/>
+    <file name="nomq_zaglushka2.css" crc="3762410618" ref="zaglushka2"/>
     <file name="index.css" crc="3844615115" ref="index"/>
     <file name="nomq_index.css" crc="4100945497" ref="index"/>
     <file name="zaglushka1.css" crc="280570709" ref="zaglushka1"/>
@@ -38,7 +38,7 @@
     <file name="require.js" crc="4177726516" ref="index:zaglushka1:zaglushka2:kvartira-2"/>
   </folder>
   <folder name="images">
-    <file name="favicon.ico" crc="4180352690" ref="index"/>
+    <file name="favicon.ico" crc="4180352690" ref="index:zaglushka2"/>
     <file name="devvyyshkkii23.jpg" crc="55669113" ref="index">
       <caption webpage="index" alt=""/>
     </file>
@@ -223,9 +223,120 @@
       <caption webpage="zaglushka2" alt="Полезные напоминания"/>
     </file>
     <file name="kreitere34 (10)-u10060-fr.png" crc="4097673668" ref="zaglushka2"/>
+    <file name="kreitere34 (4).jpg" crc="3951389435" ref="zaglushka2">
+      <caption webpage="zaglushka2" alt=""/>
+    </file>
+    <file name="kreitere34 (24).png" crc="3776622583" seo="true" ref="zaglushka2">
+      <caption webpage="zaglushka2" alt="СИСТЕМА ОПОВЕЩЕНИЙ"/>
+      <caption webpage="zaglushka2" alt="СИСТЕМА ОПОВЕЩЕНИЙ"/>
+      <caption webpage="zaglushka2" alt="СИСТЕМА ОПОВЕЩЕНИЙ"/>
+    </file>
+    <file name="kreitere34 (7).jpg" crc="446882813" ref="zaglushka2">
+      <caption webpage="zaglushka2" alt=""/>
+    </file>
+    <file name="kreitere34 (19).png" crc="4026563314" seo="true" ref="zaglushka2">
+      <caption webpage="zaglushka2" alt="20 часов автономии"/>
+      <caption webpage="zaglushka2" alt="20 часов автономии"/>
+      <caption webpage="zaglushka2" alt="20 часов автономии"/>
+    </file>
+    <file name="kreitere34 (21).png" crc="4207827949" seo="true" ref="zaglushka2">
+      <caption webpage="zaglushka2" alt="Bluetooth"/>
+      <caption webpage="zaglushka2" alt="Bluetooth"/>
+      <caption webpage="zaglushka2" alt="Bluetooth"/>
+    </file>
+    <file name="kreitere34 (20).png" crc="234168051" seo="true" ref="zaglushka2">
+      <caption webpage="zaglushka2" alt="Водонепроницаемость"/>
+      <caption webpage="zaglushka2" alt="Водонепроницаемость"/>
+      <caption webpage="zaglushka2" alt="Водонепроницаемость"/>
+    </file>
+    <file name="kreitere34 (22).png" crc="4227036089" seo="true" ref="zaglushka2">
+      <caption webpage="zaglushka2" alt="Беспроводная зарядка"/>
+      <caption webpage="zaglushka2" alt="Беспроводная зарядка"/>
+      <caption webpage="zaglushka2" alt="Беспроводная зарядка"/>
+    </file>
+    <file name="kreitere34 (2).jpg" crc="3778563478" seo="true" ref="zaglushka2">
+      <caption webpage="zaglushka2" alt="Отслеживайте свой сон"/>
+      <caption webpage="zaglushka2" alt="Отслеживайте свой сон"/>
+    </file>
+    <file name="kreitere34 (17).png" crc="166081895" seo="true" ref="zaglushka2">
+      <caption webpage="zaglushka2" alt="УЗНАЙТЕ СЕБЯ БОЛЬШЕ"/>
+      <caption webpage="zaglushka2" alt="УЗНАЙТЕ СЕБЯ БОЛЬШЕ"/>
+      <caption webpage="zaglushka2" alt="УЗНАЙТЕ СЕБЯ БОЛЬШЕ"/>
+    </file>
+    <file name="kreitere34 (5).jpg" crc="4031106479" seo="true" ref="zaglushka2">
+      <caption webpage="zaglushka2" alt="Устраивайте паузы осознанности"/>
+      <caption webpage="zaglushka2" alt="Устраивайте паузы осознанности"/>
+    </file>
+    <file name="kreitere34 (18).png" crc="356175197" seo="true" ref="zaglushka2">
+      <caption webpage="zaglushka2" alt="ГЛУБОКО ВДОХНИТЕ"/>
+      <caption webpage="zaglushka2" alt="ГЛУБОКО ВДОХНИТЕ"/>
+      <caption webpage="zaglushka2" alt="ГЛУБОКО ВДОХНИТЕ"/>
+    </file>
+    <file name="kreitere34 (16).png" crc="3997232569" seo="true" ref="zaglushka2">
+      <caption webpage="zaglushka2" alt="ЧАСЫ, МЕНЯЮЩИЕ ЖИЗНЬ"/>
+      <caption webpage="zaglushka2" alt="ЧАСЫ, МЕНЯЮЩИЕ ЖИЗНЬ"/>
+      <caption webpage="zaglushka2" alt="ЧАСЫ, МЕНЯЮЩИЕ ЖИЗНЬ"/>
+    </file>
+    <file name="kreitere34 (27).png" crc="3769655455" seo="true" ref="zaglushka2">
+      <caption webpage="zaglushka2" alt="Закажите 0.4 TrackMate XE сегодня"/>
+    </file>
+    <file name="kreitere34 (28).png" crc="4140072852" seo="true" ref="zaglushka2">
+      <caption webpage="zaglushka2" alt="Характеристики 0.4 TrackMate XE"/>
+      <caption webpage="zaglushka2" alt="Характеристики 0.4 TrackMate XE"/>
+    </file>
+    <file name="kreitere34 (30).jpg" crc="518750605" seo="true" ref="zaglushka2">
+      <caption webpage="zaglushka2" alt="Купить"/>
+      <caption webpage="zaglushka2" alt="Купить"/>
+      <caption webpage="zaglushka2" alt="Купить"/>
+    </file>
+    <file name="kreitere34 (5)2.jpg" crc="93959665" seo="true" ref="zaglushka2">
+      <caption webpage="zaglushka2" alt="Купить"/>
+      <caption webpage="zaglushka2" alt="Купить"/>
+      <caption webpage="zaglushka2" alt="Купить"/>
+    </file>
+    <file name="kreitere34 (2).png" crc="523316352" seo="true" ref="zaglushka2">
+      <caption webpage="zaglushka2" alt="Купить"/>
+      <caption webpage="zaglushka2" alt="Купить"/>
+      <caption webpage="zaglushka2" alt="Купить"/>
+    </file>
+    <file name="kreitere34 (12).jpg" crc="4200595736" seo="true" ref="zaglushka2">
+      <caption webpage="zaglushka2" alt="Купить"/>
+      <caption webpage="zaglushka2" alt="Купить"/>
+      <caption webpage="zaglushka2" alt="Купить"/>
+    </file>
+    <file name="kreitere34 (4)2.jpg" crc="421283548" seo="true" ref="zaglushka2">
+      <caption webpage="zaglushka2" alt="Купить"/>
+      <caption webpage="zaglushka2" alt="Купить"/>
+      <caption webpage="zaglushka2" alt="Купить"/>
+    </file>
+    <file name="kreitere34 (3).jpg" crc="169941247" seo="true" ref="zaglushka2">
+      <caption webpage="zaglushka2" alt="Купить"/>
+      <caption webpage="zaglushka2" alt="Купить"/>
+      <caption webpage="zaglushka2" alt="Купить"/>
+    </file>
+    <file name="kreitere34 (11).png" crc="521203409" seo="true" ref="zaglushka2">
+      <caption webpage="zaglushka2" alt="Купить"/>
+      <caption webpage="zaglushka2" alt="Купить"/>
+      <caption webpage="zaglushka2" alt="Купить"/>
+    </file>
+    <file name="kreitere34 (27)728x388.png" crc="4096043046" seo="true" ref="zaglushka2">
+      <caption webpage="zaglushka2" alt="Закажите 0.4 TrackMate XE сегодня"/>
+    </file>
+    <file name="kreitere34 (28)280x360.png" crc="4139356816" seo="true" ref="zaglushka2">
+      <caption webpage="zaglushka2" alt="Характеристики 0.4 TrackMate XE"/>
+    </file>
+    <file name="kreitere34 (5)280x486.jpg" crc="5739669" seo="true" ref="zaglushka2">
+      <caption webpage="zaglushka2" alt="Устраивайте паузы осознанности"/>
+    </file>
+    <file name="kreitere34 (2)280x486.jpg" crc="433796462" seo="true" ref="zaglushka2">
+      <caption webpage="zaglushka2" alt="Отслеживайте свой сон"/>
+    </file>
+    <file name="kreitere34 (27)280x150.png" crc="473592118" seo="true" ref="zaglushka2">
+      <caption webpage="zaglushka2" alt="Закажите 0.4 TrackMate XE сегодня"/>
+    </file>
   </folder>
   <file name="index.html" crc="4219620946" seo="true" mt="1723384439279" redirect="true"/>
   <file name="zaglushka1.html" crc="3850956031" seo="true" mt="1723384439279" redirect="true"/>
-  <file name="zaglushka2.html" crc="527505823" seo="true" mt="1723384439279" redirect="true"/>
+  <file name="zaglushka2.html" crc="418718649" seo="true" mt="1723405088049" redirect="true"/>
   <file name="kvartira-2.html" crc="404238426" seo="true" mt="1723384439279" redirect="true"/>
 </manifest>
