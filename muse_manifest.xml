@@ -1,9 +1,9 @@
-<manifest alg="2" build="2018.1.1.386" opt="false" iceEnabled="false" exportTarget="other" domain="https://vannalux.github.io" resolutions="1x" timestamp="1723405188811">
+<manifest alg="2" build="2018.1.1.386" opt="false" iceEnabled="false" exportTarget="other" domain="https://vannalux.github.io" resolutions="1x" timestamp="1723405579143">
   <folder name="css">
     <file name="site_global.css" crc="444006867"/>
     <file name="master_______-a.css" crc="3960830335" ref="zaglushka2:index:zaglushka1:kvartira-2"/>
     <file name="nomq_preview_master_______-a.css" crc="473214309" ref="zaglushka2:index:zaglushka1:kvartira-2"/>
-    <file name="zaglushka2.css" crc="4147096578" ref="zaglushka2"/>
+    <file name="zaglushka2.css" crc="55132420" ref="zaglushka2"/>
     <file name="nomq_zaglushka2.css" crc="3762410618" ref="zaglushka2"/>
     <file name="index.css" crc="3844615115" ref="index"/>
     <file name="nomq_index.css" crc="4100945497" ref="index"/>
@@ -337,6 +337,6 @@
   </folder>
   <file name="index.html" crc="4219620946" seo="true" mt="1723384439279" redirect="true"/>
   <file name="zaglushka1.html" crc="3850956031" seo="true" mt="1723384439279" redirect="true"/>
-  <file name="zaglushka2.html" crc="418718649" seo="true" mt="1723405088049" redirect="true"/>
+  <file name="zaglushka2.html" crc="56196371" seo="true" mt="1723405558636" redirect="true"/>
   <file name="kvartira-2.html" crc="404238426" seo="true" mt="1723384439279" redirect="true"/>
 </manifest>
