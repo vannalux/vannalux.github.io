@@ -1,15 +1,15 @@
-<manifest alg="2" build="2018.1.1.386" opt="false" iceEnabled="false" exportTarget="other" domain="https://vannalux.github.io" resolutions="1x" timestamp="1723367253815">
+<manifest alg="2" build="2018.1.1.386" opt="false" iceEnabled="false" exportTarget="other" domain="https://vannalux.github.io" resolutions="1x" timestamp="1723384151336">
   <folder name="css">
     <file name="site_global.css" crc="444006867"/>
-    <file name="master_______-a.css" crc="3960830335" ref="zaglushka2:index:zaglushka1:kvartira-2"/>
-    <file name="nomq_preview_master_______-a.css" crc="473214309" ref="zaglushka2:index:zaglushka1:kvartira-2"/>
-    <file name="zaglushka2.css" crc="60123912" ref="zaglushka2"/>
-    <file name="nomq_zaglushka2.css" crc="233778751" ref="zaglushka2"/>
-    <file name="index.css" crc="358386422" ref="index"/>
-    <file name="nomq_index.css" crc="3938540589" ref="index"/>
-    <file name="zaglushka1.css" crc="4283294421" ref="zaglushka1"/>
+    <file name="master_______-a.css" crc="420430912" ref="zaglushka2:index:zaglushka1:kvartira-2"/>
+    <file name="nomq_preview_master_______-a.css" crc="3852397562" ref="zaglushka2:index:zaglushka1:kvartira-2"/>
+    <file name="zaglushka2.css" crc="168300193" ref="zaglushka2"/>
+    <file name="nomq_zaglushka2.css" crc="4065218318" ref="zaglushka2"/>
+    <file name="index.css" crc="3844615115" ref="index"/>
+    <file name="nomq_index.css" crc="4100945497" ref="index"/>
+    <file name="zaglushka1.css" crc="280570709" ref="zaglushka1"/>
     <file name="nomq_zaglushka1.css" crc="219635027" ref="zaglushka1"/>
-    <file name="kvartira-2.css" crc="517353592" ref="kvartira-2"/>
+    <file name="kvartira-2.css" crc="449761535" ref="kvartira-2"/>
     <file name="nomq_kvartira-2.css" crc="290851803" ref="kvartira-2"/>
   </folder>
   <folder name="fonts">
@@ -26,13 +26,13 @@
     <file name="whatinput.js" crc="86476730" ref="index:zaglushka1:zaglushka2:kvartira-2"/>
     <file name="museconfig.js" crc="3936894949" ref="index:zaglushka1:zaglushka2:kvartira-2"/>
     <file name="jquery.musemenu.js" crc="4139692962" ref="index:zaglushka1:zaglushka2:kvartira-2"/>
-    <file name="jquery.musepolyfill.bgsize.js" crc="85124417" ref="index:zaglushka1:kvartira-2"/>
+    <file name="jquery.musepolyfill.bgsize.js" crc="85124417" ref="index:zaglushka1:kvartira-2:zaglushka2"/>
     <file name="jquery.watch.js" crc="522499760" ref="index:zaglushka1:zaglushka2:kvartira-2"/>
     <file name="webpro.js" crc="3856315280" ref="index:zaglushka1:zaglushka2:kvartira-2"/>
     <file name="musewpslideshow.js" crc="244150766" ref="index:zaglushka1:zaglushka2:kvartira-2"/>
     <file name="jquery.museoverlay.js" crc="3877667098" ref="index:zaglushka1:zaglushka2:kvartira-2"/>
     <file name="touchswipe.js" crc="3888935200" ref="index:zaglushka1:zaglushka2:kvartira-2"/>
-    <file name="jquery.scrolleffects.js" crc="312044820" ref="index:zaglushka1:kvartira-2"/>
+    <file name="jquery.scrolleffects.js" crc="312044820" ref="index:zaglushka1:kvartira-2:zaglushka2"/>
     <file name="html5shiv.js" crc="4241844378" ref="index:zaglushka1:zaglushka2:kvartira-2"/>
     <file name="jquery.museresponsive.js" crc="95814420" ref="index:zaglushka1:zaglushka2:kvartira-2"/>
     <file name="require.js" crc="4177726516" ref="index:zaglushka1:zaglushka2:kvartira-2"/>
@@ -101,7 +101,7 @@
     <file name="sportswear-homepage-desktop-v2_af4fea27-a45a-4db3-bd71-22ee0fb5ded7.jpg" crc="74967462" ref="zaglushka1">
       <caption webpage="zaglushka1" alt=""/>
     </file>
-    <file name="sportswear-homepage-desktop-v2_af4fea27-a45a-4db3-bd71-22ee0fb5ded7-u8211-fr.jpg" crc="225581683" ref="zaglushka1"/>
+    <file name="sportswear-homepage-desktop-v2_af4fea27-a45a-4db3-bd71-22ee0fb5ded7-u8211-fr.jpg" crc="3976665063" ref="zaglushka1"/>
     <file name="ea26fd_e142fd7bcd8c46219312b22e8a91bb3c~mv2_d_4000_2447_s_4_2.jpg" crc="3774861746" ref="kvartira-2">
       <caption webpage="kvartira-2" alt=""/>
     </file>
@@ -164,9 +164,68 @@
     <file name="5656.jpg" crc="4095064381" ref="index">
       <caption webpage="index" alt=""/>
     </file>
+    <file name="sportswear-homepage-desktop-v2_af4fea27-a45a-4db3-bd71-22ee0fb5ded7-u8211-fr2.jpg" crc="2932413" ref="zaglushka1"/>
+    <file name="kreitere34 (6).jpg" crc="3952828233" ref="zaglushka2">
+      <caption webpage="zaglushka2" alt=""/>
+    </file>
+    <file name="kreitere34 (23).png" crc="4064652383" seo="true" ref="zaglushka2">
+      <caption webpage="zaglushka2" alt="TrackMate XE"/>
+    </file>
+    <file name="234321.png" crc="495436956" ref="zaglushka2">
+      <caption webpage="zaglushka2" alt=""/>
+    </file>
+    <file name="kreitere34 (14).png" crc="4181590096" seo="true" ref="zaglushka2">
+      <caption webpage="zaglushka2" alt="ОТСЛЕЖИВАНИЕ ТРЕНИРОВОК"/>
+      <caption webpage="zaglushka2" alt="ОТСЛЕЖИВАНИЕ ТРЕНИРОВОК"/>
+      <caption webpage="zaglushka2" alt="ОТСЛЕЖИВАНИЕ ТРЕНИРОВОК"/>
+    </file>
+    <file name="kreitere34 (29).png" crc="378405443" seo="true" ref="zaglushka2">
+      <caption webpage="zaglushka2" alt="ОТСЛЕЖИВАНИЕ ТРЕНИРОВОК"/>
+      <caption webpage="zaglushka2" alt="ОТСЛЕЖИВАНИЕ ТРЕНИРОВОК"/>
+      <caption webpage="zaglushka2" alt="ОТСЛЕЖИВАНИЕ ТРЕНИРОВОК"/>
+    </file>
+    <file name="kreitere34 (8).png" crc="283553125" ref="zaglushka2">
+      <caption webpage="zaglushka2" alt=""/>
+    </file>
+    <file name="kreitere34 (1).png" crc="3883529732" seo="true" ref="zaglushka2">
+      <caption webpage="zaglushka2" alt="Полезные напоминания"/>
+    </file>
+    <file name="kreitere34 (13).png" crc="174731244" seo="true" ref="zaglushka2">
+      <caption webpage="zaglushka2" alt="ОТСЛЕЖИВАНИЕ ТРЕНИРОВОК"/>
+      <caption webpage="zaglushka2" alt="ОТСЛЕЖИВАНИЕ ТРЕНИРОВОК"/>
+      <caption webpage="zaglushka2" alt="ОТСЛЕЖИВАНИЕ ТРЕНИРОВОК"/>
+    </file>
+    <file name="kreitere34 (15).png" crc="3838473923" seo="true" ref="zaglushka2">
+      <caption webpage="zaglushka2" alt="Цвет ремешка под настроение"/>
+      <caption webpage="zaglushka2" alt="Цвет ремешка под настроение"/>
+      <caption webpage="zaglushka2" alt="Цвет ремешка под настроение"/>
+    </file>
+    <file name="kreitere34 (10).png" crc="4000023519" ref="zaglushka2">
+      <caption webpage="zaglushka2" alt=""/>
+    </file>
+    <file name="kreitere34 (26).png" crc="4150961371" ref="zaglushka2">
+      <caption webpage="zaglushka2" alt=""/>
+      <caption webpage="zaglushka2" alt=""/>
+      <caption webpage="zaglushka2" alt=""/>
+    </file>
+    <file name="kreitere34 (23)364x359.png" crc="101560334" seo="true" ref="zaglushka2">
+      <caption webpage="zaglushka2" alt="TrackMate XE"/>
+    </file>
+    <file name="kreitere34 (8)-u9895-fr.png" crc="195886428" ref="zaglushka2"/>
+    <file name="kreitere34 (1)364x349.png" crc="4036521553" seo="true" ref="zaglushka2">
+      <caption webpage="zaglushka2" alt="Полезные напоминания"/>
+    </file>
+    <file name="kreitere34 (6)-u9783-fr.jpg" crc="82931410" ref="zaglushka2"/>
+    <file name="kreitere34 (23)280x276.png" crc="4073411035" seo="true" ref="zaglushka2">
+      <caption webpage="zaglushka2" alt="TrackMate XE"/>
+    </file>
+    <file name="kreitere34 (1)280x268.png" crc="421128590" seo="true" ref="zaglushka2">
+      <caption webpage="zaglushka2" alt="Полезные напоминания"/>
+    </file>
+    <file name="kreitere34 (10)-u10060-fr.png" crc="4097673668" ref="zaglushka2"/>
   </folder>
-  <file name="index.html" crc="4294530977" seo="true" mt="1723367169951" redirect="true"/>
-  <file name="zaglushka1.html" crc="88604686" seo="true" mt="1722551518539" redirect="true"/>
-  <file name="zaglushka2.html" crc="39088679" seo="true" mt="1722551518539" redirect="true"/>
-  <file name="kvartira-2.html" crc="307520474" seo="true" mt="1722551518539" redirect="true"/>
+  <file name="index.html" crc="3869292895" seo="true" mt="1723369898472" redirect="true"/>
+  <file name="zaglushka1.html" crc="4261767468" seo="true" mt="1723369898472" redirect="true"/>
+  <file name="zaglushka2.html" crc="4138048070" seo="true" mt="1723384054229" redirect="true"/>
+  <file name="kvartira-2.html" crc="4002894627" seo="true" mt="1723369898472" redirect="true"/>
 </manifest>
