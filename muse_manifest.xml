@@ -1,11 +1,11 @@
-<manifest alg="2" build="2018.1.1.386" opt="false" iceEnabled="false" exportTarget="other" domain="https://vannalux.github.io" resolutions="1x" timestamp="1723284492172">
+<manifest alg="2" build="2018.1.1.386" opt="false" iceEnabled="false" exportTarget="other" domain="https://vannalux.github.io" resolutions="1x" timestamp="1723367253815">
   <folder name="css">
     <file name="site_global.css" crc="444006867"/>
-    <file name="master_______-a.css" crc="458248205" ref="zaglushka2:index:zaglushka1:kvartira-2"/>
+    <file name="master_______-a.css" crc="3960830335" ref="zaglushka2:index:zaglushka1:kvartira-2"/>
     <file name="nomq_preview_master_______-a.css" crc="473214309" ref="zaglushka2:index:zaglushka1:kvartira-2"/>
     <file name="zaglushka2.css" crc="60123912" ref="zaglushka2"/>
     <file name="nomq_zaglushka2.css" crc="233778751" ref="zaglushka2"/>
-    <file name="index.css" crc="3960158062" ref="index"/>
+    <file name="index.css" crc="358386422" ref="index"/>
     <file name="nomq_index.css" crc="3938540589" ref="index"/>
     <file name="zaglushka1.css" crc="4283294421" ref="zaglushka1"/>
     <file name="nomq_zaglushka1.css" crc="219635027" ref="zaglushka1"/>
@@ -161,8 +161,11 @@
     <file name="ea26fd_c5e8d35c458f4302a3bb1046ce510670~mv2_d_5100_3387_s_4_2312x205.jpg" crc="4146099329" seo="true" ref="kvartira-2">
       <caption webpage="kvartira-2" alt="Недавние проекты"/>
     </file>
+    <file name="5656.jpg" crc="4095064381" ref="index">
+      <caption webpage="index" alt=""/>
+    </file>
   </folder>
-  <file name="index.html" crc="460220038" seo="true" mt="1723284438697" redirect="true"/>
+  <file name="index.html" crc="4294530977" seo="true" mt="1723367169951" redirect="true"/>
   <file name="zaglushka1.html" crc="88604686" seo="true" mt="1722551518539" redirect="true"/>
   <file name="zaglushka2.html" crc="39088679" seo="true" mt="1722551518539" redirect="true"/>
   <file name="kvartira-2.html" crc="307520474" seo="true" mt="1722551518539" redirect="true"/>
