@@ -1,0 +1,342 @@
+<manifest alg="2" build="2018.1.1.386" opt="false" iceEnabled="false" exportTarget="other" domain="https://vannalux.github.io" resolutions="1x" timestamp="1723575978195">
+  <folder name="css">
+    <file name="site_global.css" crc="444006867"/>
+    <file name="master_______-a.css" crc="62354125" ref="kvartira-2:zaglushka1:index:trackmate"/>
+    <file name="nomq_preview_master_______-a.css" crc="3852397562" ref="kvartira-2:zaglushka1:index:trackmate"/>
+    <file name="kvartira-2.css" crc="3886168005" ref="kvartira-2"/>
+    <file name="nomq_kvartira-2.css" crc="290851803" ref="kvartira-2"/>
+    <file name="zaglushka1.css" crc="210726368" ref="zaglushka1"/>
+    <file name="nomq_zaglushka1.css" crc="219635027" ref="zaglushka1"/>
+    <file name="index.css" crc="4187071889" ref="index"/>
+    <file name="nomq_index.css" crc="4137978878" ref="index"/>
+    <file name="trackmate.css" crc="406358119" ref="trackmate"/>
+    <file name="nomq_trackmate.css" crc="4201636047" ref="trackmate"/>
+  </folder>
+  <folder name="fonts">
+    <file name="fa-solid-900.woff" crc="4160298096"/>
+    <file name="fa-solid-900.eot" crc="3961261344"/>
+    <file name="fa-solid-900.svg" crc="4152254594"/>
+    <file name="ptsans-narrow.woff" crc="4137024931"/>
+    <file name="ptsansnarrow-regular.eot" crc="281157933"/>
+    <file name="ptsans-narrow.svg" crc="431651533"/>
+  </folder>
+  <folder name="scripts">
+    <file name="jquery-1.8.3.min.js" crc="209076791" ref="index:zaglushka1:trackmate:kvartira-2"/>
+    <file name="museutils.js" crc="3939489907" ref="index:zaglushka1:trackmate:kvartira-2"/>
+    <file name="whatinput.js" crc="86476730" ref="index:zaglushka1:trackmate:kvartira-2"/>
+    <file name="museconfig.js" crc="3936894949" ref="index:zaglushka1:trackmate:kvartira-2"/>
+    <file name="jquery.musemenu.js" crc="4139692962" ref="index:zaglushka1:trackmate:kvartira-2"/>
+    <file name="jquery.musepolyfill.bgsize.js" crc="85124417" ref="index:zaglushka1:trackmate:kvartira-2"/>
+    <file name="jquery.watch.js" crc="522499760" ref="index:zaglushka1:trackmate:kvartira-2"/>
+    <file name="webpro.js" crc="3856315280" ref="index:zaglushka1:trackmate:kvartira-2"/>
+    <file name="musewpslideshow.js" crc="244150766" ref="index:zaglushka1:trackmate:kvartira-2"/>
+    <file name="jquery.museoverlay.js" crc="3877667098" ref="index:zaglushka1:trackmate:kvartira-2"/>
+    <file name="touchswipe.js" crc="3888935200" ref="index:zaglushka1:trackmate:kvartira-2"/>
+    <file name="jquery.scrolleffects.js" crc="312044820" ref="index:zaglushka1:trackmate:kvartira-2"/>
+    <file name="html5shiv.js" crc="4241844378" ref="index:zaglushka1:trackmate:kvartira-2"/>
+    <file name="jquery.museresponsive.js" crc="95814420" ref="index:zaglushka1:trackmate:kvartira-2"/>
+    <file name="require.js" crc="4177726516" ref="index:zaglushka1:trackmate:kvartira-2"/>
+  </folder>
+  <folder name="images">
+    <file name="favicon.ico" crc="4180352690" ref="index"/>
+    <file name="devvyyshkkii23.jpg" crc="55669113" ref="index">
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="5656.jpg" crc="4095064381" ref="index">
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="06062022ryu1 (123)-crop-u3377.jpg" crc="3884082282" seo="true" ref="index">
+      <caption webpage="index" alt="Ноготки"/>
+    </file>
+    <file name="06062022ryu1 (125)-crop-u3382.jpg" crc="3934032737" seo="true" ref="index">
+      <caption webpage="index" alt="Ноготки"/>
+    </file>
+    <file name="06062022ryu1 (128)-crop-u3387.jpg" crc="270490436" seo="true" ref="index">
+      <caption webpage="index" alt="Ноготки"/>
+    </file>
+    <file name="hjkjgyo87jl-crop-u1039.jpg" crc="353006730" seo="true" ref="index">
+      <caption webpage="index" alt="Bhopal, India"/>
+    </file>
+    <file name="rtgf456dr4-crop-u1044.jpg" crc="39319500" seo="true" ref="index">
+      <caption webpage="index" alt="New York, USA"/>
+    </file>
+    <file name="uuu78iuu-crop-u1049.jpg" crc="3900679610" seo="true" ref="index">
+      <caption webpage="index" alt="Sydney, Australia"/>
+    </file>
+    <file name="06062022ryu1 (123)-crop-u33772.jpg" crc="4020384331" seo="true" ref="index">
+      <caption webpage="index" alt="Ноготки"/>
+    </file>
+    <file name="06062022ryu1 (125)-crop-u33822.jpg" crc="361913527" seo="true" ref="index">
+      <caption webpage="index" alt="Ноготки"/>
+    </file>
+    <file name="06062022ryu1 (128)-crop-u33872.jpg" crc="3784039944" seo="true" ref="index">
+      <caption webpage="index" alt="Ноготки"/>
+    </file>
+    <file name="hjkjgyo87jl-crop-u10392.jpg" crc="126538314" seo="true" ref="index">
+      <caption webpage="index" alt="Bhopal, India"/>
+    </file>
+    <file name="rtgf456dr4-crop-u10442.jpg" crc="194315169" seo="true" ref="index">
+      <caption webpage="index" alt="New York, USA"/>
+    </file>
+    <file name="uuu78iuu-crop-u10492.jpg" crc="3940129388" seo="true" ref="index">
+      <caption webpage="index" alt="Sydney, Australia"/>
+    </file>
+    <file name="devvyyshkkii23-u136-fr.jpg" crc="171909661" ref="index"/>
+    <file name="06062022ryu1 (123)-crop-u33773.jpg" crc="3758901218" seo="true" ref="index">
+      <caption webpage="index" alt="Ноготки"/>
+    </file>
+    <file name="06062022ryu1 (125)-crop-u33823.jpg" crc="452763345" seo="true" ref="index">
+      <caption webpage="index" alt="Ноготки"/>
+    </file>
+    <file name="06062022ryu1 (128)-crop-u33873.jpg" crc="4253185436" seo="true" ref="index">
+      <caption webpage="index" alt="Ноготки"/>
+    </file>
+    <file name="hjkjgyo87jl-crop-u10393.jpg" crc="4249682116" seo="true" ref="index">
+      <caption webpage="index" alt="Bhopal, India"/>
+    </file>
+    <file name="rtgf456dr4-crop-u10443.jpg" crc="4260988362" seo="true" ref="index">
+      <caption webpage="index" alt="New York, USA"/>
+    </file>
+    <file name="uuu78iuu-crop-u10493.jpg" crc="3893415455" seo="true" ref="index">
+      <caption webpage="index" alt="Sydney, Australia"/>
+    </file>
+    <file name="blank.gif" crc="4208392903" ref="index:zaglushka1:trackmate:kvartira-2"/>
+    <file name="sportswear-homepage-desktop-v2_af4fea27-a45a-4db3-bd71-22ee0fb5ded7.jpg" crc="74967462" ref="zaglushka1">
+      <caption webpage="zaglushka1" alt=""/>
+    </file>
+    <file name="sportswear-homepage-desktop-v2_af4fea27-a45a-4db3-bd71-22ee0fb5ded7-u8211-fr.jpg" crc="3976665063" ref="zaglushka1"/>
+    <file name="sportswear-homepage-desktop-v2_af4fea27-a45a-4db3-bd71-22ee0fb5ded7-u8211-fr2.jpg" crc="2932413" ref="zaglushka1"/>
+    <file name="kreitere34 (6).jpg" crc="3952828233" ref="trackmate">
+      <caption webpage="trackmate" alt=""/>
+    </file>
+    <file name="kreitere34 (23).png" crc="4064652383" seo="true" ref="trackmate">
+      <caption webpage="trackmate" alt="TrackMate XE"/>
+    </file>
+    <file name="234321.png" crc="495436956" ref="trackmate">
+      <caption webpage="trackmate" alt=""/>
+    </file>
+    <file name="kreitere34 (14).png" crc="4181590096" seo="true" ref="trackmate">
+      <caption webpage="trackmate" alt="ОТСЛЕЖИВАНИЕ ТРЕНИРОВОК"/>
+      <caption webpage="trackmate" alt="ОТСЛЕЖИВАНИЕ ТРЕНИРОВОК"/>
+      <caption webpage="trackmate" alt="ОТСЛЕЖИВАНИЕ ТРЕНИРОВОК"/>
+    </file>
+    <file name="kreitere34 (29).png" crc="378405443" seo="true" ref="trackmate">
+      <caption webpage="trackmate" alt="ОТСЛЕЖИВАНИЕ ТРЕНИРОВОК"/>
+      <caption webpage="trackmate" alt="ОТСЛЕЖИВАНИЕ ТРЕНИРОВОК"/>
+      <caption webpage="trackmate" alt="ОТСЛЕЖИВАНИЕ ТРЕНИРОВОК"/>
+    </file>
+    <file name="kreitere34 (8).png" crc="283553125" ref="trackmate">
+      <caption webpage="trackmate" alt=""/>
+    </file>
+    <file name="kreitere34 (1).png" crc="3883529732" seo="true" ref="trackmate">
+      <caption webpage="trackmate" alt="Полезные напоминания"/>
+    </file>
+    <file name="kreitere34 (13).png" crc="174731244" seo="true" ref="trackmate">
+      <caption webpage="trackmate" alt="ОТСЛЕЖИВАНИЕ ТРЕНИРОВОК"/>
+      <caption webpage="trackmate" alt="ОТСЛЕЖИВАНИЕ ТРЕНИРОВОК"/>
+      <caption webpage="trackmate" alt="ОТСЛЕЖИВАНИЕ ТРЕНИРОВОК"/>
+    </file>
+    <file name="kreitere34 (15).png" crc="3838473923" seo="true" ref="trackmate">
+      <caption webpage="trackmate" alt="Цвет ремешка под настроение"/>
+      <caption webpage="trackmate" alt="Цвет ремешка под настроение"/>
+      <caption webpage="trackmate" alt="Цвет ремешка под настроение"/>
+    </file>
+    <file name="kreitere34 (10).png" crc="4000023519" ref="trackmate">
+      <caption webpage="trackmate" alt=""/>
+    </file>
+    <file name="kreitere34 (26).png" crc="4150961371" ref="trackmate">
+      <caption webpage="trackmate" alt=""/>
+      <caption webpage="trackmate" alt=""/>
+      <caption webpage="trackmate" alt=""/>
+    </file>
+    <file name="kreitere34 (4).jpg" crc="3951389435" ref="trackmate">
+      <caption webpage="trackmate" alt=""/>
+    </file>
+    <file name="kreitere34 (24).png" crc="3776622583" seo="true" ref="trackmate">
+      <caption webpage="trackmate" alt="СИСТЕМА ОПОВЕЩЕНИЙ"/>
+      <caption webpage="trackmate" alt="СИСТЕМА ОПОВЕЩЕНИЙ"/>
+      <caption webpage="trackmate" alt="СИСТЕМА ОПОВЕЩЕНИЙ"/>
+    </file>
+    <file name="kreitere34 (7).jpg" crc="446882813" ref="trackmate">
+      <caption webpage="trackmate" alt=""/>
+    </file>
+    <file name="kreitere34 (19).png" crc="4026563314" seo="true" ref="trackmate">
+      <caption webpage="trackmate" alt="Значок батарейки"/>
+      <caption webpage="trackmate" alt="Значок батарейки"/>
+      <caption webpage="trackmate" alt="Значок батарейки"/>
+    </file>
+    <file name="kreitere34 (21).png" crc="4207827949" seo="true" ref="trackmate">
+      <caption webpage="trackmate" alt="Значок блютуз"/>
+      <caption webpage="trackmate" alt="Значок блютуз"/>
+      <caption webpage="trackmate" alt="Значок блютуз"/>
+    </file>
+    <file name="kreitere34 (20).png" crc="234168051" seo="true" ref="trackmate">
+      <caption webpage="trackmate" alt="Значок защиты"/>
+      <caption webpage="trackmate" alt="Значок защиты"/>
+      <caption webpage="trackmate" alt="Значок защиты"/>
+    </file>
+    <file name="kreitere34 (22).png" crc="4227036089" seo="true" ref="trackmate">
+      <caption webpage="trackmate" alt="Значок зарядки"/>
+      <caption webpage="trackmate" alt="Значок зарядки"/>
+      <caption webpage="trackmate" alt="Значок зарядки"/>
+    </file>
+    <file name="kreitere34 (2).jpg" crc="3778563478" seo="true" ref="trackmate">
+      <caption webpage="trackmate" alt="Отслеживайте свой сон"/>
+      <caption webpage="trackmate" alt="Отслеживайте свой сон"/>
+    </file>
+    <file name="kreitere34 (17).png" crc="166081895" seo="true" ref="trackmate">
+      <caption webpage="trackmate" alt="УЗНАЙТЕ СЕБЯ БОЛЬШЕ"/>
+      <caption webpage="trackmate" alt="УЗНАЙТЕ СЕБЯ БОЛЬШЕ"/>
+      <caption webpage="trackmate" alt="УЗНАЙТЕ СЕБЯ БОЛЬШЕ"/>
+    </file>
+    <file name="kreitere34 (5).jpg" crc="4031106479" seo="true" ref="trackmate">
+      <caption webpage="trackmate" alt="Устраивайте паузы осознанности"/>
+      <caption webpage="trackmate" alt="Устраивайте паузы осознанности"/>
+    </file>
+    <file name="kreitere34 (18).png" crc="356175197" seo="true" ref="trackmate">
+      <caption webpage="trackmate" alt="ГЛУБОКО ВДОХНИТЕ"/>
+      <caption webpage="trackmate" alt="ГЛУБОКО ВДОХНИТЕ"/>
+      <caption webpage="trackmate" alt="ГЛУБОКО ВДОХНИТЕ"/>
+    </file>
+    <file name="kreitere34 (16).png" crc="3997232569" seo="true" ref="trackmate">
+      <caption webpage="trackmate" alt="ЧАСЫ, МЕНЯЮЩИЕ ЖИЗНЬ"/>
+      <caption webpage="trackmate" alt="ЧАСЫ, МЕНЯЮЩИЕ ЖИЗНЬ"/>
+      <caption webpage="trackmate" alt="ЧАСЫ, МЕНЯЮЩИЕ ЖИЗНЬ"/>
+    </file>
+    <file name="kreitere34 (27).png" crc="3769655455" seo="true" ref="trackmate">
+      <caption webpage="trackmate" alt="Закажите 0.4 TrackMate XE сегодня"/>
+    </file>
+    <file name="kreitere34 (28).png" crc="4140072852" seo="true" ref="trackmate">
+      <caption webpage="trackmate" alt="Характеристики 0.4 TrackMate XE"/>
+      <caption webpage="trackmate" alt="Характеристики 0.4 TrackMate XE"/>
+    </file>
+    <file name="kreitere34 (30).jpg" crc="518750605" seo="true" ref="trackmate">
+      <caption webpage="trackmate" alt="Купить"/>
+      <caption webpage="trackmate" alt="Купить"/>
+      <caption webpage="trackmate" alt="Купить"/>
+    </file>
+    <file name="kreitere34 (5)2.jpg" crc="93959665" seo="true" ref="trackmate">
+      <caption webpage="trackmate" alt="Купить"/>
+      <caption webpage="trackmate" alt="Купить"/>
+      <caption webpage="trackmate" alt="Купить"/>
+    </file>
+    <file name="kreitere34 (2).png" crc="523316352" seo="true" ref="trackmate">
+      <caption webpage="trackmate" alt="Купить"/>
+      <caption webpage="trackmate" alt="Купить"/>
+      <caption webpage="trackmate" alt="Купить"/>
+    </file>
+    <file name="kreitere34 (12).jpg" crc="4200595736" seo="true" ref="trackmate">
+      <caption webpage="trackmate" alt="Купить"/>
+      <caption webpage="trackmate" alt="Купить"/>
+      <caption webpage="trackmate" alt="Купить"/>
+    </file>
+    <file name="kreitere34 (4)2.jpg" crc="421283548" seo="true" ref="trackmate">
+      <caption webpage="trackmate" alt="Купить"/>
+      <caption webpage="trackmate" alt="Купить"/>
+      <caption webpage="trackmate" alt="Купить"/>
+    </file>
+    <file name="kreitere34 (3).jpg" crc="169941247" seo="true" ref="trackmate">
+      <caption webpage="trackmate" alt="Купить"/>
+      <caption webpage="trackmate" alt="Купить"/>
+      <caption webpage="trackmate" alt="Купить"/>
+    </file>
+    <file name="kreitere34 (11).png" crc="521203409" seo="true" ref="trackmate">
+      <caption webpage="trackmate" alt="Купить"/>
+      <caption webpage="trackmate" alt="Купить"/>
+      <caption webpage="trackmate" alt="Купить"/>
+    </file>
+    <file name="kreitere34 (23)364x359.png" crc="101560334" seo="true" ref="trackmate">
+      <caption webpage="trackmate" alt="TrackMate XE"/>
+    </file>
+    <file name="kreitere34 (8)-u9895-fr.png" crc="195886428" ref="trackmate"/>
+    <file name="kreitere34 (1)364x349.png" crc="4036521553" seo="true" ref="trackmate">
+      <caption webpage="trackmate" alt="Полезные напоминания"/>
+    </file>
+    <file name="kreitere34 (27)728x388.png" crc="4096043046" seo="true" ref="trackmate">
+      <caption webpage="trackmate" alt="Закажите 0.4 TrackMate XE сегодня"/>
+    </file>
+    <file name="kreitere34 (6)-u9783-fr.jpg" crc="82931410" ref="trackmate"/>
+    <file name="kreitere34 (23)280x276.png" crc="4073411035" seo="true" ref="trackmate">
+      <caption webpage="trackmate" alt="TrackMate XE"/>
+    </file>
+    <file name="kreitere34 (1)280x268.png" crc="421128590" seo="true" ref="trackmate">
+      <caption webpage="trackmate" alt="Полезные напоминания"/>
+    </file>
+    <file name="kreitere34 (10)-u10060-fr.png" crc="4097673668" ref="trackmate"/>
+    <file name="kreitere34 (28)280x360.png" crc="4139356816" seo="true" ref="trackmate">
+      <caption webpage="trackmate" alt="Характеристики 0.4 TrackMate XE"/>
+    </file>
+    <file name="kreitere34 (5)280x486.jpg" crc="5739669" seo="true" ref="trackmate">
+      <caption webpage="trackmate" alt="Устраивайте паузы осознанности"/>
+    </file>
+    <file name="kreitere34 (2)280x486.jpg" crc="433796462" seo="true" ref="trackmate">
+      <caption webpage="trackmate" alt="Отслеживайте свой сон"/>
+    </file>
+    <file name="kreitere34 (27)280x150.png" crc="473592118" seo="true" ref="trackmate">
+      <caption webpage="trackmate" alt="Закажите 0.4 TrackMate XE сегодня"/>
+    </file>
+    <file name="ea26fd_e142fd7bcd8c46219312b22e8a91bb3c~mv2_d_4000_2447_s_4_2.jpg" crc="3774861746" ref="kvartira-2">
+      <caption webpage="kvartira-2" alt=""/>
+    </file>
+    <file name="ea26fd_724a836736c64fc38c4fd21fa32ba9a9~mv2_d_4997_4480_s_4_2.jpg" crc="4188526526" seo="true" ref="kvartira-2">
+      <caption webpage="kvartira-2" alt="Ремонт и отделка кухни"/>
+    </file>
+    <file name="ea26fd_0e8eb61209a542fda3b36451a15530fc~mv2_d_6720_4480_s_4_2.jpg" crc="382668385" seo="true" ref="kvartira-2">
+      <caption webpage="kvartira-2" alt="Новые квартирные решения"/>
+    </file>
+    <file name="ea26fd_1497c97ffe6a4e9fbd8d0516ae129818~mv2_d_6701_4480_s_4_2.jpg" crc="362371901" seo="true" ref="kvartira-2">
+      <caption webpage="kvartira-2" alt=""/>
+      <caption webpage="kvartira-2" alt="Недавние проекты"/>
+      <caption webpage="kvartira-2" alt="Недавние проекты"/>
+      <caption webpage="kvartira-2" alt="Недавние проекты"/>
+    </file>
+    <file name="ea26fd_6173fa4ccf7f4b65a32b446808474886~mv2_d_4033_4480_s_4_2.jpg" crc="291311240" seo="true" ref="kvartira-2">
+      <caption webpage="kvartira-2" alt=""/>
+      <caption webpage="kvartira-2" alt="Недавние проекты"/>
+      <caption webpage="kvartira-2" alt="Недавние проекты"/>
+      <caption webpage="kvartira-2" alt="Недавние проекты"/>
+    </file>
+    <file name="ea26fd_7ac0210547a349bc990a4b1945ef51d8~mv2_d_4480_5532_s_4_2.jpg" crc="293723838" seo="true" ref="kvartira-2">
+      <caption webpage="kvartira-2" alt=""/>
+      <caption webpage="kvartira-2" alt="Недавние проекты"/>
+      <caption webpage="kvartira-2" alt="Недавние проекты"/>
+      <caption webpage="kvartira-2" alt="Недавние проекты"/>
+    </file>
+    <file name="ea26fd_1d9f582634f04f7e88081129e98d9e6a~mv2_d_5159_4480_s_4_2.jpg" crc="4275261465" seo="true" ref="kvartira-2">
+      <caption webpage="kvartira-2" alt=""/>
+      <caption webpage="kvartira-2" alt="Недавние проекты"/>
+      <caption webpage="kvartira-2" alt="Недавние проекты"/>
+      <caption webpage="kvartira-2" alt="Недавние проекты"/>
+    </file>
+    <file name="ea26fd_c5e8d35c458f4302a3bb1046ce510670~mv2_d_5100_3387_s_4_2.jpg" crc="520682890" seo="true" ref="kvartira-2">
+      <caption webpage="kvartira-2" alt=""/>
+      <caption webpage="kvartira-2" alt="Недавние проекты"/>
+      <caption webpage="kvartira-2" alt="Недавние проекты"/>
+    </file>
+    <file name="ea26fd_724a836736c64fc38c4fd21fa32ba9a9~mv2_d_4997_4480_s_4_2331x343.jpg" crc="88529736" seo="true" ref="kvartira-2">
+      <caption webpage="kvartira-2" alt="Ремонт и отделка кухни"/>
+    </file>
+    <file name="ea26fd_0e8eb61209a542fda3b36451a15530fc~mv2_d_6720_4480_s_4_2364x349.jpg" crc="31427800" seo="true" ref="kvartira-2">
+      <caption webpage="kvartira-2" alt="Новые квартирные решения"/>
+    </file>
+    <file name="ea26fd_1497c97ffe6a4e9fbd8d0516ae129818~mv2_d_6701_4480_s_4_2-u8464-fr.jpg" crc="84387888" ref="kvartira-2"/>
+    <file name="ea26fd_6173fa4ccf7f4b65a32b446808474886~mv2_d_4033_4480_s_4_2-u8463-fr.jpg" crc="3988877570" ref="kvartira-2"/>
+    <file name="ea26fd_7ac0210547a349bc990a4b1945ef51d8~mv2_d_4480_5532_s_4_2-u8461-fr.jpg" crc="3909112704" ref="kvartira-2"/>
+    <file name="ea26fd_c5e8d35c458f4302a3bb1046ce510670~mv2_d_5100_3387_s_4_2-u8460-fr.jpg" crc="514834309" ref="kvartira-2"/>
+    <file name="ea26fd_e142fd7bcd8c46219312b22e8a91bb3c~mv2_d_4000_2447_s_4_2-u8471-fr.jpg" crc="237615255" ref="kvartira-2"/>
+    <file name="ea26fd_724a836736c64fc38c4fd21fa32ba9a9~mv2_d_4997_4480_s_4_2280x290.jpg" crc="397458885" seo="true" ref="kvartira-2">
+      <caption webpage="kvartira-2" alt="Ремонт и отделка кухни"/>
+    </file>
+    <file name="ea26fd_0e8eb61209a542fda3b36451a15530fc~mv2_d_6720_4480_s_4_2280x269.jpg" crc="322890767" seo="true" ref="kvartira-2">
+      <caption webpage="kvartira-2" alt="Новые квартирные решения"/>
+    </file>
+    <file name="ea26fd_c5e8d35c458f4302a3bb1046ce510670~mv2_d_5100_3387_s_4_2-u8460-fr2.jpg" crc="251229479" ref="kvartira-2"/>
+    <file name="ea26fd_c5e8d35c458f4302a3bb1046ce510670~mv2_d_5100_3387_s_4_2312x205.jpg" crc="4146099329" seo="true" ref="kvartira-2">
+      <caption webpage="kvartira-2" alt="Недавние проекты"/>
+    </file>
+  </folder>
+  <file name="index.html" crc="4201909465" seo="true" mt="1723407973436" redirect="true"/>
+  <file name="zaglushka1.html" crc="4002810066" seo="true" mt="1723407973436" redirect="true"/>
+  <file name="trackmate.html" crc="3940706946" seo="true" mt="1723409774650" redirect="true"/>
+  <file name="kvartira-2.html" crc="144534368" seo="true" mt="1723407973436" redirect="true"/>
+</manifest>
