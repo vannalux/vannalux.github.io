@@ -1,41 +1,59 @@
-<manifest alg="2" build="2018.1.1.386" opt="false" iceEnabled="false" exportTarget="other" domain="https://vannalux.github.io" resolutions="1x" timestamp="1723575978195">
+<manifest alg="2" build="2018.1.0.386" opt="false" iceEnabled="false" exportTarget="other" domain="https://vannalux.github.io" resolutions="1x" timestamp="1729358719229">
   <folder name="css">
     <file name="site_global.css" crc="444006867"/>
-    <file name="master_______-a.css" crc="62354125" ref="kvartira-2:zaglushka1:index:trackmate"/>
-    <file name="nomq_preview_master_______-a.css" crc="3852397562" ref="kvartira-2:zaglushka1:index:trackmate"/>
-    <file name="kvartira-2.css" crc="3886168005" ref="kvartira-2"/>
-    <file name="nomq_kvartira-2.css" crc="290851803" ref="kvartira-2"/>
-    <file name="zaglushka1.css" crc="210726368" ref="zaglushka1"/>
+    <file name="master_______-a.css" crc="113569092" ref="zaglushka1:kvartira-2:trackmate:index"/>
+    <file name="nomq_preview_master_______-a.css" crc="3882933222" ref="zaglushka1:kvartira-2:trackmate:index"/>
+    <file name="zaglushka1.css" crc="3922770227" ref="zaglushka1"/>
     <file name="nomq_zaglushka1.css" crc="219635027" ref="zaglushka1"/>
-    <file name="index.css" crc="4187071889" ref="index"/>
-    <file name="nomq_index.css" crc="4137978878" ref="index"/>
-    <file name="trackmate.css" crc="406358119" ref="trackmate"/>
+    <file name="kvartira-2.css" crc="516536356" ref="kvartira-2"/>
+    <file name="nomq_kvartira-2.css" crc="156799332" ref="kvartira-2"/>
+    <file name="trackmate.css" crc="4231623734" ref="trackmate"/>
     <file name="nomq_trackmate.css" crc="4201636047" ref="trackmate"/>
+    <file name="index.css" crc="27720577" ref="index"/>
+    <file name="nomq_index.css" crc="4137978878" ref="index"/>
   </folder>
   <folder name="fonts">
-    <file name="fa-solid-900.woff" crc="4160298096"/>
-    <file name="fa-solid-900.eot" crc="3961261344"/>
-    <file name="fa-solid-900.svg" crc="4152254594"/>
+    <file name="fa-solid-900.woff" crc="432330012"/>
+    <file name="fa-solid-900.eot" crc="175550701"/>
+    <file name="fa-solid-900.svg" crc="204170421"/>
+    <file name="ptsans-narrow.woff" crc="4137024931"/>
+    <file name="ptsansnarrow-regular.eot" crc="281157933"/>
+    <file name="ptsans-narrow.svg" crc="431651533"/>
+    <file name="fa-solid-900.woff" crc="432330012"/>
+    <file name="fa-solid-900.eot" crc="175550701"/>
+    <file name="fa-solid-900.svg" crc="204170421"/>
+    <file name="ptsans-narrow.woff" crc="4137024931"/>
+    <file name="ptsansnarrow-regular.eot" crc="281157933"/>
+    <file name="ptsans-narrow.svg" crc="431651533"/>
+    <file name="fa-solid-900.woff" crc="432330012"/>
+    <file name="fa-solid-900.eot" crc="175550701"/>
+    <file name="fa-solid-900.svg" crc="204170421"/>
+    <file name="ptsans-narrow.woff" crc="4137024931"/>
+    <file name="ptsansnarrow-regular.eot" crc="281157933"/>
+    <file name="ptsans-narrow.svg" crc="431651533"/>
+    <file name="fa-solid-900.woff" crc="432330012"/>
+    <file name="fa-solid-900.eot" crc="175550701"/>
+    <file name="fa-solid-900.svg" crc="204170421"/>
     <file name="ptsans-narrow.woff" crc="4137024931"/>
     <file name="ptsansnarrow-regular.eot" crc="281157933"/>
     <file name="ptsans-narrow.svg" crc="431651533"/>
   </folder>
   <folder name="scripts">
     <file name="jquery-1.8.3.min.js" crc="209076791" ref="index:zaglushka1:trackmate:kvartira-2"/>
-    <file name="museutils.js" crc="3939489907" ref="index:zaglushka1:trackmate:kvartira-2"/>
+    <file name="museutils.js" crc="340535759" ref="index:zaglushka1:trackmate:kvartira-2"/>
     <file name="whatinput.js" crc="86476730" ref="index:zaglushka1:trackmate:kvartira-2"/>
-    <file name="museconfig.js" crc="3936894949" ref="index:zaglushka1:trackmate:kvartira-2"/>
-    <file name="jquery.musemenu.js" crc="4139692962" ref="index:zaglushka1:trackmate:kvartira-2"/>
-    <file name="jquery.musepolyfill.bgsize.js" crc="85124417" ref="index:zaglushka1:trackmate:kvartira-2"/>
-    <file name="jquery.watch.js" crc="522499760" ref="index:zaglushka1:trackmate:kvartira-2"/>
-    <file name="webpro.js" crc="3856315280" ref="index:zaglushka1:trackmate:kvartira-2"/>
-    <file name="musewpslideshow.js" crc="244150766" ref="index:zaglushka1:trackmate:kvartira-2"/>
-    <file name="jquery.museoverlay.js" crc="3877667098" ref="index:zaglushka1:trackmate:kvartira-2"/>
-    <file name="touchswipe.js" crc="3888935200" ref="index:zaglushka1:trackmate:kvartira-2"/>
-    <file name="jquery.scrolleffects.js" crc="312044820" ref="index:zaglushka1:trackmate:kvartira-2"/>
+    <file name="museconfig.js" crc="4286661555" ref="index:zaglushka1:trackmate:kvartira-2"/>
+    <file name="jquery.musemenu.js" crc="510910590" ref="index:zaglushka1:trackmate:kvartira-2"/>
+    <file name="jquery.musepolyfill.bgsize.js" crc="4260645839" ref="index:zaglushka1:trackmate:kvartira-2"/>
+    <file name="jquery.watch.js" crc="51536988" ref="index:zaglushka1:trackmate:kvartira-2"/>
+    <file name="webpro.js" crc="4059564322" ref="index:zaglushka1:trackmate:kvartira-2"/>
+    <file name="musewpslideshow.js" crc="3862962738" ref="index:zaglushka1:trackmate:kvartira-2"/>
+    <file name="jquery.museoverlay.js" crc="4147669564" ref="index:zaglushka1:trackmate:kvartira-2"/>
+    <file name="touchswipe.js" crc="4075097462" ref="index:zaglushka1:trackmate:kvartira-2"/>
+    <file name="jquery.scrolleffects.js" crc="39568856" ref="index:zaglushka1:trackmate:kvartira-2"/>
     <file name="html5shiv.js" crc="4241844378" ref="index:zaglushka1:trackmate:kvartira-2"/>
-    <file name="jquery.museresponsive.js" crc="95814420" ref="index:zaglushka1:trackmate:kvartira-2"/>
-    <file name="require.js" crc="4177726516" ref="index:zaglushka1:trackmate:kvartira-2"/>
+    <file name="jquery.museresponsive.js" crc="527716135" ref="index:zaglushka1:trackmate:kvartira-2"/>
+    <file name="require.js" crc="7928878" ref="index:zaglushka1:trackmate:kvartira-2"/>
   </folder>
   <folder name="images">
     <file name="favicon.ico" crc="4180352690" ref="index"/>
@@ -335,8 +353,8 @@
       <caption webpage="kvartira-2" alt="Недавние проекты"/>
     </file>
   </folder>
-  <file name="index.html" crc="4201909465" seo="true" mt="1723407973436" redirect="true"/>
-  <file name="zaglushka1.html" crc="4002810066" seo="true" mt="1723407973436" redirect="true"/>
-  <file name="trackmate.html" crc="3940706946" seo="true" mt="1723409774650" redirect="true"/>
-  <file name="kvartira-2.html" crc="144534368" seo="true" mt="1723407973436" redirect="true"/>
+  <file name="index.html" crc="4105664771" seo="true" mt="1729357812749" redirect="true"/>
+  <file name="zaglushka1.html" crc="4081393048" seo="true" mt="1729357812749" redirect="true"/>
+  <file name="trackmate.html" crc="261740297" seo="true" mt="1729357812749" redirect="true"/>
+  <file name="kvartira-2.html" crc="4090006970" seo="true" mt="1729357812749" redirect="true"/>
 </manifest>
