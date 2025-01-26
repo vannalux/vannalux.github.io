@@ -55,6 +55,7 @@ color:#0000ff !important;text-decoration:underline !important;}
 .comp_36{position:absolute;z-index:50160;}
 .comp_37{position:absolute;z-index:50165;}
 .comp_38{line-height:100%;position:absolute;z-index:50170;}
+.comp_39{line-height:100%;position:absolute;z-index:50175;}
 .comp_4{background-color:rgba(0,0,0,0);position:absolute;z-index:50005;}
 .comp_5{background-color:rgba(124,252,254,0.14902);border:1px solid #c7c7c7;border-radius:2px;margin:-1px;position:absolute;z-index:50010;}
 .comp_6{color:#ffffff;cursor:pointer;display:flex;position:absolute;text-decoration:none;transition:background 0.4s,border 0.4s;z-index:50015;}
@@ -129,6 +130,7 @@ body{background-color:#ffffff;}
 .compVis_36{display:block;}
 .compVis_37{display:block;}
 .compVis_38{display:block;}
+.compVis_39{display:block;}
 .compVis_4{display:block;}
 .compVis_5{display:block;}
 .compVis_6{display:block;}
@@ -198,6 +200,7 @@ body{background-color:#ffffff;}
 .comp_37{height:227px;left:32px;top:6021.5px;width:360px;}
 .comp_37 .wafx-img-picture{height:227px;left:0px;top:0px;width:360px;}
 .comp_38{font-size:28px;height:28px;left:170.5px;top:121.933px;width:83px;}
+.comp_39{font-size:42px;height:42px;left:180px;top:330.771px;width:64px;}
 .comp_4{height:120px;left:0.5px;top:12.0715px;width:422px;}
 .comp_4 .wafx-smt-txt-wrap{width:402px;}
 .comp_5{height:667px;left:6px;top:378.899px;width:412px;}
@@ -268,6 +271,7 @@ body{background-color:#ffffff;}
 .compVis_36{display:block;}
 .compVis_37{display:block;}
 .compVis_38{display:block;}
+.compVis_39{display:block;}
 .compVis_4{display:block;}
 .compVis_5{display:block;}
 .compVis_6{display:block;}
@@ -337,6 +341,7 @@ body{background-color:#ffffff;}
 .comp_37{height:223px;left:670px;top:4008px;width:354px;}
 .comp_37 .wafx-img-picture{height:223px;left:0px;top:0px;width:354px;}
 .comp_38{font-size:63px;height:63px;left:208px;top:315.999px;width:96px;}
+.comp_39{font-size:100px;height:100px;left:712.5px;top:347px;width:155px;}
 .comp_4{height:172px;left:0px;top:144px;width:512px;}
 .comp_4 .wafx-smt-txt-wrap{width:492px;}
 .comp_5{height:373px;left:226.5px;top:542px;width:781px;}
