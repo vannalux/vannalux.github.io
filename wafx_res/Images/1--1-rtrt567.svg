@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<svg width="300" height="300" viewBox="0 0 300 300" fill="none" stroke="none" version="1.1" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <rect id="rect_1" x="0" y="0" width="100" height="167" />
+    <clipPath id="clip_path_2">
+      <use xlink:href="#rect_1" />
+    </clipPath>
+  </defs>
+  <g id="SingleElement">
+    <path id="Овал" d="M0 150C0 67.1572 67.1573 0 150 0C232.843 0 300 67.1572 300 150C300 232.843 232.843 300 150 300C67.1573 300 0 232.843 0 150Z" style="fill:#FF9900;fill-rule:evenodd;mix-blend-mode:normal;" />
+    <g clip-path="url(#clip_path_2)" style="mix-blend-mode:normal;" transform="translate(100 66.5)">
+      <path d="M55.8838 135.791L42.7002 135.791L42.7002 51.7822Q37.9394 56.3232 30.2124 60.8643Q22.4854 65.4053 16.333 67.6758L16.333 54.9316Q27.3926 49.7315 35.6689 42.334Q43.9453 34.9365 47.3877 27.9785L55.8838 27.9785L55.8838 135.791Z" transform="translate(8.289 0)" style="fill:#FFFFFF;" />
+    </g>
+  </g>
+</svg>
