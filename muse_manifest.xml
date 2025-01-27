@@ -1,8 +1,8 @@
-<manifest alg="2" build="2018.1.0.386" opt="false" iceEnabled="false" exportTarget="other" domain="https://vannalux.github.io" resolutions="1x" timestamp="1737936297569">
+<manifest alg="2" build="2018.1.0.386" opt="false" iceEnabled="false" exportTarget="other" domain="https://vannalux.github.io" resolutions="1x" timestamp="1737936882570">
   <folder name="css">
     <file name="site_global.css" crc="444006867"/>
-    <file name="master_______-a.css" crc="458863687" ref="trackmate:kvartira-2:index:zaglushka1"/>
-    <file name="nomq_preview_master_______-a.css" crc="3882933222" ref="trackmate:kvartira-2:index:zaglushka1"/>
+    <file name="master_______-a.css" crc="501331983" ref="trackmate:kvartira-2:index:zaglushka1"/>
+    <file name="nomq_preview_master_______-a.css" crc="284163740" ref="trackmate:kvartira-2:index:zaglushka1"/>
     <file name="trackmate.css" crc="4128451286" ref="trackmate"/>
     <file name="nomq_trackmate.css" crc="362009470" ref="trackmate"/>
     <file name="kvartira-2.css" crc="110235070" ref="kvartira-2"/>
@@ -335,7 +335,7 @@
       <caption webpage="kvartira-2" alt="Недавние проекты"/>
     </file>
   </folder>
-  <file name="index.html" crc="525369450" seo="true" mt="1734464815158" redirect="true"/>
+  <file name="index.html" crc="372597774" seo="true" mt="1737936863354" redirect="true"/>
   <file name="zaglushka1.html" crc="357176903" seo="true" mt="1734464815158" redirect="true"/>
   <file name="trackmate.html" crc="286367767" seo="true" mt="1734986656553" redirect="true"/>
   <file name="kvartira-2.html" crc="3918707963" seo="true" mt="1734986576218" redirect="true"/>
