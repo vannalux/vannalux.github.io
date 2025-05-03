@@ -1993,3 +1993,113 @@ a {
 .cid-uKadMwmhnV .mbr-iconfont {
   color: black;
 }
+.cid-Vxork8AnSU P {
+  color: #1281fc;
+}
+.cid-Vxork8AnSU DIV {
+  color: #ffffff;
+}
+.cid-Vxork8AnSU H10 {
+  color: #034e75;
+}
+.cid-Vxork8AnSU .hidden {
+  display: none;
+}
+.cid-Vxork8AnSU .icon-bar {
+  z-index: 100002;
+  position: fixed;
+  top: 25%;
+  -webkit-transform: translateY(-50%);
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+  padding-right: 11px;
+}
+.cid-Vxork8AnSU .icon-bar a {
+  display: block;
+  text-align: center;
+  padding: 3px;
+  transition: all 0.3s ease;
+  color: white;
+  font-size: 20px;
+  padding-left: 11px;
+}
+.cid-Vxork8AnSU .icon-bar a:hover {
+  background-color: #000000;
+}
+.cid-Vxork8AnSU .flag {
+  background: transparent;
+}
+.cid-Vxork8AnSU .content {
+  margin-left: 75px;
+  font-size: 30px;
+}
+.cid-Vxork8AnSU .nav-right {
+  float: left !important;
+  position: relative;
+}
+.cid-Vxork8AnSU #google_translate_element {
+  display: none;
+}
+.cid-Vxork8AnSU .goog-te-banner {
+  display: none;
+}
+.cid-Vxork8AnSU .skiptranslate {
+  display: none;
+  bottom: 0px;
+  position: relative;
+}
+.cid-Vxork8AnSU .goog-te-spinner-pos {
+  display: none !important;
+}
+.cid-Vxork8AnSU body {
+  top: 0px !important;
+}
+.cid-Vxork8AnSU body body {
+  top: 0 !important;
+}
+.cid-Vxork8AnSU body .goog-te-banner-frame {
+  display: none !important;
+}
+.cid-Vxork8AnSU .goog-te-banner-frame.skiptranslate {
+  display: none !important;
+}
+.cid-Vxork8AnSU .goog-tooltip {
+  display: none !important;
+}
+.cid-Vxork8AnSU .goog-tooltip:hover {
+  display: none !important;
+}
+.cid-Vxork8AnSU .goog-text-highlight {
+  background-color: transparent !important;
+  border: none !important;
+  box-shadow: none !important;
+  display: none !important;
+  Background-color: transparent;
+}
+.cid-Vxork8AnSU #goog-gt-tt,
+.cid-Vxork8AnSU .goog-te-balloon-frame {
+  display: none !important;
+}
+.cid-Vxork8AnSU #goog-gt-tt {
+  visibility: hidden;
+  display: none !important;
+}
+.cid-Vxork8AnSU .goog-logo-link {
+  display: none !important;
+}
+.cid-Vxork8AnSU .goog-te-gadget {
+  height: 28px !important;
+  overflow: hidden;
+}
+.cid-Vxork8AnSU div.imgtest {
+  margin-left: auto;
+  margin-right: auto;
+  width: 100px;
+  content: url(https://www.unsitepourtous.be/logoscript/logo-zen.png);
+}
+.cid-Vxork8AnSU div.imgtest2 {
+  margin-left: auto;
+  margin-right: auto;
+  width: 250px;
+  content: url(https://www.unsitepourtous.be/logoscript/flags145.png);
+}
