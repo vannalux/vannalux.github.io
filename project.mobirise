@@ -66,11 +66,12 @@
     "index.html": {
       "settings": {
         "main": true,
-        "title": "Home",
-        "meta_descr": "",
+        "title": "Купить паркет в Одессе | Под заказ | По доступной цене",
+        "meta_descr": "Паркет это отличное классическое, долговечное решение для Вашего дома или помещения. В интернет магазине представлен паркет из дуба, ясеня, двухслойный паркет.",
         "header_custom": "",
         "footer_custom": "",
-        "html_before": ""
+        "html_before": "",
+        "meta_image": "@PROJECT_PATH@/assets/images/photo-2024-10-13-13-37-13.jpg-643x487.jpeg"
       },
       "components": [
         {
