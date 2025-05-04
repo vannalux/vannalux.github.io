@@ -1625,6 +1625,8 @@ a {
 .cid-uKadz3oUvC img,
 .cid-uKadz3oUvC .item-img {
   width: 100%;
+  height: 100%;
+  object-fit: cover;
 }
 .cid-uKadz3oUvC .item:focus,
 .cid-uKadz3oUvC span:focus {
