@@ -60,12 +60,12 @@
     },
     "witsec-white-label": true,
     "screenshot": "screenshot.png",
-    "mbrsiteDomain": "ygyrhdng1o",
+    "mbrsiteDomain": "edjb4v83rp",
     "usedWebp": true,
     "site_lang": "ru",
     "robotsText": "User-agent: *\nDisallow: /cgi-bin\n",
-    "global_footer_custom": "<section>999</section>",
-    "global_after_body": "<section>999</section>"
+    "global_footer_custom": "999\n",
+    "global_after_body": "999"
   },
   "pages": {
     "index.html": {
@@ -495,6 +495,9 @@
             },
             "& when (@bg-type = 'color')": {
               "background-color": "@bg-value"
+            },
+            "H1": {
+              "color": "#f7ed4a"
             }
           },
           "_name": "header2",
