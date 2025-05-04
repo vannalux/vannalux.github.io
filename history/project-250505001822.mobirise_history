@@ -1,6 +1,6 @@
 {
   "settings": {
-    "name": "444",
+    "name": "888",
     "currentPage": "index.html",
     "theme": {
       "name": "mobirise4",
@@ -46,11 +46,11 @@
     "uniqCompNum": 15,
     "versionPublish": "4.7.7",
     "imageResize": false,
-    "favicon": "",
-    "robotsSwitcher": "on",
+    "favicon": false,
+    "robotsSwitcher": true,
     "sitemapSwitcher": false,
     "sitemapSwitcherAuto": false,
-    "siteUrl": "false",
+    "siteUrl": false,
     "cookiesAlert": false,
     "gdpr": {
       "colorText": "#a7a7a7",
@@ -65,9 +65,7 @@
     "site_lang": "ru",
     "robotsText": "User-agent: *\nDisallow: /cgi-bin\n",
     "global_footer_custom": "999\n",
-    "global_after_body": "999",
-    "noImageResize": "",
-    "seo-meta": ""
+    "global_after_body": "999"
   },
   "pages": {
     "index.html": {
@@ -481,8 +479,6 @@
           "_cid": "qTkzRZLJNu",
           "_anchor": "menu1-0",
           "_sourceTheme": "mobirise4",
-          "_PHPplaceholders": [],
-          "_JSplaceholders": [],
           "_protectedParams": [],
           "_global": true,
           "_once": "menu",

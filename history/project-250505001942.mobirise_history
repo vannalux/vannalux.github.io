@@ -481,12 +481,12 @@
           "_cid": "qTkzRZLJNu",
           "_anchor": "menu1-0",
           "_sourceTheme": "mobirise4",
-          "_PHPplaceholders": [],
-          "_JSplaceholders": [],
           "_protectedParams": [],
           "_global": true,
           "_once": "menu",
-          "_params": {}
+          "_params": {},
+          "_PHPplaceholders": [],
+          "_JSplaceholders": []
         },
         {
           "_styles": {
