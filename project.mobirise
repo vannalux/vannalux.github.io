@@ -535,7 +535,7 @@
               }
             },
             ".mbr-section-title": {
-              "color": "#4479d9"
+              "color": "#ff9966"
             }
           },
           "_name": "header1",
