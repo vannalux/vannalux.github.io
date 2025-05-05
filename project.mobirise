@@ -57,7 +57,7 @@
     },
     "witsec-white-label": true,
     "uniqCompNum": 37,
-    "versionPublish": "6.0.4",
+    "versionPublish": "6.0.1",
     "screenshot": "screenshot.png",
     "robotsText": "User-agent: *\nDisallow: /cgi-bin\n",
     "site_lang": "ru",
