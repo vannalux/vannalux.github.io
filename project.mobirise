@@ -1772,8 +1772,8 @@
               },
               {
                 "tags": "Потрясающие",
-                "videoPreview": "@PROJECT_PATH@/assets/images/mobirise2025-4-0-20-44-32.webp",
-                "playVideo": true,
+                "videoPreview": "@PROJECT_PATH@/assets/images/mobirise2025-4-0_20-44-32.jpg",
+                "playVideo": false,
                 "videoUrl": "https://www.youtube.com/watch?v=0zMLl9WbHVg",
                 "image": "@PROJECT_PATH@/assets/images/gallery05.webp",
                 "thumb": "@PROJECT_PATH@/assets/images/gallery05.webp",
