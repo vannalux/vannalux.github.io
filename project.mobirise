@@ -62,10 +62,8 @@
     "robotsText": "User-agent: *\nDisallow: /cgi-bin\n",
     "site_lang": "ru",
     "multilingual": false,
-    "translateFrom": "ru",
-    "translateTo": [
-      "en"
-    ],
+    "translateFrom": "",
+    "translateTo": [],
     "publishEditFolder": false
   },
   "pages": {
