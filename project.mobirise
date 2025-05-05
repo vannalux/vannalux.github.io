@@ -48,7 +48,7 @@
     },
     "robotsSwitcher": true,
     "robotsText": "User-agent: *\nDisallow: /cgi-bin\n",
-    "favicon": false,
+    "favicon": "@PROJECT_PATH@/assets/images/favicon-1.ico",
     "imageResize": true,
     "sitemapSwitcher": true,
     "sitemapSwitcherAuto": "on",
