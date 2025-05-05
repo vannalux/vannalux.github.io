@@ -49,10 +49,10 @@
     "robotsSwitcher": true,
     "robotsText": "User-agent: *\nDisallow: /cgi-bin\n",
     "favicon": false,
-    "imageResize": false,
-    "sitemapSwitcher": false,
-    "sitemapSwitcherAuto": false,
-    "siteUrl": false,
+    "imageResize": true,
+    "sitemapSwitcher": true,
+    "sitemapSwitcherAuto": "on",
+    "siteUrl": "https://vannalux.github.io/",
     "cookiesAlert": false,
     "witsec-white-label": true,
     "uniqCompNum": 10,
@@ -63,11 +63,12 @@
     "index.html": {
       "settings": {
         "main": true,
-        "title": "Home",
-        "meta_descr": "",
+        "title": "Реставрация паркета недорого паркетные работы Одессаome",
+        "meta_descr": "Реставрация паркета в Одессе: ремонт, циклевка, шлифовка и лакировка пола. Качественные паркетные работы недорого.",
         "header_custom": "",
         "footer_custom": "",
-        "html_before": ""
+        "html_before": "",
+        "meta_image": "@PROJECT_PATH@/assets/images/forest-8684668-1920-1920x1265.jpg"
       },
       "components": [
         {
@@ -482,6 +483,9 @@
             },
             "& when (@bg-type = 'color')": {
               "background-color": "@bg-value"
+            },
+            ".mbr-section-title": {
+              "color": "#e43f3f"
             }
           },
           "_name": "header1",
