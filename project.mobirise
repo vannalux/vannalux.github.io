@@ -45,7 +45,7 @@
         "url": "https://fonts.googleapis.com/css?family=Jost:100,200,300,400,500,600,700,800,900,100i,200i,300i,400i,500i,600i,700i,800i,900i"
       }
     ],
-    "imageResize": false,
+    "imageResize": true,
     "uniqCompNum": 12,
     "versionPublish": "6.0.4",
     "screenshot": "screenshot.png",
@@ -60,7 +60,7 @@
     },
     "site_lang": "ru",
     "favicon": "@PROJECT_PATH@/assets/images/rt66-9-optimized.png",
-    "mbrsiteDomain": "88eotvcuft",
+    "mbrsiteDomain": "m3yjdqzhan",
     "sitemapSwitcher": true,
     "sitemapSwitcherAuto": "on",
     "siteUrl": "https://vannalux.github.io/",
