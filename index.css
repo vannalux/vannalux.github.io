@@ -196,7 +196,7 @@ body { background-color:#FFFFFF; color:#000000; font-family:Arial; font-weight:n
 #wb_news6Text { background-color:transparent; background-image:none; border:0px solid #000000; border-radius:0px; flex-grow:1; flex-shrink:1; flex-basis:100%; align-self:auto; padding:0; margin:0 0 30px 0; text-align:center; }
 #wb_news6Text { color:#000000; font-family:Arial; font-weight:400; font-size:20px; line-height:22.5px; }
 #wb_news6Text p,#wb_news6Text ul { margin:0; padding:0; }
-#wb_news6Card1 { position:relative; display:flex; flex-direction:column; box-sizing:border-box; margin:0; background-color:#FAFAFA; background-image:none; border:15px solid #FFD700; border-radius:0px; text-align:left; }
+#wb_news6Card1 { position:relative; display:flex; flex-direction:column; box-sizing:border-box; margin:11px 0 11px 0; background-color:#FAFAFA; background-image:none; border:15px solid #FFD700; border-radius:0px; text-align:left; }
 #news6Card1-card-body { padding:0; flex:1 1 auto; font-size:0; }
 #news6Card1-card-item0 { box-sizing:border-box; margin:0; padding:0; border:0px solid #000000; border-radius:0px; width:100%; height:auto; }
 #news6Card1-card-item1 { box-sizing:border-box; margin:30px 0 0 30px; padding:0 0 20px 0; }
@@ -208,7 +208,7 @@ body { background-color:#FFFFFF; color:#000000; font-family:Arial; font-weight:n
 #news6Card1-card-item4 { box-sizing:border-box; margin:0 30px 0 30px; padding:0; }
 #news6Card1-card-item4 h1 { color:#212529; font-family:Arial; font-weight:normal; font-style:normal; font-size:19px; margin:0; }
 #news6Card1-card-item5 { display:inline-block; height:19px; cursor:pointer; box-sizing:border-box; margin:30px 0 30px 30px; padding:0; border:0px solid #000000; border-radius:100px; background-color:transparent; background-image:none; color:#1778F2; font-family:Arial; font-weight:normal; font-style:normal; font-size:19px; text-decoration:underline; }
-#wb_news6Card2 { position:relative; display:flex; flex-direction:column; box-sizing:border-box; margin:0; background-color:#FAFAFA; background-image:none; border:15px solid #FFD700; border-radius:0px; text-align:left; }
+#wb_news6Card2 { position:relative; display:flex; flex-direction:column; box-sizing:border-box; margin:11px 0 11px 0; background-color:#FAFAFA; background-image:none; border:15px solid #FFD700; border-radius:0px; text-align:left; }
 #news6Card2-card-body { padding:0; flex:1 1 auto; font-size:0; }
 #news6Card2-card-item0 { box-sizing:border-box; margin:0; padding:0; border:0px solid #000000; border-radius:0px; width:100%; height:auto; }
 #news6Card2-card-item1 { box-sizing:border-box; margin:30px 0 0 30px; padding:0 0 20px 0; }
