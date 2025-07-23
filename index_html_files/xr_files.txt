@@ -79,7 +79,7 @@ index_html_files/184@2x.webp
 index_html_files/185@2x.webp
 index_html_files/186@2x.webp
 index_html_files/17@2x.webp
-index_html_files/204@2x.webp
+index_html_files/213@2x.webp
 index_html_files/19@2x.webp
 index_html_files/20@2x.webp
 index_html_files/21@2x.webp
@@ -87,7 +87,7 @@ index_html_files/22@2x.webp
 index_html_files/23@2x.webp
 index_html_files/24@2x.webp
 index_html_files/25@2x.webp
-index_html_files/205@2x.webp
+index_html_files/214@2x.webp
 index_html_files/16@2x.webp
 index_html_files/27@2x.webp
 index_html_files/28@2x.webp
@@ -106,7 +106,7 @@ index_html_files/102@2x.webp
 index_html_files/90@2x.webp
 index_html_files/103@2x.webp
 index_html_files/48@2x.webp
-index_html_files/207@2x.webp
+index_html_files/216@2x.webp
 index_html_files/50@2x.webp
 index_html_files/51@2x.webp
 index_html_files/52@2x.webp
@@ -115,10 +115,10 @@ index_html_files/54@2x.webp
 index_html_files/55@2x.webp
 index_html_files/56@2x.webp
 index_html_files/57@2x.webp
-index_html_files/208@2x.webp
+index_html_files/217@2x.webp
 index_html_files/47@2x.webp
-index_html_files/209@2x.webp
-index_html_files/212@2x.webp
+index_html_files/218@2x.webp
+index_html_files/221@2x.webp
 index_html_files/xara_font_1.woff
 index_html_files/xara_font_2.woff
 index_html_files/xara_font_3.woff
