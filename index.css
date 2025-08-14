@@ -5633,12 +5633,12 @@ body
 }
 #footer12Breadcrumb1 a
 {
-   color: #C2C1C1;
+   color: #FFFF00;
    text-decoration: none;
 }
 #footer12Breadcrumb1 a:hover
 {
-   color: #FFFFFF;
+   color: #FF0000;
    text-decoration: underline;
 }
 #footer12Breadcrumb1 > .active
