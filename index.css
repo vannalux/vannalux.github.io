@@ -5793,10 +5793,6 @@ body
    box-sizing: border-box;
    width: 100%;
 }
-#wb_footer12LayoutGrid2
-{
-   z-index: 10000 !important;
-}
 #wb_uid218
 {
    color: #000000;
