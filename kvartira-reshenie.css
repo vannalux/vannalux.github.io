@@ -858,7 +858,14 @@ body{background-color:#262626;}
 .textShape_320{display:none;}
 .textShape_425{display:none;}
 .textShape_768{display:none;}
-.waBlockSocialBar{display:none;}
+.waBlockSocialBar{display:block;pointer-events:none;}
+.waBlockSocialBar .fl-fl{display:flex;flex-direction:row-reverse;font:normal normal 10px Arial;left:-160px;letter-spacing:3px;padding:4px;pointer-events:all;position:fixed;text-decoration:none;transition:all .25s ease;width:190px;z-index:1000;}
+.waBlockSocialBar .fl-fl .waFa{color:#fff;font-size:20px;margin-left:8px;padding:10px 0;text-align:right;width:40px;}
+.waBlockSocialBar .fl-fl .waText{color:#fff !important;line-height:43px!important;text-align:center;text-decoration:none;vertical-align:top!important;}
+.waBlockSocialBar .float-fb_0{background:#002c65;top:160px;}
+.waBlockSocialBar .float-fb_1{background:#002c65;top:215px;}
+.waBlockSocialBar .float-fb_2{background:#002c65;top:270px;}
+.waBlockSocialBar .fl-fl:hover{left:0;}
 .wafx-menunid2 .wafx-menu{display:flex;font-size:20px;}
 .wafx-menunid2 .wafx-menu-bt-hamburger{display:none;justify-content:center;}
 .wafx-menunid2 .wafx-menu-bt-hamburger svg{height:47px;transform:scale(0.8);width:47px;}
@@ -1047,7 +1054,14 @@ body{background-color:#262626;}
 .textShape_320{display:none;}
 .textShape_425{display:none;}
 .textShape_768{display:none;}
-.waBlockSocialBar{display:none;}
+.waBlockSocialBar{display:block;pointer-events:none;}
+.waBlockSocialBar .fl-fl{display:flex;flex-direction:row-reverse;font:normal normal 10px Arial;left:-160px;letter-spacing:3px;padding:4px;pointer-events:all;position:fixed;text-decoration:none;transition:all .25s ease;width:190px;z-index:1000;}
+.waBlockSocialBar .fl-fl .waFa{color:#fff;font-size:20px;margin-left:8px;padding:10px 0;text-align:right;width:40px;}
+.waBlockSocialBar .fl-fl .waText{color:#fff !important;line-height:43px!important;text-align:center;text-decoration:none;vertical-align:top!important;}
+.waBlockSocialBar .float-fb_0{background:#002c65;top:160px;}
+.waBlockSocialBar .float-fb_1{background:#002c65;top:215px;}
+.waBlockSocialBar .float-fb_2{background:#002c65;top:270px;}
+.waBlockSocialBar .fl-fl:hover{left:0;}
 .wafx-menunid2 .wafx-menu{display:flex;font-size:20px;}
 .wafx-menunid2 .wafx-menu-bt-hamburger{display:none;justify-content:center;}
 .wafx-menunid2 .wafx-menu-bt-hamburger svg{height:47px;transform:scale(0.8);width:47px;}
