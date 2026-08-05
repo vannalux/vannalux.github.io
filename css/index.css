@@ -255,7 +255,7 @@ body { background-color:#FFFFFF; color:#000000; font-family:Arial; font-weight:n
 #wb_galleryText p,#wb_galleryText ul { margin:0; padding:0; }
 #wb_galleryText { display:block; margin:0 0 50px 0; box-sizing:border-box; width:100%; }
 #wb_galleryHeading { background-color:transparent; background-image:none; border:0px solid #2C579B; border-radius:0px; box-sizing:border-box; vertical-align:top; margin:0; padding:0; text-align:center; }
-#galleryHeading { color:#000080; font-family:"Open Sans"; font-weight:700; font-style:normal; font-size:48px; margin:0; text-align:center; text-transform:none; }
+#galleryHeading { color:#006400; font-family:"Open Sans"; font-weight:700; font-style:normal; font-size:48px; margin:0; text-align:center; text-transform:none; }
 #wb_ideasSection { height:440px; position:relative; display:flex; flex-direction:column; box-sizing:border-box; margin:50px 0 0 0; background-color:transparent; background-image:none; border:0px solid #DEDEDE; border-radius:0px; text-align:center; }
 #ideasSection-card-body { flex:1 1 auto; font-size:0; }
 #ideasSection-card-item0 { box-sizing:border-box; margin:0; position:absolute; left:30.3%; top:37.5%; height:62.5%; width:69.7%; padding:0; }
