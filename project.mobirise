@@ -1598,7 +1598,7 @@
               }
             },
             ".mbr-section-title": {
-              "color": "#000000"
+              "color": "#f92c50"
             },
             ".mbr-text, .mbr-section-btn": {
               "color": "#232323"
