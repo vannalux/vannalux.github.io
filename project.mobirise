@@ -28,7 +28,7 @@
         "isLargeButtons": true,
         "isGhostButtonBorder": true,
         "underlinedLinks": true,
-        "isAnimatedOnScroll": false,
+        "isAnimatedOnScroll": true,
         "isScrollToTopButton": true
       },
       "additionalSetColors": [
@@ -65,7 +65,7 @@
     "imageResize": true,
     "chatbutton": {},
     "favicon": "@PROJECT_PATH@/assets/images/jobslogotip.png",
-    "mbrsiteDomain": "vannalux",
+    "mbrsiteDomain": "hwijeizlee",
     "usedWebp": true,
     "cssOptimize": false,
     "lazyLoad": false,
