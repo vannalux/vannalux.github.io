@@ -4315,8 +4315,8 @@ a {
 .cid-vrEcHegyUK .ba11 {
   height: 73.5vw;
   margin: 1vw auto;
-  max-height: 292px;
-  max-width: 571px;
+  max-height: 322px;
+  max-width: 466px;
   overflow: hidden;
   width: 98vw;
   touch-action: none;
@@ -4333,7 +4333,7 @@ a {
   width: 100%;
 }
 .cid-vrEcHegyUK .ba11-after {
-  background-image: url("https://www.unsitepourtous.be/mobi/lionaf.jpg");
+  background-image: url("../../../assets/images/lionaf.webp");
   background-size: cover;
   bottom: 0;
   border-right: 5px solid rgba(255, 255, 255, 0.7);
