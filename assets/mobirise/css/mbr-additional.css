@@ -1424,7 +1424,7 @@ a {
 }
 .cid-vrFjwrBHSt {
   padding-top: 75px;
-  padding-bottom: 75px;
+  padding-bottom: 15px;
   padding-left: 1em;
   padding-right: 1em;
   background: linear-gradient(51deg, #2b7a69, #2b7a69);
@@ -1603,8 +1603,8 @@ a {
   }
 }
 .cid-WT3AjT14dU {
-  padding-top: 10rem;
-  padding-bottom: 10rem;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
   background-color: #2b7a69;
 }
 .cid-WT3AjT14dU .mbr-fallback-image.disabled {
