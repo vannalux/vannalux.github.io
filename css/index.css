@@ -9,7 +9,7 @@ body { background-color:#FFFFFF; color:#000000; font-family:Arial; font-weight:n
 #headerGrid > .col-1,#headerGrid > .col-2 { flex-basis:100%  !important; max-width:100%  !important; }
 }
 #wb_headerHeading { -webkit-background-clip:text; background-clip:text; background-color:transparent; background-image:none; border-radius:0px; box-sizing:border-box; vertical-align:top; margin:0; padding:0; text-align:left; }
-#headerHeading { color:transparent; font-family:"Open Sans"; font-weight:700; font-style:normal; font-size:43px; margin:0; text-align:left; text-transform:none; -webkit-text-stroke:2px #747D61; text-stroke:2px #747D61; }
+#headerHeading { color:transparent; font-family:"Open Sans"; font-weight:700; font-style:normal; font-size:43px; margin:0; text-align:left; text-transform:none; -webkit-text-stroke:2px #212C1F; text-stroke:2px #212C1F; }
 #wb_welcomeGrid { clear:both; position:relative; table-layout:fixed; display:table; text-align:center; width:100%; background-color:transparent; background-image:url('../images/interiordesign1.webp'); background-repeat:no-repeat; background-position:center center; background-size:cover; border:0px solid #CCCCCC; border-radius:0px; box-sizing:border-box; margin:0; }
 #welcomeGrid { box-sizing:border-box; display:flex; flex-direction:row; flex-wrap:wrap; padding:200px 0 0 0; margin-right:auto; margin-left:auto; max-width:1280px; }
 #welcomeGrid > .col-1,#welcomeGrid > .col-2 { box-sizing:border-box; font-size:0; min-height:1px; padding-right:15px; padding-left:15px; position:relative; }
