@@ -9,8 +9,8 @@ body { background-color:#FFFFFF; color:#000000; font-family:Arial; font-weight:n
 #headerGrid > .col-1,#headerGrid > .col-2 { flex-basis:100%  !important; max-width:100%  !important; }
 }
 #wb_headerHeading { -webkit-background-clip:text; background-clip:text; background-color:#FFFFFF; background-image:none; border-radius:0px; box-sizing:border-box; vertical-align:top; margin:0; padding:0; text-align:left; }
-#headerHeading { color:transparent; font-family:Oswald; font-weight:bold; font-style:normal; font-size:64px; margin:0; text-align:left; text-transform:none; -webkit-text-stroke:2px #A0522D; text-stroke:2px #A0522D; }
-#wb_welcomeGrid { clear:both; position:relative; table-layout:fixed; display:table; text-align:center; width:100%; background-color:transparent; background-image:url('../images/interiordesign1.jpg'); background-repeat:no-repeat; background-position:center center; background-size:cover; border:0px solid #CCCCCC; border-radius:0px; box-sizing:border-box; margin:0; }
+#headerHeading { color:transparent; font-family:Oswald; font-weight:bold; font-style:normal; font-size:64px; margin:0; text-align:left; text-transform:none; -webkit-text-stroke:2px #008080; text-stroke:2px #008080; }
+#wb_welcomeGrid { clear:both; position:relative; table-layout:fixed; display:table; text-align:center; width:100%; background-color:transparent; background-image:url('../interiordesign1.webp'); background-repeat:no-repeat; background-position:center center; background-size:cover; border:0px solid #CCCCCC; border-radius:0px; box-sizing:border-box; margin:0; }
 #welcomeGrid { box-sizing:border-box; display:flex; flex-direction:row; flex-wrap:wrap; padding:0; margin-right:auto; margin-left:auto; max-width:1140px; }
 #welcomeGrid > .col-1,#welcomeGrid > .col-2 { box-sizing:border-box; font-size:0; min-height:1px; padding-right:15px; padding-left:15px; position:relative; }
 #welcomeGrid > .col-1,#welcomeGrid > .col-2 { flex:0 0 auto; }
@@ -50,7 +50,7 @@ body { background-color:#FFFFFF; color:#000000; font-family:Arial; font-weight:n
 #purposeSection-card-item1 { box-sizing:border-box; margin:0; position:absolute; left:0%; top:23.4%; height:68.2%; width:67%; padding:0; }
 #purposeSection-card-item1 > div { position:absolute; top:0; left:0; width:100%; height:100%; padding:0; background-color:#9F9F8F; background-image:none; -webkit-clip-path:url(#purposeSection-card-item1-clippath); clip-path:url(#purposeSection-card-item1-clippath); }
 #purposeSection-card-item2 { box-sizing:border-box; margin:0; position:absolute; left:11.4%; top:0%; height:81.1%; width:77.4%; padding:0; }
-#purposeSection-card-item2 > div { position:absolute; top:0; left:0; width:100%; height:100%; padding:0; background-color:transparent; background-image:url('../images/interiordesign2.jpg'); background-repeat:no-repeat; background-position:center center; background-size:cover; -webkit-clip-path:url(#purposeSection-card-item2-clippath); clip-path:url(#purposeSection-card-item2-clippath); }
+#purposeSection-card-item2 > div { position:absolute; top:0; left:0; width:100%; height:100%; padding:0; background-color:transparent; background-image:url('../interiordesign2.webp'); background-repeat:no-repeat; background-position:center center; background-size:cover; -webkit-clip-path:url(#purposeSection-card-item2-clippath); clip-path:url(#purposeSection-card-item2-clippath); }
 #wb_ideasGrid2 { clear:both; position:relative; table-layout:fixed; display:table; text-align:center; width:100%; background-color:transparent; background-image:none; border:0px solid #CCCCCC; border-radius:0px; box-sizing:border-box; margin:0; }
 #ideasGrid2 { box-sizing:border-box; display:flex; flex-direction:row; flex-wrap:wrap; padding:0; margin-right:auto; margin-left:auto; max-width:1140px; }
 #ideasGrid2 > .col-1,#ideasGrid2 > .col-2 { box-sizing:border-box; font-size:0; min-height:1px; padding-right:15px; padding-left:15px; position:relative; }
@@ -68,7 +68,7 @@ body { background-color:#FFFFFF; color:#000000; font-family:Arial; font-weight:n
 #infoGrid > .col-1 { background-color:transparent; background-image:none; border:0px solid #FFFFFF; border-radius:0px; flex-basis:calc((100% - 30px) * 5 / 10); max-width:calc((100% - 30px) * 5 / 10); display:flex; flex-wrap:wrap; align-content:flex-start; align-self:stretch; align-items:flex-start; justify-content:flex-start; text-align:left; }
 #infoGrid > .col-1 > .col-1-padding { box-sizing:border-box; width:100%; padding:0 11px 0 11px; }
 #infoGrid > .col-2 { background-color:transparent; background-image:none; border:0px solid #FFFFFF; border-radius:0px; flex-basis:30px; max-width:30px; display:flex; flex-wrap:wrap; align-content:flex-start; align-self:stretch; align-items:flex-start; justify-content:flex-start; text-align:left; }
-#infoGrid > .col-3 { background-color:transparent; background-image:url('../images/interiordesign3.jpg'); background-repeat:no-repeat; background-position:center center; background-size:cover; border:0px solid #FFFFFF; border-radius:0px; flex-basis:calc((100% - 30px) * 5 / 10); max-width:calc((100% - 30px) * 5 / 10); display:flex; flex-wrap:wrap; align-content:flex-start; align-self:stretch; align-items:flex-start; justify-content:center; text-align:center; }
+#infoGrid > .col-3 { background-color:transparent; background-image:url('../interiordesign3.webp'); background-repeat:no-repeat; background-position:center center; background-size:cover; border:0px solid #FFFFFF; border-radius:0px; flex-basis:calc((100% - 30px) * 5 / 10); max-width:calc((100% - 30px) * 5 / 10); display:flex; flex-wrap:wrap; align-content:flex-start; align-self:stretch; align-items:flex-start; justify-content:center; text-align:center; }
 @media (max-width: 768px) {
 #infoGrid > .col-1,#infoGrid > .col-2,#infoGrid > .col-3 { flex-basis:100%  !important; max-width:100%  !important; }
 }
@@ -83,7 +83,7 @@ body { background-color:#FFFFFF; color:#000000; font-family:Arial; font-weight:n
 @media (max-width: 480px) {
 #sloganGrid1 > .row > .col-1 { float:none; width:100%  !important; }
 }
-#wb_sloganGrid1 .parallax { background-color:transparent; background-image:url('../images/interiordesign4.jpg'); background-repeat:no-repeat; background-position:center center; position:fixed; top:0; transform:translate3d(0, 0, 0); transform-style:preserve-3d; width:100%; background-position:center; background-repeat:no-repeat; background-size:cover; }
+#wb_sloganGrid1 .parallax { background-color:transparent; background-image:url('../interiordesign4.webp'); background-repeat:no-repeat; background-position:center center; position:fixed; top:0; transform:translate3d(0, 0, 0); transform-style:preserve-3d; width:100%; background-position:center; background-repeat:no-repeat; background-size:cover; }
 #wb_sloganGrid1 .parallax__container { clip:rect(0, auto, auto, 0); height:100%; left:0; overflow:hidden; position:absolute; top:0; width:100%; z-index:-100; }
 #wb_sloganGrid2 { clear:both; position:relative; table-layout:fixed; display:table; text-align:center; width:100%; background-color:#C9C9B6; background-image:none; border:0px solid #CCCCCC; border-radius:0px; box-sizing:border-box; margin:0; }
 #sloganGrid2 { box-sizing:border-box; padding:0 15px 0 15px; margin-right:auto; margin-left:auto; max-width:1140px; }
@@ -260,7 +260,7 @@ body { background-color:#FFFFFF; color:#000000; font-family:Arial; font-weight:n
 #ideasSection-card-item1 { box-sizing:border-box; margin:0; position:absolute; left:0%; top:23.4%; height:68.2%; width:67%; padding:0; }
 #ideasSection-card-item1 > div { position:absolute; top:0; left:0; width:100%; height:100%; padding:0; background-color:#9F9F8F; background-image:none; -webkit-clip-path:url(#ideasSection-card-item1-clippath); clip-path:url(#ideasSection-card-item1-clippath); }
 #ideasSection-card-item2 { box-sizing:border-box; margin:0; position:absolute; left:11.4%; top:0%; height:81.1%; width:77.4%; padding:0; }
-#ideasSection-card-item2 > div { position:absolute; top:0; left:0; width:100%; height:100%; padding:0; background-color:transparent; background-image:url('../images/interiordesign5.jpg'); background-repeat:no-repeat; background-position:center center; background-size:cover; -webkit-clip-path:url(#ideasSection-card-item2-clippath); clip-path:url(#ideasSection-card-item2-clippath); }
+#ideasSection-card-item2 > div { position:absolute; top:0; left:0; width:100%; height:100%; padding:0; background-color:transparent; background-image:url('../interiordesign5.webp'); background-repeat:no-repeat; background-position:center center; background-size:cover; -webkit-clip-path:url(#ideasSection-card-item2-clippath); clip-path:url(#ideasSection-card-item2-clippath); }
 html { scroll-behavior:smooth; }
 .btn-up { position:fixed; background-color:#454b69c2; right:20px; bottom:30px; border-radius:5px; border-color:#90a931; border-width:2px; border-style:solid; cursor:pointer; display:flex; align-items:center; justify-content:center; transition:opacity 0.15s ease-in-out, transform 0.3s ease-in-out; color:#fff; width:35px; height:35px; opacity:1; transform:translateY(0); z-index:999; }
 .btn-up_hide { display:none; }
