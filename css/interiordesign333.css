@@ -13,3 +13,9 @@ h4,.h4 { font-family:"Open Sans"; font-weight:400; font-weight:700; font-size:21
 h5,.h5 { font-family:"Open Sans"; font-weight:400; font-weight:700; font-size:19px; text-decoration:none; color:#000000; --color:#000000; background-color:transparent; margin:0 0 0 0; padding:0 0 0 0; display:inline-block; }
 h6,.h6 { font-family:"Open Sans"; font-weight:400; font-weight:700; font-size:16px; text-decoration:none; color:#000000; --color:#000000; background-color:transparent; margin:0 0 0 0; padding:0 0 0 0; display:inline-block; }
 .CustomStyle { font-family:"Open Sans"; font-weight:400; font-weight:400; font-size:16px; text-decoration:none; color:#2E74B5; --color:#2E74B5; background-color:transparent; }
+@media only screen and (min-width: 768px) and (max-width: 1279px) {
+}
+@media only screen and (min-width: 480px) and (max-width: 767px) {
+}
+@media only screen and (max-width: 479px) {
+}
