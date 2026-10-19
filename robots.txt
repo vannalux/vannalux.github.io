@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://vannalux.github.io/sitemap.xml
