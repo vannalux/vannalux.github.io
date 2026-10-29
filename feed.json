@@ -1,0 +1,13 @@
+{
+    "version": "https://jsonfeed.org/version/1",
+    "title": "Первый пробный",
+    "description": "",
+    "home_page_url": "https://vannalux.github.io",
+    "feed_url": "https://vannalux.github.io/feed.json",
+    "user_comment": "",
+    "author": {
+        "name": "Миха"
+    },
+    "items": [
+    ]
+}
