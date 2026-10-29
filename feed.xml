@@ -3,10 +3,49 @@
     <title>Первый пробный</title>
     <link href="https://vannalux.github.io/feed.xml" rel="self" />
     <link href="https://vannalux.github.io" />
-    <updated>1970-01-01T03:00:00+03:00</updated>
+    <updated>2026-10-29T18:29:46+02:00</updated>
     <author>
         <name>Миха</name>
     </author>
     <id>https://vannalux.github.io</id>
 
+    <entry>
+        <title>Urna Imperdiet Accumsan</title>
+        <author>
+            <name>Миха</name>
+        </author>
+        <link href="https://vannalux.github.io/urna-imperdiet-accumsan/"/>
+        <id>https://vannalux.github.io/urna-imperdiet-accumsan/</id>
+
+        <updated>2026-10-29T18:29:46+02:00</updated>
+            <summary type="html">
+                <![CDATA[
+                    Aenean ornare velit lacus varius enim ullamcorper proin aliquam facilisis ante sed etiam magna interdum congue. Lorem ipsum dolor amet nullam sed etiam veroeros Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis&hellip;
+                ]]>
+            </summary>
+        <content type="html">
+            <![CDATA[
+                
+  <p class="align-center">
+    Aenean ornare velit lacus varius enim ullamcorper proin aliquam facilisis ante sed etiam magna interdum congue. Lorem ipsum dolor amet nullam sed etiam veroeros
+  </p>
+
+    <figure class="post__image post__image--full">
+      <img loading="lazy" src="https://vannalux.github.io/media/posts/5/mebblliuss12.jpg" height="1092" width="2000" alt=""  sizes="(max-width: 1920px) 100vw, 1920px" srcset="https://vannalux.github.io/media/posts/5/responsive/mebblliuss12-xs.webp 640w ,https://vannalux.github.io/media/posts/5/responsive/mebblliuss12-sm.webp 768w ,https://vannalux.github.io/media/posts/5/responsive/mebblliuss12-md.webp 1024w ,https://vannalux.github.io/media/posts/5/responsive/mebblliuss12-lg.webp 1366w ,https://vannalux.github.io/media/posts/5/responsive/mebblliuss12-xl.webp 1600w ,https://vannalux.github.io/media/posts/5/responsive/mebblliuss12-2xl.webp 1920w">
+      
+    </figure>
+
+  <p>
+    Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.
+<br>
+<br><strong>Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem:</strong> 
+<br>
+<br>In enim justo, rhoncus ut, imperdiet a, venenatis vitae, justo. Nullam dictum felis eu pede mollis pretium. Integer tincidunt. 
+<br>Aenean vulputate eleifend tellus. Aenean leo ligula, porttitor eu, consequat vitae, eleifend ac, enim. 
+<br>Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.
+<br>Phasellus viverra nulla ut metus varius laoreet. Quisque rutrum. Aenean imperdiet. Etiam ultricies nisi vel augue. Curabitur ullamcorper ultricies nisi. Nam eget dui. Etiam rhoncus. Maecenas tempus, tellus eget condimentum rhoncus, sem quam semper libero, sit amet adipiscing sem neque sed ipsum. Nam quam nunc, blandit vel, luctus pulvinar.
+  </p>
+            ]]>
+        </content>
+    </entry>
 </feed>
